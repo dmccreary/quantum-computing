@@ -1,17 +1,30 @@
-# Welcome to MkDocs
+---
+title: Quantum Computing - A Skeptic's Guide
+description: An interactive intelligent textbook about quantum computing and why it may never be economically practical.
+image: /img/cover.png
+og:image: /img/cover.png
+toc:
+    - hide
+---
+# Quantum Computing - A Skeptic's Guide
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
+![](./img/cover.png)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the interactive intelligent textbook about quantum computing.
+This book is a guide to non-technical people that want to understand
+why there is so much interest in quantum computing and why it may
+never be economically practical.
 
-## Commands
+Our goal is to help everyone curious about quantum computing take
+an realistic view of the many physics challenges in involved in
+quantum computing and how difficult it will be to overcome these
+challenges.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+We also cover the history of quantum computing and some of the past
+promises and predictions made about quantum computing and why they
+were made but did not come to be accurate.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Finally, we look at the systemic bias that take hold of advocates of 
+quantum computing and why unrealistic exceptions will continue.
