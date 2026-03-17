@@ -10,6 +10,10 @@ let canvasHeight;
 let margin = 25;
 let sliderLeftMargin = 160;
 let defaultTextSize = 16;
+const uiFontPath = 'assets/NotoSans-Regular.ttf';
+const uiFontFallbackUrl = 'https://cdn.jsdelivr.net/gh/danmccreary/quantum-computing@main/docs/sims/bloch-sphere/assets/NotoSans-Regular.ttf';
+let uiFont;
+let fontFailed = false;
 
 // Sliders
 let thetaSlider;
@@ -39,6 +43,16 @@ function updateCanvasSize() {
     containerWidth = select('main').width;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
+}
+
+function preload() {
+    uiFont = loadFont(uiFontPath, () => {}, (err) => {
+        console.warn('Local font load failed, falling back to CDN.', err);
+        uiFont = loadFont(uiFontFallbackUrl, () => {}, (fallbackErr) => {
+            console.error('Failed to load fallback font:', fallbackErr);
+            fontFailed = true;
+        });
+    });
 }
 
 function setup() {
@@ -134,6 +148,13 @@ function doReset() {
 }
 
 function draw() {
+    if (!uiFont && !fontFailed) {
+        background(255);
+        return;
+    }
+    if (uiFont) {
+        textFont(uiFont);
+    }
     let theta = thetaSlider.value() / 100;
     let phi = phiSlider.value() / 100;
 
@@ -357,10 +378,8 @@ function draw() {
     // Projection shadow on XZ plane (equatorial plane, y=0)
     stroke(200, 150, 100, 120);
     strokeWeight(1);
-    drawingContext.setLineDash([4, 4]);
-    line(sx, sy, sz, sx, 0, sz);
-    line(0, 0, 0, sx, 0, sz);
-    drawingContext.setLineDash([]);
+    drawDashedLine3D(sx, sy, sz, sx, 0, sz);
+    drawDashedLine3D(0, 0, 0, sx, 0, sz);
 
     pop();
 }
@@ -392,6 +411,31 @@ function applyBillboard() {
     rotateY(-rotY);
     rotateX(-rotX);
     textAlign(CENTER, CENTER);
+}
+
+function drawDashedLine3D(ax, ay, az, bx, by, bz, dashLength = 8, gapLength = 4) {
+    let dir = createVector(bx - ax, by - ay, bz - az);
+    let totalLen = dir.mag();
+    if (totalLen === 0) {
+        return;
+    }
+    dir.normalize();
+    let traveled = 0;
+    while (traveled < totalLen) {
+        let startVec = createVector(
+            ax + dir.x * traveled,
+            ay + dir.y * traveled,
+            az + dir.z * traveled
+        );
+        let dash = min(dashLength, totalLen - traveled);
+        let endVec = createVector(
+            startVec.x + dir.x * dash,
+            startVec.y + dir.y * dash,
+            startVec.z + dir.z * dash
+        );
+        line(startVec.x, startVec.y, startVec.z, endVec.x, endVec.y, endVec.z);
+        traveled += dash + gapLength;
+    }
 }
 
 // Mouse drag for orbit control

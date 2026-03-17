@@ -11,11 +11,21 @@ nav:
 
   - Chapters:
     - Overview: chapters/index.md
-    - 1. What Is Quantum Computing?: chapters/01-what-is-quantum-computing/index.md
-    - 2. Quantum Algorithms and Limits: chapters/02-quantum-algorithms-and-limits/index.md
-    - 3. History of QC Promises: chapters/03-history-of-quantum-computing/index.md
-    - 4. Overly Optimistic Claims: chapters/04-catalog-of-optimistic-claims/index.md
-    - 5. Physics Barriers and Hardware: chapters/05-physics-barriers-and-hardware/index.md
+    - 1. What Is Quantum Computing?:
+      - Chapter: chapters/01-what-is-quantum-computing/index.md
+      - Quiz: chapters/01-what-is-quantum-computing/quiz.md
+    - 2. Quantum Algorithms and Limits:
+      - Chapter: chapters/02-quantum-algorithms-and-limits/index.md
+      - Quiz: chapters/02-quantum-algorithms-and-limits/quiz.md
+    - 3. History of QC Promises:
+      - Chapter: chapters/03-history-of-quantum-computing/index.md
+      - Quiz: chapters/03-history-of-quantum-computing/quiz.md
+    - 4. Overly Optimistic Claims:
+      - Chapter: chapters/04-catalog-of-optimistic-claims/index.md
+      - Quiz: chapters/04-catalog-of-optimistic-claims/quiz.md
+    - 5. Physics Barriers and Hardware:
+      - Chapter: chapters/05-physics-barriers-and-hardware/index.md
+      - Quiz: chapters/05-physics-barriers-and-hardware/quiz.md
     - 6. Quantum Encryption Threat: chapters/06-quantum-encryption-threat/index.md
     - 7. General Purpose Technology: chapters/07-general-purpose-technology/index.md
     - 8. Investment Risk Analysis: chapters/08-investment-risk-analysis/index.md
@@ -24,10 +34,18 @@ nav:
     - 11. Cognitive Biases: chapters/11-cognitive-biases/index.md
     - 12. Skeptics, Ethics, Careers: chapters/12-expert-skeptics-ethics-careers/index.md
     - 13. Systems Thinking: chapters/13-systems-thinking-causal-loops/index.md
-    - 14. Better Alternatives: chapters/14-better-alternatives/index.md
-    - 15. Historical Parallels: chapters/15-historical-parallels/index.md
-    - 16. Breakthroughs Required: chapters/16-breakthroughs-required/index.md
-    - 17. Critical Thinking: chapters/17-critical-thinking-application/index.md
+    - 14. Better Alternatives:
+      - Chapter: chapters/14-better-alternatives/index.md
+      - Quiz: chapters/14-better-alternatives/quiz.md
+    - 15. Historical Parallels:
+      - Chapter: chapters/15-historical-parallels/index.md
+      - Quiz: chapters/15-historical-parallels/quiz.md
+    - 16. Breakthroughs Required:
+      - Chapter: chapters/16-breakthroughs-required/index.md
+      - Quiz: chapters/16-breakthroughs-required/quiz.md
+    - 17. Critical Thinking:
+      - Chapter: chapters/17-critical-thinking-application/index.md
+      - Quiz: chapters/17-critical-thinking-application/quiz.md
 
   - MicroSims:
     - List of MicroSims: sims/index.md
