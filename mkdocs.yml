@@ -1,7 +1,7 @@
 site_name: "Quantum Computing"
 repo_url: https://github.com/dmccreary/quantum-computing
 site_url: https://dmccreary.github.io/quantum-computing/
-site_description: "Quantum Computing: A Skeptic's Guide to Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment."
+site_description: "Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment."
 site_author: Dan McCreary
 
 nav:
