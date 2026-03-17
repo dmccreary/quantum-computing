@@ -1,0 +1,117 @@
+site_name: "A Skeptic's Guide to Quantum Computing"
+repo_url: https://github.com/dmccreary/quantum-computing
+site_url: https://dmccreary.github.io/quantum-computing/
+site_description: "A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment."
+site_author: Dan McCreary
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+
+  - Chapters:
+    - Overview: chapters/index.md
+    - 1. What Is Quantum Computing?: chapters/01-what-is-quantum-computing/index.md
+    - 2. Quantum Algorithms and Limits: chapters/02-quantum-algorithms-and-limits/index.md
+    - 3. History of QC Promises: chapters/03-history-of-quantum-computing/index.md
+    - 4. Overly Optimistic Claims: chapters/04-catalog-of-optimistic-claims/index.md
+    - 5. Physics Barriers and Hardware: chapters/05-physics-barriers-and-hardware/index.md
+    - 6. Quantum Encryption Threat: chapters/06-quantum-encryption-threat/index.md
+    - 7. General Purpose Technology: chapters/07-general-purpose-technology/index.md
+    - 8. Investment Risk Analysis: chapters/08-investment-risk-analysis/index.md
+    - 9. Company Case Studies: chapters/09-company-case-studies/index.md
+    - 10. Technology Assessment: chapters/10-technology-assessment/index.md
+    - 11. Cognitive Biases: chapters/11-cognitive-biases/index.md
+    - 12. Skeptics, Ethics, Careers: chapters/12-expert-skeptics-ethics-careers/index.md
+    - 13. Systems Thinking: chapters/13-systems-thinking-causal-loops/index.md
+    - 14. Better Alternatives: chapters/14-better-alternatives/index.md
+    - 15. Historical Parallels: chapters/15-historical-parallels/index.md
+    - 16. Breakthroughs Required: chapters/16-breakthroughs-required/index.md
+    - 17. Critical Thinking: chapters/17-critical-thinking-application/index.md
+
+  - MicroSims:
+    - List of MicroSims: sims/index.md
+    - Graph Viewer: sims/graph-viewer/index.md
+
+  - Appendices:
+    - List of Appendices: appendices/index.md
+    - Appendix A - Claims: claims.md
+    - Appendix B - Breakthroughs Required: breakthroughs-required.md
+  
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept List: learning-graph/concept-list.md
+    - Quality Metrics: learning-graph/quality-metrics.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Mascot Test: learning-graph/mascot-test.md
+
+  - Sample Prompts:
+    - List of Prompts: prompts/index.md
+    - Seed Prompt: prompts/01-seed-prompt.md
+
+  - Glossary: glossary.md
+  - FAQ: faq.md
+
+  - License: license.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  # logo: img/logo-192.png
+  # favicon: img/favicon.ico
+  palette:
+    primary: 'indigo'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+
+plugins:
+  - search
+  - social
+  - social_override
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/extra.css
+  - css/mascot.css
+
+extra_javascript:
+  - js/extra.js
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# Watch these files for changes to trigger a rebuild
+watch:
+  - docs
+  - mkdocs.yml
+
+copyright: Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+
+extra:
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: "A Skeptic's Guide to Quantum Computing"
+  textbook_version: "1.0"
+  analytics:
+    provider: google
+    property: G-M786HVKV6R

@@ -1,0 +1,7 @@
+/* Extra CSS for Quantum Computing Textbook */
+
+/* Responsive iframe styling */
+iframe {
+  max-width: 100%;
+  border: none;
+}
