@@ -1,0 +1,2937 @@
+{
+  "metadata": {
+    "title": "A Skeptic's Guide to Quantum Computing",
+    "description": "An interactive intelligent textbook examining the physics barriers, economic realities, cognitive biases, and investment risks behind quantum computing. Designed for investors, policymakers, economists, and students.",
+    "creator": "Dan McCreary",
+    "date": "2026-03-16",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundations",
+      "color": "LightSteelBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BARR": {
+      "classifierName": "Physics Barriers",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "HARD": {
+      "classifierName": "Hardware Platforms",
+      "color": "Plum",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ALGO": {
+      "classifierName": "Algorithms and Claims",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "HIST": {
+      "classifierName": "History and Timeline",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "HYPE": {
+      "classifierName": "Hype and Optimistic Claims",
+      "color": "LightPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CRYP": {
+      "classifierName": "Cryptography Threat",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ECON": {
+      "classifierName": "Economics and Investment",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "TECH": {
+      "classifierName": "Technology Assessment",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "GPT": {
+      "classifierName": "General Purpose Technology",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BIAS": {
+      "classifierName": "Cognitive Biases",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "SYST": {
+      "classifierName": "Systems Thinking",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "SKEP": {
+      "classifierName": "Expert Skeptics",
+      "color": "LavenderBlush",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ETHI": {
+      "classifierName": "Ethics and Careers",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ALT": {
+      "classifierName": "Better Alternatives",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PARA": {
+      "classifierName": "Historical Parallels",
+      "color": "Gainsboro",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BREAK": {
+      "classifierName": "Breakthroughs Required",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CRIT": {
+      "classifierName": "Critical Thinking",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "APPLY": {
+      "classifierName": "Practical Application",
+      "color": "Plum",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Classical Computing",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "What Is a Qubit",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Superposition Explained",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Entanglement Explained",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Quantum Measurement Problem",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Theoretical Promise of QC",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "What QC Could Supposedly Do",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "What QC Cannot Do",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "QC vs Classical Computing",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Decoherence Problem",
+      "group": "BARR"
+    },
+    {
+      "id": 11,
+      "label": "Qubits Are Extremely Fragile",
+      "group": "BARR"
+    },
+    {
+      "id": 12,
+      "label": "Error Rate Problem",
+      "group": "BARR"
+    },
+    {
+      "id": 13,
+      "label": "Error Correction Overhead",
+      "group": "BARR"
+    },
+    {
+      "id": 14,
+      "label": "1000 Physical per 1 Logical",
+      "group": "BARR"
+    },
+    {
+      "id": 15,
+      "label": "Million Qubit Requirement",
+      "group": "BARR"
+    },
+    {
+      "id": 16,
+      "label": "Engineering vs Physics Barrier",
+      "group": "BARR"
+    },
+    {
+      "id": 17,
+      "label": "No Platform Has Solved It",
+      "group": "BARR"
+    },
+    {
+      "id": 18,
+      "label": "Cryogenic Cooling Requirement",
+      "group": "BARR"
+    },
+    {
+      "id": 19,
+      "label": "Near Absolute Zero Temps",
+      "group": "BARR"
+    },
+    {
+      "id": 20,
+      "label": "Cryogenic Cost and Scale",
+      "group": "BARR"
+    },
+    {
+      "id": 21,
+      "label": "Wiring and Control Problem",
+      "group": "BARR"
+    },
+    {
+      "id": 22,
+      "label": "Energy Consumption Problem",
+      "group": "BARR"
+    },
+    {
+      "id": 23,
+      "label": "Infrastructure Cost",
+      "group": "BARR"
+    },
+    {
+      "id": 24,
+      "label": "Hardware Scaling Wall",
+      "group": "BARR"
+    },
+    {
+      "id": 25,
+      "label": "Connectivity Limitations",
+      "group": "BARR"
+    },
+    {
+      "id": 26,
+      "label": "Superconducting Approach",
+      "group": "HARD"
+    },
+    {
+      "id": 27,
+      "label": "Trapped Ion Approach",
+      "group": "HARD"
+    },
+    {
+      "id": 28,
+      "label": "Photonic Approach",
+      "group": "HARD"
+    },
+    {
+      "id": 29,
+      "label": "Topological Approach",
+      "group": "HARD"
+    },
+    {
+      "id": 30,
+      "label": "Neutral Atom Approach",
+      "group": "HARD"
+    },
+    {
+      "id": 31,
+      "label": "Platform Comparison",
+      "group": "HARD"
+    },
+    {
+      "id": 32,
+      "label": "Each Platform Has Fatal Flaws",
+      "group": "HARD"
+    },
+    {
+      "id": 33,
+      "label": "Shor's Factoring Algorithm",
+      "group": "ALGO"
+    },
+    {
+      "id": 34,
+      "label": "Grover's Search Algorithm",
+      "group": "ALGO"
+    },
+    {
+      "id": 35,
+      "label": "Quantum Supremacy Defined",
+      "group": "ALGO"
+    },
+    {
+      "id": 36,
+      "label": "Quantum Advantage Defined",
+      "group": "ALGO"
+    },
+    {
+      "id": 37,
+      "label": "Contrived Benchmarks",
+      "group": "ALGO"
+    },
+    {
+      "id": 38,
+      "label": "No Real-World Advantage Yet",
+      "group": "ALGO"
+    },
+    {
+      "id": 39,
+      "label": "Narrow Problem Applicability",
+      "group": "ALGO"
+    },
+    {
+      "id": 40,
+      "label": "Classical Computers Keep Up",
+      "group": "ALGO"
+    },
+    {
+      "id": 41,
+      "label": "Feynman's 1981 Idea",
+      "group": "HIST"
+    },
+    {
+      "id": 42,
+      "label": "Shor's Algorithm 1994",
+      "group": "HIST"
+    },
+    {
+      "id": 43,
+      "label": "First Lab Demos 1998-2001",
+      "group": "HIST"
+    },
+    {
+      "id": 44,
+      "label": "D-Wave \"Commercial\" QC 2007",
+      "group": "HIST"
+    },
+    {
+      "id": 45,
+      "label": "D-Wave Sale to Lockheed 2011",
+      "group": "HIST"
+    },
+    {
+      "id": 46,
+      "label": "Google Buys D-Wave 2013",
+      "group": "HIST"
+    },
+    {
+      "id": 47,
+      "label": "IBM Cloud Access 2016",
+      "group": "HIST"
+    },
+    {
+      "id": 48,
+      "label": "Google Sycamore Claim 2019",
+      "group": "HIST"
+    },
+    {
+      "id": 49,
+      "label": "IBM 127-Qubit Chip 2021",
+      "group": "HIST"
+    },
+    {
+      "id": 50,
+      "label": "IBM 1121-Qubit Chip 2023",
+      "group": "HIST"
+    },
+    {
+      "id": 51,
+      "label": "Zero Commercial ROI by 2025",
+      "group": "HIST"
+    },
+    {
+      "id": 52,
+      "label": "Timeline Pattern Analysis",
+      "group": "HIST"
+    },
+    {
+      "id": 53,
+      "label": "3-5 Years Away Pattern",
+      "group": "HIST"
+    },
+    {
+      "id": 54,
+      "label": "40 Years of Promises",
+      "group": "HIST"
+    },
+    {
+      "id": 55,
+      "label": "Catalog of Broken Promises",
+      "group": "HYPE"
+    },
+    {
+      "id": 56,
+      "label": "D-Wave Exaggerated Claims",
+      "group": "HYPE"
+    },
+    {
+      "id": 57,
+      "label": "Google Supremacy Overhype",
+      "group": "HYPE"
+    },
+    {
+      "id": 58,
+      "label": "IBM Roadmap Revisions",
+      "group": "HYPE"
+    },
+    {
+      "id": 59,
+      "label": "Startup Pitch Exaggeration",
+      "group": "HYPE"
+    },
+    {
+      "id": 60,
+      "label": "Consultant Hype Reports",
+      "group": "HYPE"
+    },
+    {
+      "id": 61,
+      "label": "McKinsey $450B Projection",
+      "group": "HYPE"
+    },
+    {
+      "id": 62,
+      "label": "Media Amplification Effect",
+      "group": "HYPE"
+    },
+    {
+      "id": 63,
+      "label": "Moving Goalposts Pattern",
+      "group": "HYPE"
+    },
+    {
+      "id": 64,
+      "label": "Unfalsifiable Timelines",
+      "group": "HYPE"
+    },
+    {
+      "id": 65,
+      "label": "Redefining Success",
+      "group": "HYPE"
+    },
+    {
+      "id": 66,
+      "label": "Fusion Energy Parallel",
+      "group": "HYPE"
+    },
+    {
+      "id": 67,
+      "label": "Flying Cars Parallel",
+      "group": "HYPE"
+    },
+    {
+      "id": 68,
+      "label": "Public Key Encryption Basics",
+      "group": "CRYP"
+    },
+    {
+      "id": 69,
+      "label": "Could QC Break Encryption?",
+      "group": "CRYP"
+    },
+    {
+      "id": 70,
+      "label": "Massive Qubits Needed",
+      "group": "CRYP"
+    },
+    {
+      "id": 71,
+      "label": "Post-Quantum Crypto Exists",
+      "group": "CRYP"
+    },
+    {
+      "id": 72,
+      "label": "NIST Already Has Standards",
+      "group": "CRYP"
+    },
+    {
+      "id": 73,
+      "label": "Harvest Now Decrypt Later",
+      "group": "CRYP"
+    },
+    {
+      "id": 74,
+      "label": "Window Is Already Closing",
+      "group": "CRYP"
+    },
+    {
+      "id": 75,
+      "label": "Crypto Threat Is Overstated",
+      "group": "CRYP"
+    },
+    {
+      "id": 76,
+      "label": "Return on Investment",
+      "group": "ECON",
+      "shape": "box"
+    },
+    {
+      "id": 77,
+      "label": "Net Present Value",
+      "group": "ECON"
+    },
+    {
+      "id": 78,
+      "label": "Risk-Adjusted Returns",
+      "group": "ECON"
+    },
+    {
+      "id": 79,
+      "label": "Expected Value Framework",
+      "group": "ECON"
+    },
+    {
+      "id": 80,
+      "label": "Probability of Success",
+      "group": "ECON"
+    },
+    {
+      "id": 81,
+      "label": "Opportunity Cost",
+      "group": "ECON"
+    },
+    {
+      "id": 82,
+      "label": "Sunk Cost Trap",
+      "group": "ECON"
+    },
+    {
+      "id": 83,
+      "label": "Total $100B+ Invested",
+      "group": "ECON"
+    },
+    {
+      "id": 84,
+      "label": "Zero Revenue Generated",
+      "group": "ECON"
+    },
+    {
+      "id": 85,
+      "label": "VC Funding Frenzy",
+      "group": "ECON"
+    },
+    {
+      "id": 86,
+      "label": "Corporate R&D Burn Rate",
+      "group": "ECON"
+    },
+    {
+      "id": 87,
+      "label": "Government Funding Pressure",
+      "group": "ECON"
+    },
+    {
+      "id": 88,
+      "label": "Revenue Model Problem",
+      "group": "ECON"
+    },
+    {
+      "id": 89,
+      "label": "Who Pays for QC?",
+      "group": "ECON"
+    },
+    {
+      "id": 90,
+      "label": "Customer Demand Evidence",
+      "group": "ECON"
+    },
+    {
+      "id": 91,
+      "label": "No Paying Customers",
+      "group": "ECON"
+    },
+    {
+      "id": 92,
+      "label": "Classical Alternatives Cheaper",
+      "group": "ECON"
+    },
+    {
+      "id": 93,
+      "label": "Cost Per Computation",
+      "group": "ECON"
+    },
+    {
+      "id": 94,
+      "label": "Total Cost of Ownership",
+      "group": "ECON"
+    },
+    {
+      "id": 95,
+      "label": "IonQ IPO and Stock Decline",
+      "group": "ECON"
+    },
+    {
+      "id": 96,
+      "label": "SPAC Risks in QC",
+      "group": "ECON"
+    },
+    {
+      "id": 97,
+      "label": "Rigetti Financial Struggles",
+      "group": "ECON"
+    },
+    {
+      "id": 98,
+      "label": "D-Wave Revenue Reality",
+      "group": "ECON"
+    },
+    {
+      "id": 99,
+      "label": "Market Valuation vs Revenue",
+      "group": "ECON"
+    },
+    {
+      "id": 100,
+      "label": "Comparable Company Analysis",
+      "group": "ECON"
+    },
+    {
+      "id": 101,
+      "label": "Exit Strategy Problem",
+      "group": "ECON"
+    },
+    {
+      "id": 102,
+      "label": "Acqui-Hire as Only Exit",
+      "group": "ECON"
+    },
+    {
+      "id": 103,
+      "label": "Venture Capital Loss Rates",
+      "group": "ECON"
+    },
+    {
+      "id": 104,
+      "label": "When to Cut Losses",
+      "group": "ECON"
+    },
+    {
+      "id": 105,
+      "label": "Technology Readiness Levels",
+      "group": "TECH",
+      "shape": "box"
+    },
+    {
+      "id": 106,
+      "label": "TRL Scale Explained",
+      "group": "TECH"
+    },
+    {
+      "id": 107,
+      "label": "QC Stuck at TRL 2-3",
+      "group": "TECH"
+    },
+    {
+      "id": 108,
+      "label": "Technology Adoption Curves",
+      "group": "TECH"
+    },
+    {
+      "id": 109,
+      "label": "Crossing the Chasm",
+      "group": "TECH"
+    },
+    {
+      "id": 110,
+      "label": "Gartner Hype Cycle",
+      "group": "TECH"
+    },
+    {
+      "id": 111,
+      "label": "Peak of Inflated Expectations",
+      "group": "TECH"
+    },
+    {
+      "id": 112,
+      "label": "Trough of Disillusionment",
+      "group": "TECH"
+    },
+    {
+      "id": 113,
+      "label": "Technology Forecasting",
+      "group": "TECH"
+    },
+    {
+      "id": 114,
+      "label": "Base Rate of Tech Failure",
+      "group": "TECH"
+    },
+    {
+      "id": 115,
+      "label": "Prediction Track Records",
+      "group": "TECH"
+    },
+    {
+      "id": 116,
+      "label": "Science vs Engineering Gap",
+      "group": "TECH"
+    },
+    {
+      "id": 117,
+      "label": "Dot-Com Bubble Parallel",
+      "group": "TECH"
+    },
+    {
+      "id": 118,
+      "label": "Technology Bubble Dynamics",
+      "group": "TECH"
+    },
+    {
+      "id": 119,
+      "label": "General Purpose Technology",
+      "group": "GPT",
+      "shape": "box"
+    },
+    {
+      "id": 120,
+      "label": "GPT Characteristics",
+      "group": "GPT"
+    },
+    {
+      "id": 121,
+      "label": "Must Be Broadly Applicable",
+      "group": "GPT"
+    },
+    {
+      "id": 122,
+      "label": "Must Improve Over Time",
+      "group": "GPT"
+    },
+    {
+      "id": 123,
+      "label": "Must Enable New Innovations",
+      "group": "GPT"
+    },
+    {
+      "id": 124,
+      "label": "Steam Engine as GPT",
+      "group": "GPT"
+    },
+    {
+      "id": 125,
+      "label": "Electricity as GPT",
+      "group": "GPT"
+    },
+    {
+      "id": 126,
+      "label": "Transistor as GPT",
+      "group": "GPT"
+    },
+    {
+      "id": 127,
+      "label": "Internet as GPT",
+      "group": "GPT"
+    },
+    {
+      "id": 128,
+      "label": "AI/ML as Emerging GPT",
+      "group": "GPT"
+    },
+    {
+      "id": 129,
+      "label": "QC Fails Every GPT Test",
+      "group": "GPT"
+    },
+    {
+      "id": 130,
+      "label": "QC Is Narrowly Applicable",
+      "group": "GPT"
+    },
+    {
+      "id": 131,
+      "label": "QC Cannot Replace Classical",
+      "group": "GPT"
+    },
+    {
+      "id": 132,
+      "label": "Cognitive Bias Overview",
+      "group": "BIAS",
+      "shape": "box"
+    },
+    {
+      "id": 133,
+      "label": "Sunk Cost Fallacy",
+      "group": "BIAS"
+    },
+    {
+      "id": 134,
+      "label": "Confirmation Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 135,
+      "label": "Anchoring Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 136,
+      "label": "Bandwagon Effect",
+      "group": "BIAS"
+    },
+    {
+      "id": 137,
+      "label": "Dunning-Kruger in QC",
+      "group": "BIAS"
+    },
+    {
+      "id": 138,
+      "label": "Optimism Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 139,
+      "label": "Authority Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 140,
+      "label": "FOMO in QC Investment",
+      "group": "BIAS"
+    },
+    {
+      "id": 141,
+      "label": "Survivorship Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 142,
+      "label": "Narrative Fallacy",
+      "group": "BIAS"
+    },
+    {
+      "id": 143,
+      "label": "Groupthink",
+      "group": "BIAS"
+    },
+    {
+      "id": 144,
+      "label": "Motivated Reasoning",
+      "group": "BIAS"
+    },
+    {
+      "id": 145,
+      "label": "Information Asymmetry",
+      "group": "BIAS"
+    },
+    {
+      "id": 146,
+      "label": "Bias in Tech Forecasting",
+      "group": "BIAS"
+    },
+    {
+      "id": 147,
+      "label": "How Biases Compound",
+      "group": "BIAS"
+    },
+    {
+      "id": 148,
+      "label": "Systems Thinking",
+      "group": "SYST",
+      "shape": "box"
+    },
+    {
+      "id": 149,
+      "label": "Causal Loop Diagrams",
+      "group": "SYST"
+    },
+    {
+      "id": 150,
+      "label": "Reinforcing Feedback Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 151,
+      "label": "Balancing Feedback Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 152,
+      "label": "Hype Reinforcement Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 153,
+      "label": "Sunk Cost Escalation Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 154,
+      "label": "Career Incentive Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 155,
+      "label": "Geopolitical Arms Race Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 156,
+      "label": "Missing Balancing Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 157,
+      "label": "Leverage Points",
+      "group": "SYST"
+    },
+    {
+      "id": 158,
+      "label": "Self-Sustaining Hype Cycle",
+      "group": "SYST"
+    },
+    {
+      "id": 159,
+      "label": "Breaking the Hype Loop",
+      "group": "SYST"
+    },
+    {
+      "id": 160,
+      "label": "Gil Kalai's Math Arguments",
+      "group": "SKEP"
+    },
+    {
+      "id": 161,
+      "label": "Dyakonov's Physics Arguments",
+      "group": "SKEP"
+    },
+    {
+      "id": 162,
+      "label": "Controlling 2^1000 Parameters",
+      "group": "SKEP"
+    },
+    {
+      "id": 163,
+      "label": "Levin's Complexity Doubts",
+      "group": "SKEP"
+    },
+    {
+      "id": 164,
+      "label": "Laughlin on Coherence Limits",
+      "group": "SKEP"
+    },
+    {
+      "id": 165,
+      "label": "Goldreich's CS Perspective",
+      "group": "SKEP"
+    },
+    {
+      "id": 166,
+      "label": "Skeptics Have No Funding Bias",
+      "group": "SKEP"
+    },
+    {
+      "id": 167,
+      "label": "Proponents Have Funding Bias",
+      "group": "SKEP"
+    },
+    {
+      "id": 168,
+      "label": "Why Skeptics Are Ignored",
+      "group": "SKEP"
+    },
+    {
+      "id": 169,
+      "label": "Ethics of QC Education",
+      "group": "ETHI"
+    },
+    {
+      "id": 170,
+      "label": "PhD Career Risk in QC",
+      "group": "ETHI"
+    },
+    {
+      "id": 171,
+      "label": "QC Job Market Reality",
+      "group": "ETHI"
+    },
+    {
+      "id": 172,
+      "label": "Almost All Jobs Are R&D",
+      "group": "ETHI"
+    },
+    {
+      "id": 173,
+      "label": "What If the Field Contracts?",
+      "group": "ETHI"
+    },
+    {
+      "id": 174,
+      "label": "Transferable Skills Debate",
+      "group": "ETHI"
+    },
+    {
+      "id": 175,
+      "label": "Professor Grant Conflicts",
+      "group": "ETHI"
+    },
+    {
+      "id": 176,
+      "label": "String Theory Career Warning",
+      "group": "ETHI"
+    },
+    {
+      "id": 177,
+      "label": "Cold Fusion Career Warning",
+      "group": "ETHI"
+    },
+    {
+      "id": 178,
+      "label": "Student Advising Ethics",
+      "group": "ETHI"
+    },
+    {
+      "id": 179,
+      "label": "Informed Consent for Careers",
+      "group": "ETHI"
+    },
+    {
+      "id": 180,
+      "label": "Ethical Investment Duty",
+      "group": "ETHI"
+    },
+    {
+      "id": 181,
+      "label": "Fiduciary Responsibility",
+      "group": "ETHI"
+    },
+    {
+      "id": 182,
+      "label": "FOMO Drives Bad QC Decisions",
+      "group": "ETHI"
+    },
+    {
+      "id": 183,
+      "label": "Quantum Sensing",
+      "group": "ALT",
+      "shape": "box"
+    },
+    {
+      "id": 184,
+      "label": "Atomic Clocks",
+      "group": "ALT"
+    },
+    {
+      "id": 185,
+      "label": "Quantum Magnetometers",
+      "group": "ALT"
+    },
+    {
+      "id": 186,
+      "label": "Quantum Gravimeters",
+      "group": "ALT"
+    },
+    {
+      "id": 187,
+      "label": "Sensors Already Make Money",
+      "group": "ALT"
+    },
+    {
+      "id": 188,
+      "label": "Sensing Needs Few Qubits",
+      "group": "ALT"
+    },
+    {
+      "id": 189,
+      "label": "Quantum Key Distribution",
+      "group": "ALT"
+    },
+    {
+      "id": 190,
+      "label": "Risk-Adjusted QS Returns",
+      "group": "ALT"
+    },
+    {
+      "id": 191,
+      "label": "Classical AI Hardware",
+      "group": "ALT"
+    },
+    {
+      "id": 192,
+      "label": "Alternative Tech Investments",
+      "group": "ALT"
+    },
+    {
+      "id": 193,
+      "label": "Portfolio Diversification",
+      "group": "ALT"
+    },
+    {
+      "id": 194,
+      "label": "Successful Physics Bets",
+      "group": "PARA",
+      "shape": "box"
+    },
+    {
+      "id": 195,
+      "label": "Transistor Investment Payoff",
+      "group": "PARA"
+    },
+    {
+      "id": 196,
+      "label": "Laser Investment Payoff",
+      "group": "PARA"
+    },
+    {
+      "id": 197,
+      "label": "Fiber Optics Payoff",
+      "group": "PARA"
+    },
+    {
+      "id": 198,
+      "label": "GPS Atomic Clock Payoff",
+      "group": "PARA"
+    },
+    {
+      "id": 199,
+      "label": "MRI Investment Payoff",
+      "group": "PARA"
+    },
+    {
+      "id": 200,
+      "label": "Failed Physics Bets",
+      "group": "PARA"
+    },
+    {
+      "id": 201,
+      "label": "Cold Fusion Losses",
+      "group": "PARA"
+    },
+    {
+      "id": 202,
+      "label": "Theranos Lessons",
+      "group": "PARA"
+    },
+    {
+      "id": 203,
+      "label": "Concorde Economics Failure",
+      "group": "PARA"
+    },
+    {
+      "id": 204,
+      "label": "Charismatic Founder Risk",
+      "group": "PARA"
+    },
+    {
+      "id": 205,
+      "label": "When Scientists Mislead",
+      "group": "PARA"
+    },
+    {
+      "id": 206,
+      "label": "The 10 Required Breakthroughs",
+      "group": "BREAK"
+    },
+    {
+      "id": 207,
+      "label": "Error Rates Must Drop 100x",
+      "group": "BREAK"
+    },
+    {
+      "id": 208,
+      "label": "Need 1000x More Qubits",
+      "group": "BREAK"
+    },
+    {
+      "id": 209,
+      "label": "Coherence Must Improve 100x",
+      "group": "BREAK"
+    },
+    {
+      "id": 210,
+      "label": "Connectivity Must Improve",
+      "group": "BREAK"
+    },
+    {
+      "id": 211,
+      "label": "Cryogenics Must Scale",
+      "group": "BREAK"
+    },
+    {
+      "id": 212,
+      "label": "New Algorithms Needed",
+      "group": "BREAK"
+    },
+    {
+      "id": 213,
+      "label": "Cost Must Drop Dramatically",
+      "group": "BREAK"
+    },
+    {
+      "id": 214,
+      "label": "All Must Happen Together",
+      "group": "BREAK"
+    },
+    {
+      "id": 215,
+      "label": "Joint Probability Problem",
+      "group": "BREAK"
+    },
+    {
+      "id": 216,
+      "label": "Independent vs Coupled Risks",
+      "group": "BREAK"
+    },
+    {
+      "id": 217,
+      "label": "Each Breakthrough Is Uncertain",
+      "group": "BREAK"
+    },
+    {
+      "id": 218,
+      "label": "Critical Thinking Skills",
+      "group": "CRIT",
+      "shape": "box"
+    },
+    {
+      "id": 219,
+      "label": "Hype Detection Checklist",
+      "group": "CRIT"
+    },
+    {
+      "id": 220,
+      "label": "Red Flags in Tech Claims",
+      "group": "CRIT"
+    },
+    {
+      "id": 221,
+      "label": "How to Read a Press Release",
+      "group": "CRIT"
+    },
+    {
+      "id": 222,
+      "label": "Science Journalism Problems",
+      "group": "CRIT"
+    },
+    {
+      "id": 223,
+      "label": "Base Rate Reasoning",
+      "group": "CRIT"
+    },
+    {
+      "id": 224,
+      "label": "Extraordinary Claims Rule",
+      "group": "CRIT"
+    },
+    {
+      "id": 225,
+      "label": "Technology Due Diligence",
+      "group": "CRIT"
+    },
+    {
+      "id": 226,
+      "label": "Risk Assessment Framework",
+      "group": "CRIT"
+    },
+    {
+      "id": 227,
+      "label": "Bayesian Reasoning Basics",
+      "group": "CRIT"
+    },
+    {
+      "id": 228,
+      "label": "Applying Skepticism Broadly",
+      "group": "CRIT"
+    },
+    {
+      "id": 229,
+      "label": "Fusion Hype Comparison",
+      "group": "CRIT"
+    },
+    {
+      "id": 230,
+      "label": "AGI Hype Comparison",
+      "group": "CRIT"
+    },
+    {
+      "id": 231,
+      "label": "Autonomous Vehicle Comparison",
+      "group": "CRIT"
+    },
+    {
+      "id": 232,
+      "label": "Writing an Executive Brief",
+      "group": "APPLY"
+    },
+    {
+      "id": 233,
+      "label": "Conducting Red Team Analysis",
+      "group": "APPLY"
+    },
+    {
+      "id": 234,
+      "label": "Building a Claims Tracker",
+      "group": "APPLY"
+    },
+    {
+      "id": 235,
+      "label": "Evaluating a Pitch Deck",
+      "group": "APPLY"
+    },
+    {
+      "id": 236,
+      "label": "Writing a Critical Review",
+      "group": "APPLY"
+    },
+    {
+      "id": 237,
+      "label": "Portfolio Allocation Analysis",
+      "group": "APPLY"
+    },
+    {
+      "id": 238,
+      "label": "National QC Strategy Critique",
+      "group": "APPLY"
+    },
+    {
+      "id": 239,
+      "label": "Board-Level QC Questions",
+      "group": "APPLY"
+    },
+    {
+      "id": 240,
+      "label": "Skeptical Inquiry Method",
+      "group": "APPLY"
+    },
+    {
+      "id": 241,
+      "label": "Making Better Tech Bets",
+      "group": "APPLY"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 2
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 4
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 4
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 1
+    },
+    {
+      "from": 9,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 5
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 11
+    },
+    {
+      "from": 13,
+      "to": 12
+    },
+    {
+      "from": 14,
+      "to": 13
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 10
+    },
+    {
+      "from": 16,
+      "to": 12
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 11
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 20,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 18
+    },
+    {
+      "from": 22,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 20
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 15
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 11
+    },
+    {
+      "from": 26,
+      "to": 18
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 11
+    },
+    {
+      "from": 27,
+      "to": 25
+    },
+    {
+      "from": 28,
+      "to": 11
+    },
+    {
+      "from": 29,
+      "to": 11
+    },
+    {
+      "from": 30,
+      "to": 11
+    },
+    {
+      "from": 31,
+      "to": 26
+    },
+    {
+      "from": 31,
+      "to": 27
+    },
+    {
+      "from": 31,
+      "to": 28
+    },
+    {
+      "from": 31,
+      "to": 29
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 32,
+      "to": 16
+    },
+    {
+      "from": 33,
+      "to": 6
+    },
+    {
+      "from": 34,
+      "to": 6
+    },
+    {
+      "from": 35,
+      "to": 7
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 37
+    },
+    {
+      "from": 39,
+      "to": 8
+    },
+    {
+      "from": 39,
+      "to": 33
+    },
+    {
+      "from": 39,
+      "to": 34
+    },
+    {
+      "from": 40,
+      "to": 9
+    },
+    {
+      "from": 40,
+      "to": 38
+    },
+    {
+      "from": 41,
+      "to": 6
+    },
+    {
+      "from": 42,
+      "to": 33
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 44
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 43
+    },
+    {
+      "from": 48,
+      "to": 35
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 47
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 48
+    },
+    {
+      "from": 51,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 41
+    },
+    {
+      "from": 52,
+      "to": 42
+    },
+    {
+      "from": 52,
+      "to": 43
+    },
+    {
+      "from": 52,
+      "to": 44
+    },
+    {
+      "from": 52,
+      "to": 48
+    },
+    {
+      "from": 52,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 44
+    },
+    {
+      "from": 56,
+      "to": 45
+    },
+    {
+      "from": 56,
+      "to": 55
+    },
+    {
+      "from": 57,
+      "to": 48
+    },
+    {
+      "from": 57,
+      "to": 55
+    },
+    {
+      "from": 58,
+      "to": 49
+    },
+    {
+      "from": 58,
+      "to": 50
+    },
+    {
+      "from": 58,
+      "to": 55
+    },
+    {
+      "from": 59,
+      "to": 55
+    },
+    {
+      "from": 60,
+      "to": 55
+    },
+    {
+      "from": 61,
+      "to": 60
+    },
+    {
+      "from": 62,
+      "to": 55
+    },
+    {
+      "from": 63,
+      "to": 53
+    },
+    {
+      "from": 63,
+      "to": 55
+    },
+    {
+      "from": 64,
+      "to": 53
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 54
+    },
+    {
+      "from": 67,
+      "to": 54
+    },
+    {
+      "from": 68,
+      "to": 1
+    },
+    {
+      "from": 69,
+      "to": 33
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 15
+    },
+    {
+      "from": 70,
+      "to": 69
+    },
+    {
+      "from": 71,
+      "to": 68
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 69
+    },
+    {
+      "from": 74,
+      "to": 70
+    },
+    {
+      "from": 74,
+      "to": 72
+    },
+    {
+      "from": 75,
+      "to": 70
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 77,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 78
+    },
+    {
+      "from": 80,
+      "to": 79
+    },
+    {
+      "from": 81,
+      "to": 76
+    },
+    {
+      "from": 82,
+      "to": 76
+    },
+    {
+      "from": 83,
+      "to": 76
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 83
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 87,
+      "to": 83
+    },
+    {
+      "from": 88,
+      "to": 84
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 92,
+      "to": 9
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 93,
+      "to": 23
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 85
+    },
+    {
+      "from": 96,
+      "to": 85
+    },
+    {
+      "from": 97,
+      "to": 85
+    },
+    {
+      "from": 98,
+      "to": 56
+    },
+    {
+      "from": 98,
+      "to": 84
+    },
+    {
+      "from": 99,
+      "to": 95
+    },
+    {
+      "from": 99,
+      "to": 96
+    },
+    {
+      "from": 99,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 91
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 85
+    },
+    {
+      "from": 103,
+      "to": 99
+    },
+    {
+      "from": 104,
+      "to": 82
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 106,
+      "to": 105
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 107,
+      "to": 38
+    },
+    {
+      "from": 108,
+      "to": 105
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 108
+    },
+    {
+      "from": 111,
+      "to": 110
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 108
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 16
+    },
+    {
+      "from": 116,
+      "to": 105
+    },
+    {
+      "from": 117,
+      "to": 118
+    },
+    {
+      "from": 118,
+      "to": 110
+    },
+    {
+      "from": 118,
+      "to": 114
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 120
+    },
+    {
+      "from": 122,
+      "to": 120
+    },
+    {
+      "from": 123,
+      "to": 120
+    },
+    {
+      "from": 124,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 122
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 125,
+      "to": 121
+    },
+    {
+      "from": 125,
+      "to": 122
+    },
+    {
+      "from": 125,
+      "to": 123
+    },
+    {
+      "from": 126,
+      "to": 121
+    },
+    {
+      "from": 126,
+      "to": 122
+    },
+    {
+      "from": 126,
+      "to": 123
+    },
+    {
+      "from": 127,
+      "to": 121
+    },
+    {
+      "from": 127,
+      "to": 122
+    },
+    {
+      "from": 127,
+      "to": 123
+    },
+    {
+      "from": 128,
+      "to": 121
+    },
+    {
+      "from": 128,
+      "to": 122
+    },
+    {
+      "from": 128,
+      "to": 123
+    },
+    {
+      "from": 129,
+      "to": 121
+    },
+    {
+      "from": 129,
+      "to": 122
+    },
+    {
+      "from": 129,
+      "to": 123
+    },
+    {
+      "from": 129,
+      "to": 39
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 9
+    },
+    {
+      "from": 131,
+      "to": 130
+    },
+    {
+      "from": 133,
+      "to": 132
+    },
+    {
+      "from": 134,
+      "to": 132
+    },
+    {
+      "from": 135,
+      "to": 132
+    },
+    {
+      "from": 136,
+      "to": 132
+    },
+    {
+      "from": 137,
+      "to": 132
+    },
+    {
+      "from": 138,
+      "to": 132
+    },
+    {
+      "from": 139,
+      "to": 132
+    },
+    {
+      "from": 140,
+      "to": 132
+    },
+    {
+      "from": 141,
+      "to": 132
+    },
+    {
+      "from": 142,
+      "to": 132
+    },
+    {
+      "from": 143,
+      "to": 132
+    },
+    {
+      "from": 144,
+      "to": 132
+    },
+    {
+      "from": 145,
+      "to": 132
+    },
+    {
+      "from": 146,
+      "to": 132
+    },
+    {
+      "from": 146,
+      "to": 113
+    },
+    {
+      "from": 147,
+      "to": 133
+    },
+    {
+      "from": 147,
+      "to": 134
+    },
+    {
+      "from": 147,
+      "to": 135
+    },
+    {
+      "from": 147,
+      "to": 136
+    },
+    {
+      "from": 147,
+      "to": 138
+    },
+    {
+      "from": 147,
+      "to": 140
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 149
+    },
+    {
+      "from": 151,
+      "to": 149
+    },
+    {
+      "from": 152,
+      "to": 150
+    },
+    {
+      "from": 152,
+      "to": 62
+    },
+    {
+      "from": 152,
+      "to": 87
+    },
+    {
+      "from": 153,
+      "to": 150
+    },
+    {
+      "from": 153,
+      "to": 82
+    },
+    {
+      "from": 153,
+      "to": 133
+    },
+    {
+      "from": 154,
+      "to": 150
+    },
+    {
+      "from": 154,
+      "to": 175
+    },
+    {
+      "from": 155,
+      "to": 150
+    },
+    {
+      "from": 155,
+      "to": 87
+    },
+    {
+      "from": 156,
+      "to": 151
+    },
+    {
+      "from": 156,
+      "to": 152
+    },
+    {
+      "from": 157,
+      "to": 149
+    },
+    {
+      "from": 157,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 152
+    },
+    {
+      "from": 158,
+      "to": 153
+    },
+    {
+      "from": 158,
+      "to": 154
+    },
+    {
+      "from": 158,
+      "to": 155
+    },
+    {
+      "from": 159,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 160,
+      "to": 13
+    },
+    {
+      "from": 161,
+      "to": 16
+    },
+    {
+      "from": 162,
+      "to": 161
+    },
+    {
+      "from": 163,
+      "to": 39
+    },
+    {
+      "from": 164,
+      "to": 10
+    },
+    {
+      "from": 165,
+      "to": 39
+    },
+    {
+      "from": 166,
+      "to": 145
+    },
+    {
+      "from": 167,
+      "to": 145
+    },
+    {
+      "from": 168,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 167
+    },
+    {
+      "from": 168,
+      "to": 139
+    },
+    {
+      "from": 169,
+      "to": 171
+    },
+    {
+      "from": 169,
+      "to": 172
+    },
+    {
+      "from": 170,
+      "to": 172
+    },
+    {
+      "from": 171,
+      "to": 91
+    },
+    {
+      "from": 171,
+      "to": 84
+    },
+    {
+      "from": 172,
+      "to": 171
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 173,
+      "to": 104
+    },
+    {
+      "from": 174,
+      "to": 170
+    },
+    {
+      "from": 175,
+      "to": 87
+    },
+    {
+      "from": 175,
+      "to": 144
+    },
+    {
+      "from": 176,
+      "to": 170
+    },
+    {
+      "from": 177,
+      "to": 170
+    },
+    {
+      "from": 178,
+      "to": 169
+    },
+    {
+      "from": 178,
+      "to": 170
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 76
+    },
+    {
+      "from": 180,
+      "to": 145
+    },
+    {
+      "from": 181,
+      "to": 76
+    },
+    {
+      "from": 181,
+      "to": 80
+    },
+    {
+      "from": 182,
+      "to": 140
+    },
+    {
+      "from": 182,
+      "to": 180
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 183
+    },
+    {
+      "from": 186,
+      "to": 183
+    },
+    {
+      "from": 187,
+      "to": 184
+    },
+    {
+      "from": 187,
+      "to": 185
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 188,
+      "to": 183
+    },
+    {
+      "from": 188,
+      "to": 15
+    },
+    {
+      "from": 189,
+      "to": 68
+    },
+    {
+      "from": 189,
+      "to": 183
+    },
+    {
+      "from": 190,
+      "to": 78
+    },
+    {
+      "from": 190,
+      "to": 187
+    },
+    {
+      "from": 190,
+      "to": 188
+    },
+    {
+      "from": 191,
+      "to": 1
+    },
+    {
+      "from": 192,
+      "to": 190
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 78
+    },
+    {
+      "from": 193,
+      "to": 192
+    },
+    {
+      "from": 195,
+      "to": 194
+    },
+    {
+      "from": 196,
+      "to": 194
+    },
+    {
+      "from": 197,
+      "to": 194
+    },
+    {
+      "from": 198,
+      "to": 194
+    },
+    {
+      "from": 198,
+      "to": 184
+    },
+    {
+      "from": 199,
+      "to": 194
+    },
+    {
+      "from": 200,
+      "to": 194
+    },
+    {
+      "from": 201,
+      "to": 200
+    },
+    {
+      "from": 202,
+      "to": 200
+    },
+    {
+      "from": 202,
+      "to": 145
+    },
+    {
+      "from": 203,
+      "to": 200
+    },
+    {
+      "from": 203,
+      "to": 81
+    },
+    {
+      "from": 204,
+      "to": 202
+    },
+    {
+      "from": 204,
+      "to": 145
+    },
+    {
+      "from": 205,
+      "to": 145
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 24
+    },
+    {
+      "from": 206,
+      "to": 32
+    },
+    {
+      "from": 206,
+      "to": 38
+    },
+    {
+      "from": 207,
+      "to": 12
+    },
+    {
+      "from": 207,
+      "to": 206
+    },
+    {
+      "from": 208,
+      "to": 15
+    },
+    {
+      "from": 208,
+      "to": 206
+    },
+    {
+      "from": 209,
+      "to": 10
+    },
+    {
+      "from": 209,
+      "to": 206
+    },
+    {
+      "from": 210,
+      "to": 25
+    },
+    {
+      "from": 210,
+      "to": 206
+    },
+    {
+      "from": 211,
+      "to": 20
+    },
+    {
+      "from": 211,
+      "to": 206
+    },
+    {
+      "from": 212,
+      "to": 39
+    },
+    {
+      "from": 212,
+      "to": 206
+    },
+    {
+      "from": 213,
+      "to": 23
+    },
+    {
+      "from": 213,
+      "to": 206
+    },
+    {
+      "from": 214,
+      "to": 207
+    },
+    {
+      "from": 214,
+      "to": 208
+    },
+    {
+      "from": 214,
+      "to": 209
+    },
+    {
+      "from": 214,
+      "to": 210
+    },
+    {
+      "from": 214,
+      "to": 211
+    },
+    {
+      "from": 214,
+      "to": 212
+    },
+    {
+      "from": 214,
+      "to": 213
+    },
+    {
+      "from": 215,
+      "to": 80
+    },
+    {
+      "from": 215,
+      "to": 214
+    },
+    {
+      "from": 216,
+      "to": 215
+    },
+    {
+      "from": 217,
+      "to": 80
+    },
+    {
+      "from": 217,
+      "to": 216
+    },
+    {
+      "from": 219,
+      "to": 218
+    },
+    {
+      "from": 219,
+      "to": 63
+    },
+    {
+      "from": 219,
+      "to": 64
+    },
+    {
+      "from": 220,
+      "to": 218
+    },
+    {
+      "from": 220,
+      "to": 65
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 221,
+      "to": 62
+    },
+    {
+      "from": 222,
+      "to": 62
+    },
+    {
+      "from": 222,
+      "to": 221
+    },
+    {
+      "from": 223,
+      "to": 114
+    },
+    {
+      "from": 223,
+      "to": 218
+    },
+    {
+      "from": 224,
+      "to": 218
+    },
+    {
+      "from": 224,
+      "to": 223
+    },
+    {
+      "from": 225,
+      "to": 107
+    },
+    {
+      "from": 225,
+      "to": 218
+    },
+    {
+      "from": 226,
+      "to": 79
+    },
+    {
+      "from": 226,
+      "to": 218
+    },
+    {
+      "from": 227,
+      "to": 80
+    },
+    {
+      "from": 227,
+      "to": 218
+    },
+    {
+      "from": 228,
+      "to": 219
+    },
+    {
+      "from": 228,
+      "to": 220
+    },
+    {
+      "from": 228,
+      "to": 223
+    },
+    {
+      "from": 228,
+      "to": 224
+    },
+    {
+      "from": 229,
+      "to": 66
+    },
+    {
+      "from": 229,
+      "to": 228
+    },
+    {
+      "from": 230,
+      "to": 228
+    },
+    {
+      "from": 231,
+      "to": 228
+    },
+    {
+      "from": 232,
+      "to": 75
+    },
+    {
+      "from": 232,
+      "to": 131
+    },
+    {
+      "from": 232,
+      "to": 217
+    },
+    {
+      "from": 232,
+      "to": 226
+    },
+    {
+      "from": 233,
+      "to": 206
+    },
+    {
+      "from": 233,
+      "to": 217
+    },
+    {
+      "from": 233,
+      "to": 220
+    },
+    {
+      "from": 234,
+      "to": 55
+    },
+    {
+      "from": 234,
+      "to": 219
+    },
+    {
+      "from": 235,
+      "to": 147
+    },
+    {
+      "from": 235,
+      "to": 220
+    },
+    {
+      "from": 235,
+      "to": 226
+    },
+    {
+      "from": 236,
+      "to": 222
+    },
+    {
+      "from": 236,
+      "to": 224
+    },
+    {
+      "from": 236,
+      "to": 226
+    },
+    {
+      "from": 237,
+      "to": 193
+    },
+    {
+      "from": 237,
+      "to": 217
+    },
+    {
+      "from": 238,
+      "to": 87
+    },
+    {
+      "from": 238,
+      "to": 190
+    },
+    {
+      "from": 238,
+      "to": 217
+    },
+    {
+      "from": 238,
+      "to": 237
+    },
+    {
+      "from": 239,
+      "to": 104
+    },
+    {
+      "from": 239,
+      "to": 181
+    },
+    {
+      "from": 239,
+      "to": 235
+    },
+    {
+      "from": 240,
+      "to": 147
+    },
+    {
+      "from": 240,
+      "to": 159
+    },
+    {
+      "from": 240,
+      "to": 228
+    },
+    {
+      "from": 241,
+      "to": 192
+    },
+    {
+      "from": 241,
+      "to": 217
+    },
+    {
+      "from": 241,
+      "to": 240
+    }
+  ]
+}

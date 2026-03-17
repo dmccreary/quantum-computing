@@ -1,0 +1,97 @@
+{
+  "FOUND": {
+    "range": [1, 9],
+    "keywords": [],
+    "exclude": []
+  },
+  "BARR": {
+    "range": [10, 25],
+    "keywords": [],
+    "exclude": []
+  },
+  "HARD": {
+    "range": [26, 32],
+    "keywords": [],
+    "exclude": []
+  },
+  "ALGO": {
+    "range": [33, 40],
+    "keywords": [],
+    "exclude": []
+  },
+  "HIST": {
+    "range": [41, 54],
+    "keywords": [],
+    "exclude": []
+  },
+  "HYPE": {
+    "range": [55, 67],
+    "keywords": [],
+    "exclude": []
+  },
+  "CRYP": {
+    "range": [68, 75],
+    "keywords": [],
+    "exclude": []
+  },
+  "ECON": {
+    "range": [76, 104],
+    "keywords": [],
+    "exclude": []
+  },
+  "TECH": {
+    "range": [105, 118],
+    "keywords": [],
+    "exclude": []
+  },
+  "GPT": {
+    "range": [119, 131],
+    "keywords": [],
+    "exclude": []
+  },
+  "BIAS": {
+    "range": [132, 147],
+    "keywords": [],
+    "exclude": []
+  },
+  "SYST": {
+    "range": [148, 159],
+    "keywords": [],
+    "exclude": []
+  },
+  "SKEP": {
+    "range": [160, 168],
+    "keywords": [],
+    "exclude": []
+  },
+  "ETHI": {
+    "range": [169, 182],
+    "keywords": [],
+    "exclude": []
+  },
+  "ALT": {
+    "range": [183, 193],
+    "keywords": [],
+    "exclude": []
+  },
+  "PARA": {
+    "range": [194, 205],
+    "keywords": [],
+    "exclude": []
+  },
+  "BREAK": {
+    "range": [206, 217],
+    "keywords": [],
+    "exclude": []
+  },
+  "CRIT": {
+    "range": [218, 231],
+    "keywords": [],
+    "exclude": []
+  },
+  "APPLY": {
+    "range": [232, 241],
+    "keywords": [],
+    "exclude": []
+  }
+}

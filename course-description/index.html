@@ -1,0 +1,1630 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/course-description/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../sims/graph-viewer/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Course Description - A Skeptic's Guide to Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-XXXXXXXXXX"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-XXXXXXXXXX",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Course Description - A Skeptic's Guide to Quantum Computing" >
+      
+        <meta  property="og:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/course-description.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/course-description/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Course Description - A Skeptic's Guide to Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/course-description.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#course-description" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-header__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            A Skeptic's Guide to Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Course Description
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-nav__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    A Skeptic's Guide to Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Course Description
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Description
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#course-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required" class="md-nav__link">
+    <span class="md-ellipsis">
+      Required
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommended-helpful-but-not-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended (Helpful but Not Required)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topics-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Topics Covered
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Topics Covered">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-i-foundations-and-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part I: Foundations and History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-ii-the-physics-barriers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part II: The Physics Barriers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iii-the-economics-and-psychology-of-quantum-hype" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part III: The Economics and Psychology of Quantum Hype
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iv-ethics-alternatives-and-clear-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part IV: Ethics, Alternatives, and Clear Thinking
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topics-not-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Topics NOT Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives-revised-blooms-taxonomy-2001" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives (Revised Bloom's Taxonomy, 2001)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Objectives (Revised Bloom&#39;s Taxonomy, 2001)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-1-remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 1: Remember
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-2-understand" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 2: Understand
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-3-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 3: Apply
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-4-analyze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 4: Analyze
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-5-evaluate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 5: Evaluate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-6-create" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 6: Create
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assessment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessment Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#required-readings-selected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Required Readings (Selected)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../chapters/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../sims/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    MicroSims
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../appendices/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Appendices
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Learning Graph
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../prompts/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#course-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required" class="md-nav__link">
+    <span class="md-ellipsis">
+      Required
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommended-helpful-but-not-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended (Helpful but Not Required)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topics-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Topics Covered
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Topics Covered">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-i-foundations-and-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part I: Foundations and History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-ii-the-physics-barriers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part II: The Physics Barriers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iii-the-economics-and-psychology-of-quantum-hype" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part III: The Economics and Psychology of Quantum Hype
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iv-ethics-alternatives-and-clear-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part IV: Ethics, Alternatives, and Clear Thinking
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topics-not-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Topics NOT Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives-revised-blooms-taxonomy-2001" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives (Revised Bloom's Taxonomy, 2001)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Objectives (Revised Bloom&#39;s Taxonomy, 2001)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-1-remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 1: Remember
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-2-understand" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 2: Understand
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-3-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 3: Apply
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-4-analyze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 4: Analyze
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-5-evaluate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 5: Evaluate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-6-create" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 6: Create
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assessment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessment Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#required-readings-selected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Required Readings (Selected)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/course-description.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="course-description">Course Description</h1>
+<p><strong>Course Title:</strong> A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable</p>
+<p><strong>Course Classification:</strong> Physics/Computing/Economics/Psychology/Multidisciplinary — Special Topics in Technology Assessment</p>
+<p><strong>Credits:</strong> 3 semester hours</p>
+<p><strong>Modality:</strong> In-person lecture with discussion sections; online-synchronous option available</p>
+<p><strong>Target Audience:</strong> Upper-division undergraduates and graduate students in physics, computer science, economics, public policy, and science &amp; technology studies. Also suitable for technology investors, venture capitalists, corporate strategists, and policymakers who evaluate emerging-technology claims.</p>
+<h2 id="course-summary">Course Summary</h2>
+<p>Over $100 billion has been invested in quantum computing worldwide, yet no company has produced a single dollar of positive return on investment from quantum computing products or services. Proponents routinely assert that economic viability is "just a few years away" — a claim that has been made, and missed, repeatedly since the 1990s. Most current roadmaps assume that quantum computing will become practical once devices reach approximately one million high-quality qubits. However, reaching that milestone requires multiple simultaneous breakthroughs in condensed-matter physics, materials science, cryogenic engineering, quantum error correction theory, and classical control electronics — none of which are guaranteed.</p>
+<p>This course examines quantum computing through the lens of economic viability, investment risk, cognitive bias, and the sociology of technology hype. We trace the full history of quantum computing from Feynman's 1981 conjecture through the present day, cataloging the repeated pattern of optimistic predictions followed by missed deadlines. We analyze the fundamental physics constraints — decoherence, error rates, qubit connectivity, cryogenic requirements — that make large-scale fault-tolerant quantum computing extraordinarily difficult. We examine the psychology of sunk-cost reasoning, confirmation bias, and groupthink that sustain investment in technologies with uncertain payoffs. And we compare quantum computing investment against alternative opportunities — such as quantum sensors, quantum communication, and classical AI hardware — that may offer far better risk-adjusted returns.</p>
+<hr />
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="required">Required</h3>
+<ul>
+<li><strong>Introductory Physics</strong> (calculus-based, two semesters) — Students must understand classical mechanics, electromagnetism, and basic thermodynamics</li>
+<li><strong>Linear Algebra</strong> — Familiarity with vector spaces, matrix operations, eigenvalues, and tensor products</li>
+<li><strong>Introductory Probability and Statistics</strong> — Understanding of probability distributions, expected value, Bayesian reasoning, and basic hypothesis testing</li>
+<li><strong>Introduction to Computer Science</strong> — Comfort with algorithms, computational complexity (Big-O notation), and the concept of P vs. NP</li>
+</ul>
+<h3 id="recommended-helpful-but-not-required">Recommended (Helpful but Not Required)</h3>
+<ul>
+<li><strong>Introductory Quantum Mechanics</strong> — One semester covering wave functions, superposition, measurement, entanglement, and the postulates of quantum mechanics</li>
+<li><strong>Microeconomics or Managerial Finance</strong> — Understanding of net present value, return on investment, risk-adjusted returns, and technology adoption curves</li>
+<li><strong>History or Philosophy of Science</strong> — Exposure to how scientific paradigms shift, the sociology of scientific communities, and the problem of distinguishing genuine breakthroughs from hype</li>
+<li><strong>Critical Thinking or Formal Logic</strong> — Ability to identify logical fallacies, cognitive biases, and rhetorical manipulation in technical claims</li>
+</ul>
+<hr />
+<h2 id="topics-covered">Topics Covered</h2>
+<h3 id="part-i-foundations-and-history">Part I: Foundations and History</h3>
+<ol>
+<li>
+<p><strong>What Is Quantum Computing? A Minimal Technical Primer</strong></p>
+<ul>
+<li>Qubits, superposition, entanglement, and interference</li>
+<li>Quantum gates, circuits, and the circuit model of computation</li>
+<li>The theoretical promise: exponential state spaces and quantum parallelism</li>
+<li>What quantum computers can and cannot do (BQP vs. NP)</li>
+</ul>
+</li>
+<li>
+<p><strong>A Detailed History and Timeline of Quantum Computing</strong></p>
+<ul>
+<li>1981 — Feynman proposes quantum simulation</li>
+<li>1985 — Deutsch describes the universal quantum computer</li>
+<li>1994 — Shor's algorithm for factoring (and the cryptography panic begins)</li>
+<li>1995 — Grover's search algorithm</li>
+<li>1996 — First quantum error correction codes (Shor, Steane)</li>
+<li>1998 — First 2-qubit NMR demonstrations</li>
+<li>2001 — IBM/Stanford factor the number 15 on a 7-qubit NMR machine</li>
+<li>2007 — D-Wave announces "commercial" quantum computer (quantum annealing)</li>
+<li>2011 — D-Wave One sold to Lockheed Martin ($10M)</li>
+<li>2013 — Google/NASA purchase D-Wave Two; debate over whether it is truly quantum</li>
+<li>2016 — IBM puts 5-qubit system on the cloud (IBM Quantum Experience)</li>
+<li>2019 — Google claims "quantum supremacy" with 53-qubit Sycamore (solving a problem with no commercial value)</li>
+<li>2020 — China's Jiuzhang photonic system claims supremacy for boson sampling</li>
+<li>2021 — IBM unveils 127-qubit Eagle processor</li>
+<li>2022 — IBM unveils 433-qubit Osprey; announces roadmap to 100,000+ qubits by 2033</li>
+<li>2023 — IBM unveils 1,121-qubit Condor; begins pivot toward "utility-scale" narrative</li>
+<li>2024 — Multiple companies announce "logical qubit" demonstrations with heavy error correction overhead</li>
+<li>2025 — Still zero commercial quantum advantage demonstrated on any real-world problem</li>
+<li>Pattern analysis: At every milestone, proponents claimed viability was "3-5 years away"</li>
+</ul>
+</li>
+<li>
+<p><strong>The Appendix of Overly Optimistic Claims</strong></p>
+<ul>
+<li>Geordie Rose (D-Wave, 2007): "We have built a quantum computer" — reality: a quantum annealer with no proven speedup</li>
+<li>Hartmut Neven (Google, 2019): "Quantum supremacy achieved" — reality: a contrived benchmark with no practical application, later matched by classical supercomputers</li>
+<li>IBM Quantum Roadmap (2020): "Quantum advantage by 2025" — reality: repeatedly revised and redefined</li>
+<li>Startup pitch decks (2018-2024): Cataloged examples of "5-year to commercial viability" claims from Rigetti, IonQ, PsiQuantum, and others</li>
+<li>Political and media amplification: How press releases become headlines become policy</li>
+<li>Historical parallels: Fusion energy ("30 years away for 60 years"), flying cars, nanotechnology self-replicators</li>
+</ul>
+</li>
+</ol>
+<h3 id="part-ii-the-physics-barriers">Part II: The Physics Barriers</h3>
+<ol>
+<li>
+<p><strong>Decoherence: The Fundamental Enemy</strong></p>
+<ul>
+<li>What decoherence is and why it destroys quantum information</li>
+<li>Decoherence timescales across platforms (superconducting, trapped ion, photonic, topological)</li>
+<li>The harsh arithmetic: current decoherence times vs. times needed for useful computation</li>
+<li>Why decoherence is not merely an engineering problem — it is a physics problem</li>
+</ul>
+</li>
+<li>
+<p><strong>Quantum Error Correction: The Staggering Overhead</strong></p>
+<ul>
+<li>The threshold theorem: fault-tolerant quantum computing is theoretically possible <em>if</em> error rates are low enough</li>
+<li>Current physical error rates vs. required thresholds</li>
+<li>The overhead ratio: 1,000-10,000 physical qubits per logical qubit</li>
+<li>Running Shor's algorithm to break RSA-2048: estimated requirement of 20 million physical qubits with current error rates</li>
+<li>The circular dependency: better error correction requires more qubits, more qubits introduce more errors</li>
+</ul>
+</li>
+<li>
+<p><strong>The Cryogenic Bottleneck</strong></p>
+<ul>
+<li>Superconducting qubits require temperatures of 10-15 millikelvin (colder than outer space)</li>
+<li>Dilution refrigerator capacity, cost, and energy consumption</li>
+<li>The wiring problem: each qubit requires multiple control lines from room temperature to millikelvin</li>
+<li>Why you cannot simply "build bigger fridges" — fundamental thermodynamic limits</li>
+<li>Comparison to room-temperature classical computing</li>
+</ul>
+</li>
+<li>
+<p><strong>Qubit Connectivity and the Compilation Problem</strong></p>
+<ul>
+<li>Limited qubit-to-qubit connectivity in real hardware</li>
+<li>SWAP gate overhead to route information across a chip</li>
+<li>The gap between algorithm assumptions (all-to-all connectivity) and hardware reality (nearest-neighbor)</li>
+<li>How compilation overhead erodes theoretical speedups</li>
+</ul>
+</li>
+<li>
+<p><strong>Alternative Hardware Platforms and Why None Have Solved the Problem</strong></p>
+<ul>
+<li>Superconducting circuits (Google, IBM): fast but noisy, cryogenic</li>
+<li>Trapped ions (IonQ, Quantinuum): high fidelity but slow gate speeds, difficult to scale</li>
+<li>Photonic systems (PsiQuantum, Xanadu): room temperature but massive loss rates</li>
+<li>Topological qubits (Microsoft): theoretically robust, but no confirmed existence of non-Abelian anyons after 20+ years</li>
+<li>Neutral atoms (QuEra, Pasqal): promising but early-stage</li>
+<li>Each platform has fundamental physics obstacles, not just engineering challenges</li>
+</ul>
+</li>
+</ol>
+<h3 id="part-iii-the-economics-and-psychology-of-quantum-hype">Part III: The Economics and Psychology of Quantum Hype</h3>
+<ol>
+<li>
+<p><strong>What Is a General Purpose Technology (GPT)?</strong></p>
+<ul>
+<li>Definition and characteristics of GPTs: steam engine, electricity, the internet, semiconductors</li>
+<li>Why GPTs must be broadly applicable, improvable over time, and enable complementary innovations</li>
+<li>Why quantum computing fails the GPT test:<ul>
+<li>Extremely narrow application space (specific optimization, simulation, and cryptographic problems)</li>
+<li>Cannot replace classical computers for general tasks</li>
+<li>No ecosystem of complementary innovations</li>
+<li>Prohibitive cost and infrastructure requirements</li>
+</ul>
+</li>
+<li>Contrast with classical AI/ML, which <em>is</em> emerging as a GPT</li>
+</ul>
+</li>
+<li>
+<p><strong>Investment Risk Analysis: Lessons from History</strong></p>
+<ul>
+<li>Framework: Expected value = probability of success x magnitude of payoff - cost of investment</li>
+<li>Technologies where bold physics bets paid off: transistors, lasers, fiber optics, GPS (atomic clocks), MRI (nuclear magnetic resonance)</li>
+<li>Technologies where investors lost fortunes due to physics limitations: cold fusion, theranos (biology, not physics, but instructive), supersonic commercial aviation (Concorde economics)</li>
+<li>The asymmetry of information: when scientists know the limitations but investors do not</li>
+<li>Case study: Theranos as a template for how charismatic founders exploit information asymmetry</li>
+<li>How to evaluate technology readiness levels (TRLs) honestly</li>
+<li>Quantum computing by TRL standards: still at TRL 2-3 (technology concept formulated, experimental proof of concept)</li>
+</ul>
+</li>
+<li>
+<p><strong>Cognitive Biases in Quantum Computing Investment</strong></p>
+<ul>
+<li><strong>Sunk Cost Fallacy:</strong> "We've invested $10 billion; we can't stop now"</li>
+<li><strong>Confirmation Bias:</strong> Interpreting incremental progress as validation of the entire thesis</li>
+<li><strong>Anchoring:</strong> Fixating on theoretical speedups (exponential!) while ignoring practical overhead</li>
+<li><strong>Bandwagon Effect:</strong> "Google, IBM, and Microsoft are doing it, so it must be viable"</li>
+<li><strong>Dunning-Kruger Effect:</strong> Investors and policymakers who understand neither quantum mechanics nor computational complexity making funding decisions</li>
+<li><strong>Optimism Bias:</strong> Systematically underestimating the difficulty of remaining breakthroughs</li>
+<li><strong>Authority Bias:</strong> Trusting Nobel laureates and corporate research labs without examining their incentive structures</li>
+<li><strong>FOMO (Fear of Missing Out):</strong> Geopolitical competition (US vs. China) driving investment regardless of economic merit</li>
+</ul>
+</li>
+<li>
+<p><strong>Causal Loop Diagrams: Why Quantum Investment Perpetuates Itself</strong></p>
+<ul>
+<li><strong>The Hype Reinforcement Loop:</strong><ul>
+<li>Government/corporate funding → Research papers → Media coverage → Public excitement → Political pressure to fund more → More funding</li>
+</ul>
+</li>
+<li><strong>The Sunk Cost Escalation Loop:</strong><ul>
+<li>Prior investment → Reluctance to write off losses → Continued investment → Need to justify continued investment → Overly optimistic milestones → Prior investment grows</li>
+</ul>
+</li>
+<li><strong>The Career Incentive Loop:</strong><ul>
+<li>Quantum research funding → Faculty positions and graduate students → More papers and grant proposals → Pressure to promise breakthroughs → More funding</li>
+</ul>
+</li>
+<li><strong>The Geopolitical Arms Race Loop:</strong><ul>
+<li>Country A invests → Country B fears falling behind → Country B invests → Country A fears falling behind → Escalating investment regardless of technical merit</li>
+</ul>
+</li>
+<li><strong>The Missing Balancing Loop:</strong><ul>
+<li>Honest assessment of physics barriers → Reduced funding → Fewer researchers → Slower progress → <em>This loop is suppressed by career and institutional incentives</em></li>
+</ul>
+</li>
+<li>Systems dynamics analysis: How these reinforcing loops create a self-sustaining investment bubble</li>
+</ul>
+</li>
+<li>
+<p><strong>The Cryptography Hype: Can Quantum Computers Break Encryption?</strong></p>
+<ul>
+<li>Shor's algorithm: theoretically, yes, for RSA and ECC</li>
+<li>The resource requirements: millions of high-quality logical qubits, running for hours to days</li>
+<li>Current state: the largest number factored by a quantum computer is 21 (and even that used shortcuts)</li>
+<li>Post-quantum cryptography (PQC): NIST has already standardized quantum-resistant algorithms</li>
+<li>The window of vulnerability is likely closing before quantum computers can open it</li>
+<li>"Harvest now, decrypt later" threat: real but overstated — most encrypted data becomes worthless long before million-qubit machines could exist</li>
+<li>The inconvenient truth: even if quantum computers <em>could</em> break current encryption, we have already deployed countermeasures</li>
+</ul>
+</li>
+<li>
+<p><strong>Expert Skeptics: Physicists Who Say It Won't Work</strong></p>
+<ul>
+<li>Gil Kalai (Hebrew University): Mathematical arguments for why quantum error correction cannot scale</li>
+<li>Michel Dyakonov (Université Montpellier): "The case against quantum computing" — fundamental precision requirements are unachievable</li>
+<li>Mikhail Dyakonov's argument: controlling 2^1000 continuous parameters simultaneously is physically impossible</li>
+<li>Leonid Levin (Boston University): Skepticism about the physical realizability of quantum speedups</li>
+<li>Robert Laughlin (Nobel laureate): Questions about whether quantum coherence can be maintained at scale</li>
+<li>Oded Goldreich: Computational complexity perspective on why quantum advantage may not materialize for practical problems</li>
+<li>The asymmetry of incentives: skeptics have no funding to lose; proponents do</li>
+</ul>
+</li>
+</ol>
+<h3 id="part-iv-ethics-alternatives-and-clear-thinking">Part IV: Ethics, Alternatives, and Clear Thinking</h3>
+<ol>
+<li>
+<p><strong>The Ethics of Quantum Computing Education and Careers</strong></p>
+<ul>
+<li>Should universities recruit students into quantum computing PhD programs when commercial jobs may never exist?</li>
+<li>The current job market: almost entirely R&amp;D positions funded by speculative investment</li>
+<li>What happens to quantum computing PhDs if the field contracts?</li>
+<li>The responsibility of professors who know the odds but benefit from grant funding</li>
+<li>Comparison to other speculative fields: string theory, cold fusion research</li>
+<li>The transferable skills argument: is it genuine or is it a rationalization?</li>
+<li>Ethical framework for advising students about high-risk career paths</li>
+</ul>
+</li>
+<li>
+<p><strong>Better Bets: Quantum Sensors and Quantum Communication</strong></p>
+<ul>
+<li>Quantum sensors: already commercially viable and economically productive<ul>
+<li>Atomic clocks (GPS depends on them)</li>
+<li>Quantum magnetometers (medical imaging, mineral exploration)</li>
+<li>Quantum gravimeters (civil engineering, defense)</li>
+</ul>
+</li>
+<li>Quantum key distribution (QKD): niche but deployable today</li>
+<li>Why quantum sensing succeeds where quantum computing fails: sensors need only single qubits or small entangled states, not millions of error-corrected qubits</li>
+<li>Investment comparison: risk-adjusted returns of quantum sensing vs. quantum computing</li>
+</ul>
+</li>
+<li>
+<p><strong>How to Think Clearly About Emerging Technology Claims</strong></p>
+<ul>
+<li>The base rate of technology predictions: most fail</li>
+<li>Red flags in technology hype: unfalsifiable timelines, moving goalposts, appeal to theoretical possibility, suppression of skepticism</li>
+<li>A checklist for evaluating quantum computing claims</li>
+<li>The role of science journalism in amplifying hype</li>
+<li>How to read a quantum computing press release critically</li>
+<li>Applying this framework beyond quantum computing: fusion, AGI, autonomous vehicles, brain-computer interfaces</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="topics-not-covered">Topics NOT Covered</h2>
+<p>This course deliberately excludes or limits the following topics:</p>
+<ul>
+<li><strong>Quantum computing programming tutorials</strong> — We do not teach Qiskit, Cirq, or other quantum SDKs. Students interested in quantum programming should take a dedicated quantum computing course.</li>
+<li><strong>Detailed quantum mechanics derivations</strong> — We assume students have or can acquire basic quantum mechanics knowledge. We do not re-derive the Schrödinger equation or the formalism of density matrices.</li>
+<li><strong>Quantum field theory or particle physics</strong> — These are separate domains; our focus is on quantum information processing hardware.</li>
+<li><strong>Detailed financial modeling or portfolio theory</strong> — We discuss investment risk conceptually but do not teach quantitative finance.</li>
+<li><strong>Advocacy for or against any specific company</strong> — We analyze public claims and technical fundamentals, not stock picks. This is not investment advice.</li>
+<li><strong>Classified or export-controlled information</strong> — All material is drawn from publicly available sources.</li>
+<li><strong>Quantum biology or quantum consciousness</strong> — These speculative fields are outside our scope.</li>
+<li><strong>Detailed post-quantum cryptography algorithms</strong> — We discuss PQC at a high level but do not teach lattice-based or code-based cryptographic constructions.</li>
+</ul>
+<hr />
+<h2 id="learning-objectives-revised-blooms-taxonomy-2001">Learning Objectives (Revised Bloom's Taxonomy, 2001)</h2>
+<p>The 2001 revision of Bloom's Taxonomy (Anderson &amp; Krathwohl) organizes cognitive processes into six levels: <strong>Remember, Understand, Apply, Analyze, Evaluate, and Create.</strong> Below, learning objectives are organized by level, from foundational to advanced.</p>
+<h3 id="level-1-remember">Level 1: Remember</h3>
+<p>Students who complete this course will be able to:</p>
+<p>1.1. <strong>List</strong> the major milestones in the history of quantum computing from 1981 to the present, including key dates, researchers, and claimed achievements.</p>
+<p>1.2. <strong>Identify</strong> the five major qubit hardware platforms (superconducting, trapped ion, photonic, topological, neutral atom) and their primary physical characteristics.</p>
+<p>1.3. <strong>Recall</strong> the definition of a General Purpose Technology (GPT) and name at least four historical examples.</p>
+<p>1.4. <strong>State</strong> the approximate number of physical qubits required per logical qubit under current error correction schemes (1,000-10,000).</p>
+<p>1.5. <strong>Name</strong> at least five cognitive biases (sunk cost fallacy, confirmation bias, anchoring, bandwagon effect, optimism bias) and provide a one-sentence definition of each.</p>
+<p>1.6. <strong>List</strong> at least three prominent physicists or mathematicians who have publicly expressed skepticism about the feasibility of large-scale quantum computing.</p>
+<p>1.7. <strong>Recall</strong> that no quantum computer has demonstrated commercial advantage on any real-world problem as of 2025.</p>
+<h3 id="level-2-understand">Level 2: Understand</h3>
+<p>Students who complete this course will be able to:</p>
+<p>2.1. <strong>Explain</strong> in plain language why decoherence is a fundamental obstacle to scaling quantum computers, not merely an engineering challenge to be solved with better manufacturing.</p>
+<p>2.2. <strong>Describe</strong> the circular dependency in quantum error correction: more qubits are needed to correct errors, but more qubits introduce more errors.</p>
+<p>2.3. <strong>Summarize</strong> the key arguments of at least two expert skeptics (e.g., Kalai, Dyakonov) regarding the physical realizability of fault-tolerant quantum computing.</p>
+<p>2.4. <strong>Explain</strong> why quantum computing does not meet the criteria for a General Purpose Technology, contrasting it with electricity, the transistor, or the internet.</p>
+<p>2.5. <strong>Describe</strong> the reinforcing feedback loops (hype, sunk cost, career incentive, geopolitical competition) that sustain quantum computing investment despite absent returns.</p>
+<p>2.6. <strong>Paraphrase</strong> the distinction between quantum supremacy (solving a contrived problem faster) and quantum advantage (solving a commercially valuable problem faster or cheaper).</p>
+<p>2.7. <strong>Interpret</strong> a quantum computing company's roadmap and explain what assumptions about physics breakthroughs are embedded in it.</p>
+<p>2.8. <strong>Explain</strong> why the threat of quantum computers breaking RSA encryption may be closing before quantum computers are capable of exploiting it, due to post-quantum cryptography standardization.</p>
+<h3 id="level-3-apply">Level 3: Apply</h3>
+<p>Students who complete this course will be able to:</p>
+<p>3.1. <strong>Calculate</strong> the approximate physical qubit requirements for running Shor's algorithm on RSA-2048, given published estimates of error rates and error correction overhead.</p>
+<p>3.2. <strong>Apply</strong> an investment risk analysis framework (expected value = probability x payoff - cost) to a hypothetical quantum computing venture, and compare it to an alternative investment in quantum sensing.</p>
+<p>3.3. <strong>Use</strong> a cognitive bias checklist to identify biases present in a quantum computing press release, investor pitch, or news article.</p>
+<p>3.4. <strong>Construct</strong> a basic causal loop diagram illustrating a reinforcing feedback loop in quantum computing investment.</p>
+<p>3.5. <strong>Apply</strong> technology readiness level (TRL) criteria to classify the current state of at least two quantum computing platforms.</p>
+<p>3.6. <strong>Use</strong> the historical pattern of overly optimistic quantum computing predictions to estimate the reliability of a current prediction about commercial quantum advantage timelines.</p>
+<p>3.7. <strong>Demonstrate</strong> how to read a quantum computing research paper's abstract and extract the key assumptions, limitations, and caveats that are often omitted from press coverage.</p>
+<h3 id="level-4-analyze">Level 4: Analyze</h3>
+<p>Students who complete this course will be able to:</p>
+<p>4.1. <strong>Compare and contrast</strong> the physics barriers facing at least three quantum computing hardware platforms, identifying which barriers are engineering challenges and which are fundamental physics constraints.</p>
+<p>4.2. <strong>Analyze</strong> the incentive structures of quantum computing researchers, startup founders, corporate R&amp;D labs, venture capitalists, and government funding agencies, and explain how these incentives create systematic bias toward optimism.</p>
+<p>4.3. <strong>Differentiate</strong> between incremental progress (e.g., slightly lower error rates, slightly more qubits) and the transformative breakthroughs actually required for commercial viability.</p>
+<p>4.4. <strong>Examine</strong> the historical analogy between quantum computing hype and at least two other technology hype cycles (e.g., fusion energy, nanotechnology, autonomous vehicles), identifying structural similarities and differences.</p>
+<p>4.5. <strong>Deconstruct</strong> a quantum computing company's claim of "quantum advantage" by identifying the benchmark used, the classical baseline compared against, and the commercial relevance of the problem solved.</p>
+<p>4.6. <strong>Analyze</strong> the gap between the theoretical computational complexity advantages of quantum algorithms and the practical overhead introduced by error correction, limited connectivity, and compilation.</p>
+<p>4.7. <strong>Distinguish</strong> between the economic viability of quantum computing, quantum sensing, and quantum communication, explaining why the physics requirements differ fundamentally.</p>
+<h3 id="level-5-evaluate">Level 5: Evaluate</h3>
+<p>Students who complete this course will be able to:</p>
+<p>5.1. <strong>Assess</strong> the probability that fault-tolerant quantum computing at commercially relevant scale (1 million+ logical qubits) will be achieved within 10, 20, or 50 years, defending the assessment with specific physics arguments.</p>
+<p>5.2. <strong>Critique</strong> a quantum computing company's investor presentation, identifying unsupported claims, omitted risks, misleading benchmarks, and cognitive biases embedded in the narrative.</p>
+<p>5.3. <strong>Judge</strong> the ethical implications of recruiting students into quantum computing PhD programs given current evidence about commercial viability and career prospects.</p>
+<p>5.4. <strong>Evaluate</strong> whether government funding of quantum computing research is justified as basic science investment, as national security investment, or as economic development investment, considering the opportunity cost of alternative investments.</p>
+<p>5.5. <strong>Appraise</strong> the strength of the expert skeptics' arguments (Kalai, Dyakonov, etc.) against the proponents' arguments, identifying which claims are supported by rigorous analysis and which rely on speculation or analogy.</p>
+<p>5.6. <strong>Rank</strong> at least five technology investment opportunities (quantum computing, quantum sensing, classical AI hardware, fusion energy, advanced batteries) by risk-adjusted expected return, defending the ranking with evidence from the course.</p>
+<p>5.7. <strong>Assess</strong> media coverage of a quantum computing breakthrough, rating its accuracy, completeness, and potential to mislead non-expert readers.</p>
+<h3 id="level-6-create">Level 6: Create</h3>
+<p>Students who complete this course will be able to:</p>
+<p>6.1. <strong>Design</strong> an investment risk assessment framework for emerging physics-based technologies, incorporating probability estimation, timeline analysis, cognitive bias detection, and opportunity cost comparison.</p>
+<p>6.2. <strong>Compose</strong> a written brief (suitable for a non-technical executive, policymaker, or investor) that accurately communicates the current state, genuine prospects, and key risks of quantum computing.</p>
+<p>6.3. <strong>Construct</strong> a complete causal loop diagram (systems dynamics model) of the quantum computing investment ecosystem, including all major reinforcing and balancing loops, and identify leverage points where honest assessment could break the hype cycle.</p>
+<p>6.4. <strong>Develop</strong> a "red team" analysis of a quantum computing company's roadmap, systematically identifying the physics breakthroughs assumed, the probability of each, and the consequences if any one fails.</p>
+<p>6.5. <strong>Propose</strong> a balanced national quantum technology investment strategy that allocates resources across quantum computing research, quantum sensing commercialization, quantum communication infrastructure, and post-quantum cryptography deployment, with explicit risk-adjusted justification for each allocation.</p>
+<p>6.6. <strong>Create</strong> an "Overly Optimistic Claims" tracker: a structured database documenting quantum computing predictions, their stated timelines, their actual outcomes, and the lessons each teaches about technology forecasting.</p>
+<p>6.7. <strong>Author</strong> a critical review of a quantum computing research paper or press release, suitable for publication in a science policy or technology assessment journal, applying the analytical frameworks learned in the course.</p>
+<hr />
+<h2 id="assessment-methods">Assessment Methods</h2>
+<table>
+<thead>
+<tr>
+<th>Assessment</th>
+<th>Weight</th>
+<th>Bloom's Levels Targeted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Historical Timeline &amp; Claims Analysis (research paper)</td>
+<td>15%</td>
+<td>Remember, Understand, Analyze</td>
+</tr>
+<tr>
+<td>Physics Barriers Technical Report</td>
+<td>20%</td>
+<td>Understand, Apply, Analyze</td>
+</tr>
+<tr>
+<td>Cognitive Bias Case Study (press release or pitch deck analysis)</td>
+<td>15%</td>
+<td>Apply, Analyze, Evaluate</td>
+</tr>
+<tr>
+<td>Causal Loop Diagram &amp; Systems Analysis</td>
+<td>15%</td>
+<td>Apply, Analyze, Create</td>
+</tr>
+<tr>
+<td>Investment Risk Comparison (quantum computing vs. alternatives)</td>
+<td>15%</td>
+<td>Apply, Evaluate, Create</td>
+</tr>
+<tr>
+<td>Final Project: Executive Brief or Red Team Analysis</td>
+<td>20%</td>
+<td>Evaluate, Create</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="required-readings-selected">Required Readings (Selected)</h2>
+<ul>
+<li>Dyakonov, M. (2020). <em>Will We Ever Have a Quantum Computer?</em> Springer.</li>
+<li>Kalai, G. (2016). "The Quantum Computer Puzzle." <em>Notices of the AMS</em>, 63(5), 508-516.</li>
+<li>National Academies of Sciences (2019). <em>Quantum Computing: Progress and Prospects.</em> National Academies Press. (Especially Chapter 6: "Key Findings and Recommendations")</li>
+<li>Aaronson, S. (2008). "The Limits of Quantum Computers." <em>Scientific American</em>, March 2008. (Nuanced view from a proponent)</li>
+<li>Preskill, J. (2018). "Quantum Computing in the NISQ Era and Beyond." <em>Quantum</em>, 2, 79. (The originator of "NISQ" acknowledging limitations)</li>
+</ul>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This course is designed to make students better thinkers about technology claims, investment risk, and the sociology of science — skills that are valuable regardless of whether quantum computing ultimately succeeds or fails. The best possible outcome of this course is that students leave equipped to evaluate any bold technology claim with rigor, humility, and clear-eyed realism.*</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../sims/graph-viewer/" class="md-footer__link md-footer__link--next" aria-label="Next: Graph Viewer">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Graph Viewer
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../js/extra.js"></script>
+      
+        <script src="../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

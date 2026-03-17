@@ -1,0 +1,1164 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/learning-graph/logs/learning-graph-iteration/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Learning Graph Iteration Log: Centering the Non-Technical Investor - A Skeptic's Guide to Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-XXXXXXXXXX"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-XXXXXXXXXX",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Learning Graph Iteration Log: Centering the Non-Technical Investor - A Skeptic's Guide to Quantum Computing" >
+      
+        <meta  property="og:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/learning-graph/logs/learning-graph-iteration.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/learning-graph/logs/learning-graph-iteration/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Learning Graph Iteration Log: Centering the Non-Technical Investor - A Skeptic's Guide to Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/learning-graph/logs/learning-graph-iteration.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#learning-graph-iteration-log-centering-the-non-technical-investor" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-header__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            A Skeptic's Guide to Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Learning Graph Iteration Log: Centering the Non-Technical Investor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-nav__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    A Skeptic's Guide to Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../chapters/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../sims/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    MicroSims
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../appendices/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Appendices
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Learning Graph
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../prompts/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Problem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iteration-1-cut-the-physics-formalism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iteration 1: Cut the Physics Formalism
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iteration-2-the-vc-investor-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iteration 2: The VC Investor Test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iteration-3-reframe-everything-through-should-i-invest" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iteration 3: Reframe Everything Through "Should I Invest?"
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Iteration 3: Reframe Everything Through &#34;Should I Invest?&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-was-removed-or-simplified" class="md-nav__link">
+    <span class="md-ellipsis">
+      What was removed or simplified
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-was-added" class="md-nav__link">
+    <span class="md-ellipsis">
+      What was added
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-reframing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section reframing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Distribution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-lesson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Lesson
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outcome
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/learning-graph/logs/learning-graph-iteration.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="learning-graph-iteration-log-centering-the-non-technical-investor">Learning Graph Iteration Log: Centering the Non-Technical Investor</h1>
+<p><strong>Date:</strong> 2026-03-16
+<strong>Session Focus:</strong> Iterating on the concept list to serve an audience of investors, policymakers, and economists — not quantum physicists.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>The first draft of the concept list was generated the way most quantum computing courses are structured: heavy on physics fundamentals, algorithm internals, and hardware details. It contained 315 concepts, with roughly 100 of them devoted to topics like Hilbert Space, Density Matrix, Bra-Ket Notation, CNOT Gates, Hadamard Gates, Surface Codes, Magic State Distillation, Transmon Qubits, Josephson Junctions, and BQP Complexity Class.</p>
+<p>This is exactly the wrong emphasis for a book titled "A Skeptic's Guide." The audience is not learning how to build a quantum computer. They are learning how to evaluate whether quantum computing will ever make money — and whether they should invest in it.</p>
+<h2 id="iteration-1-cut-the-physics-formalism">Iteration 1: Cut the Physics Formalism</h2>
+<p>The first revision reduced the list from 315 to 230 concepts by removing:</p>
+<ul>
+<li><strong>Quantum mechanics formalism</strong> (Hilbert Space, Density Matrix, Bra-Ket Notation, Tensor Product, T1/T2 relaxation times, Thermal Noise)</li>
+<li><strong>Individual gate types</strong> (CNOT, Hadamard, Toffoli, SWAP, Bloch Sphere, single/two-qubit gates)</li>
+<li><strong>Algorithm internals</strong> (VQE, QAOA, Quantum Fourier Transform, Boson Sampling, Random Circuit Sampling)</li>
+<li><strong>Complexity theory details</strong> (BQP, NP-Hard, Polynomial Time, Exponential Time)</li>
+<li><strong>Error correction internals</strong> (Surface Code, Stabilizer Codes, Magic State Distillation, Transversal Gates, Code Distance)</li>
+<li><strong>Hardware implementation details</strong> (Transmon, Josephson Junction, Ion Trap Technology, Optical Tweezers, Rydberg Atoms, Silicon Spin Qubits, Majorana Fermions, Non-Abelian Anyons)</li>
+<li><strong>Detailed cryptography</strong> (Elliptic Curve Crypto, Lattice-Based Cryptography, Cryptographic Key Length)</li>
+</ul>
+<p>Added synthesis and application concepts (Executive Brief Writing, Red Team Analysis, National QC Strategy, Claims Tracker).</p>
+<h2 id="iteration-2-the-vc-investor-test">Iteration 2: The VC Investor Test</h2>
+<p>We then asked: "Put yourself in the position of a venture capital investor without a technical background. Is this list realistic?"</p>
+<p>The honest answer was no. A non-technical VC reading concepts like "Threshold Theorem," "Quantum Circuit," "Grover's Search Algorithm," or "NISQ Era" would glaze over. They don't care about the mechanism — they care about the consequence.</p>
+<p>Key insights from this review:</p>
+<ol>
+<li><strong>VCs don't need algorithm names.</strong> They need to know: "What can it supposedly do? Why can't it actually do it yet?"</li>
+<li><strong>VCs don't need error correction math.</strong> They need to know: "It takes 1,000 physical qubits to make 1 usable qubit, and we need a million usable ones. Do the math."</li>
+<li><strong>VCs DO need business concepts</strong> that were completely missing: revenue models, customer demand, exit strategies, burn rates, comparable company analysis, fiduciary duty.</li>
+</ol>
+<h2 id="iteration-3-reframe-everything-through-should-i-invest">Iteration 3: Reframe Everything Through "Should I Invest?"</h2>
+<p>The final revision restructured every section through an investment lens:</p>
+<h3 id="what-was-removed-or-simplified">What was removed or simplified</h3>
+<table>
+<thead>
+<tr>
+<th>Original Concept</th>
+<th>Why It Was Cut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quantum Gate, Quantum Circuit</td>
+<td>Mechanism, not consequence</td>
+</tr>
+<tr>
+<td>Threshold Theorem</td>
+<td>Replaced with "1000 Physical per 1 Logical"</td>
+</tr>
+<tr>
+<td>NISQ Era</td>
+<td>Replaced with "No Real-World Advantage Yet"</td>
+</tr>
+<tr>
+<td>Quantum Parallelism</td>
+<td>Folded into "Theoretical Promise of QC"</td>
+</tr>
+<tr>
+<td>Surface Code, Stabilizer Codes</td>
+<td>Too deep for the audience</td>
+</tr>
+<tr>
+<td>Transmon Qubit, Josephson Junction</td>
+<td>Hardware internals irrelevant to investment decision</td>
+</tr>
+</tbody>
+</table>
+<h3 id="what-was-added">What was added</h3>
+<table>
+<thead>
+<tr>
+<th>New Concept</th>
+<th>Why It Matters to a VC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue Model Problem</td>
+<td>No one has figured out how to charge for QC</td>
+</tr>
+<tr>
+<td>Who Pays for QC?</td>
+<td>There are no paying customers</td>
+</tr>
+<tr>
+<td>Customer Demand Evidence</td>
+<td>Demand is speculative, not demonstrated</td>
+</tr>
+<tr>
+<td>No Paying Customers</td>
+<td>The bottom line</td>
+</tr>
+<tr>
+<td>Classical Alternatives Cheaper</td>
+<td>The competition is getting better faster</td>
+</tr>
+<tr>
+<td>Cost Per Computation</td>
+<td>QC is orders of magnitude more expensive</td>
+</tr>
+<tr>
+<td>Total Cost of Ownership</td>
+<td>The full economic picture</td>
+</tr>
+<tr>
+<td>Exit Strategy Problem</td>
+<td>How do you get your money back?</td>
+</tr>
+<tr>
+<td>Acqui-Hire as Only Exit</td>
+<td>The realistic endgame for most QC startups</td>
+</tr>
+<tr>
+<td>When to Cut Losses</td>
+<td>The question every QC investor avoids</td>
+</tr>
+<tr>
+<td>IonQ IPO and Stock Decline</td>
+<td>Concrete case study</td>
+</tr>
+<tr>
+<td>Rigetti Financial Struggles</td>
+<td>Another concrete case study</td>
+</tr>
+<tr>
+<td>D-Wave Revenue Reality</td>
+<td>17 years in, minimal revenue</td>
+</tr>
+<tr>
+<td>McKinsey $450B Projection</td>
+<td>Consultant hype driving investment</td>
+</tr>
+<tr>
+<td>Fiduciary Responsibility</td>
+<td>Legal obligation to evaluate honestly</td>
+</tr>
+<tr>
+<td>Board-Level QC Questions</td>
+<td>What a board member should ask</td>
+</tr>
+<tr>
+<td>Evaluating a Pitch Deck</td>
+<td>Practical skill for the audience</td>
+</tr>
+<tr>
+<td>FOMO Drives Bad QC Decisions</td>
+<td>Added at user request — the emotional driver</td>
+</tr>
+</tbody>
+</table>
+<h3 id="section-reframing">Section reframing</h3>
+<ul>
+<li>"Quantum Computing Fundamentals" became <strong>"What Is Quantum Computing? (Plain Language)"</strong> — 9 concepts instead of 27</li>
+<li>"Quantum Error Correction" became <strong>"Error Correction Overhead"</strong> — focused on the consequence (1000:1 ratio, million qubit requirement) not the mechanism</li>
+<li>"Hardware Platforms" became <strong>"Competing Hardware Approaches"</strong> — 7 concepts emphasizing "each platform has fatal flaws"</li>
+<li>"Quantum Algorithms" became <strong>"The Algorithms That Justify It"</strong> — framed as claims to evaluate, not techniques to learn</li>
+</ul>
+<h2 id="final-distribution">Final Distribution</h2>
+<p>The final 241 concepts break down as:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Count</th>
+<th>%</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Economics and Investment</td>
+<td>29</td>
+<td>12.0%</td>
+<td>Largest category — appropriate for this book</td>
+</tr>
+<tr>
+<td>Physics Barriers</td>
+<td>16</td>
+<td>6.6%</td>
+<td>Just enough to understand why it doesn't work</td>
+</tr>
+<tr>
+<td>Cognitive Biases</td>
+<td>16</td>
+<td>6.6%</td>
+<td>Core analytical framework</td>
+</tr>
+<tr>
+<td>History and Timeline</td>
+<td>14</td>
+<td>5.8%</td>
+<td>Pattern of broken promises</td>
+</tr>
+<tr>
+<td>Technology Assessment</td>
+<td>14</td>
+<td>5.8%</td>
+<td>TRL, hype cycles, base rates</td>
+</tr>
+<tr>
+<td>Ethics and Careers</td>
+<td>14</td>
+<td>5.8%</td>
+<td>Including FOMO addition</td>
+</tr>
+<tr>
+<td>Critical Thinking</td>
+<td>14</td>
+<td>5.8%</td>
+<td>Practical evaluation tools</td>
+</tr>
+<tr>
+<td>Hype and Claims</td>
+<td>13</td>
+<td>5.4%</td>
+<td>Documented evidence</td>
+</tr>
+<tr>
+<td>General Purpose Technology</td>
+<td>13</td>
+<td>5.4%</td>
+<td>Why QC fails the GPT test</td>
+</tr>
+<tr>
+<td>Systems Thinking</td>
+<td>12</td>
+<td>5.0%</td>
+<td>Causal loops explaining continued investment</td>
+</tr>
+<tr>
+<td>Breakthroughs Required</td>
+<td>12</td>
+<td>5.0%</td>
+<td>The joint probability argument</td>
+</tr>
+<tr>
+<td>Historical Parallels</td>
+<td>12</td>
+<td>5.0%</td>
+<td>Successes and failures to compare against</td>
+</tr>
+<tr>
+<td>Better Alternatives</td>
+<td>11</td>
+<td>4.6%</td>
+<td>Quantum sensing, classical AI</td>
+</tr>
+<tr>
+<td>Practical Application</td>
+<td>10</td>
+<td>4.1%</td>
+<td>Executive briefs, red team analysis</td>
+</tr>
+<tr>
+<td>Foundations</td>
+<td>9</td>
+<td>3.7%</td>
+<td>Minimal QC primer</td>
+</tr>
+<tr>
+<td>Expert Skeptics</td>
+<td>9</td>
+<td>3.7%</td>
+<td>Named experts and their arguments</td>
+</tr>
+<tr>
+<td>Algorithms and Claims</td>
+<td>8</td>
+<td>3.3%</td>
+<td>What's claimed, not how it works</td>
+</tr>
+<tr>
+<td>Cryptography Threat</td>
+<td>8</td>
+<td>3.3%</td>
+<td>Overstated threat analysis</td>
+</tr>
+<tr>
+<td>Hardware Platforms</td>
+<td>7</td>
+<td>2.9%</td>
+<td>Brief comparison only</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-lesson">Key Lesson</h2>
+<p>The natural instinct when building a course about a technology is to teach the technology first and then evaluate it. For a skeptic's guide aimed at non-technical decision-makers, the right approach is the opposite: <strong>teach evaluation frameworks first, then provide just enough technical context to apply them.</strong> The physics exists to serve the argument, not the other way around.</p>
+<p>The concept list went from being a quantum computing course with some economics bolted on, to being an investment risk analysis course with quantum computing as the case study. That reframing is the entire point of the book.</p>
+<h2 id="outcome">Outcome</h2>
+<p>The user was very happy with the final result. The iterative process of challenging the concept list from the perspective of the target audience — rather than the subject matter — produced a significantly stronger learning graph that serves the book's actual thesis.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+        <script src="../../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
