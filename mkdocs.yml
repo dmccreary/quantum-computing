@@ -12,40 +12,73 @@ nav:
   - Chapters:
     - Overview: chapters/index.md
     - 1. What Is Quantum Computing?:
-      - Chapter: chapters/01-what-is-quantum-computing/index.md
+      - Content: chapters/01-what-is-quantum-computing/index.md
       - Quiz: chapters/01-what-is-quantum-computing/quiz.md
+      - References: chapters/01-what-is-quantum-computing/references.md
     - 2. Quantum Algorithms and Limits:
-      - Chapter: chapters/02-quantum-algorithms-and-limits/index.md
+      - Content: chapters/02-quantum-algorithms-and-limits/index.md
       - Quiz: chapters/02-quantum-algorithms-and-limits/quiz.md
+      - References: chapters/02-quantum-algorithms-and-limits/references.md
     - 3. History of QC Promises:
-      - Chapter: chapters/03-history-of-quantum-computing/index.md
+      - Content: chapters/03-history-of-quantum-computing/index.md
       - Quiz: chapters/03-history-of-quantum-computing/quiz.md
+      - References: chapters/03-history-of-quantum-computing/references.md
     - 4. Overly Optimistic Claims:
-      - Chapter: chapters/04-catalog-of-optimistic-claims/index.md
+      - Content: chapters/04-catalog-of-optimistic-claims/index.md
       - Quiz: chapters/04-catalog-of-optimistic-claims/quiz.md
+      - References: chapters/04-catalog-of-optimistic-claims/references.md
     - 5. Physics Barriers and Hardware:
-      - Chapter: chapters/05-physics-barriers-and-hardware/index.md
+      - Content: chapters/05-physics-barriers-and-hardware/index.md
       - Quiz: chapters/05-physics-barriers-and-hardware/quiz.md
-    - 6. Quantum Encryption Threat: chapters/06-quantum-encryption-threat/index.md
-    - 7. General Purpose Technology: chapters/07-general-purpose-technology/index.md
-    - 8. Investment Risk Analysis: chapters/08-investment-risk-analysis/index.md
-    - 9. Company Case Studies: chapters/09-company-case-studies/index.md
-    - 10. Technology Assessment: chapters/10-technology-assessment/index.md
-    - 11. Cognitive Biases: chapters/11-cognitive-biases/index.md
-    - 12. Skeptics, Ethics, Careers: chapters/12-expert-skeptics-ethics-careers/index.md
-    - 13. Systems Thinking: chapters/13-systems-thinking-causal-loops/index.md
+      - References: chapters/05-physics-barriers-and-hardware/references.md
+    - 6. Quantum Encryption Threat:
+      - Content: chapters/06-quantum-encryption-threat/index.md
+      - Quiz: chapters/06-quantum-encryption-threat/quiz.md
+      - References: chapters/06-quantum-encryption-threat/references.md
+    - 7. General Purpose Technology:
+      - Content: chapters/07-general-purpose-technology/index.md
+      - Quiz: chapters/07-general-purpose-technology/quiz.md
+      - References: chapters/07-general-purpose-technology/references.md
+    - 8. Investment Risk Analysis:
+      - Content: chapters/08-investment-risk-analysis/index.md
+      - Quiz: chapters/08-investment-risk-analysis/quiz.md
+      - References: chapters/08-investment-risk-analysis/references.md
+    - 9. Company Case Studies:
+      - Content: chapters/09-company-case-studies/index.md
+      - Quiz: chapters/09-company-case-studies/quiz.md
+      - References: chapters/09-company-case-studies/references.md
+    - 10. Technology Assessment:
+      - Content: chapters/10-technology-assessment/index.md
+      - Quiz: chapters/10-technology-assessment/quiz.md
+      - References: chapters/10-technology-assessment/references.md
+    - 11. Cognitive Biases:
+      - Content: chapters/11-cognitive-biases/index.md
+      - Quiz: chapters/11-cognitive-biases/quiz.md
+      - References: chapters/11-cognitive-biases/references.md
+    - 12. Skeptics, Ethics, Careers:
+      - Content: chapters/12-expert-skeptics-ethics-careers/index.md
+      - Quiz: chapters/12-expert-skeptics-ethics-careers/quiz.md
+      - References: chapters/12-expert-skeptics-ethics-careers/references.md
+    - 13. Systems Thinking:
+      - Content: chapters/13-systems-thinking-causal-loops/index.md
+      - Quiz: chapters/13-systems-thinking-causal-loops/quiz.md
+      - References: chapters/13-systems-thinking-causal-loops/references.md
     - 14. Better Alternatives:
-      - Chapter: chapters/14-better-alternatives/index.md
+      - Content: chapters/14-better-alternatives/index.md
       - Quiz: chapters/14-better-alternatives/quiz.md
+      - References: chapters/14-better-alternatives/references.md
     - 15. Historical Parallels:
-      - Chapter: chapters/15-historical-parallels/index.md
+      - Content: chapters/15-historical-parallels/index.md
       - Quiz: chapters/15-historical-parallels/quiz.md
+      - References: chapters/15-historical-parallels/references.md
     - 16. Breakthroughs Required:
-      - Chapter: chapters/16-breakthroughs-required/index.md
+      - Content: chapters/16-breakthroughs-required/index.md
       - Quiz: chapters/16-breakthroughs-required/quiz.md
+      - References: chapters/16-breakthroughs-required/references.md
     - 17. Critical Thinking:
-      - Chapter: chapters/17-critical-thinking-application/index.md
+      - Content: chapters/17-critical-thinking-application/index.md
       - Quiz: chapters/17-critical-thinking-application/quiz.md
+      - References: chapters/17-critical-thinking-application/references.md
 
   - MicroSims:
     - List of MicroSims: sims/index.md

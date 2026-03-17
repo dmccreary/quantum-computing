@@ -347,8 +347,8 @@ When finished creating a new MicroSim, add the new sim to `mkdocs.yml` nav under
 
 ---
 
-## Token Efficiency: Prefer Serial Over Parallel Processing
+## Token Efficiency: Serial Processing Only
 
 These skills target teachers on the **Claude Pro plan**, which has a limited token budget. Teachers are **not sensitive to run times** — a task that takes 3 minutes instead of 1 minute is fine, but a task that burns excess tokens means they can do fewer tasks.
 
-Always default to serial processing (one Task agent) unless the user explicitly requests speed or parallel execution. Each parallel Task agent costs ~12K tokens in startup overhead.
+**NEVER use parallel agents unless the user explicitly requests it.** Always use a single serial agent for all generation tasks (quizzes, glossaries, FAQs, chapter content, MicroSims, etc.). Each parallel Task agent costs ~12K tokens in startup overhead, and spawning 4 agents wastes ~36K tokens that could be used for actual content generation. Do not offer parallel execution as an option — just use serial.
