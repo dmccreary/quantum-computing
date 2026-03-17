@@ -12,19 +12,24 @@ toc:
 </style>
 ![](./img/cover.png)
 
-Welcome to the interactive intelligent textbook about quantum computing.
-This book is a guide to non-technical people that want to understand
-why there is so much interest in quantum computing and why it may
-never be economically practical.
+Welcome to *A Skeptic's Guide to Quantum Computing* — an interactive
+intelligent textbook for investors, policymakers, students, and anyone
+who wants to evaluate quantum computing claims with evidence rather
+than hype.
 
-Our goal is to help everyone curious about quantum computing take
-an realistic view of the many physics challenges in involved in
-quantum computing and how difficult it will be to overcome these
-challenges.
+Over $100 billion has been invested in quantum computing worldwide,
+yet no company has generated a single dollar of commercial return.
+This book examines why — tracing the physics barriers, the economics,
+the cognitive biases, and the sociology of technology hype that sustain
+investment despite absent results.
 
-We also cover the history of quantum computing and some of the past
-promises and predictions made about quantum computing and why they
-were made but did not come to be accurate.
+Across 17 chapters you will learn what quantum computing can and cannot
+do, why decoherence and error correction make large-scale machines
+extraordinarily difficult to build, how cognitive biases like sunk cost
+reasoning and FOMO drive continued investment, and what better
+alternatives exist. The book includes interactive simulations, quizzes,
+annotated references, and a 241-term glossary.
 
-Finally, we look at the systemic bias that take hold of advocates of 
-quantum computing and why unrealistic exceptions will continue.
+This book is not anti-quantum — it is pro-evidence. Where quantum
+technologies deliver real value, we say so. Where claims outstrip
+reality, we document the gap with data.
