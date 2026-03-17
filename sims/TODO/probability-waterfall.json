@@ -1,0 +1,14 @@
+{
+  "sim_id": "probability-waterfall",
+  "diagram_name": "Probability Sensitivity Waterfall",
+  "chapter_number": 16,
+  "chapter_title": "The Breakthroughs Required for Viability",
+  "chapter_dir": "16-breakthroughs-required",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** probability-waterfall<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nBloom Taxonomy: Evaluate (L5)\nBloom Verb: assess, critique, justify\nLearning Objective: Students will assess how sensitive the joint probability is to changes in individual breakthrough estimates, critique the claim that optimism about any single breakthrough significantly changes the overall picture, and justify why the joint probability remains low even under generous assumptions.\n\nInstructional Rationale: A waterfall chart is appropriate for the Evaluate objective because it visually demonstrates how each breakthrough's probability multiplicatively reduces the total, making it clear that no single generous estimate can rescue the joint probability.\n\nChart type: Waterfall (cascading bar chart)\n\nX-axis: Ten breakthroughs (categorical, abbreviated names)\nY-axis: Cumulative probability (logarithmic scale, 100% to 0.0001%)\n\nBars:\n- Starting value: 100% (before any breakthrough is required)\n- Each bar drops from the previous cumulative value by the factor (1 - P_i)\n- Bar color gradient: starts green (#388E3C) at high cumulative probability, transitions through yellow (#FFC107) to red (#E53935) as probability drops\n\nData (using \"generous\" estimates):\n1. Start: 100%\n2. After Error Rates (30%): 30%\n3. After Qubit Count (40%): 12%\n4. After Coherence (35%): 4.2%\n5. After Connectivity (40%): 1.68%\n6. After Cryogenics (30%): 0.504%\n7. After Algorithms (20%): 0.101%\n8. After Cost (15%): 0.015%\n9. After Error Correction (25%): 0.0038%\n10. After Control Electronics (40%): 0.0015%\n11. After Software (50%): 0.00076%\n\nFinal bar: highlighted in bold red with annotation \"Final: ~1 in 131,000\"\n\nInteractive features:\n- Hover over each bar: tooltip showing breakthrough name, individual probability, cumulative probability, and \"equivalent to [everyday comparison]\"\n- Dropdown to switch between \"Pessimistic\", \"Generous\", \"Very Optimistic\", and \"Proponent Claims\" presets\n- Each preset recalculates the waterfall\n- Annotation line at 1%: \"Below this line, rational investors allocate minimal capital\"\n- Annotation line at 0.01%: \"Below this line, only speculative 'lottery ticket' allocation is justified\"\n\nTitle: \"How Joint Probability Collapses: The Waterfall of Required Breakthroughs\"\nCanvas: Responsive width, 500px height\nBackground: aliceblue\n\nImplementation: Chart.js waterfall chart (stacked bar hack), custom tooltip, preset buttons"
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hype Reinforcement Loop</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">Hype Reinforcement Loop</div>
+
+    <div id="legend">
+        <div class="legend-title">Loop Types</div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #3F51B5;"></span> Hype Loop Node
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #607D8B;"></span> Balancing Node
+        </div>
+        <div class="legend-edge">
+            <span class="legend-line" style="background: #FF7043;"></span> Reinforcing (+)
+        </div>
+        <div class="legend-edge">
+            <span class="legend-line" style="background: #607D8B;"></span> Balancing (-)
+        </div>
+        <div class="legend-instructions">Click a node to highlight its loop path.<br>Click empty space to reset.</div>
+    </div>
+
+    <div id="right-panel">
+        <div id="panel-title">Hype Reinforcement Loop</div>
+        <div id="panel-body">Click on any node to see its role in the hype cycle. The reinforcing loop (orange arrows) shows how hype amplifies itself. The balancing loop (gray arrows) shows how reality can dampen the cycle.</div>
+    </div>
+
+    <div id="loop-label">
+        <div class="loop-r">R</div>
+        <div class="loop-subtitle">Reinforcing Loop</div>
+    </div>
+
+    <div id="network"></div>
+
+    <script src="hype-reinforcement-loop.js"></script>
+</body>
+</html>

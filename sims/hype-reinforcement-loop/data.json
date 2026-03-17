@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Media\nCoverage",
+      "title": "Journalists amplify quantum computing announcements, often without technical scrutiny, creating an impression of imminent breakthroughs.",
+      "category": "reinforcing",
+      "x": 0,
+      "y": -200
+    },
+    {
+      "id": 2,
+      "label": "Public\nExcitement",
+      "title": "Widespread media coverage generates public enthusiasm and a sense that quantum computing will transform industries soon.",
+      "category": "reinforcing",
+      "x": 175,
+      "y": -100
+    },
+    {
+      "id": 3,
+      "label": "Political\nPressure",
+      "title": "Excited constituents and industry lobbying push politicians to fund quantum initiatives to avoid falling behind rival nations.",
+      "category": "reinforcing",
+      "x": 175,
+      "y": 100
+    },
+    {
+      "id": 4,
+      "label": "Government &\nCorporate Funding",
+      "title": "Political pressure and FOMO drive billions in public and private investment into quantum computing programs.",
+      "category": "reinforcing",
+      "x": 0,
+      "y": 200
+    },
+    {
+      "id": 5,
+      "label": "Publications &\nPress Releases",
+      "title": "Funded labs produce papers and press releases announcing progress, often framed as breakthroughs regardless of practical significance.",
+      "category": "reinforcing",
+      "x": -175,
+      "y": 100
+    },
+    {
+      "id": 6,
+      "label": "Bold\nClaims",
+      "title": "Press releases are distilled into bold, quotable claims about quantum supremacy, advantage, or commercial timelines.",
+      "category": "reinforcing",
+      "x": -175,
+      "y": -100
+    },
+    {
+      "id": 7,
+      "label": "Skeptical\nAnalysis",
+      "title": "Independent researchers and analysts examine claims critically, checking whether reported results have commercial relevance.",
+      "category": "balancing",
+      "x": 350,
+      "y": 0
+    },
+    {
+      "id": 8,
+      "label": "Failed\nPredictions",
+      "title": "Over time, bold predictions that do not materialize accumulate as evidence against hype-driven timelines.",
+      "category": "balancing",
+      "x": -350,
+      "y": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": "r1",
+      "from": 1,
+      "to": 2,
+      "label": "+",
+      "title": "Amplifies: Media coverage increases public excitement about quantum computing breakthroughs.",
+      "loop": "reinforcing",
+      "mechanism": "amplifies"
+    },
+    {
+      "id": "r2",
+      "from": 2,
+      "to": 3,
+      "label": "+",
+      "title": "Triggers: Public excitement creates political pressure to fund quantum programs and not fall behind.",
+      "loop": "reinforcing",
+      "mechanism": "triggers"
+    },
+    {
+      "id": "r3",
+      "from": 3,
+      "to": 4,
+      "label": "+",
+      "title": "Funds: Political pressure drives government and corporate funding decisions.",
+      "loop": "reinforcing",
+      "mechanism": "funds"
+    },
+    {
+      "id": "r4",
+      "from": 4,
+      "to": 5,
+      "label": "+",
+      "title": "Produces: Funding generates research output packaged as publications and press releases.",
+      "loop": "reinforcing",
+      "mechanism": "produces"
+    },
+    {
+      "id": "r5",
+      "from": 5,
+      "to": 6,
+      "label": "+",
+      "title": "Generates: Press releases are distilled into bold, quotable claims about quantum milestones.",
+      "loop": "reinforcing",
+      "mechanism": "generates"
+    },
+    {
+      "id": "r6",
+      "from": 6,
+      "to": 1,
+      "label": "+",
+      "title": "Amplifies: Bold claims become the raw material for the next round of media coverage.",
+      "loop": "reinforcing",
+      "mechanism": "amplifies"
+    },
+    {
+      "id": "b1",
+      "from": 6,
+      "to": 8,
+      "label": "-",
+      "title": "Generates: Bold claims that fail to materialize become entries in the record of failed predictions.",
+      "loop": "balancing",
+      "mechanism": "generates"
+    },
+    {
+      "id": "b2",
+      "from": 8,
+      "to": 7,
+      "label": "-",
+      "title": "Enables: A track record of failed predictions provides material for skeptical analysis.",
+      "loop": "balancing",
+      "mechanism": "enables"
+    },
+    {
+      "id": "b3",
+      "from": 7,
+      "to": 2,
+      "label": "-",
+      "title": "Dampens: Skeptical analysis reduces public excitement by exposing the gap between claims and reality.",
+      "loop": "balancing",
+      "mechanism": "dampens"
+    }
+  ],
+  "categories": {
+    "reinforcing": {
+      "color": "#3F51B5",
+      "label": "Hype Loop (Reinforcing)"
+    },
+    "balancing": {
+      "color": "#607D8B",
+      "label": "Reality Check (Balancing)"
+    }
+  }
+}

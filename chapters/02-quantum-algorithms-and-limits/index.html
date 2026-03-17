@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/chapters/02-quantum-algorithms-and-limits/">
       
       
-        <link rel="prev" href="../01-what-is-quantum-computing/">
+        <link rel="prev" href="../01-what-is-quantum-computing/references/">
       
       
-        <link rel="next" href="../03-history-of-quantum-computing/">
+        <link rel="next" href="quiz/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -426,9 +426,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../01-what-is-quantum-computing/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../01-what-is-quantum-computing/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -437,7 +462,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -451,16 +482,33 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
+        
+          
+        
       
         
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        
           
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   
   <span class="md-ellipsis">
@@ -469,460 +517,42 @@
   </span>
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            2. Quantum Algorithms and Limits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    2. Quantum Algorithms and Limits
+    Quiz
     
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Summary
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concepts-covered" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concepts Covered
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learning-objectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      Learning Objectives
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#shors-factoring-algorithm" class="md-nav__link">
-    <span class="md-ellipsis">
-      Shor's Factoring Algorithm
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Shor&#39;s Factoring Algorithm">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-shors-algorithm-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      What Shor's Algorithm Does
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#how-it-works-conceptual-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      How It Works (Conceptual Overview)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-gap-between-theory-and-reality" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Gap Between Theory and Reality
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="The Gap Between Theory and Reality">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-shors-algorithm-resource-requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Shor's Algorithm Resource Requirements
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#grovers-search-algorithm" class="md-nav__link">
-    <span class="md-ellipsis">
-      Grover's Search Algorithm
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Grover&#39;s Search Algorithm">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-grovers-algorithm-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      What Grover's Algorithm Does
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-the-quadratic-speedup-is-less-impressive-than-it-sounds" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why the Quadratic Speedup Is Less Impressive Than It Sounds
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quantum-supremacy-defined" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quantum Supremacy Defined
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quantum Supremacy Defined">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-supremacy-means-and-does-not-mean" class="md-nav__link">
-    <span class="md-ellipsis">
-      What Supremacy Means (and Does Not Mean)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#googles-2019-supremacy-claim" class="md-nav__link">
-    <span class="md-ellipsis">
-      Google's 2019 Supremacy Claim
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Google&#39;s 2019 Supremacy Claim">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-shrinking-supremacy-gap-timeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Shrinking Supremacy Gap Timeline
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quantum-advantage-defined" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quantum Advantage Defined
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quantum Advantage Defined">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#the-three-part-test-for-quantum-advantage" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Three-Part Test for Quantum Advantage
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contrived-benchmarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contrived Benchmarks
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Contrived Benchmarks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#characteristics-of-contrived-benchmarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Characteristics of Contrived Benchmarks
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#case-study-random-circuit-sampling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: Random Circuit Sampling
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#other-contrived-benchmarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Other Contrived Benchmarks
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#no-real-world-advantage-yet" class="md-nav__link">
-    <span class="md-ellipsis">
-      No Real-World Advantage Yet
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="No Real-World Advantage Yet">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#the-evidence-gap" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Evidence Gap
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-the-advantage-gap-persists" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why the Advantage Gap Persists
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Why the Advantage Gap Persists">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-the-advantage-gap" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: The Advantage Gap
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#narrow-problem-applicability" class="md-nav__link">
-    <span class="md-ellipsis">
-      Narrow Problem Applicability
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Narrow Problem Applicability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#the-quantum-algorithm-landscape" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Quantum Algorithm Landscape
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-most-problems-cannot-benefit-from-quantum-computing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Most Problems Cannot Benefit from Quantum Computing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-bqp-boundary" class="md-nav__link">
-    <span class="md-ellipsis">
-      The BQP Boundary
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="The BQP Boundary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-computational-complexity-landscape" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Computational Complexity Landscape
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#classical-computers-keep-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Classical Computers Keep Up
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Classical Computers Keep Up">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#classical-hardware-improvements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Classical Hardware Improvements
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-moving-target-problem" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Moving Target Problem
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-classical-advantages-compound" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Classical Advantages Compound
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Why Classical Advantages Compound">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-classical-vs-quantum-improvement-trajectories" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Classical vs. Quantum Improvement Trajectories
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Takeaways
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#review-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Review Questions
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -935,8 +565,64 @@
   
   
     <li class="md-nav__item">
-      <a href="../03-history-of-quantum-computing/" class="md-nav__link">
+      <a href="references/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    References
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../03-history-of-quantum-computing/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -945,7 +631,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -957,9 +649,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../04-catalog-of-optimistic-claims/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../04-catalog-of-optimistic-claims/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -968,7 +685,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -980,9 +703,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../05-physics-barriers-and-hardware/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../05-physics-barriers-and-hardware/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -991,7 +739,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1003,9 +757,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../06-quantum-encryption-threat/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../06-quantum-encryption-threat/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1014,7 +793,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1026,9 +811,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../07-general-purpose-technology/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../07-general-purpose-technology/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1037,7 +847,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1049,9 +865,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../08-investment-risk-analysis/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../08-investment-risk-analysis/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1060,7 +901,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1072,9 +919,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../09-company-case-studies/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../09-company-case-studies/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1083,7 +955,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1095,9 +973,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../10-technology-assessment/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../10-technology-assessment/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1106,7 +1009,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1118,9 +1027,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../11-cognitive-biases/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../11-cognitive-biases/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1129,7 +1063,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1141,9 +1081,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../12-expert-skeptics-ethics-careers/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../12-expert-skeptics-ethics-careers/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1152,7 +1117,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1164,9 +1135,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../13-systems-thinking-causal-loops/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../13-systems-thinking-causal-loops/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1175,7 +1171,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1187,9 +1189,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../14-better-alternatives/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../14-better-alternatives/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1198,7 +1225,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1210,9 +1243,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../15-historical-parallels/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../15-historical-parallels/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1221,7 +1279,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1233,9 +1297,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../16-breakthroughs-required/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../16-breakthroughs-required/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1244,7 +1333,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1256,9 +1351,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../17-critical-thinking-application/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../17-critical-thinking-application/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -1267,7 +1387,13 @@
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1290,9 +1416,109 @@
     
       
         
+          
+        
       
         
-          
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
     
@@ -1310,7 +1536,7 @@
   
   
   
-    <a href="../../sims/index.md" class="md-nav__link">
+    <a href="../../sims/" class="md-nav__link">
       
   
   
@@ -1501,7 +1727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../glossary.md" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   
@@ -1523,7 +1749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq.md" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -2986,7 +3212,7 @@ simulating quantum systems, not classical ones.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../01-what-is-quantum-computing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 1. What Is Quantum Computing?">
+          <a href="../01-what-is-quantum-computing/references/" class="md-footer__link md-footer__link--prev" aria-label="Previous: References">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2996,20 +3222,20 @@ simulating quantum systems, not classical ones.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                1. What Is Quantum Computing?
+                References
               </div>
             </div>
           </a>
         
         
           
-          <a href="../03-history-of-quantum-computing/" class="md-footer__link md-footer__link--next" aria-label="Next: 3. History of QC Promises">
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                3. History of QC Promises
+                Quiz
               </div>
             </div>
             <div class="md-footer__button md-icon">

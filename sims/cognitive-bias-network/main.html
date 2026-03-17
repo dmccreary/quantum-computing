@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Bias Network in QC Investment</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">Cognitive Bias Network in QC Investment</div>
+
+    <div id="legend">
+        <div class="legend-title">Categories</div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #4285F4;"></span> Perception
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #34A853;"></span> Social
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #FF7043;"></span> Cognitive
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #EA4335;"></span> Economic
+        </div>
+        <div class="legend-instructions">Click a node to highlight its connections.<br>Click empty space to reset.</div>
+    </div>
+
+    <div id="right-panel">
+        <div id="panel-title">Select a Bias</div>
+        <div id="panel-body">Click on any bias node to see a QC-specific example and its reinforcement connections.</div>
+    </div>
+
+    <div id="network"></div>
+
+    <script src="cognitive-bias-network.js"></script>
+</body>
+</html>

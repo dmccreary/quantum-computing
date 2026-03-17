@@ -1,0 +1,14 @@
+{
+  "sim_id": "platform-comparison-radar",
+  "diagram_name": "Hardware Platform Radar Chart",
+  "chapter_number": 5,
+  "chapter_title": "The Physics Barriers and Hardware Platforms",
+  "chapter_dir": "05-physics-barriers-and-hardware",
+  "library": "Chart.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Compare, Assess",
+  "learning_objective": "Students will be able to compare the five major quantum computing hardware platforms across multiple performance dimensions and assess which platforms are closest to (or furthest from) the requirements for commercially relevant quantum computing.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** platform-comparison-radar<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Compare, Assess\n\n**Learning Objective:** Students will be able to compare the five major quantum computing hardware platforms across multiple performance dimensions and assess which platforms are closest to (or furthest from) the requirements for commercially relevant quantum computing.\n\n**Instructional Rationale:** A radar (spider) chart allows simultaneous comparison of multiple platforms across multiple dimensions, enabling students to see that no platform dominates on all axes. Toggling platforms on and off supports focused pairwise comparisons alongside the full multi-platform view.\n\n**Chart type:** Radar (spider) chart with 8 axes\n\n**Axes (0-10 scale, 10 = best):**\n\n1. Qubit count (current)\n2. Gate fidelity (best demonstrated)\n3. Coherence time\n4. Gate speed\n5. Connectivity\n6. Scalability prospect\n7. Operating cost (inverse; 10 = cheapest)\n8. Maturity / ecosystem\n\n**Data series (one per platform):**\n\n- Superconducting (blue): [9, 7, 3, 9, 2, 6, 3, 9]\n- Trapped Ion (green): [3, 9, 9, 3, 8, 4, 5, 7]\n- Photonic (orange): [4, 3, 5, 8, 6, 5, 8, 5]\n- Topological (red): [0, 0, 0, 0, 0, 7, 3, 2]\n- Neutral Atom (purple): [7, 7, 8, 5, 7, 6, 6, 4]\n- \"Required for Advantage\" reference (dashed gray): [9, 9, 8, 7, 8, 9, 5, 8]\n\n**Interactive features:**\n\n- Toggle each platform on/off to focus comparisons\n- Hover over vertices to see: specific values, current best result, source, and distance from the \"required for advantage\" threshold\n- Toggle: \"Show 2020 data\" to overlay historical positions and see improvement trajectories\n\n**Implementation:** Chart.js radar chart. Background: aliceblue. Responsive to window resize."
+}

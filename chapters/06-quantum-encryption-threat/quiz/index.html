@@ -1,0 +1,2351 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/chapters/06-quantum-encryption-threat/quiz/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../references/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Quiz - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Quiz - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/06-quantum-encryption-threat/quiz.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/chapters/06-quantum-encryption-threat/quiz/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Quiz - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/06-quantum-encryption-threat/quiz.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-can-quantum-computers-break-encryption" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../01-what-is-quantum-computing/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    1. What Is Quantum Computing?
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../02-quantum-algorithms-and-limits/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    2. Quantum Algorithms and Limits
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../03-history-of-quantum-computing/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    3. History of QC Promises
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../04-catalog-of-optimistic-claims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    4. Overly Optimistic Claims
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../05-physics-barriers-and-hardware/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    5. Physics Barriers and Hardware
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    6. Quantum Encryption Threat
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            6. Quantum Encryption Threat
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-mathematical-problem-does-rsa-encryption-rely-on-for-its-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What mathematical problem does RSA encryption rely on for its security?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-approximately-how-many-physical-qubits-would-be-required-to-break-rsa-2048-at-current-error-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Approximately how many physical qubits would be required to break RSA-2048 at current error rates?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-is-aes-256-symmetric-encryption-not-significantly-threatened-by-quantum-computers" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Why is AES-256 symmetric encryption NOT significantly threatened by quantum computers?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-which-nist-standardized-post-quantum-algorithm-is-used-for-key-encapsulation-key-exchange" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Which NIST-standardized post-quantum algorithm is used for key encapsulation (key exchange)?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-an-organization-stores-classified-intelligence-that-must-remain-secret-for-30-years-they-currently-use-rsa-2048-without-perfect-forward-secrecy-how-would-you-assess-their-hndl-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. An organization stores classified intelligence that must remain secret for 30 years. They currently use RSA-2048 without perfect forward secrecy. How would you assess their HNDL risk?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-if-qubit-counts-double-every-15-years-from-a-base-of-1200-qubits-in-2025-approximately-how-many-years-would-it-take-to-reach-20-million-qubits" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. If qubit counts double every 1.5 years from a base of 1,200 qubits in 2025, approximately how many years would it take to reach 20 million qubits?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-what-is-the-primary-mathematical-basis-for-the-nist-standardized-algorithms-crystals-kyber-and-crystals-dilithium" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. What is the primary mathematical basis for the NIST-standardized algorithms CRYSTALS-Kyber and CRYSTALS-Dilithium?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-under-the-chapters-analysis-the-vulnerability-window-for-quantum-encryption-threats-is-defined-as-t_textquantum-threat-t_textpqc-complete-what-do-current-estimates-show-about-this-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Under the chapter's analysis, the vulnerability window for quantum encryption threats is defined as \(T_{\text{quantum threat}} - T_{\text{PQC complete}}\). What do current estimates show about this window?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-news-article-claims-quantum-computers-will-break-all-encryption-within-5-years-but-does-not-mention-qubit-requirements-post-quantum-cryptography-or-the-status-of-symmetric-encryption-what-analytical-conclusion-should-you-draw" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. A news article claims "quantum computers will break all encryption within 5 years" but does not mention qubit requirements, post-quantum cryptography, or the status of symmetric encryption. What analytical conclusion should you draw?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-why-does-the-existence-of-multiple-independent-pqc-approaches-lattice-based-hash-based-code-based-strengthen-the-defense-against-quantum-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Why does the existence of multiple independent PQC approaches (lattice-based, hash-based, code-based) strengthen the defense against quantum threats?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    References
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../07-general-purpose-technology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    7. General Purpose Technology
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../08-investment-risk-analysis/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    8. Investment Risk Analysis
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../09-company-case-studies/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    9. Company Case Studies
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../10-technology-assessment/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    10. Technology Assessment
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../11-cognitive-biases/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    11. Cognitive Biases
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../12-expert-skeptics-ethics-careers/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    12. Skeptics, Ethics, Careers
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../13-systems-thinking-causal-loops/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    13. Systems Thinking
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../14-better-alternatives/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    14. Better Alternatives
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../15-historical-parallels/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    15. Historical Parallels
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../16-breakthroughs-required/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    16. Breakthroughs Required
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../17-critical-thinking-application/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    17. Critical Thinking
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    MicroSims
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../appendices/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Appendices
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Learning Graph
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../prompts/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-mathematical-problem-does-rsa-encryption-rely-on-for-its-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What mathematical problem does RSA encryption rely on for its security?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-approximately-how-many-physical-qubits-would-be-required-to-break-rsa-2048-at-current-error-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Approximately how many physical qubits would be required to break RSA-2048 at current error rates?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-is-aes-256-symmetric-encryption-not-significantly-threatened-by-quantum-computers" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Why is AES-256 symmetric encryption NOT significantly threatened by quantum computers?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-which-nist-standardized-post-quantum-algorithm-is-used-for-key-encapsulation-key-exchange" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Which NIST-standardized post-quantum algorithm is used for key encapsulation (key exchange)?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-an-organization-stores-classified-intelligence-that-must-remain-secret-for-30-years-they-currently-use-rsa-2048-without-perfect-forward-secrecy-how-would-you-assess-their-hndl-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. An organization stores classified intelligence that must remain secret for 30 years. They currently use RSA-2048 without perfect forward secrecy. How would you assess their HNDL risk?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-if-qubit-counts-double-every-15-years-from-a-base-of-1200-qubits-in-2025-approximately-how-many-years-would-it-take-to-reach-20-million-qubits" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. If qubit counts double every 1.5 years from a base of 1,200 qubits in 2025, approximately how many years would it take to reach 20 million qubits?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-what-is-the-primary-mathematical-basis-for-the-nist-standardized-algorithms-crystals-kyber-and-crystals-dilithium" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. What is the primary mathematical basis for the NIST-standardized algorithms CRYSTALS-Kyber and CRYSTALS-Dilithium?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-under-the-chapters-analysis-the-vulnerability-window-for-quantum-encryption-threats-is-defined-as-t_textquantum-threat-t_textpqc-complete-what-do-current-estimates-show-about-this-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Under the chapter's analysis, the vulnerability window for quantum encryption threats is defined as \(T_{\text{quantum threat}} - T_{\text{PQC complete}}\). What do current estimates show about this window?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-news-article-claims-quantum-computers-will-break-all-encryption-within-5-years-but-does-not-mention-qubit-requirements-post-quantum-cryptography-or-the-status-of-symmetric-encryption-what-analytical-conclusion-should-you-draw" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. A news article claims "quantum computers will break all encryption within 5 years" but does not mention qubit requirements, post-quantum cryptography, or the status of symmetric encryption. What analytical conclusion should you draw?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-why-does-the-existence-of-multiple-independent-pqc-approaches-lattice-based-hash-based-code-based-strengthen-the-defense-against-quantum-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Why does the existence of multiple independent PQC approaches (lattice-based, hash-based, code-based) strengthen the defense against quantum threats?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/chapters/06-quantum-encryption-threat/quiz.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-can-quantum-computers-break-encryption">Quiz: Can Quantum Computers Break Encryption?</h1>
+<p>Test your understanding of the quantum encryption threat, post-quantum cryptography, and why this risk is significantly overstated.</p>
+<hr />
+<h4 id="1-what-mathematical-problem-does-rsa-encryption-rely-on-for-its-security">1. What mathematical problem does RSA encryption rely on for its security?</h4>
+<div class="upper-alpha">
+<ol>
+<li>The difficulty of factoring large numbers into their prime components</li>
+<li>Finding short vectors in high-dimensional lattices</li>
+<li>The collision resistance of cryptographic hash functions</li>
+<li>Solving systems of multivariate polynomial equations</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. RSA's security depends on the computational difficulty of factoring the product of two large prime numbers back into its components. Multiplying two primes is easy (microseconds), but reversing the operation for a 2,048-bit number is classically infeasible, requiring more than <span class="arithmatex">\(10^{20}\)</span> years with the best known algorithms. This asymmetry creates the trapdoor function that makes public key encryption possible.</p>
+<p><strong>Concept Tested:</strong> Public Key Encryption Basics</p>
+</details>
+<hr />
+<h4 id="2-approximately-how-many-physical-qubits-would-be-required-to-break-rsa-2048-at-current-error-rates">2. Approximately how many physical qubits would be required to break RSA-2048 at current error rates?</h4>
+<div class="upper-alpha">
+<ol>
+<li>1,000 qubits</li>
+<li>100,000 qubits</li>
+<li>4-20 million qubits</li>
+<li>1 billion qubits</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Breaking RSA-2048 requires approximately 4,000 logical qubits, each needing 1,000-5,000 physical qubits for error correction at current error rates of approximately <span class="arithmatex">\(10^{-3}\)</span>. This yields a total of 4-20 million physical qubits. Current quantum processors have roughly 1,000 noisy physical qubits, meaning the gap is approximately 20,000x in qubit count with at least a 10x improvement in error rates needed simultaneously.</p>
+<p><strong>Concept Tested:</strong> Massive Qubits Needed</p>
+</details>
+<hr />
+<h4 id="3-why-is-aes-256-symmetric-encryption-not-significantly-threatened-by-quantum-computers">3. Why is AES-256 symmetric encryption NOT significantly threatened by quantum computers?</h4>
+<div class="upper-alpha">
+<ol>
+<li>AES-256 uses quantum-resistant lattice-based mathematics</li>
+<li>Grover's algorithm provides only a quadratic speedup, reducing effective security to 128 bits, which remains unbreakable</li>
+<li>Symmetric encryption keys are too short for Shor's algorithm to target</li>
+<li>AES-256 has already been upgraded to a post-quantum version</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Grover's algorithm is the best known quantum attack on symmetric encryption, and it provides only a quadratic speedup — reducing AES-256's security from <span class="arithmatex">\(2^{256}\)</span> to <span class="arithmatex">\(2^{128}\)</span> operations. An effective 128-bit security level remains computationally infeasible to brute force. This contrasts with Shor's algorithm, which provides an exponential speedup against the integer factoring and discrete logarithm problems underlying RSA and ECC.</p>
+<p><strong>Concept Tested:</strong> Crypto Threat Is Overstated</p>
+</details>
+<hr />
+<h4 id="4-which-nist-standardized-post-quantum-algorithm-is-used-for-key-encapsulation-key-exchange">4. Which NIST-standardized post-quantum algorithm is used for key encapsulation (key exchange)?</h4>
+<div class="upper-alpha">
+<ol>
+<li>SPHINCS+ (SLH-DSA)</li>
+<li>FALCON (FN-DSA)</li>
+<li>CRYSTALS-Dilithium (ML-DSA)</li>
+<li>CRYSTALS-Kyber (ML-KEM)</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. CRYSTALS-Kyber, standardized as ML-KEM under FIPS 203, is a lattice-based key encapsulation mechanism designed for quantum-resistant key exchange. CRYSTALS-Dilithium (FIPS 204) and SPHINCS+ (FIPS 205) are digital signature algorithms, not key exchange mechanisms. NIST selected these algorithms after a rigorous six-year evaluation process, and they are already being deployed by major technology companies.</p>
+<p><strong>Concept Tested:</strong> NIST Already Has Standards</p>
+</details>
+<hr />
+<h4 id="5-an-organization-stores-classified-intelligence-that-must-remain-secret-for-30-years-they-currently-use-rsa-2048-without-perfect-forward-secrecy-how-would-you-assess-their-hndl-risk">5. An organization stores classified intelligence that must remain secret for 30 years. They currently use RSA-2048 without perfect forward secrecy. How would you assess their HNDL risk?</h4>
+<div class="upper-alpha">
+<ol>
+<li>No risk, because quantum computers will never break RSA-2048</li>
+<li>Moderate risk, but only if the adversary has a quantum computer today</li>
+<li>No risk, because post-quantum cryptography has already been fully deployed worldwide</li>
+<li>High risk, because the data has a long sensitivity duration, and an adversary could store intercepted traffic for future decryption</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. This scenario meets all four conditions for a genuine HNDL threat: the data must remain secret for decades (exceeding the timeline for potential quantum capability), a nation-state adversary could plausibly intercept and store the traffic, the encryption lacks perfect forward secrecy, and the organization has not yet migrated to PQC. However, this represents a narrow category — most encrypted data loses value quickly, and organizations handling classified data typically employ additional protective measures.</p>
+<p><strong>Concept Tested:</strong> Harvest Now Decrypt Later</p>
+</details>
+<hr />
+<h4 id="6-if-qubit-counts-double-every-15-years-from-a-base-of-1200-qubits-in-2025-approximately-how-many-years-would-it-take-to-reach-20-million-qubits">6. If qubit counts double every 1.5 years from a base of 1,200 qubits in 2025, approximately how many years would it take to reach 20 million qubits?</h4>
+<div class="upper-alpha">
+<ol>
+<li>About 21 years</li>
+<li>About 7 years</li>
+<li>About 35 years</li>
+<li>About 14 years</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. The calculation is: <span class="arithmatex">\(\log_2(20{,}000{,}000 / 1{,}200) \approx \log_2(16{,}667) \approx 14.0\)</span> doublings. At 1.5 years per doubling: <span class="arithmatex">\(14.0 \times 1.5 \approx 21\)</span> years, reaching the target around 2046. This estimate also assumes error rates improve by the necessary order of magnitude during the same period, which is not guaranteed and has historically been slower than qubit count scaling.</p>
+<p><strong>Concept Tested:</strong> Massive Qubits Needed</p>
+</details>
+<hr />
+<h4 id="7-what-is-the-primary-mathematical-basis-for-the-nist-standardized-algorithms-crystals-kyber-and-crystals-dilithium">7. What is the primary mathematical basis for the NIST-standardized algorithms CRYSTALS-Kyber and CRYSTALS-Dilithium?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Hash function collision resistance</li>
+<li>Integer factoring difficulty</li>
+<li>Elliptic curve isogenies</li>
+<li>Lattice problems (finding short vectors in high-dimensional lattices)</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Both CRYSTALS-Kyber (key encapsulation) and CRYSTALS-Dilithium (digital signatures) are lattice-based algorithms. Their security relies on the difficulty of finding short vectors in high-dimensional lattices, specifically the Learning With Errors (LWE) problem. No efficient quantum algorithm is known for these lattice problems. SPHINCS+ is hash-based, isogeny-based approaches like SIDH were partially broken classically, and integer factoring is precisely what quantum computers threaten.</p>
+<p><strong>Concept Tested:</strong> Post-Quantum Crypto Exists</p>
+</details>
+<hr />
+<h4 id="8-under-the-chapters-analysis-the-vulnerability-window-for-quantum-encryption-threats-is-defined-as-t_textquantum-threat-t_textpqc-complete-what-do-current-estimates-show-about-this-window">8. Under the chapter's analysis, the vulnerability window for quantum encryption threats is defined as <span class="arithmatex">\(T_{\text{quantum threat}} - T_{\text{PQC complete}}\)</span>. What do current estimates show about this window?</h4>
+<div class="upper-alpha">
+<ol>
+<li>The window is open and widening because quantum computers are advancing faster than PQC deployment</li>
+<li>The window is approximately 5 years wide, creating moderate urgency</li>
+<li>The window is closed under all plausible scenarios because PQC migration completes before the quantum threat materializes</li>
+<li>The window cannot be estimated because quantum computing timelines are completely unpredictable</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Current estimates place PQC migration completion for critical systems between 2030 and 2040, while the quantum threat to RSA-2048 is optimistically estimated at 2040-2050 or possibly never at commercial scale. Even under the most optimistic quantum progress assumptions and the most pessimistic PQC migration assumptions, the defense arrives before the threat. The window is already closing, and for organizations that adopt PQC proactively, it is already closed.</p>
+<p><strong>Concept Tested:</strong> Window Is Already Closing</p>
+</details>
+<hr />
+<h4 id="9-a-news-article-claims-quantum-computers-will-break-all-encryption-within-5-years-but-does-not-mention-qubit-requirements-post-quantum-cryptography-or-the-status-of-symmetric-encryption-what-analytical-conclusion-should-you-draw">9. A news article claims "quantum computers will break all encryption within 5 years" but does not mention qubit requirements, post-quantum cryptography, or the status of symmetric encryption. What analytical conclusion should you draw?</h4>
+<div class="upper-alpha">
+<ol>
+<li>The article is technically accurate but omits some details</li>
+<li>The article is overstating the threat by omitting critical context that would moderate the alarm</li>
+<li>The article must be from a quantum computing company and should be ignored entirely</li>
+<li>The article is presenting classified information that the public should not have</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The chapter provides a checklist for evaluating encryption threat articles: Does it mention qubit counts required? Does it mention PQC or NIST standards? Does it estimate when the threat might materialize? Does it acknowledge symmetric encryption is not threatened? An article omitting all of these is overstating the threat, whether intentionally or through ignorance. Multiple actors — quantum computing companies, cybersecurity vendors, intelligence agencies, media — have incentives to emphasize the threat and downplay the defense.</p>
+<p><strong>Concept Tested:</strong> Crypto Threat Is Overstated</p>
+</details>
+<hr />
+<h4 id="10-why-does-the-existence-of-multiple-independent-pqc-approaches-lattice-based-hash-based-code-based-strengthen-the-defense-against-quantum-threats">10. Why does the existence of multiple independent PQC approaches (lattice-based, hash-based, code-based) strengthen the defense against quantum threats?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Multiple approaches provide redundancy, so even if one is broken, the others remain secure</li>
+<li>Each approach is faster than the others for different types of encryption</li>
+<li>Using multiple approaches simultaneously makes encryption exponentially harder to break</li>
+<li>Each approach was designed by a different country's intelligence agency for maximum security</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. The redundancy in the PQC ecosystem means the cryptographic community is not relying on a single unproven assumption. When SIDH (an isogeny-based approach) was broken in 2022 by a classical attack, the lattice-based and hash-based approaches remained secure. This diversity of mathematical foundations ensures that a breakthrough against one class of problems does not compromise the entire post-quantum defense. It is the same principle of defense in depth that makes cryptographic systems resilient.</p>
+<p><strong>Concept Tested:</strong> Post-Quantum Crypto Exists</p>
+</details>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: References">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                References
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+        <script src="../../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

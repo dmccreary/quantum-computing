@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Researchers",
+      "title": "Publish papers with optimistic abstracts to attract grants and citations. Incentive: career advancement requires positive results.",
+      "category": "producer",
+      "x": -250,
+      "y": -100,
+      "role": "Produce the raw claims that seed the hype cycle. Grant applications require promising outcomes, so negative results go unpublished."
+    },
+    {
+      "id": 2,
+      "label": "Universities",
+      "title": "Issue press releases that exaggerate research findings. Incentive: prestige, enrollment, and donor funding.",
+      "category": "amplifier",
+      "x": -150,
+      "y": -200,
+      "role": "Transform cautious research papers into breathless press releases. PR offices optimize for media pickup, not scientific accuracy."
+    },
+    {
+      "id": 3,
+      "label": "Tech Media",
+      "title": "Write attention-grabbing headlines that strip nuance from research. Incentive: clicks, ad revenue, and audience growth.",
+      "category": "amplifier",
+      "x": 0,
+      "y": -250,
+      "role": "Convert press releases into viral headlines. 'Marginal improvement in error rates' becomes 'Quantum Breakthrough Could Change Everything.'"
+    },
+    {
+      "id": 4,
+      "label": "Social Media",
+      "title": "Viral sharing with no fact-checking or context. Incentive: engagement metrics and influencer status.",
+      "category": "amplifier",
+      "x": 150,
+      "y": -200,
+      "role": "Strip remaining context from media articles. A nuanced 2,000-word piece becomes a breathless tweet with zero caveats."
+    },
+    {
+      "id": 5,
+      "label": "VCs /\nInvestors",
+      "title": "Fund QC startups based on hype narratives. Incentive: fear of missing out on the next transformative technology.",
+      "category": "funder",
+      "x": 250,
+      "y": -100,
+      "role": "Pour money into QC companies based on optimistic projections. Need the hype to continue to justify portfolio valuations."
+    },
+    {
+      "id": 6,
+      "label": "QC Startups",
+      "title": "Make bold claims to attract funding and talent. Incentive: survival depends on next funding round.",
+      "category": "producer",
+      "x": 250,
+      "y": 100,
+      "role": "Produce the most aggressive claims because their survival depends on it. Understating capabilities means no next funding round."
+    },
+    {
+      "id": 7,
+      "label": "Government\nAgencies",
+      "title": "Fund QC based on strategic competition fears. Incentive: national security narrative and budget justification.",
+      "category": "funder",
+      "x": 0,
+      "y": 250,
+      "role": "Fund QC programs driven by 'quantum race' fears. China is investing, so we must invest more, regardless of technical feasibility."
+    },
+    {
+      "id": 8,
+      "label": "Consultants",
+      "title": "Sell 'quantum readiness' reports and advisory services. Incentive: billable hours from corporate anxiety.",
+      "category": "amplifier",
+      "x": -250,
+      "y": 100,
+      "role": "Generate trillion-dollar market projections that justify corporate QC spending. Revenue depends on executives believing QC is imminent."
+    },
+    {
+      "id": 9,
+      "label": "Conferences",
+      "title": "Create echo chambers where optimists reinforce each other. Incentive: ticket sales and sponsor revenue.",
+      "category": "amplifier",
+      "x": 0,
+      "y": 0,
+      "role": "Curate speakers who tell positive stories. Skeptics don't sell tickets. The result is a self-reinforcing echo chamber."
+    },
+    {
+      "id": 10,
+      "label": "Corporate\nR&D",
+      "title": "Announce milestone achievements to justify R&D budgets. Incentive: internal budget allocation and public perception.",
+      "category": "producer",
+      "x": 150,
+      "y": 200,
+      "role": "Issue milestone announcements to justify budgets. 'We achieved X qubits' without mentioning those qubits can't do useful work."
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 2,
+      "label": "papers",
+      "title": "Researchers publish findings that universities amplify",
+      "flow": "hype"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "label": "press\nreleases",
+      "title": "Universities issue exaggerated press releases to media",
+      "flow": "hype"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "label": "headlines",
+      "title": "Media articles get shared virally on social platforms",
+      "flow": "hype"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "label": "FOMO",
+      "title": "Viral buzz creates fear of missing out among investors",
+      "flow": "hype"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "label": "funding",
+      "title": "Investors pour capital into QC startups based on hype",
+      "flow": "money"
+    },
+    {
+      "from": 6,
+      "to": 3,
+      "label": "press\nreleases",
+      "title": "Startups issue bold claims to attract more media coverage",
+      "flow": "hype"
+    },
+    {
+      "from": 6,
+      "to": 5,
+      "label": "ROI\npromises",
+      "title": "Startups promise returns to justify continued investment",
+      "flow": "credibility"
+    },
+    {
+      "from": 7,
+      "to": 1,
+      "label": "grants",
+      "title": "Government funds research through grants and programs",
+      "flow": "money"
+    },
+    {
+      "from": 7,
+      "to": 6,
+      "label": "contracts",
+      "title": "Government awards contracts to QC companies",
+      "flow": "money"
+    },
+    {
+      "from": 7,
+      "to": 10,
+      "label": "funding",
+      "title": "Government funds corporate R&D programs",
+      "flow": "money"
+    },
+    {
+      "from": 8,
+      "to": 5,
+      "label": "market\nprojections",
+      "title": "Consultant reports with trillion-dollar forecasts drive investment",
+      "flow": "hype"
+    },
+    {
+      "from": 8,
+      "to": 7,
+      "label": "policy\nbriefs",
+      "title": "Consultants advise government on 'quantum readiness' urgency",
+      "flow": "hype"
+    },
+    {
+      "from": 9,
+      "to": 3,
+      "label": "stories",
+      "title": "Conferences generate media coverage of optimistic presentations",
+      "flow": "hype"
+    },
+    {
+      "from": 9,
+      "to": 5,
+      "label": "networking",
+      "title": "Conferences connect startups with investors in optimistic settings",
+      "flow": "credibility"
+    },
+    {
+      "from": 6,
+      "to": 9,
+      "label": "sponsorship",
+      "title": "Startups sponsor conferences to gain visibility",
+      "flow": "money"
+    },
+    {
+      "from": 10,
+      "to": 3,
+      "label": "milestones",
+      "title": "Corporate labs announce achievements that generate headlines",
+      "flow": "hype"
+    },
+    {
+      "from": 10,
+      "to": 9,
+      "label": "keynotes",
+      "title": "Corporate researchers give keynote talks at conferences",
+      "flow": "credibility"
+    },
+    {
+      "from": 5,
+      "to": 8,
+      "label": "fees",
+      "title": "Investors hire consultants for QC due diligence reports",
+      "flow": "money"
+    },
+    {
+      "from": 1,
+      "to": 9,
+      "label": "talks",
+      "title": "Researchers present findings at conferences",
+      "flow": "credibility"
+    },
+    {
+      "from": 3,
+      "to": 7,
+      "label": "pressure",
+      "title": "Media coverage of quantum race creates political pressure to fund QC",
+      "flow": "hype"
+    },
+    {
+      "from": 10,
+      "to": 7,
+      "label": "lobbying",
+      "title": "Corporations lobby government for continued QC funding",
+      "flow": "hype"
+    }
+  ],
+  "categories": {
+    "producer": {
+      "color": "#4285F4",
+      "label": "Producers",
+      "description": "Generate original claims and results"
+    },
+    "amplifier": {
+      "color": "#FF7043",
+      "label": "Amplifiers",
+      "description": "Magnify and spread claims"
+    },
+    "funder": {
+      "color": "#34A853",
+      "label": "Funders",
+      "description": "Provide money based on claims"
+    }
+  }
+}

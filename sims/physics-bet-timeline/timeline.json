@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "content": "Shor's Algorithm Published",
+    "start": "1994-01-01",
+    "category": "milestone",
+    "notes": "Peter Shor demonstrates a quantum algorithm that can factor large integers exponentially faster than any known classical algorithm, providing the first compelling reason to build a quantum computer."
+  },
+  {
+    "id": 2,
+    "content": "First 2-Qubit Gate",
+    "start": "1998-01-01",
+    "category": "milestone",
+    "notes": "Researchers demonstrate the first controlled-NOT gate on two qubits, proving basic quantum logic operations are physically possible."
+  },
+  {
+    "id": 3,
+    "content": "Predictions of useful QC by 2010",
+    "start": "2000-01-01",
+    "category": "prediction",
+    "notes": "Multiple researchers and institutions predict commercially useful quantum computers within a decade. Status: FAILED. No useful quantum computation was achieved by 2010.",
+    "status": "failed"
+  },
+  {
+    "id": 4,
+    "content": "D-Wave founded, promises quantum speedup",
+    "start": "2001-01-01",
+    "category": "prediction",
+    "notes": "D-Wave Systems is founded with bold claims about delivering quantum speedup through quantum annealing. Decades later, no clear quantum advantage has been demonstrated over classical optimization.",
+    "status": "failed"
+  },
+  {
+    "id": 5,
+    "content": "Preskill coins 'NISQ'",
+    "start": "2012-01-01",
+    "category": "milestone",
+    "notes": "John Preskill introduces the term Noisy Intermediate-Scale Quantum (NISQ), acknowledging that near-term devices will be too error-prone for fault-tolerant computation. The term implicitly concedes that useful quantum computing is further away than previously hoped."
+  },
+  {
+    "id": 6,
+    "content": "Predictions of quantum advantage by 2020",
+    "start": "2015-01-01",
+    "category": "prediction",
+    "notes": "A new wave of predictions claims quantum advantage (solving a commercially relevant problem faster than classical) will arrive by 2020. Status: FAILED. No commercially relevant quantum advantage was demonstrated.",
+    "status": "failed"
+  },
+  {
+    "id": 7,
+    "content": "Google 'Quantum Supremacy' claim",
+    "start": "2019-10-01",
+    "category": "milestone",
+    "notes": "Google claims quantum supremacy with its 53-qubit Sycamore processor on a random circuit sampling task. The claim is disputed: IBM argues a classical supercomputer could solve the same task in days, not millennia. The task itself has no known commercial application."
+  },
+  {
+    "id": 8,
+    "content": "Predictions of useful QC by 2025",
+    "start": "2019-06-01",
+    "category": "prediction",
+    "notes": "Industry leaders and investors predict commercially useful quantum computers by 2025. Status: FAILED. As of 2025, no commercial quantum advantage has been demonstrated.",
+    "status": "failed"
+  },
+  {
+    "id": 9,
+    "content": "IBM 1,121-qubit processor",
+    "start": "2023-12-01",
+    "category": "milestone",
+    "notes": "IBM unveils its 1,121-qubit Condor processor. However, the processor lacks error correction and cannot perform useful fault-tolerant computations. More qubits without error correction does not equal more computational power."
+  },
+  {
+    "id": 10,
+    "content": "Microsoft predicts useful QC by 2028",
+    "start": "2024-03-01",
+    "category": "prediction",
+    "notes": "Microsoft announces a roadmap predicting commercially useful quantum computing by 2028, based on its topological qubit approach. The topological qubit itself has yet to be conclusively demonstrated.",
+    "status": "pending"
+  },
+  {
+    "id": 11,
+    "content": "No commercial quantum advantage demonstrated",
+    "start": "2025-01-01",
+    "category": "reality",
+    "notes": "As of 2025, after 30+ years of research and tens of billions in investment, no quantum computer has demonstrated a clear advantage over classical computers on any commercially relevant problem. Every prediction of 'useful quantum computing by year X' has failed."
+  }
+]

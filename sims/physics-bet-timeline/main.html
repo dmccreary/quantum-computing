@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Physics Bet Timeline</title>
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Physics Bet Timeline: Predictions vs. Reality</h2>
+        <div class="legend">
+            <div class="legend-item"><span class="legend-swatch" style="background:#1976D2"></span> Milestone</div>
+            <div class="legend-item"><span class="legend-swatch" style="background:#FF7043"></span> Prediction</div>
+            <div class="legend-item"><span class="legend-swatch" style="background:#C62828"></span> Reality Check</div>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="milestone">Milestones</button>
+            <button class="filter-btn" data-category="prediction">Predictions</button>
+            <button class="filter-btn" data-category="reality">Reality Checks</button>
+        </div>
+        <div id="timeline"></div>
+        <div id="event-details">Click an event for details. Scroll to zoom, drag to pan.</div>
+    </div>
+    <script src="physics-bet-timeline.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scatter chart comparing quantum computing company valuations to revenue against industry norms.">
+    <title>QC Company Valuations vs. Revenue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>QC Company Valuations vs. Revenue</h1>
+        <div class="chart-wrapper">
+            <canvas id="scatterChart"></canvas>
+        </div>
+        <div class="legend-bar">
+            <span class="legend-item"><span class="legend-swatch" style="background:rgba(76,175,80,0.15);border:1px solid #4caf50"></span> 5-15x (Healthy SaaS)</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:rgba(255,193,7,0.15);border:1px solid #ffc107"></span> 15-50x (Growth Premium)</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:rgba(244,67,54,0.15);border:1px solid #f44336"></span> 50x+ (Extreme Speculation)</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:#d32f2f;border-radius:50%"></span> QC Companies</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:#1976d2;border-radius:50%"></span> Reference Companies</span>
+        </div>
+    </div>
+    <script src="qc-valuation-scatter.js"></script>
+</body>
+</html>

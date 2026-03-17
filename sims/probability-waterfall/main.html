@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Probability Waterfall: How joint probability collapses across required quantum computing breakthroughs.">
+    <title>Probability Waterfall: Cascading Requirements</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h2>How Joint Probability Collapses</h2>
+        <div id="controls">
+            <label for="preset-select">Scenario: </label>
+            <select id="preset-select">
+                <option value="generous" selected>Generous Estimates</option>
+                <option value="pessimistic">Pessimistic</option>
+                <option value="very-optimistic">Very Optimistic</option>
+                <option value="proponent">Proponent Claims</option>
+            </select>
+        </div>
+        <canvas id="waterfallChart"></canvas>
+        <p id="final-text"></p>
+    </div>
+    <script src="probability-waterfall.js"></script>
+</body>
+</html>

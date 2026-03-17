@@ -1,0 +1,14 @@
+{
+  "sim_id": "shors-algorithm-resources",
+  "diagram_name": "Shor's Algorithm Resource Requirements",
+  "chapter_number": 2,
+  "chapter_title": "Quantum Algorithms and Their Real-World Limits",
+  "chapter_dir": "02-quantum-algorithms-and-limits",
+  "library": "p5.js",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "Calculate, Demonstrate",
+  "learning_objective": "Students will be able to calculate the physical qubit requirements for running Shor's algorithm at different key sizes, given varying assumptions about physical error rates and error correction overhead.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: microsim\n**sim-id:** shors-algorithm-resources<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Apply (L3)\n**Bloom Verb:** Calculate, Demonstrate\n\n**Learning Objective:** Students will be able to calculate the physical qubit requirements for running Shor's algorithm at different key sizes, given varying assumptions about physical error rates and error correction overhead.\n\n**Instructional Rationale:** A parameter-exploration MicroSim is appropriate because the Apply/calculate objective requires students to manipulate variables and observe the resulting resource requirements. This builds intuition for how error rates and key sizes interact to determine hardware feasibility.\n\n**Canvas layout:**\n\n- Left (60%): Visual representation showing logical qubits as a small cluster and physical qubits as a much larger surrounding cluster, with the ratio visually apparent\n- Right (40%): Controls and calculated outputs\n\n**Visual elements:**\n\n- Small cluster of colored dots representing logical qubits (labeled)\n- Large surrounding field of dots representing physical qubits (labeled with count)\n- Scale indicator showing the ratio\n- Current hardware line showing where today's quantum computers fall\n\n**Interactive controls:**\n\n- Slider: RSA key size (512, 1024, 2048, 4096 bits) — default 2048\n- Slider: Physical error rate ($10^{-2}$ to $10^{-5}$, logarithmic) — default $10^{-3}$\n- Slider: Error correction overhead ratio (100:1 to 10,000:1) — default 1,000:1\n- Display: Total logical qubits needed\n- Display: Total physical qubits needed\n- Display: \"Years at current improvement rate to reach this\" (estimated)\n- Reference line: Current state of the art (~1,000 qubits)\n\n**Behavior:**\n\n- Adjusting sliders updates the qubit calculations and visual representation in real time\n- When total physical qubits exceeds current hardware by more than 10x, a red warning indicator appears\n- A timeline bar shows estimated years to reach the required qubit count based on historical doubling rates\n\n**Implementation:** p5.js. Background: aliceblue. Responsive to window resize."
+}

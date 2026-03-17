@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QC Feedback Loop System</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">Complete QC Feedback Loop System</div>
+
+    <div id="legend">
+        <div class="legend-title">Node Categories</div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #388E3C;"></span> Resource
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #1565C0;"></span> Output
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #FF7043;"></span> Amplifier
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #7B1FA2;"></span> Social
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #E53935;"></span> Risk
+        </div>
+        <div class="legend-section-title">Edge Types</div>
+        <div class="legend-edge">
+            <span class="legend-line" style="background: #FF7043;"></span> Reinforcing (+)
+        </div>
+        <div class="legend-edge">
+            <span class="legend-line dashed"></span> Balancing (-)
+        </div>
+        <div class="legend-section-title">Highlight Loops</div>
+        <button class="loop-btn" data-loop="R1">R1: Hype Cycle</button>
+        <button class="loop-btn" data-loop="R2">R2: Investment Cycle</button>
+        <button class="loop-btn" data-loop="B1">B1: Reality Check</button>
+        <button class="loop-btn" data-loop="reset">Show All</button>
+        <div class="legend-instructions">Click a loop button or any node to highlight its feedback path. Click empty space to reset.</div>
+    </div>
+
+    <div id="right-panel">
+        <div id="panel-title">QC Feedback Loop System</div>
+        <div id="panel-body">This diagram maps the complete system of reinforcing and balancing feedback loops driving quantum computing investment. Two reinforcing loops (R1, R2) amplify hype and investment. One balancing loop (B1) should provide self-correction through the hype gap — but is often overpowered. Click any node or loop button to explore.</div>
+    </div>
+
+    <div id="network"></div>
+
+    <script src="qc-feedback-loop-system.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "sim_id": "tco-comparison-dashboard",
+  "diagram_name": "TCO Comparison Dashboard",
+  "chapter_number": 8,
+  "chapter_title": "Investment Risk Analysis",
+  "chapter_dir": "08-investment-risk-analysis",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Evaluate the total cost of ownership of quantum vs. classical computing systems by adjusting cost parameters and comparing annual and cumulative costs over a 10-year horizon (Bloom's Level 5: Evaluate — assess, compare, justify).",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: microsim\n**sim-id:** tco-comparison-dashboard<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning Objective:** Evaluate the total cost of ownership of quantum vs. classical computing systems by adjusting cost parameters and comparing annual and cumulative costs over a 10-year horizon (Bloom's Level 5: Evaluate — assess, compare, justify).\n\n**Instructional Rationale:** Parameter exploration with side-by-side comparison is appropriate because the Evaluate/assess objective requires learners to weigh multiple factors simultaneously and reach a justified conclusion. Sliders allow \"what if\" analysis, revealing how much each parameter would need to change for quantum to become cost-competitive.\n\n**Canvas Layout:**\n- Left panel: Quantum TCO breakdown (stacked bar chart, color-coded by component)\n- Right panel: Classical TCO breakdown (same format, same scale)\n- Bottom panel: Cumulative cost over 10 years (two line charts overlaid)\n- Control area: Sliders for key parameters\n\n**Interactive Controls:**\n- Slider: Quantum hardware cost ($1M to $100M, default $20M)\n- Slider: Cryogenic annual cost ($100K to $5M, default $1M)\n- Slider: Classical cluster cost ($50K to $5M, default $500K)\n- Slider: Year-over-year quantum cost reduction (0% to 30%, default 5%)\n- Slider: Year-over-year classical cost reduction (0% to 30%, default 10%)\n- Toggle: Show/hide \"crossover point\" marker (if it exists within 10 years)\n\n**Visual Elements:**\n- Stacked bar charts showing cost breakdown by category\n- Line chart showing cumulative TCO divergence over 10 years\n- \"Crossover year\" indicator (or \"No crossover in 10 years\" message)\n- Numeric summary: \"Quantum is Nx more expensive than classical\"\n- Background: aliceblue\n\n**Behavior:**\n- All charts update in real time as sliders move\n- If quantum cost reduction is aggressive enough, crossover point appears\n- Default settings show no crossover (quantum remains more expensive)\n- Color-coded: quantum bars in indigo, classical in orange\n\n**Responsive Design:** Canvas resizes with window; panels stack vertically on narrow screens.\n\nImplementation: p5.js with DOM sliders and canvas rendering"
+}

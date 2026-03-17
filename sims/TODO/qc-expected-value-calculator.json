@@ -1,0 +1,14 @@
+{
+  "sim_id": "qc-expected-value-calculator",
+  "diagram_name": "Expected Value Calculator",
+  "chapter_number": 8,
+  "chapter_title": "Investment Risk Analysis",
+  "chapter_dir": "08-investment-risk-analysis",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Apply the expected value framework to evaluate quantum computing investments by adjusting probability of success, payoff magnitude, and investment cost (Bloom's Level 3: Apply — calculate, use, demonstrate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: microsim\n**sim-id:** qc-expected-value-calculator<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning Objective:** Apply the expected value framework to evaluate quantum computing investments by adjusting probability of success, payoff magnitude, and investment cost (Bloom's Level 3: Apply — calculate, use, demonstrate).\n\n**Instructional Rationale:** Parameter exploration is appropriate because the Apply/calculate objective requires learners to manipulate variables and observe how expected value changes. Sliders provide immediate feedback and build intuition about the sensitivity of EV to probability estimates.\n\n**Canvas Layout:**\n- Top section: Three horizontal sliders with labeled values\n- Middle section: Large expected value display (green if positive, red if negative)\n- Bottom section: Bar chart comparing the probability-weighted upside vs probability-weighted downside\n\n**Interactive Controls:**\n- Slider 1: Probability of success (0.1% to 50%, default 5%, logarithmic scale)\n- Slider 2: Payoff if successful ($100M to $50B, default $2B, logarithmic scale)\n- Slider 3: Investment cost ($10M to $5B, default $100M, logarithmic scale)\n- Reset button to restore defaults\n- Toggle button: \"Show breakeven probability\" — draws a vertical line on the slider showing the minimum probability needed for EV = 0\n\n**Visual Elements:**\n- Large numeric display of calculated EV in center\n- Stacked horizontal bar chart: green segment for probability-weighted upside, red segment for probability-weighted downside\n- Breakeven probability displayed as text and marked on slider\n- Background: aliceblue\n\n**Behavior:**\n- EV recalculates in real time as sliders move\n- Color of EV display transitions smoothly from red (negative) to green (positive)\n- Breakeven probability updates: $P_{break} = \\frac{C}{R + C}$\n- Pre-set scenario buttons: \"Optimistic VC,\" \"Moderate Analyst,\" \"Skeptical Physicist\"\n\n**Responsive Design:** Canvas resizes with window; sliders use percentage-based widths.\n\nImplementation: p5.js with DOM sliders and canvas rendering"
+}

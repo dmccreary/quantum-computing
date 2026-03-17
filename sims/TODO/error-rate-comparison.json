@@ -1,0 +1,14 @@
+{
+  "sim_id": "error-rate-comparison",
+  "diagram_name": "Classical vs. Quantum Error Rate Comparison",
+  "chapter_number": 1,
+  "chapter_title": "What Is Quantum Computing?",
+  "chapter_dir": "01-what-is-quantum-computing",
+  "library": "Chart.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare, Contrast",
+  "learning_objective": "Students will be able to compare the error rates of classical and quantum computing operations on a logarithmic scale and explain why the gap matters for practical computation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** error-rate-comparison<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare, Contrast\n\n**Learning Objective:** Students will be able to compare the error rates of classical and quantum computing operations on a logarithmic scale and explain why the gap matters for practical computation.\n\n**Chart type:** Horizontal bar chart with logarithmic x-axis\n\n**X-axis:** Error rate per operation (logarithmic, from $10^{-20}$ to $10^{0}$)\n**Y-axis:** Categories\n\n**Data:**\n\n- Classical transistor (2024): ~$10^{-18}$\n- Classical DRAM: ~$10^{-15}$\n- Classical hard drive: ~$10^{-14}$\n- Quantum gate — trapped ion (best): ~$10^{-4}$\n- Quantum gate — superconducting (best): ~$10^{-3}$\n- Quantum gate — photonic (best): ~$10^{-2}$\n- Error correction threshold needed: ~$10^{-4}$ (shown as vertical reference line)\n\n**Color coding:**\n\n- Green: Classical systems\n- Orange: Quantum systems\n- Red dashed line: Error correction threshold\n\n**Annotations:**\n\n- Arrow spanning the gap between classical and quantum: \"15 orders of magnitude gap\"\n- Label on threshold line: \"Below this line, error correction becomes theoretically possible\"\n\n**Interactive features:**\n\n- Hover over bars to see: technology name, exact error rate, source citation year\n- Toggle: \"Show improvement over time\" — adds historical data points showing quantum error rate improvement trajectory\n\n**Implementation:** Chart.js with logarithmic axis. Background: aliceblue. Responsive."
+}

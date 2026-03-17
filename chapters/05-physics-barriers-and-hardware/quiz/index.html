@@ -1,0 +1,2351 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/chapters/05-physics-barriers-and-hardware/quiz/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../references/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Quiz - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Quiz - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/05-physics-barriers-and-hardware/quiz.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/chapters/05-physics-barriers-and-hardware/quiz/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Quiz - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/05-physics-barriers-and-hardware/quiz.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-the-physics-barriers-and-hardware-platforms" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../01-what-is-quantum-computing/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    1. What Is Quantum Computing?
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../02-quantum-algorithms-and-limits/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    2. Quantum Algorithms and Limits
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../03-history-of-quantum-computing/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    3. History of QC Promises
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../04-catalog-of-optimistic-claims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    4. Overly Optimistic Claims
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    5. Physics Barriers and Hardware
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            5. Physics Barriers and Hardware
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-decoherence-and-why-is-it-classified-as-a-physics-barrier-rather-than-an-engineering-barrier" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What is decoherence, and why is it classified as a physics barrier rather than an engineering barrier?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-if-a-quantum-computation-requires-1010-gate-operations-and-the-gate-error-rate-is-10-3-approximately-how-many-errors-will-occur" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. If a quantum computation requires \(10^{10}\) gate operations and the gate error rate is \(10^{-3}\), approximately how many errors will occur?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-using-the-surface-code-at-current-error-rates-sim-10-3-approximately-how-many-physical-qubits-are-needed-per-logical-qubit" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Using the surface code at current error rates (\(\sim 10^{-3}\)), approximately how many physical qubits are needed per logical qubit?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-which-of-the-following-is-an-engineering-barrier-not-a-physics-barrier" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Which of the following is an engineering barrier, NOT a physics barrier?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-why-does-the-wiring-problem-become-physically-impossible-at-the-million-qubit-scale-for-superconducting-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Why does the wiring problem become physically impossible at the million-qubit scale for superconducting systems?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-what-is-the-estimated-power-consumption-of-a-million-qubit-quantum-computing-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. What is the estimated power consumption of a million-qubit quantum computing system?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-what-is-the-fatal-flaw-of-the-topological-quantum-computing-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. What is the fatal flaw of the topological quantum computing approach?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-quantum-hardware-company-reports-999-gate-fidelity-for-their-system-why-might-this-number-be-misleading-when-evaluating-the-systems-practical-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. A quantum hardware company reports "99.9% gate fidelity" for their system. Why might this number be misleading when evaluating the system's practical capability?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-trapped-ion-quantum-computers-have-the-highest-gate-fidelities-and-longest-coherence-times-why-havent-they-achieved-fault-tolerant-quantum-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Trapped ion quantum computers have the highest gate fidelities and longest coherence times. Why haven't they achieved fault-tolerant quantum computing?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-the-chapter-describes-a-scaling-wall-in-quantum-computing-what-creates-this-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. The chapter describes a "scaling wall" in quantum computing. What creates this wall?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    References
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../06-quantum-encryption-threat/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    6. Quantum Encryption Threat
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../07-general-purpose-technology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    7. General Purpose Technology
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../08-investment-risk-analysis/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    8. Investment Risk Analysis
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../09-company-case-studies/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    9. Company Case Studies
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../10-technology-assessment/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    10. Technology Assessment
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../11-cognitive-biases/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    11. Cognitive Biases
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../12-expert-skeptics-ethics-careers/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    12. Skeptics, Ethics, Careers
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../13-systems-thinking-causal-loops/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    13. Systems Thinking
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../14-better-alternatives/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    14. Better Alternatives
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../15-historical-parallels/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    15. Historical Parallels
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../16-breakthroughs-required/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    16. Breakthroughs Required
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../17-critical-thinking-application/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    17. Critical Thinking
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    MicroSims
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../appendices/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Appendices
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Learning Graph
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../prompts/index.md" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-decoherence-and-why-is-it-classified-as-a-physics-barrier-rather-than-an-engineering-barrier" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What is decoherence, and why is it classified as a physics barrier rather than an engineering barrier?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-if-a-quantum-computation-requires-1010-gate-operations-and-the-gate-error-rate-is-10-3-approximately-how-many-errors-will-occur" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. If a quantum computation requires \(10^{10}\) gate operations and the gate error rate is \(10^{-3}\), approximately how many errors will occur?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-using-the-surface-code-at-current-error-rates-sim-10-3-approximately-how-many-physical-qubits-are-needed-per-logical-qubit" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Using the surface code at current error rates (\(\sim 10^{-3}\)), approximately how many physical qubits are needed per logical qubit?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-which-of-the-following-is-an-engineering-barrier-not-a-physics-barrier" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Which of the following is an engineering barrier, NOT a physics barrier?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-why-does-the-wiring-problem-become-physically-impossible-at-the-million-qubit-scale-for-superconducting-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Why does the wiring problem become physically impossible at the million-qubit scale for superconducting systems?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-what-is-the-estimated-power-consumption-of-a-million-qubit-quantum-computing-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. What is the estimated power consumption of a million-qubit quantum computing system?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-what-is-the-fatal-flaw-of-the-topological-quantum-computing-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. What is the fatal flaw of the topological quantum computing approach?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-quantum-hardware-company-reports-999-gate-fidelity-for-their-system-why-might-this-number-be-misleading-when-evaluating-the-systems-practical-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. A quantum hardware company reports "99.9% gate fidelity" for their system. Why might this number be misleading when evaluating the system's practical capability?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-trapped-ion-quantum-computers-have-the-highest-gate-fidelities-and-longest-coherence-times-why-havent-they-achieved-fault-tolerant-quantum-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Trapped ion quantum computers have the highest gate fidelities and longest coherence times. Why haven't they achieved fault-tolerant quantum computing?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-the-chapter-describes-a-scaling-wall-in-quantum-computing-what-creates-this-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. The chapter describes a "scaling wall" in quantum computing. What creates this wall?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/chapters/05-physics-barriers-and-hardware/quiz.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-the-physics-barriers-and-hardware-platforms">Quiz: The Physics Barriers and Hardware Platforms</h1>
+<p>Test your understanding of decoherence, error correction overhead, cryogenic requirements, the engineering-physics barrier distinction, and why each of the five major hardware platforms has fundamental flaws with these review questions.</p>
+<hr />
+<h4 id="1-what-is-decoherence-and-why-is-it-classified-as-a-physics-barrier-rather-than-an-engineering-barrier">1. What is decoherence, and why is it classified as a physics barrier rather than an engineering barrier?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Decoherence is a software bug that can be fixed with better quantum compilers</li>
+<li>Decoherence is the loss of quantum properties through interaction with the environment, arising from fundamental quantum mechanics — not a limitation of current instruments</li>
+<li>Decoherence is a manufacturing defect in superconducting chips that better fabrication will eliminate</li>
+<li>Decoherence is the intentional collapse of qubits during measurement</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Decoherence occurs when a quantum system's superposition and entanglement are destroyed through unwanted interaction with the environment. This is a consequence of quantum mechanics itself: any physical system above absolute zero experiences environmental coupling. The fundamental paradox is that qubits must interact strongly with each other (for gate operations) but interact with nothing else (to avoid decoherence) — contradictory requirements that engineering can mitigate but not eliminate. This distinguishes it from engineering barriers that money and effort can solve.</p>
+<p><strong>Concept Tested:</strong> Decoherence Problem</p>
+</details>
+<hr />
+<h4 id="2-if-a-quantum-computation-requires-1010-gate-operations-and-the-gate-error-rate-is-10-3-approximately-how-many-errors-will-occur">2. If a quantum computation requires <span class="arithmatex">\(10^{10}\)</span> gate operations and the gate error rate is <span class="arithmatex">\(10^{-3}\)</span>, approximately how many errors will occur?</h4>
+<div class="upper-alpha">
+<ol>
+<li>About 1,000 errors</li>
+<li>About 100,000 errors</li>
+<li>About 10 million errors</li>
+<li>About 1 billion errors</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Expected errors = <span class="arithmatex">\(10^{10} \times 10^{-3} = 10^{7}\)</span>, or ten million errors. With this many errors distributed across the computation, the final quantum state has no meaningful relationship to the correct answer — the output is pure noise. For comparison, a classical processor with error rate <span class="arithmatex">\(10^{-18}\)</span> performing the same number of operations would expect essentially zero errors. This calculation demonstrates why raw (uncorrected) quantum computation is useless for large-scale problems at current error rates.</p>
+<p><strong>Concept Tested:</strong> Error Rate Problem</p>
+</details>
+<hr />
+<h4 id="3-using-the-surface-code-at-current-error-rates-sim-10-3-approximately-how-many-physical-qubits-are-needed-per-logical-qubit">3. Using the surface code at current error rates (<span class="arithmatex">\(\sim 10^{-3}\)</span>), approximately how many physical qubits are needed per logical qubit?</h4>
+<div class="upper-alpha">
+<ol>
+<li>About 10 physical qubits per logical qubit</li>
+<li>About 100 physical qubits per logical qubit</li>
+<li>About 1,000 physical qubits per logical qubit</li>
+<li>About 100,000 physical qubits per logical qubit</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. The surface code's overhead depends on the ratio of the threshold error rate to the physical error rate. At current physical error rates of approximately <span class="arithmatex">\(10^{-3}\)</span> and a surface code threshold of approximately <span class="arithmatex">\(10^{-2}\)</span>, the overhead is roughly 1,000 physical qubits per logical qubit. This means that running Shor's algorithm on RSA-2048, which requires about 4,000 logical qubits, would need approximately 4 million to 20 million physical qubits — versus the roughly 1,000 noisy physical qubits available today.</p>
+<p><strong>Concept Tested:</strong> 1000 Physical per 1 Logical</p>
+</details>
+<hr />
+<h4 id="4-which-of-the-following-is-an-engineering-barrier-not-a-physics-barrier">4. Which of the following is an engineering barrier, NOT a physics barrier?</h4>
+<div class="upper-alpha">
+<ol>
+<li>The no-cloning theorem preventing copies of quantum states</li>
+<li>Decoherence from two-level system defects in materials</li>
+<li>Building larger dilution refrigerators to house more qubits</li>
+<li>Measurement backaction destroying quantum information</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Building larger dilution refrigerators is an engineering barrier — the thermodynamic principles are well understood, and larger units can be designed with sufficient investment. In contrast, the no-cloning theorem (a proven mathematical theorem), decoherence from TLS defects (intrinsic to materials at the quantum level), and measurement backaction (a fundamental law of quantum mechanics) are all physics barriers that cannot be overcome by money or effort alone. This distinction is the most important analytical tool for evaluating quantum computing claims.</p>
+<p><strong>Concept Tested:</strong> Engineering vs Physics Barrier</p>
+</details>
+<hr />
+<h4 id="5-why-does-the-wiring-problem-become-physically-impossible-at-the-million-qubit-scale-for-superconducting-systems">5. Why does the wiring problem become physically impossible at the million-qubit scale for superconducting systems?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Because copper wires cannot carry quantum information</li>
+<li>Because each qubit requires 2-4 coaxial cables from room temperature to millikelvin, and a million-qubit system would need 2-4 million cables that cannot physically fit in a cryostat without overwhelming its cooling capacity</li>
+<li>Because wireless qubit control has not been invented yet</li>
+<li>Because the cables would be too expensive at that scale</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Each superconducting qubit requires approximately 2-4 coaxial cables running from room-temperature electronics (~300 K) through multiple cryogenic stages to the millikelvin chip. For a million-qubit system, this means 2-4 million cables. There is simply not enough physical space in current cryostat designs, and the heat conducted by the cables would overwhelm the refrigerator's cooling capacity (only 10-100 microwatts at base temperature). Proposed solutions (cryogenic electronics, multiplexing, optical interconnects) each involve significant tradeoffs and remain undemonstrated at scale.</p>
+<p><strong>Concept Tested:</strong> Wiring and Control Problem</p>
+</details>
+<hr />
+<h4 id="6-what-is-the-estimated-power-consumption-of-a-million-qubit-quantum-computing-system">6. What is the estimated power consumption of a million-qubit quantum computing system?</h4>
+<div class="upper-alpha">
+<ol>
+<li>About 1 kilowatt — comparable to a household appliance</li>
+<li>About 100 kilowatts — comparable to a small building</li>
+<li>About 10-100 megawatts — comparable to a small power plant</li>
+<li>About 1 gigawatt — comparable to a nuclear reactor</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. A million-qubit quantum computer is estimated to consume 10-100 megawatts, accounting for dilution refrigerators, room-temperature control electronics, real-time error correction processing, and facility infrastructure. For comparison, current systems with roughly 1,000 qubits consume 200-600 kilowatts. A classical data center rack consuming 10-20 kilowatts performs over <span class="arithmatex">\(10^{18}\)</span> floating-point operations per second. The energy cost per useful quantum operation — after error correction overhead — may not be competitive with classical computation.</p>
+<p><strong>Concept Tested:</strong> Energy Consumption Problem</p>
+</details>
+<hr />
+<h4 id="7-what-is-the-fatal-flaw-of-the-topological-quantum-computing-approach">7. What is the fatal flaw of the topological quantum computing approach?</h4>
+<div class="upper-alpha">
+<ol>
+<li>It requires temperatures colder than any other platform</li>
+<li>Its gate speeds are too slow for practical computation</li>
+<li>The non-Abelian anyons it requires have never been confirmed to exist, and Microsoft's 2018 paper claiming evidence was retracted in 2021</li>
+<li>It can only perform quantum annealing, not universal computation</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Topological quantum computing relies on exotic quasiparticles called non-Abelian anyons, which would provide built-in error protection. However, after more than 20 years of searching, no experiment has conclusively demonstrated their existence. Microsoft's 2018 paper in Nature claiming evidence of Majorana fermions was retracted in 2021 due to data processing errors. A 2023 paper reported "topological signatures" but acknowledged no definitive demonstration. Betting billions on particles that may not exist in usable form represents an extraordinary risk.</p>
+<p><strong>Concept Tested:</strong> Topological Approach</p>
+</details>
+<hr />
+<h4 id="8-a-quantum-hardware-company-reports-999-gate-fidelity-for-their-system-why-might-this-number-be-misleading-when-evaluating-the-systems-practical-capability">8. A quantum hardware company reports "99.9% gate fidelity" for their system. Why might this number be misleading when evaluating the system's practical capability?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Because 99.9% fidelity means no errors at all</li>
+<li>Because fidelity measurements are always inaccurate</li>
+<li>Because 99.9% is typically reported for the best qubit pair, while system-level fidelity is much lower, and even 99.9% yields millions of errors in a large computation</li>
+<li>Because gate fidelity has no relationship to computational performance</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. A reported 99.9% fidelity (error rate of <span class="arithmatex">\(10^{-3}\)</span>) is typically the best-case measurement on the highest-performing qubit pair, not the system-wide average. System-level fidelity is substantially lower due to variation across qubits, crosstalk, and measurement errors. Even at 99.9%, a computation requiring <span class="arithmatex">\(10^{10}\)</span> gates would produce 10 million errors — pure noise. Startups frequently report best-case metrics in marketing materials, a pattern identified in the chapter as "suppressing failure modes."</p>
+<p><strong>Concept Tested:</strong> Error Rate Problem</p>
+</details>
+<hr />
+<h4 id="9-trapped-ion-quantum-computers-have-the-highest-gate-fidelities-and-longest-coherence-times-why-havent-they-achieved-fault-tolerant-quantum-computing">9. Trapped ion quantum computers have the highest gate fidelities and longest coherence times. Why haven't they achieved fault-tolerant quantum computing?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Because their qubits are not truly quantum</li>
+<li>Because they require temperatures colder than superconducting systems</li>
+<li>Because scaling beyond approximately 30 ions per chain is extremely difficult due to motional mode crowding, and gate speeds are 1,000x slower than superconducting systems</li>
+<li>Because trapped ions cannot be entangled with each other</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Despite superior fidelity (99.9%) and coherence times (seconds to minutes), trapped ions face fundamental scaling barriers. As ion chains grow beyond roughly 30 ions, the motional modes used for gate operations become crowded and unstable — a physics constraint inherent to Coulomb crystals. Gate speeds of 1-100 microseconds are roughly 1,000x slower than superconducting gates, partially negating the coherence time advantage. Scaling requires modular architectures with ion shuttling, which introduces noise and complexity.</p>
+<p><strong>Concept Tested:</strong> Trapped Ion Approach</p>
+</details>
+<hr />
+<h4 id="10-the-chapter-describes-a-scaling-wall-in-quantum-computing-what-creates-this-wall">10. The chapter describes a "scaling wall" in quantum computing. What creates this wall?</h4>
+<div class="upper-alpha">
+<ol>
+<li>Government regulations that limit the size of quantum computers</li>
+<li>The combination of decoherence, error rates, error correction overhead, cryogenics, wiring, energy, and cost — where the overhead of managing errors and infrastructure grows faster than the computational benefit of adding qubits</li>
+<li>A theoretical proof that quantum computers cannot exceed 10,000 qubits</li>
+<li>Competition from classical computers that prevents quantum companies from raising enough funding</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The scaling wall emerges from the compounding of multiple barriers: decoherence limits circuit depth, error correction demands 1,000 physical qubits per logical qubit, cryogenic cooling provides only microwatts at base temperature, wiring density is physically constrained, and energy consumption grows nonlinearly with system size. Beyond a certain point, adding more qubits does not increase useful computation because the overhead grows faster than the benefit. The wall's position depends on error rates and error correction efficiency, but its existence is a fundamental constraint.</p>
+<p><strong>Concept Tested:</strong> Hardware Scaling Wall</p>
+</details>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: References">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                References
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+        <script src="../../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

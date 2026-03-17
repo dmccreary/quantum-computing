@@ -1,0 +1,14 @@
+{
+  "sim_id": "bias-detection-checklist",
+  "diagram_name": "Bias Detection Checklist Tool",
+  "chapter_number": 11,
+  "chapter_title": "Cognitive Biases in Quantum Computing Investment",
+  "chapter_dir": "11-cognitive-biases",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Apply a structured bias detection checklist to analyze a quantum computing press release or investor pitch, identifying embedded biases and rating the overall bias level (Bloom's Level 3: Apply — use, execute, implement).",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: microsim\n**sim-id:** bias-detection-checklist<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning Objective:** Apply a structured bias detection checklist to analyze a quantum computing press release or investor pitch, identifying embedded biases and rating the overall bias level (Bloom's Level 3: Apply — use, execute, implement).\n\n**Instructional Rationale:** An interactive checklist with built-in examples is appropriate because the Apply/use objective requires learners to practice the skill of bias detection on realistic material. Pre-loaded examples provide immediate practice opportunities.\n\n**Canvas Layout:**\n- Left panel (55%): Sample text display area (press release or pitch excerpt)\n- Right panel (45%): Bias checklist with checkboxes and scoring\n\n**Interactive Controls:**\n- Dropdown: Select sample text (\"IonQ press release,\" \"McKinsey QC report excerpt,\" \"Government funding announcement,\" \"Skeptical analysis\" — four pre-loaded examples)\n- 12 checkboxes (one per bias covered in this chapter, excluding overview and compounding)\n- Each checkbox has a brief prompt: e.g., \"Sunk cost: Does it reference past investment as justification?\"\n- \"Calculate Bias Score\" button\n- \"Show expert analysis\" toggle — reveals which biases an expert identified in the same text\n\n**Visual Elements:**\n- Sample text with biased phrases highlighted in yellow after analysis\n- Bias score gauge: 0 (minimal bias) to 12 (maximum bias)\n- Color-coded result: green (0-3), yellow (4-6), orange (7-9), red (10-12)\n- Comparison panel: user's identified biases vs expert analysis\n- Background: aliceblue\n\n**Behavior:**\n- User reads sample text and checks biases they identify\n- On \"Calculate,\" the tool scores and reveals the expert analysis\n- Highlighted phrases in the text link to specific biases\n- Score message: \"You identified X of Y biases. Expert identified Y. [Feedback message]\"\n- Feedback adapts: \"Excellent!\" (within 2 of expert) / \"Look more carefully at...\" (missed 3+)\n\n**Responsive Design:** Panels stack vertically on narrow screens; text area scrolls.\n\nImplementation: p5.js with DOM elements for text display and checkboxes"
+}

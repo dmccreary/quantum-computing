@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Anchoring\nBias",
+      "title": "First number sticks — early QC projections set expectations that persist despite contrary evidence",
+      "category": "perception",
+      "x": -200,
+      "y": -150,
+      "example": "When a company announces '1,000 qubits by 2025,' that number anchors expectations even when later data shows those qubits lack error correction."
+    },
+    {
+      "id": 2,
+      "label": "Authority\nBias",
+      "title": "Experts must be right — prestigious names lend credibility to unproven claims",
+      "category": "social",
+      "x": 200,
+      "y": -150,
+      "example": "Nobel laureates endorsing QC timelines carry outsized weight, even when their expertise is in theory, not engineering."
+    },
+    {
+      "id": 3,
+      "label": "Bandwagon\nEffect",
+      "title": "Everyone's investing — herd behavior drives investment independent of evidence",
+      "category": "social",
+      "x": 300,
+      "y": 0,
+      "example": "When Google, IBM, and Microsoft all invest billions, other firms follow regardless of independent technical assessment."
+    },
+    {
+      "id": 4,
+      "label": "Confirmation\nBias",
+      "title": "See only supporting evidence — investors notice QC successes, ignore failures",
+      "category": "cognitive",
+      "x": 200,
+      "y": 150,
+      "example": "Investors highlight quantum supremacy announcements but overlook that those demonstrations solved no commercially useful problem."
+    },
+    {
+      "id": 5,
+      "label": "Sunk Cost\nFallacy",
+      "title": "Can't stop now — past investment justifies continued spending despite poor outlook",
+      "category": "economic",
+      "x": -200,
+      "y": 150,
+      "example": "'We've spent $2 billion already — we can't walk away now.' But past spending says nothing about future probability of success."
+    },
+    {
+      "id": 6,
+      "label": "Optimism\nBias",
+      "title": "It'll work out — systematic overestimation of positive outcomes",
+      "category": "cognitive",
+      "x": -300,
+      "y": 0,
+      "example": "QC roadmaps consistently predict breakthroughs 5-10 years out. The timeline never gets shorter."
+    },
+    {
+      "id": 7,
+      "label": "Dunning-\nKruger",
+      "title": "Overestimate understanding — non-physicists underestimate QC's technical barriers",
+      "category": "cognitive",
+      "x": 0,
+      "y": -200,
+      "example": "Tech executives who can't explain decoherence confidently predict when fault-tolerant QC will arrive."
+    },
+    {
+      "id": 8,
+      "label": "Availability\nHeuristic",
+      "title": "Vivid examples dominate — dramatic QC demos overshadow mundane failures",
+      "category": "perception",
+      "x": 0,
+      "y": 200,
+      "example": "A single 'quantum advantage' headline is more memorable than hundreds of quiet lab failures, skewing risk perception."
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 4,
+      "label": "anchors filter\nevidence",
+      "title": "Anchored expectations cause investors to seek confirming evidence for the initial projection"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "label": "prestige drives\nadoption",
+      "title": "When authorities endorse QC, others follow their lead, creating bandwagon momentum"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "label": "herd creates\nsunk costs",
+      "title": "Bandwagon-driven investments create sunk costs that trap investors"
+    },
+    {
+      "from": 4,
+      "to": 6,
+      "label": "filtered evidence\nfeeds optimism",
+      "title": "Seeing only confirming evidence sustains unrealistic optimism about QC timelines"
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "label": "sunk costs\nfilter evidence",
+      "title": "Having invested heavily motivates seeking evidence that validates the investment"
+    },
+    {
+      "from": 6,
+      "to": 1,
+      "label": "optimism\nsets anchors",
+      "title": "Optimistic projections become the anchoring numbers that persist in decision-making"
+    },
+    {
+      "from": 7,
+      "to": 2,
+      "label": "overconfidence\ndefers to authority",
+      "title": "Those who overestimate their own understanding paradoxically defer to the wrong authorities"
+    },
+    {
+      "from": 8,
+      "to": 6,
+      "label": "vivid successes\nfuel optimism",
+      "title": "Memorable QC demonstrations create an illusion that breakthroughs are frequent and imminent"
+    },
+    {
+      "from": 8,
+      "to": 3,
+      "label": "dramatic demos\ndrive bandwagon",
+      "title": "Vivid, widely-shared QC announcements attract more followers to the bandwagon"
+    },
+    {
+      "from": 6,
+      "to": 4,
+      "label": "optimists seek\nconfirmation",
+      "title": "Optimistic expectations drive selective attention to supporting evidence"
+    },
+    {
+      "from": 3,
+      "to": 2,
+      "label": "consensus\nvalidates experts",
+      "title": "When everyone is investing, the authorities who endorsed QC appear vindicated"
+    },
+    {
+      "from": 7,
+      "to": 6,
+      "label": "ignorance breeds\noptimism",
+      "title": "Not understanding the physics makes the engineering challenges seem more tractable"
+    },
+    {
+      "from": 1,
+      "to": 5,
+      "label": "anchored targets\ntrap investment",
+      "title": "Anchored milestones create benchmarks that justify continued spending to reach them"
+    }
+  ],
+  "categories": {
+    "perception": {
+      "color": "#4285F4",
+      "label": "Perception Biases"
+    },
+    "social": {
+      "color": "#34A853",
+      "label": "Social Biases"
+    },
+    "cognitive": {
+      "color": "#FF7043",
+      "label": "Cognitive Biases"
+    },
+    "economic": {
+      "color": "#EA4335",
+      "label": "Economic Biases"
+    }
+  }
+}

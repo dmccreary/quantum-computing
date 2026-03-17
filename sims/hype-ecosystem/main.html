@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quantum Computing Hype Ecosystem</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">The Quantum Computing Hype Ecosystem</div>
+
+    <div id="legend">
+        <div class="legend-title">Actor Categories</div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #4285F4;"></span> Producers
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #FF7043;"></span> Amplifiers
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #34A853;"></span> Funders
+        </div>
+        <div class="legend-section">
+            <div class="legend-title">Edge Types</div>
+            <div class="legend-edge-item">
+                <span class="legend-line" style="border-top: 2px solid #E65100;"></span> Hype
+            </div>
+            <div class="legend-edge-item">
+                <span class="legend-line" style="border-top: 2px dashed #2E7D32;"></span> Money
+            </div>
+            <div class="legend-edge-item">
+                <span class="legend-line" style="border-top: 2px dotted #1565C0;"></span> Credibility
+            </div>
+        </div>
+        <div class="legend-instructions">Click a node to highlight its connections.<br>Click empty space to reset.</div>
+    </div>
+
+    <div id="right-panel">
+        <div id="panel-title">Select an Actor</div>
+        <div id="panel-body">Click on any actor node to see their role in the hype ecosystem and how they connect to other actors.</div>
+    </div>
+
+    <div id="network"></div>
+
+    <script src="hype-ecosystem.js"></script>
+</body>
+</html>

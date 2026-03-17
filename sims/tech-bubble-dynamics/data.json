@@ -1,0 +1,310 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Compelling\nNarrative",
+      "title": "Bold claims about transformative technology create a compelling story that attracts attention and investment",
+      "category": "trigger",
+      "x": -200,
+      "y": -200,
+      "example": "Quantum computing will break all encryption, cure diseases, and revolutionize finance — a narrative so sweeping it resists scrutiny."
+    },
+    {
+      "id": 2,
+      "label": "Media\nCoverage",
+      "title": "Press amplifies innovation claims, prioritizing dramatic narratives over technical nuance",
+      "category": "amplifier",
+      "x": 100,
+      "y": -250,
+      "example": "Headlines like 'Quantum Supremacy Achieved!' generate clicks, while the fine print — that the demo solved no useful problem — gets buried."
+    },
+    {
+      "id": 3,
+      "label": "Investor\nInterest",
+      "title": "Capital allocators respond to compelling narratives and media attention by exploring investment opportunities",
+      "category": "financial",
+      "x": 300,
+      "y": -100,
+      "example": "VCs see quantum computing coverage everywhere and begin allocating funds, worried about missing the next big platform shift."
+    },
+    {
+      "id": 4,
+      "label": "Valuation\nInflation",
+      "title": "Capital inflow drives up company valuations far beyond what current technology or revenue justifies",
+      "category": "financial",
+      "x": 300,
+      "y": 100,
+      "example": "QC startups with zero revenue reach billion-dollar valuations based on potential alone, while classical computing competitors trade at 10x earnings."
+    },
+    {
+      "id": 5,
+      "label": "Talent\nRush",
+      "title": "High valuations and media attention attract researchers and engineers, draining talent from other productive fields",
+      "category": "resource",
+      "x": 100,
+      "y": 250,
+      "example": "Top physics PhDs leave productive classical research to join QC startups offering equity packages based on inflated valuations."
+    },
+    {
+      "id": 6,
+      "label": "Over-\npromising",
+      "title": "Pressure from investors and inflated expectations drives companies to make claims beyond what the technology can deliver",
+      "category": "risk",
+      "x": -200,
+      "y": 200,
+      "example": "Companies promise 'quantum advantage within 2 years' to justify valuations, knowing the physics doesn't support that timeline."
+    },
+    {
+      "id": 7,
+      "label": "Delivery\nFailures",
+      "title": "When overpromised milestones are missed, credibility erodes and the gap between claims and reality becomes visible",
+      "category": "risk",
+      "x": -300,
+      "y": 0,
+      "example": "Promised fault-tolerant systems don't materialize. Error rates remain orders of magnitude too high. Customers see no ROI."
+    },
+    {
+      "id": 8,
+      "label": "Disillusion-\nment",
+      "title": "Accumulated failures and unmet promises trigger a reassessment of the entire technology narrative",
+      "category": "outcome",
+      "x": 0,
+      "y": 0,
+      "example": "After years of missed milestones, institutional investors begin writing down QC positions and media coverage turns skeptical."
+    },
+    {
+      "id": 9,
+      "label": "FOMO\nPressure",
+      "title": "Fear of missing out creates urgency to invest before 'it's too late,' bypassing careful due diligence",
+      "category": "amplifier",
+      "x": 350,
+      "y": -250,
+      "example": "Fund managers invest in QC not because of technical conviction, but because competitors are investing and LPs are asking about it."
+    },
+    {
+      "id": 10,
+      "label": "Information\nAsymmetry",
+      "title": "Most investors lack the physics knowledge to evaluate QC claims, creating a knowledge gap exploited by hype",
+      "category": "risk",
+      "x": -350,
+      "y": -150,
+      "example": "Investors can't distinguish between 1,000 noisy qubits and 1,000 error-corrected logical qubits — a difference that changes everything."
+    },
+    {
+      "id": 11,
+      "label": "Skeptic\nVoices",
+      "title": "Critical analysts and scientists who question the narrative provide a balancing force — when they are heard",
+      "category": "outcome",
+      "x": -350,
+      "y": 150,
+      "example": "Physicists who point out that error correction requires 1,000-10,000 physical qubits per logical qubit are dismissed as 'not visionary.'"
+    },
+    {
+      "id": 12,
+      "label": "Reality\nGap",
+      "title": "The widening distance between what is promised and what is technically achievable",
+      "category": "risk",
+      "x": -150,
+      "y": 100,
+      "example": "Roadmaps promise millions of logical qubits by 2030, but labs struggle to maintain coherence in systems of 100 physical qubits."
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 2,
+      "label": "(+) generates\ncoverage",
+      "title": "Compelling narratives are irresistible to media — they generate clicks and views",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "label": "(+) attracts\ninvestors",
+      "title": "Widespread media coverage signals opportunity, drawing investor attention",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "label": "(+) inflates\nvaluations",
+      "title": "More capital chasing limited QC companies drives valuations up",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "label": "(+) attracts\ntalent",
+      "title": "High valuations fund generous compensation packages that draw top talent",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "label": "(+) pressure\nto deliver",
+      "title": "Talented hires need to justify their salaries and equity with ambitious promises",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "label": "(+) leads to\nfailures",
+      "title": "Promises that exceed technical reality inevitably result in missed milestones",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "label": "(+) causes\ndisillusionment",
+      "title": "Visible delivery failures erode confidence and trigger reassessment",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 8,
+      "to": 3,
+      "label": "(-) dampens\ninvestment",
+      "title": "Disillusionment reduces investor willingness to fund QC ventures (balancing loop B1)",
+      "polarity": "-",
+      "loop": "B1"
+    },
+    {
+      "from": 4,
+      "to": 6,
+      "label": "(+) pressure to\noverpromise",
+      "title": "Sky-high valuations create pressure to justify them with ever-bolder claims",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 8,
+      "to": 1,
+      "label": "(-) reality\ncheck",
+      "title": "Disillusionment forces more realistic framing of innovation claims (balancing loop B2)",
+      "polarity": "-",
+      "loop": "B2"
+    },
+    {
+      "from": 4,
+      "to": 9,
+      "label": "(+) rising values\nfuel FOMO",
+      "title": "Watching valuations climb makes non-investors fear they're missing out",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 9,
+      "to": 3,
+      "label": "(+) FOMO drives\ninvestment",
+      "title": "Fear of missing out bypasses due diligence and drives capital in (reinforcing loop R1)",
+      "polarity": "+",
+      "loop": "R1"
+    },
+    {
+      "from": 10,
+      "to": 3,
+      "label": "(+) ignorance\nenables hype",
+      "title": "When investors can't evaluate claims, they rely on narratives instead of evidence",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "label": "(-) skeptics\ndismissed",
+      "title": "Information asymmetry means skeptics' technical arguments fall on deaf ears",
+      "polarity": "-",
+      "loop": null
+    },
+    {
+      "from": 11,
+      "to": 3,
+      "label": "(-) caution\nslows investment",
+      "title": "When heard, skeptic voices reduce investor enthusiasm (balancing loop B3)",
+      "polarity": "-",
+      "loop": "B3"
+    },
+    {
+      "from": 12,
+      "to": 11,
+      "label": "(+) gap feeds\nskepticism",
+      "title": "As the gap between promises and reality widens, skeptics gain evidence and credibility",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 12,
+      "to": 8,
+      "label": "(+) gap drives\ndisillusionment",
+      "title": "A visible reality gap accelerates the shift from enthusiasm to disillusionment",
+      "polarity": "+",
+      "loop": null
+    },
+    {
+      "from": 7,
+      "to": 12,
+      "label": "(+) failures\nwiden gap",
+      "title": "Each delivery failure makes the distance between claims and reality more obvious",
+      "polarity": "+",
+      "loop": null
+    }
+  ],
+  "categories": {
+    "trigger": {
+      "color": "#4285F4",
+      "label": "Trigger"
+    },
+    "amplifier": {
+      "color": "#FF7043",
+      "label": "Amplifier"
+    },
+    "financial": {
+      "color": "#34A853",
+      "label": "Financial"
+    },
+    "resource": {
+      "color": "#7E57C2",
+      "label": "Resource"
+    },
+    "risk": {
+      "color": "#EA4335",
+      "label": "Risk"
+    },
+    "outcome": {
+      "color": "#9E9E9E",
+      "label": "Outcome"
+    }
+  },
+  "loops": {
+    "R1": {
+      "label": "R1: FOMO Loop",
+      "type": "reinforcing",
+      "nodes": [3, 4, 9],
+      "description": "Rising valuations create FOMO, which drives more investment, which inflates valuations further."
+    },
+    "B1": {
+      "label": "B1: Disillusionment Loop",
+      "type": "balancing",
+      "nodes": [3, 4, 5, 6, 7, 8],
+      "description": "The main bubble cycle: investment leads to overpromising, failures, and disillusionment that dampens further investment."
+    },
+    "B2": {
+      "label": "B2: Reality Check Loop",
+      "type": "balancing",
+      "nodes": [1, 2, 3, 4, 5, 6, 7, 8],
+      "description": "Disillusionment forces more realistic narratives, slowing the hype cycle at its source."
+    },
+    "B3": {
+      "label": "B3: Skeptic Loop",
+      "type": "balancing",
+      "nodes": [11, 3],
+      "description": "Skeptic voices provide a balancing force against investor enthusiasm, when information asymmetry allows them to be heard."
+    }
+  }
+}

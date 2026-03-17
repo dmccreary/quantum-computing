@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Breakthrough Dependencies Map</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="network"></div>
+        <div class="title">Breakthrough Dependencies Map</div>
+        <div class="legend">
+            <h4>Categories</h4>
+            <div class="legend-item">
+                <span class="legend-swatch" style="background-color: #E53935;"></span>
+                <span class="legend-label">Fundamental</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-swatch" style="background-color: #FF7043;"></span>
+                <span class="legend-label">Engineering</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-swatch" style="background-color: #FFC107;"></span>
+                <span class="legend-label">Software</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-swatch" style="background-color: #9E9E9E;"></span>
+                <span class="legend-label">Outcome</span>
+            </div>
+            <div style="margin-top: 8px; border-top: 1px solid #ddd; padding-top: 6px;">
+                <div class="legend-item">
+                    <span style="display:inline-block;width:20px;border-top:2px dashed #999;"></span>
+                    <span class="legend-label">Dependency</span>
+                </div>
+                <div class="legend-item">
+                    <span style="display:inline-block;width:20px;border-top:2px solid #42A5F5;"></span>
+                    <span class="legend-label">Coupling</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h4>Controls</h4>
+            <div class="preset-buttons">
+                <button class="preset-btn" id="btn-current">Set to Current State (2025)</button>
+                <button class="preset-btn" id="btn-optimistic">Set to Optimistic 2035</button>
+                <button class="preset-btn" id="btn-all100">Set All to 100%</button>
+                <button class="preset-btn" id="btn-reset">Reset to 0%</button>
+            </div>
+            <div class="progress-summary" id="progress-summary">
+                Breakthroughs achieved: <span class="achieved">0/10</span><br>
+                Commercial viability: <span class="viability-status blocked">BLOCKED</span>
+            </div>
+            <div class="slider-section" id="slider-section">
+                <h5>Breakthrough Progress</h5>
+            </div>
+            <div class="info-panel" id="info-panel">
+                <h5>Details</h5>
+                <p class="info-placeholder">Hover over a node or edge for details.</p>
+            </div>
+        </div>
+    </div>
+    <script src="breakthrough-dependencies.js"></script>
+</body>
+</html>

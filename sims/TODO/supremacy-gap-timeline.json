@@ -1,0 +1,14 @@
+{
+  "sim_id": "supremacy-gap-timeline",
+  "diagram_name": "Shrinking Supremacy Gap Timeline",
+  "chapter_number": 2,
+  "chapter_title": "Quantum Algorithms and Their Real-World Limits",
+  "chapter_dir": "02-quantum-algorithms-and-limits",
+  "library": "Chart.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare, Examine",
+  "learning_objective": "Students will be able to analyze how classical algorithm improvements eroded Google's quantum supremacy claim over time, and explain why supremacy claims are fragile.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** supremacy-gap-timeline<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare, Examine\n\n**Learning Objective:** Students will be able to analyze how classical algorithm improvements eroded Google's quantum supremacy claim over time, and explain why supremacy claims are fragile.\n\n**Chart type:** Combined line and bar chart with logarithmic y-axis\n\n**X-axis:** Timeline (2019 Q4, 2020 Q1, 2021, 2022, 2023, 2024)\n\n**Y-axis:** Estimated classical computation time for equivalent task (seconds, logarithmic scale from $10^0$ to $10^{11}$)\n\n**Data points:**\n\n- Oct 2019 — Google's claim: $3.15 \\times 10^{11}$ seconds (10,000 years)\n- Nov 2019 — IBM's estimate: $2.16 \\times 10^{5}$ seconds (2.5 days)\n- 2021 — Tensor network methods: $\\sim 10^{4}$ seconds (hours)\n- 2022 — Improved tensor networks: $\\sim 10^{3}$ seconds (~20 minutes)\n- 2023 — GPU cluster simulation: $\\sim 15$ seconds\n\n**Reference line:** Sycamore quantum execution time = 200 seconds (horizontal dashed line)\n\n**Annotations:**\n\n- Arrow where classical time drops below quantum time: \"Classical matches quantum\"\n- Label on Google's initial claim: \"10,000 years (Google, 2019)\"\n- Label on final classical result: \"15 seconds (GPU cluster, 2023)\"\n\n**Color coding:**\n\n- Blue line: Classical computation time estimates\n- Orange dashed line: Quantum execution time (200 seconds)\n- Red region: Where classical exceeds quantum (supremacy claimed)\n- Green region: Where classical matches or beats quantum\n\n**Interactive features:**\n\n- Hover over each data point to see: source paper, hardware used, algorithm improvement, estimated classical time\n- Toggle: \"Show quantum hardware improvements\" to overlay quantum processor improvements during the same period\n\n**Implementation:** Chart.js with logarithmic y-axis. Background: aliceblue. Responsive to window resize."
+}

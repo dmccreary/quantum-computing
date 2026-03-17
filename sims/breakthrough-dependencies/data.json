@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Error Rates \u2193100x",
+      "category": "fundamental",
+      "color": "#E53935",
+      "defaultProgress": 5,
+      "optimistic2035": 40,
+      "description": "Physical error rates must decrease by two orders of magnitude to enable fault-tolerant quantum computing. Current best: ~10\u207b\u00b3, needed: ~10\u207b\u2075.",
+      "x": 0,
+      "y": -250
+    },
+    {
+      "id": 2,
+      "label": "Qubit Count \u21911000x",
+      "category": "fundamental",
+      "color": "#E53935",
+      "defaultProgress": 10,
+      "optimistic2035": 30,
+      "description": "Scaling from ~1,000 physical qubits to millions. Requires solving wiring, crosstalk, and yield challenges simultaneously.",
+      "x": -200,
+      "y": -150
+    },
+    {
+      "id": 3,
+      "label": "Coherence \u2191100x",
+      "category": "engineering",
+      "color": "#FF7043",
+      "defaultProgress": 15,
+      "optimistic2035": 35,
+      "description": "Qubit coherence times must increase ~100x to allow meaningful computation before quantum state decays.",
+      "x": 200,
+      "y": -150
+    },
+    {
+      "id": 4,
+      "label": "Connectivity \u219110x",
+      "category": "fundamental",
+      "color": "#E53935",
+      "defaultProgress": 5,
+      "optimistic2035": 25,
+      "description": "Most architectures have nearest-neighbor connectivity. Full or near-full connectivity is needed for efficient algorithms.",
+      "x": -300,
+      "y": 0
+    },
+    {
+      "id": 5,
+      "label": "Cryogenics Scale",
+      "category": "engineering",
+      "color": "#FF7043",
+      "defaultProgress": 10,
+      "optimistic2035": 30,
+      "description": "Dilution refrigerators must scale to cool millions of qubits at millikelvin temperatures. Current systems support ~1,000 qubits.",
+      "x": 300,
+      "y": 0
+    },
+    {
+      "id": 6,
+      "label": "New Algorithms",
+      "category": "fundamental",
+      "color": "#E53935",
+      "defaultProgress": 5,
+      "optimistic2035": 15,
+      "description": "Only a handful of quantum algorithms show theoretical speedup. Commercially relevant algorithms beyond Shor's and Grover's remain elusive.",
+      "x": -200,
+      "y": 150
+    },
+    {
+      "id": 7,
+      "label": "Cost \u219310\u2076x",
+      "category": "fundamental",
+      "color": "#E53935",
+      "defaultProgress": 1,
+      "optimistic2035": 10,
+      "description": "Cost per useful quantum operation must decrease by ~6 orders of magnitude to compete with classical computing economics.",
+      "x": 200,
+      "y": 150
+    },
+    {
+      "id": 8,
+      "label": "Error Correction",
+      "category": "fundamental",
+      "color": "#E53935",
+      "defaultProgress": 3,
+      "optimistic2035": 20,
+      "description": "Quantum error correction requires 1,000-10,000 physical qubits per logical qubit. Overhead must decrease dramatically.",
+      "x": 0,
+      "y": -80
+    },
+    {
+      "id": 9,
+      "label": "Control Electronics",
+      "category": "engineering",
+      "color": "#FF7043",
+      "defaultProgress": 10,
+      "optimistic2035": 35,
+      "description": "Each qubit needs precise microwave control. Scaling to millions requires integrated cryogenic electronics that don't generate excess heat.",
+      "x": -300,
+      "y": 200
+    },
+    {
+      "id": 10,
+      "label": "Software/Compilers",
+      "category": "software",
+      "color": "#FFC107",
+      "defaultProgress": 20,
+      "optimistic2035": 50,
+      "description": "Quantum compilers and software stacks are the most mature area, but still far from production-ready for fault-tolerant systems.",
+      "x": 300,
+      "y": 200
+    },
+    {
+      "id": 0,
+      "label": "Commercial\nViability",
+      "category": "outcome",
+      "color": "#9E9E9E",
+      "defaultProgress": 0,
+      "optimistic2035": 0,
+      "description": "Commercially viable quantum computing requires ALL breakthroughs to reach 100%. Partial progress yields zero commercial value.",
+      "x": 0,
+      "y": 50,
+      "isOutcome": true
+    }
+  ],
+  "dependency_edges": [
+    { "from": 1, "to": 0 },
+    { "from": 2, "to": 0 },
+    { "from": 3, "to": 0 },
+    { "from": 4, "to": 0 },
+    { "from": 5, "to": 0 },
+    { "from": 6, "to": 0 },
+    { "from": 7, "to": 0 },
+    { "from": 8, "to": 0 },
+    { "from": 9, "to": 0 },
+    { "from": 10, "to": 0 }
+  ],
+  "coupling_edges": [
+    { "from": 1, "to": 8, "label": "Error rates determine EC overhead" },
+    { "from": 8, "to": 1, "label": "EC introduces additional errors" },
+    { "from": 2, "to": 5, "label": "More qubits need more cooling" },
+    { "from": 2, "to": 4, "label": "More qubits compound connectivity" },
+    { "from": 2, "to": 9, "label": "More qubits need more control lines" },
+    { "from": 3, "to": 1, "label": "Decoherence is a source of errors" },
+    { "from": 7, "to": 5, "label": "Cooling dominates cost" },
+    { "from": 7, "to": 2, "label": "More qubits increase cost" },
+    { "from": 8, "to": 2, "label": "EC requires many more physical qubits" },
+    { "from": 6, "to": 8, "label": "Algorithm complexity sets EC requirements" }
+  ]
+}
