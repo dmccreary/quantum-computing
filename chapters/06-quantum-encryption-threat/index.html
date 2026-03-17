@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+        <meta name="description" content="An analysis of why the quantum threat to encryption is significantly overstated — examining the massive qubit requirements, the existence of post-quantum cryptography, and the closing window of vulnerability.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -21,12 +21,12 @@
         <link rel="next" href="../07-general-purpose-technology/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>6. Quantum Encryption Threat - A Skeptic's Guide to Quantum Computing</title>
+        <title>Can Quantum Computers Break Encryption? - Quantum Computing</title>
       
     
     
@@ -75,9 +75,9 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="6. Quantum Encryption Threat - A Skeptic's Guide to Quantum Computing" >
+        <meta  property="og:title"  content="Can Quantum Computers Break Encryption? - Quantum Computing" >
       
-        <meta  property="og:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+        <meta  property="og:description"  content="An analysis of why the quantum threat to encryption is significantly overstated — examining the massive qubit requirements, the existence of post-quantum cryptography, and the closing window of vulnerability." >
       
         <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/06-quantum-encryption-threat/index.png" >
       
@@ -91,9 +91,9 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="6. Quantum Encryption Threat - A Skeptic's Guide to Quantum Computing" >
+        <meta  name="twitter:title"  content="Can Quantum Computers Break Encryption? - Quantum Computing" >
       
-        <meta  name="twitter:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+        <meta  name="twitter:description"  content="An analysis of why the quantum threat to encryption is significantly overstated — examining the massive qubit requirements, the existence of post-quantum cryptography, and the closing window of vulnerability." >
       
         <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/06-quantum-encryption-threat/index.png" >
       
@@ -132,10 +132,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-header__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../img/fermi-192.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -146,13 +145,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            A Skeptic's Guide to Quantum Computing
+            Quantum Computing
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              6. Quantum Encryption Threat
+              Can Quantum Computers Break Encryption?
             
           </span>
         </div>
@@ -242,13 +241,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-nav__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../img/fermi-192.png" alt="logo">
 
     </a>
-    A Skeptic's Guide to Quantum Computing
+    Quantum Computing
   </label>
   
     <div class="md-nav__source">
@@ -278,6 +276,28 @@
   
   <span class="md-ellipsis">
     Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
     
   </span>
   
@@ -368,7 +388,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <div class="md-nav__link md-nav__container">
@@ -385,14 +405,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Chapters
           </label>
@@ -593,6 +613,285 @@
   <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-key-encryption-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Public Key Encryption Basics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Public Key Encryption Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-problem-of-key-exchange" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Problem of Key Exchange
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-rsa-works-conceptual" class="md-nav__link">
+    <span class="md-ellipsis">
+      How RSA Works (Conceptual)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elliptic-curve-cryptography-ecc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elliptic Curve Cryptography (ECC)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#could-quantum-computers-break-encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      Could Quantum Computers Break Encryption?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Could Quantum Computers Break Encryption?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-shors-algorithm-requires" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Shor's Algorithm Requires
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#massive-qubits-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Massive Qubits Needed
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Massive Qubits Needed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-estimates-by-key-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource Estimates by Key Size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-scaling-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Scaling Gap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Scaling Gap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-qubit-scaling-trajectory-vs-cryptographic-threat-threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Qubit Scaling Trajectory vs. Cryptographic Threat Threshold
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-quantum-cryptography-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Quantum Cryptography Exists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Post-Quantum Cryptography Exists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-post-quantum-algorithms-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Post-Quantum Algorithms Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nist-already-has-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      NIST Already Has Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NIST Already Has Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-asymmetry-of-timelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Asymmetry of Timelines
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#harvest-now-decrypt-later" class="md-nav__link">
+    <span class="md-ellipsis">
+      Harvest Now, Decrypt Later
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Harvest Now, Decrypt Later">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assessing-the-hndl-threat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessing the HNDL Threat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-window-is-already-closing" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Window Is Already Closing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Window Is Already Closing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-the-closing-window-of-vulnerability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: The Closing Window of Vulnerability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-crypto-threat-is-overstated" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Crypto Threat Is Overstated
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Crypto Threat Is Overstated">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-threat-what-is-true" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Threat: What Is True
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-overstatement-what-is-missing-from-the-narrative" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Overstatement: What Is Missing from the Narrative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-threat-is-overstated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the Threat Is Overstated
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review Questions
     </span>
   </a>
   
@@ -1132,7 +1431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../license.md" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   
@@ -1154,7 +1453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact.md" class="md-nav__link">
+      <a href="../../contact/" class="md-nav__link">
         
   
   
@@ -1222,6 +1521,285 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-key-encryption-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Public Key Encryption Basics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Public Key Encryption Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-problem-of-key-exchange" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Problem of Key Exchange
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-rsa-works-conceptual" class="md-nav__link">
+    <span class="md-ellipsis">
+      How RSA Works (Conceptual)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elliptic-curve-cryptography-ecc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elliptic Curve Cryptography (ECC)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#could-quantum-computers-break-encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      Could Quantum Computers Break Encryption?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Could Quantum Computers Break Encryption?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-shors-algorithm-requires" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Shor's Algorithm Requires
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#massive-qubits-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Massive Qubits Needed
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Massive Qubits Needed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-estimates-by-key-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource Estimates by Key Size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-scaling-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Scaling Gap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Scaling Gap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-qubit-scaling-trajectory-vs-cryptographic-threat-threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Qubit Scaling Trajectory vs. Cryptographic Threat Threshold
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-quantum-cryptography-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Quantum Cryptography Exists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Post-Quantum Cryptography Exists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-post-quantum-algorithms-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Post-Quantum Algorithms Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nist-already-has-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      NIST Already Has Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NIST Already Has Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-asymmetry-of-timelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Asymmetry of Timelines
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#harvest-now-decrypt-later" class="md-nav__link">
+    <span class="md-ellipsis">
+      Harvest Now, Decrypt Later
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Harvest Now, Decrypt Later">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assessing-the-hndl-threat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessing the HNDL Threat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-window-is-already-closing" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Window Is Already Closing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Window Is Already Closing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-the-closing-window-of-vulnerability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: The Closing Window of Vulnerability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-crypto-threat-is-overstated" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Crypto Threat Is Overstated
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Crypto Threat Is Overstated">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-threat-what-is-true" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Threat: What Is True
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-overstatement-what-is-missing-from-the-narrative" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Overstatement: What Is Missing from the Narrative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-threat-is-overstated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the Threat Is Overstated
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review Questions
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1269,7 +1847,672 @@
 <li><a href="../05-physics-barriers-and-hardware/">Chapter 5: The Physics Barriers and Hardware Platforms</a></li>
 </ul>
 <hr />
-<p>TODO: Generate Chapter Content</p>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Fermi Welcomes You!</p>
+<p><img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Fermi welcomes you">
+Welcome, fellow investigators! The claim that quantum computers will
+"break all encryption" is perhaps the single most effective fundraising
+tool in the quantum computing industry. It generates fear, urgency, and
+government funding in equal measure. Today we examine this claim with
+the same rigor we have applied to every other quantum computing promise.
+But does the math check out? Let's find out!</p>
+</div>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Explain</strong> how public key encryption works at a conceptual level and why its security depends on the difficulty of integer factoring and discrete logarithms</li>
+<li><strong>Describe</strong> how Shor's algorithm theoretically threatens RSA and elliptic curve cryptography</li>
+<li><strong>Calculate</strong> the approximate physical qubit requirements for running Shor's algorithm on cryptographically relevant key sizes</li>
+<li><strong>Identify</strong> the post-quantum cryptography algorithms that NIST has already standardized</li>
+<li><strong>Evaluate</strong> the "harvest now, decrypt later" threat and assess its practical significance</li>
+<li><strong>Argue</strong> why the encryption threat from quantum computing is significantly overstated when the full evidence is considered</li>
+</ul>
+<hr />
+<h2 id="public-key-encryption-basics">Public Key Encryption Basics</h2>
+<p>To understand the quantum threat to encryption, you must first understand what public key encryption does and why it works. This section provides the essential background — just enough to follow the cryptographic argument.</p>
+<h3 id="the-problem-of-key-exchange">The Problem of Key Exchange</h3>
+<p>Classical encryption (symmetric encryption) works by scrambling a message with a secret key that both the sender and receiver share. Algorithms like AES-256 are extremely secure — even quantum computers provide no meaningful advantage against them (Grover's algorithm provides only a quadratic speedup, reducing AES-256's effective security from 256 bits to 128 bits, which remains unbreakable).</p>
+<p>The problem is <strong>key exchange</strong>: how do two parties who have never met agree on a shared secret key without anyone else intercepting it? This is the problem that public key encryption solves.</p>
+<h3 id="how-rsa-works-conceptual">How RSA Works (Conceptual)</h3>
+<p>RSA, invented in 1977 by Rivest, Shamir, and Adleman, is the most widely used public key encryption system. Its security rests on a simple mathematical asymmetry:</p>
+<ul>
+<li><strong>Multiplying two large prime numbers</strong> is computationally easy. A computer can multiply two 1,024-bit primes in microseconds.</li>
+<li><strong>Factoring the product back into its prime components</strong> is computationally hard. The best classical algorithm requires sub-exponential time that makes factoring a 2,048-bit number infeasible.</li>
+</ul>
+<p>This asymmetry creates a <strong>trapdoor function</strong>: easy to compute in one direction, hard to reverse without secret information (the prime factors).</p>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>Difficulty (Classical)</th>
+<th>Difficulty (Quantum)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Multiply two 1,024-bit primes</td>
+<td>Trivial (microseconds)</td>
+<td>Trivial</td>
+</tr>
+<tr>
+<td>Factor a 2,048-bit product</td>
+<td>Infeasible (<span class="arithmatex">\(&gt;10^{20}\)</span> years)</td>
+<td>Polynomial time (Shor's) — but requires ~20M physical qubits</td>
+</tr>
+<tr>
+<td>AES-256 symmetric encryption</td>
+<td>Secure (<span class="arithmatex">\(2^{256}\)</span> operations)</td>
+<td>Still secure (<span class="arithmatex">\(2^{128}\)</span> with Grover's — effectively unbreakable)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="elliptic-curve-cryptography-ecc">Elliptic Curve Cryptography (ECC)</h3>
+<p>Modern systems increasingly use <strong>elliptic curve cryptography</strong>, which provides equivalent security to RSA with much shorter key sizes. ECC's security rests on the <strong>elliptic curve discrete logarithm problem</strong> — another mathematical trapdoor that is easy to compute forward but hard to reverse.</p>
+<p>Shor's algorithm also solves the discrete logarithm problem efficiently, meaning ECC is equally vulnerable to a sufficiently powerful quantum computer. The key difference is scale: because ECC uses shorter keys (256-521 bits), the quantum resources needed to break it are somewhat smaller than for RSA-2048, but still far beyond current capabilities.</p>
+<hr />
+<h2 id="could-quantum-computers-break-encryption">Could Quantum Computers Break Encryption?</h2>
+<p>The theoretical answer is <strong>yes</strong> — Shor's algorithm, running on a sufficiently large and reliable quantum computer, could factor the large numbers underlying RSA and solve the discrete logarithm problems underlying ECC in polynomial time. This is not disputed. The algorithm is mathematically proven.</p>
+<p>The practical answer is <strong>not with any technology that exists or is projected to exist within the foreseeable future.</strong> The gap between Shor's algorithm's theoretical capabilities and the hardware required to execute it at cryptographically relevant scale is the key to understanding the real threat level.</p>
+<h3 id="what-shors-algorithm-requires">What Shor's Algorithm Requires</h3>
+<p>To break RSA-2048 (the most common key size in current use), a quantum computer running Shor's algorithm would need:</p>
+<ul>
+<li><strong>Approximately 4,000 logical qubits</strong> to hold the quantum registers and perform the quantum Fourier transform</li>
+<li><strong>Error correction overhead of ~1,000-5,000 physical qubits per logical qubit</strong> (at current error rates of <span class="arithmatex">\(\sim 10^{-3}\)</span>)</li>
+<li><strong>Total: approximately 4-20 million physical qubits</strong>, all operating simultaneously with error rates below <span class="arithmatex">\(10^{-4}\)</span></li>
+<li><strong>Runtime of hours to days</strong> of continuous, error-corrected quantum computation</li>
+<li><strong>Classical co-processing</strong> for real-time error decoding at microsecond timescales</li>
+</ul>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Insight</p>
+<p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Fermi is thinking">
+The largest quantum processors in 2025 have approximately 1,000 noisy
+physical qubits with error rates of <span class="arithmatex">\(\sim 10^{-3}\)</span>. Breaking RSA-2048
+requires 4-20 million physical qubits with error rates of <span class="arithmatex">\(\sim 10^{-4}\)</span>
+or better. That is a gap of four orders of magnitude in qubit count and
+at least one order of magnitude in error rates — simultaneously. Show
+me the roadmap that closes both gaps within a decade. Nobody has one.</p>
+</div>
+<hr />
+<h2 id="massive-qubits-needed">Massive Qubits Needed</h2>
+<p>Let us examine the resource requirements in detail, because the numbers are the most powerful argument against treating the quantum encryption threat as urgent.</p>
+<h3 id="resource-estimates-by-key-size">Resource Estimates by Key Size</h3>
+<table>
+<thead>
+<tr>
+<th>Encryption Standard</th>
+<th>Key Size</th>
+<th>Logical Qubits Needed</th>
+<th>Physical Qubits (at <span class="arithmatex">\(10^{-3}\)</span> error rate)</th>
+<th>Physical Qubits (at <span class="arithmatex">\(10^{-4}\)</span> error rate)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RSA-1024 (deprecated)</td>
+<td>1,024 bits</td>
+<td>~2,000</td>
+<td>~2-10 million</td>
+<td>~200K-1M</td>
+</tr>
+<tr>
+<td>RSA-2048 (standard)</td>
+<td>2,048 bits</td>
+<td>~4,000</td>
+<td>~4-20 million</td>
+<td>~400K-2M</td>
+</tr>
+<tr>
+<td>RSA-4096 (high security)</td>
+<td>4,096 bits</td>
+<td>~8,000</td>
+<td>~8-40 million</td>
+<td>~800K-4M</td>
+</tr>
+<tr>
+<td>ECC-256 (common)</td>
+<td>256 bits</td>
+<td>~2,300</td>
+<td>~2-12 million</td>
+<td>~230K-1.2M</td>
+</tr>
+<tr>
+<td>ECC-521 (high security)</td>
+<td>521 bits</td>
+<td>~4,700</td>
+<td>~5-24 million</td>
+<td>~470K-2.4M</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-scaling-gap">The Scaling Gap</h3>
+<p>The current state of the art is approximately 1,000 noisy physical qubits. The requirement for RSA-2048 is approximately 20 million physical qubits at current error rates, or approximately 2 million at error rates ten times better than current. This means:</p>
+<ul>
+<li>At <strong>current error rates</strong>, we need a <strong>20,000x increase</strong> in qubit count</li>
+<li>At <strong>10x better error rates</strong> (which itself would be a major breakthrough), we still need a <strong>2,000x increase</strong> in qubit count</li>
+<li><strong>Both improvements must happen simultaneously</strong> — more qubits with better individual qubit quality</li>
+</ul>
+<p>Historical qubit scaling has roughly doubled every 1-2 years. At that rate:</p>
+<div class="arithmatex">\[
+\text{Years to 20 million qubits} = \log_2(20{,}000) \times 1.5 \approx 14.3 \times 1.5 \approx 21 \text{ years}
+\]</div>
+<p>This assumes error rates also improve by the necessary order of magnitude during the same period, which is not guaranteed and has historically been slower than qubit count increases.</p>
+<h4 id="diagram-qubit-scaling-trajectory-vs-cryptographic-threat-threshold">Diagram: Qubit Scaling Trajectory vs. Cryptographic Threat Threshold</h4>
+<iframe src="../../sims/qubit-scaling-vs-crypto/main.html" width="100%" height="550px" scrolling="no"></iframe>
+
+<details>
+<summary>Qubit Scaling Trajectory vs. Cryptographic Threat Threshold</summary>
+<p>Type: chart
+<strong>sim-id:</strong> qubit-scaling-vs-crypto<br/>
+<strong>Library:</strong> Chart.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Apply (L3)
+<strong>Bloom Verb:</strong> Calculate, Demonstrate</p>
+<p><strong>Learning Objective:</strong> Students will be able to calculate approximate timelines for when quantum computers might reach the qubit counts required to threaten specific encryption standards, given different assumptions about scaling rates and error rate improvements.</p>
+<p><strong>Instructional Rationale:</strong> A parameter-exploration chart is appropriate because the Apply/calculate objective requires students to manipulate scaling assumptions and observe the resulting timelines. This builds intuition for how sensitive the threat timeline is to optimistic versus realistic assumptions.</p>
+<p><strong>Chart type:</strong> Line chart with logarithmic y-axis</p>
+<p><strong>X-axis:</strong> Year (2020 to 2060)</p>
+<p><strong>Y-axis:</strong> Number of physical qubits (logarithmic, from <span class="arithmatex">\(10^2\)</span> to <span class="arithmatex">\(10^8\)</span>)</p>
+<p><strong>Data series:</strong></p>
+<ol>
+<li>Historical qubit counts (solid blue line with data points):</li>
+<li>2019: 53 (Google Sycamore)</li>
+<li>2021: 127 (IBM Eagle)</li>
+<li>2022: 433 (IBM Osprey)</li>
+<li>2023: 1,121 (IBM Condor)</li>
+<li>
+<p>2025: ~1,200 (various)</p>
+</li>
+<li>
+<p>Optimistic projection (dashed blue): Doubling every 1 year from 2025</p>
+</li>
+<li>Moderate projection (dashed green): Doubling every 1.5 years from 2025</li>
+<li>Conservative projection (dashed orange): Doubling every 2 years from 2025</li>
+</ol>
+<p><strong>Horizontal reference lines:</strong></p>
+<ul>
+<li>Red dashed: RSA-2048 requirement at current error rates (~20M qubits) — labeled "RSA-2048 threshold (current errors)"</li>
+<li>Orange dashed: RSA-2048 requirement at 10x better error rates (~2M qubits) — labeled "RSA-2048 threshold (10x better errors)"</li>
+<li>Green dashed: ECC-256 requirement at 10x better error rates (~1M qubits) — labeled "ECC-256 threshold (10x better errors)"</li>
+</ul>
+<p><strong>Annotations:</strong></p>
+<ul>
+<li>Where each projection line intersects each threshold, label the year</li>
+<li>Note that projections assume error rates also improve, which is not guaranteed</li>
+</ul>
+<p><strong>Interactive controls:</strong></p>
+<ul>
+<li>Slider: Qubit doubling time (0.5 to 3 years) — default 1.5</li>
+<li>Slider: Error rate improvement factor (1x to 100x) — default 1x (no improvement)</li>
+<li>Toggle: "Show post-quantum migration timeline" — overlay a horizontal bar showing when PQC migration is expected to be complete (~2030-2035)</li>
+<li>Display: "Years until RSA-2048 threatened: [calculated]"</li>
+</ul>
+<p><strong>Behavior:</strong></p>
+<ul>
+<li>Adjusting sliders updates the projection line and the intersection years in real time</li>
+<li>When the PQC migration timeline overlaps with or precedes the threat threshold crossing, a green label appears: "Defense arrives before threat"</li>
+<li>When the threat arrives before PQC migration, a red warning appears (unlikely with realistic parameters)</li>
+</ul>
+<p><strong>Implementation:</strong> Chart.js with logarithmic y-axis. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="post-quantum-cryptography-exists">Post-Quantum Cryptography Exists</h2>
+<p>While the quantum computing industry has been struggling to build larger and more reliable quantum processors, the cryptography community has not been idle. <strong>Post-quantum cryptography</strong> (PQC) — encryption algorithms that are secure against both classical and quantum computers — has been under active development since the late 1990s.</p>
+<h3 id="how-post-quantum-algorithms-work">How Post-Quantum Algorithms Work</h3>
+<p>Post-quantum algorithms replace the mathematical problems underlying current encryption (integer factoring, discrete logarithms) with problems that are believed to be hard for both classical and quantum computers:</p>
+<table>
+<thead>
+<tr>
+<th>PQC Approach</th>
+<th>Mathematical Basis</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lattice-based</strong></td>
+<td>Finding short vectors in high-dimensional lattices — a problem with no known efficient quantum algorithm</td>
+<td>NIST standardized (CRYSTALS-Kyber, CRYSTALS-Dilithium)</td>
+</tr>
+<tr>
+<td><strong>Hash-based</strong></td>
+<td>Security based on hash function collision resistance — quantum computers provide only quadratic speedup</td>
+<td>NIST standardized (SPHINCS+)</td>
+</tr>
+<tr>
+<td><strong>Code-based</strong></td>
+<td>Decoding random linear error-correcting codes — studied since 1978 (McEliece), no efficient quantum algorithm known</td>
+<td>Under evaluation</td>
+</tr>
+<tr>
+<td><strong>Multivariate</strong></td>
+<td>Solving systems of multivariate polynomial equations</td>
+<td>Under evaluation</td>
+</tr>
+<tr>
+<td><strong>Isogeny-based</strong></td>
+<td>Finding isogenies between elliptic curves</td>
+<td>Partially broken classically (SIDH); newer variants under study</td>
+</tr>
+</tbody>
+</table>
+<p>The most important takeaway is that <strong>multiple independent mathematical approaches</strong> to post-quantum security exist. Even if one approach is broken (as happened with SIDH in 2022, which was broken by a classical — not quantum — attack), the others remain secure. The redundancy in the PQC ecosystem means that the cryptographic community is not relying on a single unproven assumption.</p>
+<hr />
+<h2 id="nist-already-has-standards">NIST Already Has Standards</h2>
+<p>In July 2022, the U.S. National Institute of Standards and Technology (NIST) announced the first group of post-quantum cryptographic standards after a rigorous six-year evaluation process. The standardized algorithms are:</p>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Type</th>
+<th>Purpose</th>
+<th>Standard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CRYSTALS-Kyber</strong> (ML-KEM)</td>
+<td>Lattice-based</td>
+<td>Key encapsulation (key exchange)</td>
+<td>FIPS 203</td>
+</tr>
+<tr>
+<td><strong>CRYSTALS-Dilithium</strong> (ML-DSA)</td>
+<td>Lattice-based</td>
+<td>Digital signatures</td>
+<td>FIPS 204</td>
+</tr>
+<tr>
+<td><strong>SPHINCS+</strong> (SLH-DSA)</td>
+<td>Hash-based</td>
+<td>Digital signatures (conservative backup)</td>
+<td>FIPS 205</td>
+</tr>
+<tr>
+<td><strong>FALCON</strong> (FN-DSA)</td>
+<td>Lattice-based</td>
+<td>Digital signatures (compact)</td>
+<td>FIPS 206 (forthcoming)</td>
+</tr>
+</tbody>
+</table>
+<p>These standards are not theoretical — they are published, implemented in major cryptographic libraries (OpenSSL, BoringSSL, liboqs), and being deployed by organizations worldwide. The U.S. government has mandated that federal agencies begin migrating to PQC algorithms, with a target completion date of 2035.</p>
+<div class="admonition info">
+<p class="admonition-title">The Migration Is Already Underway</p>
+<p>Google, Apple, Microsoft, and Cloudflare have all begun deploying PQC
+algorithms in their products and services. Chrome and Safari support
+hybrid key exchange (combining classical and PQC algorithms) for TLS
+connections. Signal messenger adopted PQC key exchange in 2023. The
+migration is not waiting for quantum computers to become a threat —
+it is happening now, proactively.</p>
+</div>
+<h3 id="the-asymmetry-of-timelines">The Asymmetry of Timelines</h3>
+<p>Here is the critical comparison:</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Encryption Threat</th>
+<th>Encryption Defense</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>When will quantum computers break RSA-2048?</td>
+<td>Optimistically: 2040s-2050s. Pessimistically: never at commercial scale</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>When will post-quantum standards be available?</td>
+<td>N/A</td>
+<td><strong>Already available</strong> (2022-2024)</td>
+</tr>
+<tr>
+<td>When will migration be substantially complete?</td>
+<td>N/A</td>
+<td>Estimated 2030-2035 for critical systems</td>
+</tr>
+<tr>
+<td>What is the gap?</td>
+<td><strong>Defense arrives decades before the threat</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>This asymmetry is the single most important fact in the quantum encryption debate. The defense is here. The threat is decades away at best. The window of vulnerability — if it ever opens — will close before quantum computers are powerful enough to exploit it.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Bias Alert</p>
+<p><img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Fermi warns you">
+Notice how the framing of the encryption threat changes the incentive
+structure. If you are a quantum computing company seeking government
+funding, you emphasize the threat: "Quantum computers will break
+encryption — we must invest now!" If you are a cryptographer, you
+emphasize the defense: "Post-quantum standards are ready — migrate
+now and the threat is neutralized." Both are true, but the quantum
+computing industry has a financial incentive to emphasize the threat
+and downplay the defense. When you see an article about "the quantum
+threat to encryption," check whether it mentions post-quantum
+cryptography at all. Many do not.</p>
+</div>
+<hr />
+<h2 id="harvest-now-decrypt-later">Harvest Now, Decrypt Later</h2>
+<p>The most sophisticated argument for urgency around the quantum encryption threat is the <strong>"harvest now, decrypt later"</strong> (HNDL) scenario. The argument goes:</p>
+<ol>
+<li>Adversaries (nation-states, criminal organizations) are intercepting and storing encrypted communications today.</li>
+<li>When quantum computers become powerful enough to break current encryption, these adversaries will decrypt the stored data.</li>
+<li>Therefore, data encrypted today is already at risk if its secrecy must last beyond the arrival of quantum computers.</li>
+</ol>
+<h3 id="assessing-the-hndl-threat">Assessing the HNDL Threat</h3>
+<p>The HNDL scenario is logically valid but practically overstated for several reasons:</p>
+<p><strong>The data must still be valuable when decrypted.</strong></p>
+<p>Most encrypted data has a limited shelf life. Financial transactions, session tokens, API keys, and most business communications lose their value within days to months. The data that remains valuable over decades — classified military intelligence, long-term trade secrets, certain medical records — represents a tiny fraction of all encrypted traffic.</p>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Typical Sensitivity Duration</th>
+<th>HNDL Risk Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Web session tokens</td>
+<td>Minutes to hours</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Financial transactions</td>
+<td>Days to weeks</td>
+<td>Negligible</td>
+</tr>
+<tr>
+<td>Business emails</td>
+<td>Months to years</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>Trade secrets</td>
+<td>Years to decades</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>Classified intelligence</td>
+<td>Decades</td>
+<td>High — but already protected by additional measures</td>
+</tr>
+<tr>
+<td>Medical records (HIPAA)</td>
+<td>Decades (lifetime)</td>
+<td>Moderate</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The storage requirements are enormous.</strong></p>
+<p>Intercepting and storing all encrypted internet traffic is impractical. Global internet traffic exceeds 400 exabytes per month (as of 2025). Even selective collection targeting high-value communications generates petabytes of data that must be stored for decades. The storage cost alone is a significant deterrent.</p>
+<p><strong>Perfect forward secrecy limits the damage.</strong></p>
+<p>Modern TLS connections use <strong>ephemeral key exchange</strong> (Diffie-Hellman or ECDH). Each session generates a unique key that is discarded after use. Even if a long-term key is compromised, previously recorded sessions cannot be decrypted if perfect forward secrecy was used. This is standard practice for most major websites and services.</p>
+<p><strong>PQC migration addresses the HNDL threat directly.</strong></p>
+<p>The HNDL scenario assumes that organizations continue using quantum-vulnerable encryption until quantum computers arrive. But the PQC migration is already underway. As organizations adopt post-quantum key exchange, new communications become immune to HNDL attacks even if quantum computers eventually materialize. The race is between PQC migration speed and adversary storage capacity — and migration is winning.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Insight</p>
+<p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Fermi is thinking">
+The HNDL argument is the strongest case for urgency around the quantum
+encryption threat, and it is not unreasonable — particularly for
+classified government communications. But it is often deployed without
+the qualifying analysis: most data loses value quickly, perfect forward
+secrecy limits exposure, and PQC migration is already closing the
+vulnerability window. The HNDL threat is real for a narrow category of
+data; it is routinely exaggerated into a general-purpose argument for
+quantum computing investment.</p>
+</div>
+<hr />
+<h2 id="the-window-is-already-closing">The Window Is Already Closing</h2>
+<p>The "window of vulnerability" — the period during which quantum computers could break encryption that has not yet been migrated to post-quantum algorithms — is defined by two timelines:</p>
+<div class="arithmatex">\[
+\text{Window} = T_{\text{quantum threat}} - T_{\text{PQC complete}}
+\]</div>
+<p>If <span class="arithmatex">\(T_{\text{PQC complete}} &lt; T_{\text{quantum threat}}\)</span>, the window never opens. If <span class="arithmatex">\(T_{\text{quantum threat}} &lt; T_{\text{PQC complete}}\)</span>, there is a vulnerability gap.</p>
+<p>Current estimates:</p>
+<table>
+<thead>
+<tr>
+<th>Timeline</th>
+<th>Optimistic (for threat)</th>
+<th>Moderate</th>
+<th>Conservative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(T_{\text{quantum threat}}\)</span> (RSA-2048 broken)</td>
+<td>2040</td>
+<td>2050+</td>
+<td>Never at scale</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(T_{\text{PQC complete}}\)</span> (critical systems migrated)</td>
+<td>2030</td>
+<td>2035</td>
+<td>2040</td>
+</tr>
+<tr>
+<td><strong>Window</strong></td>
+<td><strong>Closed (defense wins by 10 years)</strong></td>
+<td><strong>Closed</strong></td>
+<td><strong>Closed</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Even under the most optimistic assumptions about quantum computing progress and the most pessimistic assumptions about PQC migration speed, the defense arrives before the threat in all scenarios. The window is already closing — and for organizations that adopt PQC proactively (as many are doing), it is already closed.</p>
+<h4 id="diagram-the-closing-window-of-vulnerability">Diagram: The Closing Window of Vulnerability</h4>
+<iframe src="../../sims/vulnerability-window/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>The Closing Window of Vulnerability</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> vulnerability-window<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Evaluate (L5)
+<strong>Bloom Verb:</strong> Assess, Judge</p>
+<p><strong>Learning Objective:</strong> Students will be able to assess whether a vulnerability window exists under different assumptions about quantum computing progress and PQC migration speed, and judge the urgency of the quantum encryption threat.</p>
+<p><strong>Instructional Rationale:</strong> A parameter-exploration MicroSim is appropriate because the Evaluate/assess objective requires students to weigh competing timelines under varying assumptions. By manipulating the two key variables (threat arrival and defense completion), students discover that the window remains closed under all plausible scenarios — a more convincing finding than being told the conclusion.</p>
+<p><strong>Canvas layout:</strong></p>
+<ul>
+<li>Main area (70%): A horizontal timeline from 2020 to 2060 with two converging/diverging bars</li>
+<li>Side panel (30%): Controls and assessment output</li>
+</ul>
+<p><strong>Visual elements:</strong></p>
+<ul>
+<li>A horizontal timeline spanning 2020-2060</li>
+<li>Upper bar (red, growing from left): "Quantum Threat Progress" — representing the advance toward RSA-2048-breaking capability</li>
+<li>Lower bar (green, growing from left): "PQC Migration Progress" — representing the adoption of post-quantum cryptography</li>
+<li>A vertical zone between the bars: "Vulnerability Window" — colored yellow if it exists, green if closed</li>
+<li>Current year marker (2025) with progress indicators for both bars</li>
+</ul>
+<p><strong>Interactive controls:</strong></p>
+<ul>
+<li>Slider: "Quantum scaling rate" — qubit doubling time (1 to 3 years), default 1.5</li>
+<li>Slider: "Error rate improvement" — annual improvement factor (1x to 2x), default 1.1x</li>
+<li>Slider: "PQC migration speed" — years to migrate critical systems (5 to 20 years from 2024), default 10</li>
+<li>Dropdown: "Encryption standard" — RSA-2048, RSA-4096, ECC-256</li>
+<li>Display: "Quantum threat arrives: [year]"</li>
+<li>Display: "PQC migration complete: [year]"</li>
+<li>Display: "Window status: CLOSED / OPEN ([N] year gap)"</li>
+</ul>
+<p><strong>Behavior:</strong></p>
+<ul>
+<li>Adjusting sliders updates both timelines in real time</li>
+<li>If PQC migration completes before the quantum threat arrives, the window zone turns green and displays "WINDOW CLOSED"</li>
+<li>If the quantum threat arrives first, the window zone turns red and displays the gap</li>
+<li>Under all plausible parameter combinations, the window should remain closed or be at most a few years</li>
+</ul>
+<p><strong>Implementation:</strong> p5.js. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="the-crypto-threat-is-overstated">The Crypto Threat Is Overstated</h2>
+<p>Synthesizing everything in this chapter, we can now make a comprehensive assessment of the quantum encryption threat:</p>
+<h3 id="the-threat-what-is-true">The Threat: What Is True</h3>
+<ul>
+<li>Shor's algorithm can theoretically break RSA and ECC. This is mathematically proven.</li>
+<li>A sufficiently large, error-corrected quantum computer running Shor's algorithm could factor RSA-2048 in hours to days.</li>
+<li>The "harvest now, decrypt later" threat is logically valid for long-lived secrets.</li>
+</ul>
+<h3 id="the-overstatement-what-is-missing-from-the-narrative">The Overstatement: What Is Missing from the Narrative</h3>
+<ul>
+<li><strong>The hardware doesn't exist and may not for decades.</strong> Breaking RSA-2048 requires ~20 million physical qubits at current error rates. Current systems have ~1,000 noisy qubits. The gap is four orders of magnitude in quantity and at least one in quality.</li>
+<li><strong>Post-quantum cryptography is already standardized and deploying.</strong> NIST standards published 2022-2024. Migration underway at Google, Apple, Microsoft, Signal, and government agencies.</li>
+<li><strong>The vulnerability window is closing.</strong> Under all plausible scenarios, PQC migration completes before quantum computers reach cryptographic relevance.</li>
+<li><strong>Symmetric encryption is not threatened.</strong> AES-256, used for data at rest and many transport protocols, is quantum-resistant. Grover's algorithm provides only a quadratic speedup, reducing security to an effective 128 bits — still unbreakable.</li>
+<li><strong>Most encrypted data loses value quickly.</strong> The HNDL threat applies only to data whose secrecy must be preserved for decades.</li>
+<li><strong>The largest number factored by a quantum computer is 21.</strong> RSA-2048 requires factoring numbers with 617 digits. The gap from 2 digits to 617 digits is not "just engineering."</li>
+</ul>
+<h3 id="why-the-threat-is-overstated">Why the Threat Is Overstated</h3>
+<p>The encryption threat is systematically overstated because it serves the interests of multiple actors in the quantum computing ecosystem:</p>
+<table>
+<thead>
+<tr>
+<th>Actor</th>
+<th>Interest in Overstating the Threat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quantum computing companies</td>
+<td>Justifies government contracts and investor funding</td>
+</tr>
+<tr>
+<td>Intelligence agencies</td>
+<td>Justifies budget increases for quantum research</td>
+</tr>
+<tr>
+<td>Cybersecurity vendors</td>
+<td>Sells "quantum-safe" products and consulting</td>
+</tr>
+<tr>
+<td>Politicians</td>
+<td>Demonstrates attention to national security</td>
+</tr>
+<tr>
+<td>Media</td>
+<td>Generates clicks and engagement</td>
+</tr>
+<tr>
+<td>Quantum researchers</td>
+<td>Justifies continued funding and career relevance</td>
+</tr>
+</tbody>
+</table>
+<p>None of these actors are necessarily dishonest. Each has genuine reasons to take the threat seriously. But the aggregate effect of these aligned incentives is a public narrative that dramatically overstates the urgency and understates the strength of the defense.</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Fermi's Tip</p>
+<p><img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Fermi shares a tip">
+When you encounter an article about "the quantum threat to encryption,"
+apply this checklist: (1) Does it mention the qubit count required?
+(2) Does it mention post-quantum cryptography or NIST standards?
+(3) Does it estimate when the threat might materialize? (4) Does it
+acknowledge that symmetric encryption is not threatened? If the article
+omits any of these, it is overstating the threat — intentionally or
+through ignorance.</p>
+</div>
+<hr />
+<h2 id="key-takeaways">Key Takeaways</h2>
+<p>This chapter examined the quantum encryption threat and found it to be one of the most overhyped aspects of quantum computing:</p>
+<ol>
+<li>
+<p><strong>Public key encryption</strong> (RSA, ECC) relies on mathematical problems — integer factoring and discrete logarithms — that Shor's algorithm can theoretically solve efficiently. This is a proven mathematical result.</p>
+</li>
+<li>
+<p><strong>The hardware requirements are staggering.</strong> Breaking RSA-2048 requires approximately 20 million physical qubits at current error rates — roughly 20,000x more than exist today, with significantly better quality.</p>
+</li>
+<li>
+<p><strong>Post-quantum cryptography already exists.</strong> NIST standardized quantum-resistant algorithms (CRYSTALS-Kyber, CRYSTALS-Dilithium, SPHINCS+) in 2022-2024, based on lattice and hash problems with no known quantum algorithm.</p>
+</li>
+<li>
+<p><strong>The migration is underway.</strong> Google, Apple, Microsoft, Signal, and government agencies are deploying PQC now, with critical infrastructure migration targeted for completion by 2030-2035.</p>
+</li>
+<li>
+<p><strong>The "harvest now, decrypt later" threat</strong> is real but narrow — applicable only to data that must remain secret for decades, and mitigated by perfect forward secrecy and PQC migration.</p>
+</li>
+<li>
+<p><strong>The vulnerability window is closing.</strong> Under all plausible scenarios, the defense (PQC) arrives before the threat (cryptographically relevant quantum computers).</p>
+</li>
+<li>
+<p><strong>Symmetric encryption is not threatened.</strong> AES-256 remains secure against quantum computers, with Grover's algorithm providing only a manageable quadratic speedup.</p>
+</li>
+<li>
+<p><strong>The threat is overstated</strong> because it serves the interests of quantum computing companies, intelligence agencies, cybersecurity vendors, politicians, and media. The aggregate effect of these aligned incentives is a public narrative that dramatically overstates urgency.</p>
+</li>
+</ol>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">Excellent Investigative Work!</p>
+<p><img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Fermi celebrates">
+You can now evaluate the quantum encryption threat with the evidence in
+hand. You know the qubit requirements, you know that post-quantum
+cryptography is already deployed, and you know that the window of
+vulnerability is closing. The next time someone uses "quantum computers
+will break encryption" as an argument for investing in quantum computing,
+you have the facts to assess whether the alarm is proportionate to the
+evidence. Excellent investigative work, fellow investigator!</p>
+</div>
+<hr />
+<h2 id="review-questions">Review Questions</h2>
+<details class="question">
+<summary>1. Why is symmetric encryption (e.g., AES-256) not threatened by quantum computers, while public key encryption (e.g., RSA) is?</summary>
+<p>Symmetric encryption's security relies on the brute-force difficulty of
+searching through <span class="arithmatex">\(2^{256}\)</span> possible keys. Grover's algorithm provides
+only a quadratic speedup, reducing this to <span class="arithmatex">\(2^{128}\)</span> quantum operations —
+still computationally infeasible. RSA, by contrast, relies on the
+difficulty of integer factoring, for which Shor's algorithm provides an
+<em>exponential</em> speedup, reducing factoring time from sub-exponential to
+polynomial. The difference is between a modest reduction in security
+(symmetric) and a complete collapse of security (public key) — but only
+if a sufficiently powerful quantum computer is built.</p>
+</details>
+<details class="question">
+<summary>2. Calculate the approximate physical qubit gap between current hardware and what is needed to break RSA-2048.</summary>
+<p>Current hardware: ~1,000 noisy physical qubits at error rates of ~<span class="arithmatex">\(10^{-3}\)</span>.
+RSA-2048 requirement: ~4,000 logical qubits × ~5,000 physical per logical
+(at <span class="arithmatex">\(10^{-3}\)</span> error rate) = ~20 million physical qubits. Gap: 20,000,000 /
+1,000 = 20,000x in qubit count. Additionally, error rates need to improve
+by at least 10x to make the overhead manageable. At a qubit doubling rate
+of 1.5 years: <span class="arithmatex">\(\log_2(20{,}000) \times 1.5 \approx 21\)</span> years, assuming
+error rates also improve — giving a rough timeline of ~2046 at the most
+optimistic, and much longer if scaling slows.</p>
+</details>
+<details class="question">
+<summary>3. Name three NIST-standardized post-quantum cryptography algorithms and the mathematical problems they rely on.</summary>
+<p>(1) CRYSTALS-Kyber (ML-KEM, FIPS 203) — lattice-based key encapsulation,
+relying on the learning with errors (LWE) problem. (2) CRYSTALS-Dilithium
+(ML-DSA, FIPS 204) — lattice-based digital signatures, also relying on
+lattice problems. (3) SPHINCS+ (SLH-DSA, FIPS 205) — hash-based digital
+signatures, relying on the collision resistance of hash functions. All
+three are believed to be secure against both classical and quantum attacks.</p>
+</details>
+<details class="question">
+<summary>4. Under what conditions does the 'harvest now, decrypt later' threat represent a genuine risk?</summary>
+<p>HNDL is genuinely threatening when all of the following conditions are met:
+(1) The encrypted data must remain secret for decades — longer than the
+time until cryptographically relevant quantum computers might exist.
+(2) An adversary has the capability to intercept and store the specific
+encrypted traffic. (3) The encryption does not use perfect forward secrecy
+(ephemeral key exchange). (4) The organization has not yet migrated to
+post-quantum key exchange. This combination applies primarily to classified
+government communications and certain long-lived trade secrets — a narrow
+category, not the general internet traffic the narrative implies.</p>
+</details>
+<details class="question">
+<summary>5. Why does the author argue that the quantum encryption threat is 'overstated' rather than 'nonexistent'?</summary>
+<p>The theoretical threat is real — Shor's algorithm genuinely breaks RSA and
+ECC if run on sufficient hardware. The claim is not that quantum computers
+will never break encryption (though that is possible), but that the threat
+is systematically exaggerated relative to the evidence. The hardware
+requirements are decades away, the defense (PQC) is already deployed, the
+vulnerability window is closing, and the actors who emphasize the threat
+have financial incentives to overstate it. The threat exists in theory but
+is not proportionate to the urgency conveyed by the quantum computing
+industry, cybersecurity vendors, and media. "Overstated" means the risk is
+real but the alarm is disproportionate to the evidence.</p>
+</details>
 
 
 

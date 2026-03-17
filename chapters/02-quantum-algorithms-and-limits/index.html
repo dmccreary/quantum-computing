@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+        <meta name="description" content="An examination of key quantum algorithms, the distinction between quantum supremacy and advantage, and why classical computers continue to match quantum performance on practical problems.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -21,12 +21,12 @@
         <link rel="next" href="../03-history-of-quantum-computing/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>2. Quantum Algorithms and Limits - A Skeptic's Guide to Quantum Computing</title>
+        <title>Quantum Algorithms and Their Real-World Limits - Quantum Computing</title>
       
     
     
@@ -75,9 +75,9 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="2. Quantum Algorithms and Limits - A Skeptic's Guide to Quantum Computing" >
+        <meta  property="og:title"  content="Quantum Algorithms and Their Real-World Limits - Quantum Computing" >
       
-        <meta  property="og:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+        <meta  property="og:description"  content="An examination of key quantum algorithms, the distinction between quantum supremacy and advantage, and why classical computers continue to match quantum performance on practical problems." >
       
         <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/02-quantum-algorithms-and-limits/index.png" >
       
@@ -91,9 +91,9 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="2. Quantum Algorithms and Limits - A Skeptic's Guide to Quantum Computing" >
+        <meta  name="twitter:title"  content="Quantum Algorithms and Their Real-World Limits - Quantum Computing" >
       
-        <meta  name="twitter:description"  content="A Skeptic's Guide to Quantum Computing: Why It May Never Be Economically Viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+        <meta  name="twitter:description"  content="An examination of key quantum algorithms, the distinction between quantum supremacy and advantage, and why classical computers continue to match quantum performance on practical problems." >
       
         <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/chapters/02-quantum-algorithms-and-limits/index.png" >
       
@@ -132,10 +132,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-header__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../img/fermi-192.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -146,13 +145,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            A Skeptic's Guide to Quantum Computing
+            Quantum Computing
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              2. Quantum Algorithms and Limits
+              Quantum Algorithms and Their Real-World Limits
             
           </span>
         </div>
@@ -242,13 +241,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="A Skeptic&#39;s Guide to Quantum Computing" class="md-nav__button md-logo" aria-label="A Skeptic's Guide to Quantum Computing" data-md-component="logo">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../img/fermi-192.png" alt="logo">
 
     </a>
-    A Skeptic's Guide to Quantum Computing
+    Quantum Computing
   </label>
   
     <div class="md-nav__source">
@@ -278,6 +276,28 @@
   
   <span class="md-ellipsis">
     Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
     
   </span>
   
@@ -368,7 +388,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <div class="md-nav__link md-nav__container">
@@ -385,14 +405,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Chapters
           </label>
@@ -501,6 +521,399 @@
   <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shors-factoring-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shor's Factoring Algorithm
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shor&#39;s Factoring Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-shors-algorithm-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Shor's Algorithm Does
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works-conceptual-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works (Conceptual Overview)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-gap-between-theory-and-reality" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Gap Between Theory and Reality
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Gap Between Theory and Reality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-shors-algorithm-resource-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Shor's Algorithm Resource Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grovers-search-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grover's Search Algorithm
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Grover&#39;s Search Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-grovers-algorithm-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Grover's Algorithm Does
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-quadratic-speedup-is-less-impressive-than-it-sounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the Quadratic Speedup Is Less Impressive Than It Sounds
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantum-supremacy-defined" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantum Supremacy Defined
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quantum Supremacy Defined">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-supremacy-means-and-does-not-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Supremacy Means (and Does Not Mean)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#googles-2019-supremacy-claim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google's 2019 Supremacy Claim
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Google&#39;s 2019 Supremacy Claim">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-shrinking-supremacy-gap-timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Shrinking Supremacy Gap Timeline
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantum-advantage-defined" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantum Advantage Defined
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quantum Advantage Defined">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-three-part-test-for-quantum-advantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Three-Part Test for Quantum Advantage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contrived-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrived Benchmarks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contrived Benchmarks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#characteristics-of-contrived-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics of Contrived Benchmarks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case-study-random-circuit-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case Study: Random Circuit Sampling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-contrived-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Contrived Benchmarks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-real-world-advantage-yet" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Real-World Advantage Yet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="No Real-World Advantage Yet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-evidence-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Evidence Gap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-advantage-gap-persists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the Advantage Gap Persists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why the Advantage Gap Persists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-the-advantage-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: The Advantage Gap
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#narrow-problem-applicability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Narrow Problem Applicability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Narrow Problem Applicability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-quantum-algorithm-landscape" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Quantum Algorithm Landscape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-most-problems-cannot-benefit-from-quantum-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Most Problems Cannot Benefit from Quantum Computing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-bqp-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      The BQP Boundary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The BQP Boundary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-computational-complexity-landscape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Computational Complexity Landscape
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classical-computers-keep-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classical Computers Keep Up
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classical Computers Keep Up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#classical-hardware-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classical Hardware Improvements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-moving-target-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Moving Target Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-classical-advantages-compound" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Classical Advantages Compound
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Classical Advantages Compound">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-classical-vs-quantum-improvement-trajectories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Classical vs. Quantum Improvement Trajectories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review Questions
     </span>
   </a>
   
@@ -1132,7 +1545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../license.md" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   
@@ -1154,7 +1567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact.md" class="md-nav__link">
+      <a href="../../contact/" class="md-nav__link">
         
   
   
@@ -1222,6 +1635,399 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shors-factoring-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shor's Factoring Algorithm
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shor&#39;s Factoring Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-shors-algorithm-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Shor's Algorithm Does
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works-conceptual-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works (Conceptual Overview)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-gap-between-theory-and-reality" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Gap Between Theory and Reality
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Gap Between Theory and Reality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-shors-algorithm-resource-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Shor's Algorithm Resource Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grovers-search-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grover's Search Algorithm
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Grover&#39;s Search Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-grovers-algorithm-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Grover's Algorithm Does
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-quadratic-speedup-is-less-impressive-than-it-sounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the Quadratic Speedup Is Less Impressive Than It Sounds
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantum-supremacy-defined" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantum Supremacy Defined
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quantum Supremacy Defined">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-supremacy-means-and-does-not-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Supremacy Means (and Does Not Mean)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#googles-2019-supremacy-claim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google's 2019 Supremacy Claim
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Google&#39;s 2019 Supremacy Claim">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-shrinking-supremacy-gap-timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Shrinking Supremacy Gap Timeline
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantum-advantage-defined" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantum Advantage Defined
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quantum Advantage Defined">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-three-part-test-for-quantum-advantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Three-Part Test for Quantum Advantage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contrived-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrived Benchmarks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contrived Benchmarks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#characteristics-of-contrived-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics of Contrived Benchmarks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case-study-random-circuit-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case Study: Random Circuit Sampling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-contrived-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Contrived Benchmarks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-real-world-advantage-yet" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Real-World Advantage Yet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="No Real-World Advantage Yet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-evidence-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Evidence Gap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-advantage-gap-persists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the Advantage Gap Persists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why the Advantage Gap Persists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-the-advantage-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: The Advantage Gap
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#narrow-problem-applicability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Narrow Problem Applicability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Narrow Problem Applicability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-quantum-algorithm-landscape" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Quantum Algorithm Landscape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-most-problems-cannot-benefit-from-quantum-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Most Problems Cannot Benefit from Quantum Computing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-bqp-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      The BQP Boundary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The BQP Boundary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-computational-complexity-landscape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Computational Complexity Landscape
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classical-computers-keep-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classical Computers Keep Up
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classical Computers Keep Up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#classical-hardware-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classical Hardware Improvements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-moving-target-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Moving Target Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-classical-advantages-compound" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Classical Advantages Compound
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Classical Advantages Compound">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-classical-vs-quantum-improvement-trajectories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Classical vs. Quantum Improvement Trajectories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review Questions
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1267,7 +2073,879 @@
 <li><a href="../01-what-is-quantum-computing/">Chapter 1: What Is Quantum Computing?</a></li>
 </ul>
 <hr />
-<p>TODO: Generate Chapter Content</p>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Fermi Welcomes You!</p>
+<p><img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Fermi welcomes you">
+Welcome back, fellow investigators! In Chapter 1, we learned what qubits
+are and why measuring them destroys their state. Now let's examine the
+algorithms that supposedly make quantum computers worth building. Proponents
+point to Shor's algorithm and Grover's algorithm as proof of quantum
+computing's transformative potential. But does the math check out? Let's
+find out!</p>
+</div>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Explain</strong> how Shor's algorithm achieves an exponential speedup for integer factoring by exploiting the quantum Fourier transform and period-finding</li>
+<li><strong>Describe</strong> Grover's algorithm and explain why its quadratic speedup, while real, is far less dramatic than often portrayed</li>
+<li><strong>Define</strong> quantum supremacy and quantum advantage as distinct concepts with different evidentiary standards</li>
+<li><strong>Identify</strong> the characteristics that make a benchmark "contrived" versus commercially relevant</li>
+<li><strong>Assess</strong> why no real-world quantum advantage has been demonstrated as of 2025</li>
+<li><strong>Analyze</strong> the narrow set of problems where quantum algorithms provide any speedup at all</li>
+<li><strong>Evaluate</strong> evidence that classical computing improvements continue to close the gap with quantum performance claims</li>
+</ul>
+<hr />
+<h2 id="shors-factoring-algorithm">Shor's Factoring Algorithm</h2>
+<p>Peter Shor's 1994 algorithm for integer factoring is the single most important result in quantum computing theory. It is the primary reason governments and corporations invest billions in quantum hardware, because factoring large numbers is the mathematical basis of RSA encryption — the system that secures most internet commerce, banking, and classified communications.</p>
+<h3 id="what-shors-algorithm-does">What Shor's Algorithm Does</h3>
+<p>Classical computers cannot efficiently factor large composite numbers into their prime components. The best known classical algorithm, the general number field sieve, runs in sub-exponential time:</p>
+<div class="arithmatex">\[
+L_n = e^{O(n^{1/3} (\ln n)^{2/3})}
+\]</div>
+<p>For a 2048-bit RSA key, this means factoring would take classical supercomputers longer than the age of the universe. Shor's algorithm, by contrast, factors an <span class="arithmatex">\(n\)</span>-bit integer in polynomial time:</p>
+<div class="arithmatex">\[
+O(n^2 \log n \log \log n)
+\]</div>
+<p>This is an exponential speedup — not merely "faster," but a fundamentally different scaling relationship between problem size and computation time.</p>
+<h3 id="how-it-works-conceptual-overview">How It Works (Conceptual Overview)</h3>
+<p>Shor's algorithm does not try all possible factors simultaneously — a common misconception. Instead, it reduces factoring to a <strong>period-finding</strong> problem and then uses the <strong>quantum Fourier transform</strong> (QFT) to find that period efficiently. The key steps are:</p>
+<ol>
+<li>
+<p><strong>Reduction to period-finding:</strong> For a composite number <span class="arithmatex">\(N\)</span>, choose a random integer <span class="arithmatex">\(a &lt; N\)</span>. The function <span class="arithmatex">\(f(x) = a^x \mod N\)</span> is periodic — it repeats with some period <span class="arithmatex">\(r\)</span>. If you can find <span class="arithmatex">\(r\)</span>, you can compute the factors of <span class="arithmatex">\(N\)</span> using classical arithmetic (specifically, <span class="arithmatex">\(\gcd(a^{r/2} \pm 1, N)\)</span> often yields a non-trivial factor).</p>
+</li>
+<li>
+<p><strong>Quantum period-finding:</strong> Create a superposition of all values of <span class="arithmatex">\(x\)</span>, compute <span class="arithmatex">\(f(x)\)</span> in a quantum register, then apply the quantum Fourier transform to extract the period <span class="arithmatex">\(r\)</span> from the frequency spectrum of the superposition.</p>
+</li>
+<li>
+<p><strong>Classical post-processing:</strong> Use the period <span class="arithmatex">\(r\)</span> to compute the factors with a few classical GCD calculations.</p>
+</li>
+</ol>
+<p>The quantum advantage comes entirely from step 2: the QFT can extract periodicity from an exponentially large superposition in polynomial time, whereas classical algorithms have no comparably efficient method for finding the period of modular exponentiation.</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Classical Approach</th>
+<th>Quantum Approach (Shor's)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core technique</td>
+<td>Number field sieve</td>
+<td>Period-finding via QFT</td>
+</tr>
+<tr>
+<td>Time complexity</td>
+<td>Sub-exponential</td>
+<td>Polynomial <span class="arithmatex">\(O(n^2 \log n \log \log n)\)</span></td>
+</tr>
+<tr>
+<td>Space (qubits/bits)</td>
+<td>Polynomial</td>
+<td><span class="arithmatex">\(\sim 2n\)</span> logical qubits for <span class="arithmatex">\(n\)</span>-bit number</td>
+</tr>
+<tr>
+<td>Largest number factored</td>
+<td>Hundreds of digits (classical)</td>
+<td>21 (quantum, with shortcuts)</td>
+</tr>
+<tr>
+<td>RSA-2048 estimated cost</td>
+<td><span class="arithmatex">\(&gt;10^{20}\)</span> years</td>
+<td>~20 million physical qubits, hours to days</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Insight</p>
+<p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Fermi is thinking">
+Notice the gap in that table. The largest number factored by a quantum
+computer is 21 — a number you can factor in your head. Meanwhile, RSA-2048
+would require roughly 20 million physical qubits. The current largest quantum
+processors have around 1,000 qubits. That is a gap of four orders of
+magnitude, and every one of those qubits must operate with far lower error
+rates than anything demonstrated today.</p>
+</div>
+<h3 id="the-gap-between-theory-and-reality">The Gap Between Theory and Reality</h3>
+<p>Shor's algorithm is mathematically elegant and provably correct. The problem is not the algorithm — it is the hardware required to run it at a meaningful scale. To factor an RSA-2048 key, a quantum computer would need:</p>
+<ul>
+<li>Approximately <strong>4,000 logical qubits</strong> to hold the quantum registers</li>
+<li>An error correction overhead of <strong>1,000-10,000 physical qubits per logical qubit</strong> (depending on physical error rates)</li>
+<li>A total of approximately <strong>20 million physical qubits</strong> operating simultaneously with error rates below <span class="arithmatex">\(10^{-4}\)</span></li>
+<li>Gate operations running for <strong>hours to days</strong> without the system losing coherence</li>
+</ul>
+<p>As of 2025, the state of the art is approximately 1,000 noisy physical qubits with error rates around <span class="arithmatex">\(10^{-3}\)</span>. Even by the most optimistic projections, the hardware required for Shor's algorithm on RSA-2048 is decades away — if it is achievable at all.</p>
+<h4 id="diagram-shors-algorithm-resource-requirements">Diagram: Shor's Algorithm Resource Requirements</h4>
+<iframe src="../../sims/shors-algorithm-resources/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Shor's Algorithm Resource Requirements Calculator</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> shors-algorithm-resources<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Apply (L3)
+<strong>Bloom Verb:</strong> Calculate, Demonstrate</p>
+<p><strong>Learning Objective:</strong> Students will be able to calculate the physical qubit requirements for running Shor's algorithm at different key sizes, given varying assumptions about physical error rates and error correction overhead.</p>
+<p><strong>Instructional Rationale:</strong> A parameter-exploration MicroSim is appropriate because the Apply/calculate objective requires students to manipulate variables and observe the resulting resource requirements. This builds intuition for how error rates and key sizes interact to determine hardware feasibility.</p>
+<p><strong>Canvas layout:</strong></p>
+<ul>
+<li>Left (60%): Visual representation showing logical qubits as a small cluster and physical qubits as a much larger surrounding cluster, with the ratio visually apparent</li>
+<li>Right (40%): Controls and calculated outputs</li>
+</ul>
+<p><strong>Visual elements:</strong></p>
+<ul>
+<li>Small cluster of colored dots representing logical qubits (labeled)</li>
+<li>Large surrounding field of dots representing physical qubits (labeled with count)</li>
+<li>Scale indicator showing the ratio</li>
+<li>Current hardware line showing where today's quantum computers fall</li>
+</ul>
+<p><strong>Interactive controls:</strong></p>
+<ul>
+<li>Slider: RSA key size (512, 1024, 2048, 4096 bits) — default 2048</li>
+<li>Slider: Physical error rate (<span class="arithmatex">\(10^{-2}\)</span> to <span class="arithmatex">\(10^{-5}\)</span>, logarithmic) — default <span class="arithmatex">\(10^{-3}\)</span></li>
+<li>Slider: Error correction overhead ratio (100:1 to 10,000:1) — default 1,000:1</li>
+<li>Display: Total logical qubits needed</li>
+<li>Display: Total physical qubits needed</li>
+<li>Display: "Years at current improvement rate to reach this" (estimated)</li>
+<li>Reference line: Current state of the art (~1,000 qubits)</li>
+</ul>
+<p><strong>Behavior:</strong></p>
+<ul>
+<li>Adjusting sliders updates the qubit calculations and visual representation in real time</li>
+<li>When total physical qubits exceeds current hardware by more than 10x, a red warning indicator appears</li>
+<li>A timeline bar shows estimated years to reach the required qubit count based on historical doubling rates</li>
+</ul>
+<p><strong>Implementation:</strong> p5.js. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="grovers-search-algorithm">Grover's Search Algorithm</h2>
+<p>Lov Grover's 1996 algorithm is the second most frequently cited quantum algorithm. It addresses <strong>unstructured search</strong> — finding a marked item in an unsorted database of <span class="arithmatex">\(N\)</span> entries.</p>
+<h3 id="what-grovers-algorithm-does">What Grover's Algorithm Does</h3>
+<p>A classical computer searching an unsorted list must check items one by one, requiring on average <span class="arithmatex">\(N/2\)</span> checks and at worst <span class="arithmatex">\(N\)</span> checks. Grover's algorithm finds the marked item in approximately <span class="arithmatex">\(\sqrt{N}\)</span> queries — a <strong>quadratic speedup</strong>.</p>
+<div class="arithmatex">\[
+\text{Classical:} \quad O(N) \qquad \text{Grover's:} \quad O(\sqrt{N})
+\]</div>
+<p>For a database of one million items, a classical search needs up to 1,000,000 checks while Grover's needs about 1,000. For a billion items, classical needs 1,000,000,000 while Grover's needs about 31,623.</p>
+<h3 id="why-the-quadratic-speedup-is-less-impressive-than-it-sounds">Why the Quadratic Speedup Is Less Impressive Than It Sounds</h3>
+<p>The quadratic speedup is mathematically proven and Grover's result is optimal — no quantum algorithm can search an unstructured database faster than <span class="arithmatex">\(O(\sqrt{N})\)</span> (the BBBV theorem). However, several practical realities diminish its significance:</p>
+<ol>
+<li>
+<p><strong>Quadratic is not exponential.</strong> Shor's algorithm offers an exponential speedup; Grover's offers a square root improvement. The difference matters enormously at scale. A problem that takes a classical computer <span class="arithmatex">\(2^{128}\)</span> operations is reduced to <span class="arithmatex">\(2^{64}\)</span> by Grover's — significant, but achievable by classical means with sufficient parallelism.</p>
+</li>
+<li>
+<p><strong>Classical algorithms rarely use brute-force search.</strong> Real-world search problems almost always have structure that classical algorithms exploit — sorting, indexing, hashing, tree-based search. Grover's speedup applies only to genuinely unstructured problems, which are rare in practice.</p>
+</li>
+<li>
+<p><strong>The I/O bottleneck.</strong> Grover's algorithm assumes the database is already loaded into the quantum computer's memory (as a quantum oracle). Loading a classical database into a quantum state — the state preparation problem — can itself take <span class="arithmatex">\(O(N)\)</span> time, eliminating the speedup entirely.</p>
+</li>
+<li>
+<p><strong>Hardware overhead erodes the advantage.</strong> When you factor in error correction overhead and the slower clock speeds of quantum gates compared to classical processors, the practical crossover point — where Grover's actually outperforms classical hardware — requires databases so large that they may not exist in real applications.</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Impact on Grover's Advantage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quadratic (not exponential) speedup</td>
+<td>Modest improvement; parallelism can compensate</td>
+</tr>
+<tr>
+<td>Structured data eliminates need</td>
+<td>Real-world data is rarely unstructured</td>
+</tr>
+<tr>
+<td>State preparation cost <span class="arithmatex">\(O(N)\)</span></td>
+<td>Can erase the quantum advantage entirely</td>
+</tr>
+<tr>
+<td>Error correction overhead</td>
+<td>Quantum operations cost 1,000-10,000x more in physical resources</td>
+</tr>
+<tr>
+<td>Slower quantum clock speeds</td>
+<td>Classical processors run billions of operations per second</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Common Mistake</p>
+<p><img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Fermi warns you">
+Popular press routinely describes Grover's algorithm as "searching a database
+exponentially faster." This is flatly wrong. The speedup is quadratic — the
+square root of <span class="arithmatex">\(N\)</span>, not the logarithm. When you see "exponential quantum
+speedup" in a news article, check whether the author is conflating Shor's
+algorithm (genuinely exponential for factoring) with Grover's algorithm
+(quadratic for search). This conflation inflates the perceived value of
+quantum computing enormously.</p>
+</div>
+<hr />
+<h2 id="quantum-supremacy-defined">Quantum Supremacy Defined</h2>
+<p>In 2012, theoretical physicist John Preskill coined the term <strong>quantum supremacy</strong> to describe a specific milestone: the demonstration that a quantum computer can perform <em>any</em> computation — even a useless one — that no classical computer can perform in a reasonable time.</p>
+<h3 id="what-supremacy-means-and-does-not-mean">What Supremacy Means (and Does Not Mean)</h3>
+<p>Quantum supremacy is a <strong>proof-of-concept milestone</strong>, not a commercial achievement. A supremacy demonstration requires:</p>
+<ol>
+<li>A quantum computer that performs a specific computation</li>
+<li>Evidence that no existing classical computer can perform the same computation in a comparable time</li>
+<li>Verification that the quantum computer produced a correct (or statistically correct) result</li>
+</ol>
+<p>Crucially, supremacy says nothing about whether the computation is useful. The task can be — and in all supremacy demonstrations to date, has been — entirely contrived with no practical application.</p>
+<div class="admonition info">
+<p class="admonition-title">The Name Matters</p>
+<p>Some researchers have moved away from the term "quantum supremacy" in favor of
+"quantum computational advantage" for social and political reasons. In this course,
+we use both terms with their precise technical definitions. "Supremacy" refers to
+the narrow proof-of-concept milestone; "advantage" refers to the higher bar of
+solving a commercially relevant problem faster or cheaper.</p>
+</div>
+<h3 id="googles-2019-supremacy-claim">Google's 2019 Supremacy Claim</h3>
+<p>In October 2019, Google's quantum computing team published a paper in <em>Nature</em> claiming quantum supremacy with their 53-qubit Sycamore processor. The task was <strong>random circuit sampling</strong> — generating samples from the output distribution of a random quantum circuit.</p>
+<p>Google claimed that Sycamore completed the task in 200 seconds, while the world's most powerful classical supercomputer (Summit, at Oak Ridge National Laboratory) would require approximately 10,000 years.</p>
+<p>The claim was immediately challenged:</p>
+<ul>
+<li><strong>IBM</strong> responded within days, arguing that with sufficient disk storage and an optimized algorithm, Summit could complete the task in approximately 2.5 days — not 10,000 years</li>
+<li>By 2022, classical algorithms had improved further, and a team using tensor network methods simulated the same task on classical hardware in a matter of hours</li>
+<li>A Chinese team demonstrated classical simulation of the same circuit in approximately 15 seconds using a cluster of GPUs</li>
+</ul>
+<p>The pattern is important: Google's supremacy claim was based on comparing quantum hardware against the <em>best known classical algorithm at that time</em>. As classical algorithms improved, the claimed advantage shrank dramatically and may have disappeared entirely.</p>
+<h4 id="diagram-shrinking-supremacy-gap-timeline">Diagram: Shrinking Supremacy Gap Timeline</h4>
+<iframe src="../../sims/supremacy-gap-timeline/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Shrinking Supremacy Gap Timeline</summary>
+<p>Type: chart
+<strong>sim-id:</strong> supremacy-gap-timeline<br/>
+<strong>Library:</strong> Chart.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Analyze (L4)
+<strong>Bloom Verb:</strong> Compare, Examine</p>
+<p><strong>Learning Objective:</strong> Students will be able to analyze how classical algorithm improvements eroded Google's quantum supremacy claim over time, and explain why supremacy claims are fragile.</p>
+<p><strong>Chart type:</strong> Combined line and bar chart with logarithmic y-axis</p>
+<p><strong>X-axis:</strong> Timeline (2019 Q4, 2020 Q1, 2021, 2022, 2023, 2024)</p>
+<p><strong>Y-axis:</strong> Estimated classical computation time for equivalent task (seconds, logarithmic scale from <span class="arithmatex">\(10^0\)</span> to <span class="arithmatex">\(10^{11}\)</span>)</p>
+<p><strong>Data points:</strong></p>
+<ul>
+<li>Oct 2019 — Google's claim: <span class="arithmatex">\(3.15 \times 10^{11}\)</span> seconds (10,000 years)</li>
+<li>Nov 2019 — IBM's estimate: <span class="arithmatex">\(2.16 \times 10^{5}\)</span> seconds (2.5 days)</li>
+<li>2021 — Tensor network methods: <span class="arithmatex">\(\sim 10^{4}\)</span> seconds (hours)</li>
+<li>2022 — Improved tensor networks: <span class="arithmatex">\(\sim 10^{3}\)</span> seconds (~20 minutes)</li>
+<li>2023 — GPU cluster simulation: <span class="arithmatex">\(\sim 15\)</span> seconds</li>
+</ul>
+<p><strong>Reference line:</strong> Sycamore quantum execution time = 200 seconds (horizontal dashed line)</p>
+<p><strong>Annotations:</strong></p>
+<ul>
+<li>Arrow where classical time drops below quantum time: "Classical matches quantum"</li>
+<li>Label on Google's initial claim: "10,000 years (Google, 2019)"</li>
+<li>Label on final classical result: "15 seconds (GPU cluster, 2023)"</li>
+</ul>
+<p><strong>Color coding:</strong></p>
+<ul>
+<li>Blue line: Classical computation time estimates</li>
+<li>Orange dashed line: Quantum execution time (200 seconds)</li>
+<li>Red region: Where classical exceeds quantum (supremacy claimed)</li>
+<li>Green region: Where classical matches or beats quantum</li>
+</ul>
+<p><strong>Interactive features:</strong></p>
+<ul>
+<li>Hover over each data point to see: source paper, hardware used, algorithm improvement, estimated classical time</li>
+<li>Toggle: "Show quantum hardware improvements" to overlay quantum processor improvements during the same period</li>
+</ul>
+<p><strong>Implementation:</strong> Chart.js with logarithmic y-axis. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="quantum-advantage-defined">Quantum Advantage Defined</h2>
+<p><strong>Quantum advantage</strong> (sometimes called <strong>practical quantum advantage</strong> or <strong>useful quantum advantage</strong>) is a much higher bar than quantum supremacy. Advantage requires demonstrating that a quantum computer can solve a <strong>commercially relevant problem</strong> faster, cheaper, or more accurately than the best available classical approach.</p>
+<h3 id="the-three-part-test-for-quantum-advantage">The Three-Part Test for Quantum Advantage</h3>
+<p>A genuine demonstration of quantum advantage must satisfy three criteria:</p>
+<ol>
+<li>
+<p><strong>The problem must be commercially relevant.</strong> Someone must actually need this problem solved and be willing to pay for the solution. Random circuit sampling — the basis of Google's supremacy claim — fails this test entirely.</p>
+</li>
+<li>
+<p><strong>The classical baseline must be the best known classical algorithm</strong>, not a strawman comparison. Many "quantum advantage" claims compare quantum performance against a deliberately slow or unoptimized classical algorithm. A fair comparison requires the best available classical hardware running the best available classical algorithm.</p>
+</li>
+<li>
+<p><strong>The quantum advantage must account for all overhead costs</strong>, including error correction, state preparation, measurement, and classical pre- and post-processing. A quantum algorithm that runs in fewer theoretical gate operations but requires 10,000 physical qubits per logical qubit may be far more expensive in total resources than the classical alternative.</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Criterion</th>
+<th>Quantum Supremacy</th>
+<th>Quantum Advantage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Problem must be useful</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Classical baseline</td>
+<td>Best known at time of publication</td>
+<td>Best known, continuously updated</td>
+</tr>
+<tr>
+<td>Overhead included</td>
+<td>Usually not</td>
+<td>Must include all costs</td>
+</tr>
+<tr>
+<td>Commercial value</td>
+<td>None required</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Status as of 2025</td>
+<td>Claimed (disputed)</td>
+<td><strong>Not demonstrated</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Insight</p>
+<p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Fermi is thinking">
+The distinction between supremacy and advantage is the most important
+conceptual tool in this chapter. When a company announces a "quantum
+breakthrough," ask immediately: Is this supremacy (a contrived benchmark)
+or advantage (a real-world problem solved better than classical)? As of
+2025, every claimed breakthrough has been supremacy at best — and even
+those claims have not held up under scrutiny. Show me the numbers.</p>
+</div>
+<hr />
+<h2 id="contrived-benchmarks">Contrived Benchmarks</h2>
+<p>A <strong>contrived benchmark</strong> is a computational task specifically designed to be hard for classical computers but easy for quantum computers, without regard to whether the task has any practical value. Understanding contrived benchmarks is essential for evaluating quantum computing claims, because nearly all reported "quantum speedups" use them.</p>
+<h3 id="characteristics-of-contrived-benchmarks">Characteristics of Contrived Benchmarks</h3>
+<p>Contrived benchmarks share several common features:</p>
+<ul>
+<li>
+<p><strong>The problem is chosen because quantum computers can solve it</strong>, not because anyone needs it solved. Random circuit sampling, boson sampling, and random quantum state certification are examples — they are computationally interesting but commercially worthless.</p>
+</li>
+<li>
+<p><strong>The classical comparison is often unfair.</strong> The benchmark is designed to exploit quantum properties (superposition, entanglement, interference) while deliberately avoiding problem structures that classical algorithms exploit well (sorting, caching, parallelism).</p>
+</li>
+<li>
+<p><strong>The results cannot be independently verified at scale.</strong> If the whole point is that classical computers cannot perform the computation, then how do you verify the quantum computer produced the right answer? Supremacy demonstrations rely on statistical tests applied to smaller, classically verifiable instances, then extrapolating to larger sizes — an inference, not a proof.</p>
+</li>
+<li>
+<p><strong>No customer wants the output.</strong> Nobody is willing to pay for samples from a random quantum circuit distribution. The benchmark exists solely to demonstrate a capability gap, not to produce commercial value.</p>
+</li>
+</ul>
+<h3 id="case-study-random-circuit-sampling">Case Study: Random Circuit Sampling</h3>
+<p>Google's 2019 supremacy experiment asked the Sycamore processor to sample from the output distribution of a random quantum circuit. This is equivalent to asking: "Given a randomly wired quantum processor, what distribution of measurement outcomes does it produce?"</p>
+<p>This task is computationally hard for classical computers because simulating a random quantum circuit requires tracking <span class="arithmatex">\(2^n\)</span> probability amplitudes. But the output — a set of random-looking bitstrings — has no known application. No industry, no science, no engineering discipline needs samples from random quantum circuits.</p>
+<p>The benchmark was chosen precisely <em>because</em> it is hard to simulate classically, not because the answer is useful. This is the defining characteristic of a contrived benchmark.</p>
+<div class="admonition example">
+<p class="admonition-title">A Simple Analogy</p>
+<p>Imagine someone builds an expensive machine that can generate truly random
+numbers faster than any existing random number generator. They announce this
+as a breakthrough. But if your application only needs pseudo-random numbers
+(which classical computers generate essentially for free), the machine — no
+matter how impressive its physics — has no commercial value. The benchmark
+("generate random numbers faster") is contrived because it measures a
+capability nobody is willing to pay for.</p>
+</div>
+<h3 id="other-contrived-benchmarks">Other Contrived Benchmarks</h3>
+<table>
+<thead>
+<tr>
+<th>Benchmark</th>
+<th>What It Demonstrates</th>
+<th>Commercial Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Random circuit sampling (Google, 2019)</td>
+<td>Quantum processor produces hard-to-simulate distributions</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Boson sampling (China, 2020)</td>
+<td>Photonic system samples from complex distribution</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Random quantum state certification</td>
+<td>Quantum system verifies quantum states</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Quantum volume (IBM metric)</td>
+<td>Combined measure of qubit count, connectivity, error rates</td>
+<td>Internal metric only — not a problem solved</td>
+</tr>
+<tr>
+<td>CLOPS (IBM metric)</td>
+<td>Circuit layer operations per second (throughput)</td>
+<td>Internal metric only</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="no-real-world-advantage-yet">No Real-World Advantage Yet</h2>
+<p>As of 2025, after more than four decades of research and over $100 billion in cumulative investment, <strong>no quantum computer has demonstrated a practical advantage over classical computers on any commercially relevant problem.</strong> This is the single most important empirical fact in quantum computing, and it deserves careful examination.</p>
+<h3 id="the-evidence-gap">The Evidence Gap</h3>
+<p>The absence of quantum advantage is not for lack of trying. Major corporations and research labs have invested enormous resources in searching for practical quantum applications:</p>
+<ul>
+<li>
+<p><strong>Drug discovery and molecular simulation:</strong> Quantum chemistry simulations remain limited to molecules small enough to simulate classically. The largest quantum chemistry calculations on quantum hardware have simulated molecules like hydrogen (<span class="arithmatex">\(H_2\)</span>), lithium hydride (<span class="arithmatex">\(LiH\)</span>), and beryllium dihydride (<span class="arithmatex">\(BeH_2\)</span>) — all of which are trivially solvable on a classical laptop.</p>
+</li>
+<li>
+<p><strong>Optimization:</strong> Quantum annealing (D-Wave) and variational quantum algorithms (QAOA) have been applied to portfolio optimization, logistics, and scheduling. In rigorous head-to-head comparisons, classical solvers consistently match or outperform quantum approaches.</p>
+</li>
+<li>
+<p><strong>Machine learning:</strong> Quantum machine learning algorithms have been tested on small benchmark datasets. No study has demonstrated a quantum speedup on a machine learning task that matters commercially.</p>
+</li>
+<li>
+<p><strong>Cryptanalysis:</strong> The largest number factored by a quantum computer using Shor's algorithm is 21 (3 × 7). Some claims of factoring larger numbers (e.g., 35, 143) used hybrid classical-quantum shortcuts that do not scale.</p>
+</li>
+</ul>
+<div class="admonition quote">
+<p class="admonition-title">National Academies of Sciences, 2019</p>
+<p>"Given the current state of quantum computing and recent rates of progress,
+it is highly unexpected that a quantum computer that can compromise RSA 2048
+or comparable discrete logarithm-based public key cryptosystems will be built
+within the next decade." — <em>Quantum Computing: Progress and Prospects</em>, p. 198</p>
+</div>
+<h3 id="why-the-advantage-gap-persists">Why the Advantage Gap Persists</h3>
+<p>Several structural factors explain why quantum advantage remains elusive:</p>
+<ol>
+<li>
+<p><strong>Error rates are too high.</strong> Current quantum gate error rates (<span class="arithmatex">\(\sim 10^{-3}\)</span>) are far above the threshold needed for fault-tolerant computation (<span class="arithmatex">\(\sim 10^{-4}\)</span> or better). Without error correction, quantum computations accumulate errors rapidly, limiting circuit depth and problem complexity.</p>
+</li>
+<li>
+<p><strong>Too few qubits.</strong> Even with perfect error correction, current qubit counts (hundreds to ~1,000) are insufficient for problems where quantum algorithms offer theoretical speedups. Most useful applications require thousands to millions of logical qubits.</p>
+</li>
+<li>
+<p><strong>Classical algorithms keep improving.</strong> Every time a quantum approach is proposed, classical algorithm researchers respond with improved classical methods. This is an ongoing competition, and classical computing has a 75-year head start.</p>
+</li>
+<li>
+<p><strong>The problem landscape is narrow.</strong> As we will see in the next section, the set of problems where quantum algorithms offer any theoretical speedup is remarkably small.</p>
+</li>
+</ol>
+<h4 id="diagram-the-advantage-gap">Diagram: The Advantage Gap</h4>
+<iframe src="../../sims/advantage-gap/main.html" width="100%" height="550px" scrolling="no"></iframe>
+
+<details>
+<summary>The Advantage Gap: Quantum vs. Classical on Real Problems</summary>
+<p>Type: infographic
+<strong>sim-id:</strong> advantage-gap<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Evaluate (L5)
+<strong>Bloom Verb:</strong> Assess, Compare</p>
+<p><strong>Learning Objective:</strong> Students will be able to assess the gap between quantum and classical performance across multiple application domains, and explain why no domain has yet demonstrated quantum advantage.</p>
+<p><strong>Instructional Rationale:</strong> An interactive comparison infographic is appropriate because the Evaluate/assess objective requires students to weigh evidence across multiple domains simultaneously. Hover-based detail disclosure lets students drill into specific claims without overwhelming them with all the data at once.</p>
+<p><strong>Canvas layout:</strong></p>
+<ul>
+<li>Full width: A horizontal bar chart showing application domains on the y-axis</li>
+</ul>
+<p><strong>Visual elements:</strong></p>
+<ul>
+<li>For each domain (Cryptanalysis, Chemistry, Optimization, Machine Learning, Search):</li>
+<li>A paired horizontal bar showing "Classical best performance" (green) and "Quantum best performance" (orange)</li>
+<li>A gap indicator showing the distance between them</li>
+<li>A label indicating whether quantum or classical leads</li>
+<li>A vertical reference line labeled "Commercially Useful Threshold"</li>
+<li>Color-coded status indicators: Red = quantum far behind, Yellow = competitive, Green = quantum leads (none expected to be green)</li>
+</ul>
+<p><strong>Data for each domain:</strong></p>
+<ul>
+<li>Cryptanalysis: Largest classical factoring (hundreds of digits) vs. quantum (21)</li>
+<li>Chemistry: Classical simulation capacity (dozens of electrons) vs. quantum (a few electrons)</li>
+<li>Optimization: Classical solver quality (near-optimal for thousands of variables) vs. quantum (tens of variables)</li>
+<li>Machine Learning: Classical accuracy on benchmark datasets vs. quantum (no improvement shown)</li>
+<li>Search: Classical indexed search (billions of records in milliseconds) vs. quantum Grover's (not demonstrated at useful scale)</li>
+</ul>
+<p><strong>Interactive features:</strong></p>
+<ul>
+<li>Hover over each domain bar to see: specific benchmarks, source papers, dates of comparison</li>
+<li>Toggle: "Show trend over time" — animates bars to show whether the gap is closing or widening (answer: it is not clearly closing in any domain)</li>
+</ul>
+<p><strong>Implementation:</strong> p5.js. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="narrow-problem-applicability">Narrow Problem Applicability</h2>
+<p>One of the most persistent misconceptions about quantum computing is that it will accelerate all types of computation. In reality, the set of problems with known quantum speedups is extraordinarily narrow, and even within that narrow set, the speedups often come with severe practical caveats.</p>
+<h3 id="the-quantum-algorithm-landscape">The Quantum Algorithm Landscape</h3>
+<p>The quantum algorithms with proven speedups can be counted on two hands:</p>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Problem</th>
+<th>Speedup Type</th>
+<th>Practical Caveats</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shor's (1994)</td>
+<td>Integer factoring, discrete log</td>
+<td>Exponential</td>
+<td>Requires millions of physical qubits</td>
+</tr>
+<tr>
+<td>Grover's (1996)</td>
+<td>Unstructured search</td>
+<td>Quadratic (<span class="arithmatex">\(\sqrt{N}\)</span>)</td>
+<td>I/O bottleneck, classical indexing often superior</td>
+</tr>
+<tr>
+<td>HHL (2009)</td>
+<td>Linear systems of equations</td>
+<td>Exponential (conditional)</td>
+<td>Requires exponentially precise state preparation; output is quantum state, not classical data</td>
+</tr>
+<tr>
+<td>Quantum simulation (various)</td>
+<td>Simulating quantum systems</td>
+<td>Exponential (for quantum systems)</td>
+<td>Only for simulating other quantum systems — circular for most applications</td>
+</tr>
+<tr>
+<td>Quantum walks (2000s)</td>
+<td>Certain graph problems</td>
+<td>Polynomial</td>
+<td>Limited to specific graph structures</td>
+</tr>
+<tr>
+<td>VQE/QAOA (2010s)</td>
+<td>Variational optimization</td>
+<td>Claimed but unproven</td>
+<td>No proven speedup over classical</td>
+</tr>
+</tbody>
+</table>
+<p>Note that the last entry — variational quantum algorithms like VQE and QAOA — are frequently cited by companies as their near-term path to quantum advantage. However, <strong>no proven speedup exists</strong> for these algorithms. They are heuristic methods with no theoretical guarantee of outperforming classical optimization.</p>
+<h3 id="why-most-problems-cannot-benefit-from-quantum-computing">Why Most Problems Cannot Benefit from Quantum Computing</h3>
+<p>Quantum speedups require specific mathematical structure that the quantum computer can exploit through interference. Without that structure, quantum and classical computers are equivalent. Most real-world computational tasks lack this structure:</p>
+<ul>
+<li>
+<p><strong>Data processing, databases, web serving, file management:</strong> These are I/O-bound tasks where computation is not the bottleneck. A quantum computer would be slower, not faster.</p>
+</li>
+<li>
+<p><strong>Machine learning and neural networks:</strong> Modern AI runs on massively parallel classical hardware (GPUs, TPUs) optimized for matrix multiplication. Quantum approaches to machine learning have not demonstrated any advantage on real datasets.</p>
+</li>
+<li>
+<p><strong>Scientific simulation (non-quantum):</strong> Fluid dynamics, climate modeling, structural engineering — these involve classical physics and are well-served by classical supercomputers. Quantum computers offer no advantage for simulating classical systems.</p>
+</li>
+<li>
+<p><strong>Combinatorial optimization:</strong> Despite marketing claims, quantum annealing and QAOA have not demonstrated advantages over classical metaheuristic algorithms (simulated annealing, genetic algorithms, gradient descent) on real-world optimization problems.</p>
+</li>
+</ul>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Fermi's Tip</p>
+<p><img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Fermi shares a tip">
+When a company claims "quantum-powered" optimization for logistics,
+finance, or scheduling, apply a simple test: Does the underlying problem
+have the specific mathematical structure (periodicity, symmetry, algebraic
+properties) that quantum algorithms exploit? If the company cannot name the
+specific quantum algorithm providing the speedup and cite a peer-reviewed
+proof of advantage — it is marketing, not science.</p>
+</div>
+<h3 id="the-bqp-boundary">The BQP Boundary</h3>
+<p>The theoretical limit of quantum computing's power is defined by the complexity class <strong>BQP</strong> (Bounded-Error Quantum Polynomial Time). The current understanding of BQP's relationship to other complexity classes is:</p>
+<div class="arithmatex">\[
+P \subseteq BQP \subseteq PSPACE
+\]</div>
+<p>This means:</p>
+<ul>
+<li>Quantum computers can solve everything classical computers can solve efficiently (P ⊆ BQP)</li>
+<li>Quantum computers probably cannot solve NP-complete problems efficiently (BQP is believed to not contain NP-complete problems)</li>
+<li>Quantum computers do not exceed the power of classical computers with unlimited memory (BQP ⊆ PSPACE)</li>
+</ul>
+<p>The problems inside BQP but outside P — the "quantum advantage zone" — appear to be a remarkably thin sliver of all computational problems. Integer factoring and discrete logarithms sit in this zone. Most real-world problems do not.</p>
+<h4 id="diagram-computational-complexity-landscape">Diagram: Computational Complexity Landscape</h4>
+<iframe src="../../sims/complexity-landscape/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Computational Complexity Landscape</summary>
+<p>Type: infographic
+<strong>sim-id:</strong> complexity-landscape<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Understand (L2)
+<strong>Bloom Verb:</strong> Explain, Classify</p>
+<p><strong>Learning Objective:</strong> Students will be able to explain the relationship between major computational complexity classes and classify specific problems by their complexity class, understanding where quantum speedups are theoretically possible.</p>
+<p><strong>Instructional Rationale:</strong> A nested set diagram (Euler diagram) with hover-based examples is appropriate because the Understand/classify objective requires students to see the containment relationships between complexity classes. Interactive hover reveals examples without cluttering the visual layout.</p>
+<p><strong>Canvas layout:</strong></p>
+<ul>
+<li>Full width: Nested ellipses representing complexity classes</li>
+</ul>
+<p><strong>Visual elements:</strong></p>
+<ul>
+<li>Innermost ellipse: P (polynomial time) — green</li>
+<li>Next ellipse: BQP (quantum polynomial time) — blue, partially overlapping with NP</li>
+<li>Next ellipse: NP (nondeterministic polynomial time) — orange</li>
+<li>Outermost ellipse: PSPACE — gray</li>
+<li>"Quantum Advantage Zone" highlighted as the region inside BQP but outside P — bright blue stripe</li>
+<li>Problem examples placed in their appropriate regions as labeled dots</li>
+</ul>
+<p><strong>Problem examples:</strong></p>
+<ul>
+<li>Inside P: Sorting, shortest path, linear programming</li>
+<li>Inside BQP (outside P): Integer factoring, discrete logarithm, quantum simulation</li>
+<li>Inside NP (outside BQP): Traveling salesman, SAT, graph coloring</li>
+<li>Inside PSPACE (outside NP): Quantified Boolean formulas, games (chess, Go with generalized boards)</li>
+</ul>
+<p><strong>Interactive features:</strong></p>
+<ul>
+<li>Hover over any problem dot to see: problem name, best known classical algorithm, best known quantum algorithm, speedup (if any)</li>
+<li>Hover over complexity class labels to see: definition, examples, relationship to other classes</li>
+<li>Toggle: "Show where commercial problems live" — highlights that most commercial computing tasks are in P</li>
+</ul>
+<p><strong>Implementation:</strong> p5.js. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="classical-computers-keep-up">Classical Computers Keep Up</h2>
+<p>Perhaps the most underappreciated factor in the quantum computing debate is the relentless improvement of classical computing. While quantum researchers struggle to add qubits and reduce error rates, classical hardware and algorithms continue to advance at a remarkable pace.</p>
+<h3 id="classical-hardware-improvements">Classical Hardware Improvements</h3>
+<p>Classical computing has not stood still during the decades of quantum research:</p>
+<ul>
+<li>
+<p><strong>GPU computing:</strong> NVIDIA's GPU architectures have increased throughput by roughly 1,000x over the past decade for parallelizable workloads. Tasks that once required supercomputers now run on desktop workstations.</p>
+</li>
+<li>
+<p><strong>Specialized accelerators:</strong> TPUs (Google), NPUs (Apple, Qualcomm), and custom ASICs are optimized for specific workloads like matrix multiplication, providing orders-of-magnitude improvements for machine learning and scientific simulation.</p>
+</li>
+<li>
+<p><strong>Algorithmic improvements:</strong> Classical algorithms for many of the problems targeted by quantum computing have improved dramatically. Classical simulation of quantum circuits — the very task used to demonstrate quantum supremacy — has improved by factors of millions since 2019 through better tensor network methods.</p>
+</li>
+</ul>
+<h3 id="the-moving-target-problem">The Moving Target Problem</h3>
+<p>Every quantum computing milestone is compared against a classical baseline that was current at the time of the announcement. But classical computing does not freeze while quantum computers improve. This creates a <strong>moving target problem</strong>:</p>
+<ol>
+<li>A quantum research team announces a result that outperforms the best <em>current</em> classical approach.</li>
+<li>Classical algorithm researchers, motivated by the announcement, develop improved classical methods.</li>
+<li>Within months to years, the classical approach matches or exceeds the quantum result.</li>
+<li>The quantum team must now beat a <em>better</em> classical baseline.</li>
+</ol>
+<p>This pattern has played out repeatedly:</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Quantum Claim</th>
+<th>Classical Response</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019</td>
+<td>Google Sycamore: 200 sec vs. "10,000 years"</td>
+<td>IBM: 2.5 days with optimization</td>
+<td>Gap reduced from 10,000 years to 2.5 days</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>Jiuzhang photonic: boson sampling supremacy</td>
+<td>Classical tensor network methods</td>
+<td>Classical simulation achieved within 2 years</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>Various "quantum utility" claims</td>
+<td>Improved classical heuristics</td>
+<td>Classical methods matched or exceeded</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>IBM "utility-scale" quantum computing</td>
+<td>GPU-based classical simulation</td>
+<td>Classical simulation in seconds</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Bias Alert</p>
+<p><img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Fermi warns you">
+Watch for <strong>anchoring bias</strong> in quantum computing announcements. The
+initial headline — "10,000 years on a classical computer!" — anchors in
+your memory even after the classical estimate is revised downward to days,
+hours, or seconds. Press releases rarely issue corrections when classical
+algorithms catch up. The dramatic initial claim persists in public
+consciousness long after it has been debunked.</p>
+</div>
+<h3 id="why-classical-advantages-compound">Why Classical Advantages Compound</h3>
+<p>Classical computing benefits from several compounding advantages that quantum computing cannot match:</p>
+<ol>
+<li>
+<p><strong>Manufacturing maturity.</strong> Semiconductor fabrication has had 75 years of optimization. Transistor counts follow Moore's Law (albeit slowing), and process nodes continue to shrink. Quantum hardware fabrication is in its infancy.</p>
+</li>
+<li>
+<p><strong>Software ecosystem.</strong> Classical computing has millions of optimized libraries, compilers, operating systems, and development tools built over decades. Quantum software tools are rudimentary.</p>
+</li>
+<li>
+<p><strong>Error rates.</strong> Classical transistors operate with error rates of <span class="arithmatex">\(\sim 10^{-18}\)</span>. Quantum gates operate at <span class="arithmatex">\(\sim 10^{-3}\)</span>. This fifteen-order-of-magnitude gap means classical computers can execute extraordinarily long computations reliably, while quantum computers are limited to short circuit depths.</p>
+</li>
+<li>
+<p><strong>Energy efficiency.</strong> A classical processor performs billions of operations per watt. A quantum processor (superconducting) requires a dilution refrigerator consuming kilowatts to maintain millikelvin temperatures for a few hundred qubits.</p>
+</li>
+<li>
+<p><strong>Parallelism.</strong> You can build a cluster of thousands of classical processors for the cost of a single quantum computer. Embarrassingly parallel problems — which include many real-world workloads — scale linearly with classical hardware investment.</p>
+</li>
+</ol>
+<h4 id="diagram-classical-vs-quantum-improvement-trajectories">Diagram: Classical vs. Quantum Improvement Trajectories</h4>
+<iframe src="../../sims/improvement-trajectories/main.html" width="100%" height="550px" scrolling="no"></iframe>
+
+<details>
+<summary>Classical vs. Quantum Improvement Trajectories</summary>
+<p>Type: chart
+<strong>sim-id:</strong> improvement-trajectories<br/>
+<strong>Library:</strong> Chart.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom Level:</strong> Analyze (L4)
+<strong>Bloom Verb:</strong> Compare, Examine</p>
+<p><strong>Learning Objective:</strong> Students will be able to compare the historical improvement rates of classical and quantum computing along key metrics and analyze why classical improvements continue to outpace quantum improvements in practical capability.</p>
+<p><strong>Chart type:</strong> Dual-axis line chart with logarithmic y-axes</p>
+<p><strong>X-axis:</strong> Year (2015 to 2025)</p>
+<p><strong>Y-axis (left, logarithmic):</strong> Classical performance metric (FLOPS per dollar)
+<strong>Y-axis (right, logarithmic):</strong> Quantum performance metric (qubit count × gate fidelity)</p>
+<p><strong>Data series:</strong></p>
+<ol>
+<li>Classical GPU performance (FLOPS per dollar):</li>
+<li>2015: ~<span class="arithmatex">\(10^{10}\)</span></li>
+<li>2017: ~<span class="arithmatex">\(10^{11}\)</span></li>
+<li>2019: ~<span class="arithmatex">\(5 \times 10^{11}\)</span></li>
+<li>2021: ~<span class="arithmatex">\(10^{12}\)</span></li>
+<li>2023: ~<span class="arithmatex">\(5 \times 10^{12}\)</span></li>
+<li>
+<p>2025: ~<span class="arithmatex">\(10^{13}\)</span></p>
+</li>
+<li>
+<p>Quantum "useful operations" (qubit count × (1 - error rate)):</p>
+</li>
+<li>2015: ~5 × 0.99 = ~5</li>
+<li>2017: ~20 × 0.995 = ~20</li>
+<li>2019: ~53 × 0.997 = ~53</li>
+<li>2021: ~127 × 0.998 = ~127</li>
+<li>2023: ~1,121 × 0.999 = ~1,120</li>
+<li>2025: ~1,200 × 0.999 = ~1,199</li>
+</ol>
+<p><strong>Annotations:</strong></p>
+<ul>
+<li>Label on classical line: "~100x improvement per decade"</li>
+<li>Label on quantum line: "~200x improvement per decade (qubit count), but quality improvement is marginal"</li>
+<li>Shaded region showing the gap between "useful quantum operations" and "minimum needed for advantage" (~<span class="arithmatex">\(10^6\)</span> logical operations)</li>
+</ul>
+<p><strong>Color coding:</strong></p>
+<ul>
+<li>Green: Classical trajectory</li>
+<li>Orange: Quantum trajectory</li>
+<li>Red dashed line: Minimum threshold for commercially relevant quantum computation</li>
+</ul>
+<p><strong>Interactive features:</strong></p>
+<ul>
+<li>Hover over data points to see: specific hardware, benchmark, source</li>
+<li>Toggle between metrics: raw qubit count, error-corrected logical qubits, gate operations per second</li>
+<li>Slider to extrapolate trajectories forward (2025-2040) with confidence intervals</li>
+</ul>
+<p><strong>Implementation:</strong> Chart.js with dual logarithmic axes. Background: aliceblue. Responsive to window resize.</p>
+</details>
+<hr />
+<h2 id="key-takeaways">Key Takeaways</h2>
+<p>This chapter examined the quantum algorithms that form the theoretical basis for quantum computing investment and measured them against the reality of what quantum hardware has actually achieved:</p>
+<ol>
+<li>
+<p><strong>Shor's algorithm</strong> provides a genuine exponential speedup for integer factoring, but running it on cryptographically relevant key sizes requires approximately 20 million physical qubits — roughly 10,000 times more than exist today, and every qubit must be far more reliable than current technology allows.</p>
+</li>
+<li>
+<p><strong>Grover's algorithm</strong> provides a quadratic (not exponential) speedup for unstructured search. Practical factors — I/O bottlenecks, classical data structures, error correction overhead — make it unlikely to deliver real-world advantages for most search problems.</p>
+</li>
+<li>
+<p><strong>Quantum supremacy</strong> is a proof-of-concept milestone demonstrating quantum computation on a contrived problem. It does not imply commercial usefulness, and even claimed supremacy demonstrations have been challenged or matched by improved classical algorithms.</p>
+</li>
+<li>
+<p><strong>Quantum advantage</strong> — solving a commercially relevant problem faster or cheaper than classical methods — has never been demonstrated on any real-world problem as of 2025, despite decades of research and over $100 billion in investment.</p>
+</li>
+<li>
+<p><strong>Contrived benchmarks</strong> are specifically designed to favor quantum computers and have no practical applications. Nearly all reported "quantum speedups" use them.</p>
+</li>
+<li>
+<p><strong>The problem landscape for quantum speedups is extraordinarily narrow</strong>, limited to problems with specific mathematical structure (periodicity, certain algebraic properties). Most real-world computational tasks receive no quantum benefit.</p>
+</li>
+<li>
+<p><strong>Classical computers continue to improve</strong> in hardware, algorithms, and software — creating a moving target that quantum computing must surpass. The classical computing ecosystem has 75 years of compounding advantages that quantum systems cannot replicate.</p>
+</li>
+</ol>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">Excellent Investigative Work!</p>
+<p><img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Fermi celebrates">
+You can now distinguish between quantum supremacy and quantum advantage,
+identify a contrived benchmark, and explain why classical computers keep
+closing the gap. These are essential tools for evaluating any quantum
+computing claim you encounter. When someone tells you quantum computers
+will "revolutionize" their industry, you now know the right questions to
+ask. Outstanding analytical work, fellow investigator!</p>
+</div>
+<hr />
+<h2 id="review-questions">Review Questions</h2>
+<details class="question">
+<summary>1. Why does Shor's algorithm not prove that quantum computers will break RSA encryption any time soon?</summary>
+<p>Shor's algorithm is mathematically correct and provides an exponential speedup
+for factoring. However, running it on RSA-2048 requires approximately 4,000
+logical qubits, which translates to roughly 20 million physical qubits with
+current error correction overhead. The largest quantum processors today have
+~1,000 noisy physical qubits with error rates of ~<span class="arithmatex">\(10^{-3}\)</span>. Closing this
+gap of four orders of magnitude in qubit count while simultaneously improving
+error rates by at least an order of magnitude represents multiple simultaneous
+breakthroughs that may take decades — if they are achievable at all.</p>
+</details>
+<details class="question">
+<summary>2. Explain why Grover's quadratic speedup is less commercially significant than it initially appears.</summary>
+<p>Three factors diminish Grover's practical significance. First, the speedup
+is quadratic (<span class="arithmatex">\(\sqrt{N}\)</span>), not exponential — a problem requiring <span class="arithmatex">\(2^{128}\)</span>
+classical operations requires <span class="arithmatex">\(2^{64}\)</span> quantum operations, which is within
+reach of classical parallelism. Second, real-world search uses indexed data
+structures (hash tables, B-trees) that are far faster than brute-force
+search, making the unstructured search scenario unrealistic. Third, loading
+classical data into a quantum oracle takes <span class="arithmatex">\(O(N)\)</span> time, potentially
+eliminating the quantum advantage entirely.</p>
+</details>
+<details class="question">
+<summary>3. What is the difference between quantum supremacy and quantum advantage, and why does the distinction matter for investors?</summary>
+<p>Quantum supremacy means performing any computation — even a useless one —
+faster than any classical computer. Quantum advantage means solving a
+commercially valuable problem faster or cheaper than classical alternatives.
+The distinction matters because supremacy has been claimed (though disputed)
+while advantage has never been demonstrated. An investor should care only
+about advantage: supremacy proves an interesting physics capability but
+generates zero revenue. Companies that conflate the two are misleading
+investors about the commercial readiness of their technology.</p>
+</details>
+<details class="question">
+<summary>4. Describe the 'moving target problem' and give a specific example.</summary>
+<p>The moving target problem occurs because classical algorithms and hardware
+continue to improve while quantum systems develop. A quantum result that
+outperforms the best classical approach at time of announcement may be
+matched or exceeded by improved classical methods within months. The clearest
+example is Google's 2019 supremacy claim: the initial comparison said
+classical simulation would take 10,000 years. IBM reduced this to 2.5 days
+within weeks. By 2023, a GPU cluster performed the same task in 15 seconds
+— faster than the quantum computer itself.</p>
+</details>
+<details class="question">
+<summary>5. Name three types of real-world computational problems where quantum computers offer no known advantage, and explain why.</summary>
+<p>(1) Web serving and databases — these are I/O-bound tasks where computation
+is not the bottleneck; a quantum computer would be slower and more expensive.
+(2) Machine learning — modern ML runs on GPUs/TPUs optimized for matrix
+operations; no quantum ML algorithm has demonstrated advantage on real
+datasets. (3) Classical scientific simulation (fluid dynamics, climate
+modeling) — these simulate classical physics and are well-served by
+classical supercomputers; quantum computers offer speedups only for
+simulating quantum systems, not classical ones.</p>
+</details>
 
 
 
