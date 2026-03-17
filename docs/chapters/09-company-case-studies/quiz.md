@@ -56,13 +56,13 @@ Test your understanding of quantum computing company financials, SPAC risks, val
 
 <div class="upper-alpha" markdown>
 1. It is normal for deep-technology companies to trade at 100-250x revenue
-2. High-growth SaaS companies typically trade at 10-30x revenue, making quantum computing multiples 5-10x higher than even aggressively valued peers
-3. The multiples are low compared to biotech companies, which routinely trade at 500x+ revenue
-4. Revenue multiples are not applicable to hardware companies
+2. The multiples are low compared to biotech companies, which routinely trade at 500x+ revenue
+3. Revenue multiples are not applicable to hardware companies
+4. High-growth SaaS companies typically trade at 10-30x revenue, making quantum computing multiples 5-10x higher than even aggressively valued peers
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. High-growth software companies typically trade at 10-30x revenue, and even the most optimistically valued SaaS companies rarely sustain multiples above 50x. Quantum computing companies at 100-250x revenue (IonQ at 254x, D-Wave at 228x, Rigetti at 115x) represent extreme speculation that can only be justified by assuming revenue growth of orders of magnitude within a few years — growth that depends on unachieved physics breakthroughs. PsiQuantum's infinite multiple ($3.15B valuation on ~$0 revenue) underscores the disconnect.
+    The correct answer is **D**. High-growth software companies typically trade at 10-30x revenue, and even the most optimistically valued SaaS companies rarely sustain multiples above 50x. Quantum computing companies at 100-250x revenue (IonQ at 254x, D-Wave at 228x, Rigetti at 115x) represent extreme speculation that can only be justified by assuming revenue growth of orders of magnitude within a few years — growth that depends on unachieved physics breakthroughs. PsiQuantum's infinite multiple ($3.15B valuation on ~$0 revenue) underscores the disconnect.
 
     **Concept Tested:** Market Valuation vs Revenue
 
