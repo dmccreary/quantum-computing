@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QC Prediction Track Record Timeline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+</head>
+<body>
+    <h2>Quantum Computing Prediction Track Record</h2>
+
+    <div class="legend">
+        <div class="legend-item"><div class="legend-dot failed"></div> Failed</div>
+        <div class="legend-item"><div class="legend-dot disputed"></div> Disputed</div>
+        <div class="legend-item"><div class="legend-dot delayed"></div> Delayed</div>
+        <div class="legend-item"><div class="legend-dot pending"></div> Pending</div>
+    </div>
+
+    <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="failed">Failed</button>
+        <button class="filter-btn" data-filter="disputed">Disputed</button>
+        <button class="filter-btn" data-filter="delayed">Delayed</button>
+        <button class="filter-btn" data-filter="pending">Pending</button>
+        <span style="border-left: 1px solid #ccc; margin: 0 4px;"></span>
+        <button class="filter-btn" data-source="Academia">Academia</button>
+        <button class="filter-btn" data-source="Company">Company</button>
+        <button class="filter-btn" data-source="Consulting">Consulting</button>
+    </div>
+
+    <div id="timeline"></div>
+
+    <div id="event-details" class="empty">
+        Click on any prediction to see details.
+    </div>
+
+    <script src="qc-prediction-tracker.js"></script>
+</body>
+</html>

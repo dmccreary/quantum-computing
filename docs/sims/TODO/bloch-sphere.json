@@ -1,0 +1,14 @@
+{
+  "sim_id": "bloch-sphere",
+  "diagram_name": "Qubit State Visualization — The Bloch Sphere",
+  "chapter_number": 1,
+  "chapter_title": "What Is Quantum Computing?",
+  "chapter_dir": "01-what-is-quantum-computing",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain, Interpret",
+  "learning_objective": "Students will be able to explain how the angles $\\theta$ and $\\phi$ on the Bloch sphere correspond to different qubit states, and interpret how measurement collapses a state to the poles.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: microsim\n**sim-id:** bloch-sphere<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Explain, Interpret\n\n**Learning Objective:** Students will be able to explain how the angles $\\theta$ and $\\phi$ on the Bloch sphere correspond to different qubit states, and interpret how measurement collapses a state to the poles.\n\n**Instructional Rationale:** An interactive 3D visualization allows students to manipulate qubit state parameters and see the corresponding position on the Bloch sphere, building intuition for the continuous nature of qubit states versus the discrete nature of measurement outcomes.\n\n**Canvas layout:**\n\n- Left (65%): 3D rendering of a unit sphere with axes labeled $|0\\rangle$ (north pole), $|1\\rangle$ (south pole), $|+\\rangle$, $|-\\rangle$, $|i\\rangle$, $|-i\\rangle$\n- Right (35%): Controls and state display\n\n**Visual elements:**\n\n- Wireframe unit sphere with equator and prime meridian\n- State vector arrow from origin to surface point\n- Projection shadows on XY, XZ planes\n- North pole labeled $|0\\rangle$, south pole labeled $|1\\rangle$\n- Current state displayed as $|\\psi\\rangle = \\alpha|0\\rangle + \\beta|1\\rangle$ with numeric values\n\n**Interactive controls:**\n\n- Slider: $\\theta$ (polar angle, 0 to $\\pi$) — default $\\pi/4$\n- Slider: $\\phi$ (azimuthal angle, 0 to $2\\pi$) — default 0\n- Button: \"Measure\" — animates collapse to $|0\\rangle$ or $|1\\rangle$ with probability shown\n- Button: \"Reset\"\n- Display: Measurement probabilities $P(0) = \\cos^2(\\theta/2)$, $P(1) = \\sin^2(\\theta/2)$\n\n**Behavior:**\n\n- Moving sliders updates the state vector arrow in real time\n- Display updates $\\alpha$, $\\beta$, and measurement probabilities\n- \"Measure\" button triggers random collapse weighted by probabilities, with animation showing the vector snapping to a pole\n- After measurement, show the result and accumulated statistics (e.g., \"Measured $|0\\rangle$. Total: 7 out of 12 measurements were $|0\\rangle$\")\n\n**Implementation:** p5.js with WEBGL renderer for 3D sphere. Background: aliceblue. Responsive to window resize."
+}

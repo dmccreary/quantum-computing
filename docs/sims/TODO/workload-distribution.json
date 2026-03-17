@@ -1,0 +1,14 @@
+{
+  "sim_id": "workload-distribution",
+  "diagram_name": "Computational Workload Distribution",
+  "chapter_number": 7,
+  "chapter_title": "What Is a General Purpose Technology?",
+  "chapter_dir": "07-general-purpose-technology",
+  "library": "Chart.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Differentiate, Examine",
+  "learning_objective": "Students will be able to differentiate between computational workloads that could benefit from quantum computing and those that cannot, and examine why quantum computing's applicability is limited to a tiny fraction of global computation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** workload-distribution<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Differentiate, Examine\n\n**Learning Objective:** Students will be able to differentiate between computational workloads that could benefit from quantum computing and those that cannot, and examine why quantum computing's applicability is limited to a tiny fraction of global computation.\n\n**Instructional Rationale:** A pie/donut chart with interactive drill-down is appropriate because the Analyze/differentiate objective requires students to see the proportional distribution of computational workloads and identify the tiny slice where quantum computing might apply. The visual impact of a sliver versus the whole pie is more persuasive than text alone.\n\n**Chart type:** Donut chart with interactive segments\n\n**Data:**\n\n- Web serving & cloud: 30% (gray)\n- AI/ML: 25% (blue)\n- Databases & transactions: 15% (green)\n- Scientific simulation (classical): 10% (teal)\n- Media processing: 8% (purple)\n- Business applications: 7% (orange)\n- Other classical: 3.8% (light gray)\n- Potential QC benefit (all categories): 1.2% (red — the key segment)\n\n**Visual elements:**\n\n- Main donut chart showing the distribution\n- The 1.2% QC-applicable segment is pulled out and highlighted with a red glow\n- An annotation arrow pointing to the tiny segment: \"Everything quantum computing could theoretically help with — and even this requires breakthroughs that may never happen\"\n- A sub-donut expanding the 1.2% segment into its components (cryptanalysis, quantum simulation, optimization)\n\n**Interactive features:**\n\n- Hover over any segment to see: category name, percentage, typical workloads, why QC helps or doesn't help\n- Click on the QC segment to expand the sub-donut showing the breakdown of potentially QC-applicable workloads\n- Toggle: \"Show classical alternatives\" — for each QC-applicable workload, show what classical method currently handles it and its performance\n\n**Implementation:** Chart.js donut chart. Background: aliceblue. Responsive to window resize."
+}

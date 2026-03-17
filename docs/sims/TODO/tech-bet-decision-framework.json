@@ -1,0 +1,14 @@
+{
+  "sim_id": "tech-bet-decision-framework",
+  "diagram_name": "Technology Bet Decision Framework",
+  "chapter_number": 17,
+  "chapter_title": "Critical Thinking and Practical Application",
+  "chapter_dir": "17-critical-thinking-application",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: workflow\n**sim-id:** tech-bet-decision-framework<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nBloom Taxonomy: Create (L6)\nBloom Verb: design, formulate, construct\nLearning Objective: Students will design their own technology evaluation process by navigating an interactive decision framework that integrates all analytical tools from the course, formulating a structured investment recommendation.\n\nInstructional Rationale: A decision framework tool is appropriate for the Create objective because students must synthesize all course tools into a coherent evaluation process and produce an original recommendation. The interactive format forces active construction rather than passive recall.\n\nCanvas layout:\n- Center (80% width): Decision tree flowchart with branching paths\n- Right panel (20% width): Running score and recommendation accumulator\n\nFlowchart structure:\n- Entry node: \"Evaluate Technology Claim\"\n- Decision 1: \"Hype Detection Score?\" → branches: 0-3 / 4-6 / 7-9 / 10-12\n- Decision 2: \"TRL Level?\" → branches: 1-3 / 4-6 / 7-9\n- Decision 3: \"Has continuous improvement pathway?\" → Yes / No\n- Decision 4: \"Intermediate commercial products?\" → Yes / No\n- Decision 5: \"Joint probability of required breakthroughs?\" → >10% / 1-10% / <1%\n- Decision 6: \"Risk-adjusted return vs. alternatives?\" → Superior / Comparable / Inferior\n\nTerminal nodes (color-coded):\n- \"Strong Investment Case\" (green): High allocation recommended (20-40%)\n- \"Moderate Case\" (yellow): Moderate allocation (10-20%)\n- \"Speculative Case\" (orange): Small allocation (5-10%)\n- \"Avoid\" (red): Minimal or zero allocation (0-5%)\n\nInteractive features:\n- Click each decision node: presents the question with guidance on how to answer\n- After answering, the selected branch highlights and the chart advances to the next decision\n- Right panel accumulates: \"Evidence strength: X/10\", \"Risk level: [Low/Medium/High/Very High]\", \"Suggested allocation: X-Y%\"\n- \"Apply to Quantum Computing\" walkthrough: auto-navigates using the course's analysis\n- \"Start Fresh\" button: resets for a new technology\n- At terminal node: display full recommendation summary with citations to relevant chapters\n\nColor scheme: Indigo decisions, orange branches, green/yellow/red terminal nodes\nBackground: aliceblue\nCanvas: Responsive width, 500px height\n\nImplementation: p5.js with interactive flowchart nodes, click handlers, state machine, panel rendering"
+}

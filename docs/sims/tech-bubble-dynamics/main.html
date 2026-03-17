@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Bubble Dynamics Model</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">Technology Bubble Dynamics Model</div>
+
+    <div id="legend">
+        <div class="legend-title">Categories</div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #4285F4;"></span> Trigger
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #FF7043;"></span> Amplifier
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #34A853;"></span> Financial
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #7E57C2;"></span> Resource
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #EA4335;"></span> Risk
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background: #9E9E9E;"></span> Outcome
+        </div>
+        <div class="legend-title" style="margin-top: 8px;">Edge Polarity</div>
+        <div class="legend-edge">
+            <span class="legend-line" style="background: #34A853;"></span> (+) Reinforcing
+        </div>
+        <div class="legend-edge">
+            <span class="legend-line" style="background: #EA4335;"></span> (-) Balancing
+        </div>
+        <div class="legend-instructions">Click a node to highlight connections.<br>Hover edges for causal details.<br>Click empty space to reset.</div>
+    </div>
+
+    <div id="right-panel">
+        <div id="panel-title">Select a Variable</div>
+        <div id="panel-body">Click on any node to see a QC-specific example and its causal connections in the bubble dynamics model.</div>
+    </div>
+
+    <div id="network"></div>
+
+    <div id="loop-filter">
+        <button class="active" data-filter="all">Show All</button>
+        <button data-filter="reinforcing">Reinforcing Loops</button>
+        <button data-filter="balancing">Balancing Loops</button>
+    </div>
+
+    <script src="tech-bubble-dynamics.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "sim_id": "quantum-risk-return-scatter",
+  "diagram_name": "Risk-Return Scatter Plot",
+  "chapter_number": 14,
+  "chapter_title": "Better Alternatives to Quantum Computing",
+  "chapter_dir": "14-better-alternatives",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** quantum-risk-return-scatter<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nBloom Taxonomy: Evaluate (L5)\nBloom Verb: compare, assess, prioritize\nLearning Objective: Students will compare the risk-adjusted returns of six quantum and classical technologies and assess which investments offer superior expected value relative to risk.\n\nInstructional Rationale: A scatter plot is appropriate for the Evaluate objective because it visually positions technologies on two dimensions simultaneously (risk vs. return), enabling students to immediately identify which investments dominate others. Tables convey the same data but require mental visualization that the chart provides directly.\n\nChart type: Scatter plot with bubble size encoding\n\nX-axis: Risk (standard deviation of return), range 0-100%, label \"Investment Risk (σ)\"\nY-axis: Expected Return (%), range -100% to +500%, label \"Expected Return\"\nBubble size: Proportional to total investment required\n\nData points:\n1. \"Atomic Clocks\" — x: 10%, y: 370%, bubble: small (low investment). Color: green #388E3C\n2. \"Quantum Magnetometers\" — x: 20%, y: 370%, bubble: small. Color: green #4CAF50\n3. \"Quantum Gravimeters\" — x: 30%, y: 275%, bubble: medium. Color: green #66BB6A\n4. \"QKD\" — x: 40%, y: 40%, bubble: medium. Color: yellow #FFC107\n5. \"Classical AI Hardware\" — x: 15%, y: 350%, bubble: large (high investment but high confidence). Color: blue #1565C0\n6. \"Quantum Computing\" — x: 90%, y: -90%, bubble: very large (massive investment). Color: red #E53935\n\nReference elements:\n- Dashed diagonal line from origin: \"Efficient frontier\" showing optimal risk-return tradeoff\n- Horizontal dashed line at y=0: \"Break-even line\"\n- Shaded green region (upper left): \"Attractive investments\"\n- Shaded red region (lower right): \"Unattractive investments\"\n\nInteractive features:\n- Hover over bubble: tooltip showing technology name, P(success), E[V], and total investment\n- Click bubble: expand to show detailed breakdown panel below chart\n- Toggle button: \"Show/Hide Efficient Frontier\"\n- Legend showing color and size encoding\n\nTitle: \"Risk-Adjusted Returns: Quantum Technologies vs. Classical Alternatives\"\nCanvas: Responsive width, 500px height\nBackground: aliceblue\n\nImplementation: Chart.js scatter chart with custom tooltip plugin, bubble size scaling"
+}

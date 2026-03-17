@@ -31,7 +31,57 @@ nav:
 
   - MicroSims:
     - List of MicroSims: sims/index.md
+    - Advantage Gap: sims/advantage-gap/index.md
+    - Barrier Stack: sims/barrier-stack/index.md
+    - Bias Compounding Cascade: sims/bias-compounding-cascade/index.md
+    - Bias Detection Checklist: sims/bias-detection-checklist/index.md
+    - Bloch Sphere: sims/bloch-sphere/index.md
+    - Breakthrough Dependencies: sims/breakthrough-dependencies/index.md
+    - Cognitive Bias Network: sims/cognitive-bias-network/index.md
+    - Complexity Landscape: sims/complexity-landscape/index.md
+    - Error Rate Comparison: sims/error-rate-comparison/index.md
+    - Error Rate Gap: sims/error-rate-gap/index.md
+    - Ethical Decision Framework: sims/ethical-decision-framework/index.md
+    - GPT Scorecard: sims/gpt-scorecard/index.md
     - Graph Viewer: sims/graph-viewer/index.md
+    - Hype Amplification Pipeline: sims/hype-amplification-pipeline/index.md
+    - Hype Detection Tool: sims/hype-detection-tool/index.md
+    - Hype Ecosystem: sims/hype-ecosystem/index.md
+    - Hype Parallels: sims/hype-parallels/index.md
+    - Hype Reinforcement Loop: sims/hype-reinforcement-loop/index.md
+    - Improvement Trajectories: sims/improvement-trajectories/index.md
+    - Incentive Asymmetry Map: sims/incentive-asymmetry-map/index.md
+    - Joint Probability Calculator: sims/joint-probability-calculator/index.md
+    - Leverage Point Explorer: sims/leverage-point-explorer/index.md
+    - Physics Bet Timeline: sims/physics-bet-timeline/index.md
+    - Platform Comparison Radar: sims/platform-comparison-radar/index.md
+    - Prediction Pattern: sims/prediction-pattern/index.md
+    - Probability Waterfall: sims/probability-waterfall/index.md
+    - QC Application Landscape: sims/qc-application-landscape/index.md
+    - QC Expected Value Calculator: sims/qc-expected-value-calculator/index.md
+    - QC Feedback Loop System: sims/qc-feedback-loop-system/index.md
+    - QC History Timeline: sims/qc-history-timeline/index.md
+    - QC Investment Decision Tree: sims/qc-investment-decision-tree/index.md
+    - QC Investment Flow: sims/qc-investment-flow/index.md
+    - QC Investment vs Revenue: sims/qc-investment-vs-revenue/index.md
+    - QC Prediction Tracker: sims/qc-prediction-tracker/index.md
+    - QC Valuation Scatter: sims/qc-valuation-scatter/index.md
+    - Quantum Portfolio Explorer: sims/quantum-portfolio-explorer/index.md
+    - Quantum Risk Return Scatter: sims/quantum-risk-return-scatter/index.md
+    - Qubit Scaling vs Crypto: sims/qubit-scaling-vs-crypto/index.md
+    - Rhetorical Patterns: sims/rhetorical-patterns/index.md
+    - Shor's Algorithm Resources: sims/shors-algorithm-resources/index.md
+    - Skeptical Inquiry Flowchart: sims/skeptical-inquiry-flowchart/index.md
+    - Success Failure Patterns: sims/success-failure-patterns/index.md
+    - Supremacy Gap Timeline: sims/supremacy-gap-timeline/index.md
+    - TCO Comparison Dashboard: sims/tco-comparison-dashboard/index.md
+    - Tech Bet Decision Framework: sims/tech-bet-decision-framework/index.md
+    - Tech Bubble Dynamics: sims/tech-bubble-dynamics/index.md
+    - Tech Success Analyzer: sims/tech-success-analyzer/index.md
+    - TRL Assessment Tool: sims/trl-assessment-tool/index.md
+    - VC Portfolio Simulator: sims/vc-portfolio-simulator/index.md
+    - Vulnerability Window: sims/vulnerability-window/index.md
+    - Workload Distribution: sims/workload-distribution/index.md
 
   - Appendices:
     - List of Appendices: appendices/index.md

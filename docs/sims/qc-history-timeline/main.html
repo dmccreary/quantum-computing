@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Computing History Timeline</title>
+    <link rel="stylesheet" href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Quantum Computing History Timeline (1981-2025)</h2>
+
+    <div class="filter-controls">
+        <button data-category="all">All</button>
+        <button data-category="theory">Theory</button>
+        <button data-category="hardware">Hardware</button>
+        <button data-category="industry">Industry</button>
+        <button data-category="milestone">Milestone</button>
+    </div>
+
+    <div id="timeline"></div>
+
+    <div id="event-details">
+        <p id="placeholder-text">Click on any event to see details.</p>
+    </div>
+
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <script src="qc-history-timeline.js"></script>
+</body>
+</html>

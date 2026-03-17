@@ -1,0 +1,14 @@
+{
+  "sim_id": "qc-valuation-scatter",
+  "diagram_name": "Quantum Computing Valuation vs. Revenue Scatter",
+  "chapter_number": 9,
+  "chapter_title": "Company Case Studies and Exit Analysis",
+  "chapter_dir": "09-company-case-studies",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyze the relationship between quantum computing company valuations and revenues compared to technology industry norms, identifying the magnitude of the valuation gap (Bloom's Level 4: Analyze — compare, contrast, distinguish).",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** qc-valuation-scatter<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Learning Objective:** Analyze the relationship between quantum computing company valuations and revenues compared to technology industry norms, identifying the magnitude of the valuation gap (Bloom's Level 4: Analyze — compare, contrast, distinguish).\n\n**Instructional Rationale:** A scatter plot with reference zones is appropriate because the Analyze/compare objective requires learners to visually distinguish QC companies from industry benchmarks. Placing both on the same axes makes the anomaly immediately visible.\n\n**Chart Type:** Scatter plot with logarithmic axes and reference zones\n\n**X-axis:** Annual Revenue (log scale, $1M to $100B)\n**Y-axis:** Enterprise Value (log scale, $10M to $1T)\n\n**Data Points:**\nQC Companies (red diamonds, labeled):\n- IonQ: ($28M, $2.8B)\n- Rigetti: ($15M, $1.5B)\n- D-Wave: ($8M, $1.6B)\n\nReference Companies (blue circles, labeled):\n- Intel at 1971 IPO: ($9M, $58M)\n- NVIDIA at 1999 IPO: ($158M, $600M)\n- AMD 2020: ($9.8B, $100B)\n- Snowflake 2020 IPO: ($264M, $70B) — highest recent SaaS multiple\n- Tesla 2020: ($31.5B, $600B) — extreme growth premium\n\n**Reference Zones (shaded bands):**\n- Green zone: 5-15x revenue (healthy SaaS)\n- Yellow zone: 15-50x revenue (aggressive growth premium)\n- Red zone: 50x+ revenue (extreme speculation)\n\n**Interactive Features:**\n- Hover over data points to see company name, revenue, valuation, and EV/Revenue multiple\n- Toggle reference zones on/off\n- Click to highlight and compare two companies side-by-side\n\n**Visual Style:**\n- Log-log axes to accommodate wide range\n- QC companies in red to distinguish from reference\n- Diagonal lines showing constant EV/Revenue ratios (10x, 50x, 100x, 250x)\n- Background: aliceblue\n\n**Responsive Design:** Chart resizes with window; point labels adjust to avoid overlap.\n\nImplementation: Chart.js scatter plot with custom tooltip plugin"
+}

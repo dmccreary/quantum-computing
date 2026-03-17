@@ -1,0 +1,14 @@
+{
+  "sim_id": "qc-application-landscape",
+  "diagram_name": "Quantum Computing Application Landscape",
+  "chapter_number": 1,
+  "chapter_title": "What Is Quantum Computing?",
+  "chapter_dir": "01-what-is-quantum-computing",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare, Distinguish",
+  "learning_objective": "Students will be able to compare proposed quantum computing applications by their strength of theoretical justification and estimated timeline to practical realization.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: infographic\n**sim-id:** qc-application-landscape<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare, Distinguish\n\n**Learning Objective:** Students will be able to compare proposed quantum computing applications by their strength of theoretical justification and estimated timeline to practical realization.\n\n**Instructional Rationale:** A 2D scatter plot with \"Theoretical Evidence Strength\" on the x-axis and \"Estimated Years to Practical Realization\" on the y-axis allows students to visually distinguish between well-justified near-term applications and speculative long-term ones, building analytical skills for evaluating technology claims.\n\n**Canvas layout:**\n\n- Full width: 2D scatter plot with labeled quadrants\n\n**Visual elements:**\n\n- X-axis: \"Strength of Theoretical Evidence\" (Weak → Strong)\n- Y-axis: \"Estimated Years to Practical Realization\" (Near-term → Far-future)\n- Quadrant labels: \"Strong theory, near-term\" (best case), \"Strong theory, far-future\" (hard physics), \"Weak theory, near-term\" (hype risk), \"Weak theory, far-future\" (speculative)\n- Application bubbles placed in the appropriate quadrant:\n  - Cryptanalysis (Shor's): Strong theory, far-future (needs millions of qubits)\n  - Quantum simulation: Strong theory, far-future\n  - Optimization (QAOA): Weak-moderate theory, medium-term claim\n  - Quantum ML: Weak theory, far-future\n  - Quantum sensing: Strong theory, already realized (shown for contrast)\n\n**Interactive controls:**\n\n- Hover over each bubble to see: application name, key algorithm, estimated qubit requirement, status of experimental validation\n- Toggle: \"Show classical alternatives\" — displays competing classical approaches alongside each quantum application\n\n**Behavior:**\n\n- Hovering highlights the bubble and displays an info panel\n- Toggling classical alternatives adds paired bubbles showing where classical solutions currently stand\n\n**Implementation:** p5.js. Background: aliceblue. Responsive to window resize."
+}

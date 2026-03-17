@@ -1,0 +1,14 @@
+{
+  "sim_id": "improvement-trajectories",
+  "diagram_name": "Classical vs. Quantum Improvement Trajectories",
+  "chapter_number": 2,
+  "chapter_title": "Quantum Algorithms and Their Real-World Limits",
+  "chapter_dir": "02-quantum-algorithms-and-limits",
+  "library": "Chart.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare, Examine",
+  "learning_objective": "Students will be able to compare the historical improvement rates of classical and quantum computing along key metrics and analyze why classical improvements continue to outpace quantum improvements in practical capability.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** improvement-trajectories<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare, Examine\n\n**Learning Objective:** Students will be able to compare the historical improvement rates of classical and quantum computing along key metrics and analyze why classical improvements continue to outpace quantum improvements in practical capability.\n\n**Chart type:** Dual-axis line chart with logarithmic y-axes\n\n**X-axis:** Year (2015 to 2025)\n\n**Y-axis (left, logarithmic):** Classical performance metric (FLOPS per dollar)\n**Y-axis (right, logarithmic):** Quantum performance metric (qubit count × gate fidelity)\n\n**Data series:**\n\n1. Classical GPU performance (FLOPS per dollar):\n   - 2015: ~$10^{10}$\n   - 2017: ~$10^{11}$\n   - 2019: ~$5 \\times 10^{11}$\n   - 2021: ~$10^{12}$\n   - 2023: ~$5 \\times 10^{12}$\n   - 2025: ~$10^{13}$\n\n2. Quantum \"useful operations\" (qubit count × (1 - error rate)):\n   - 2015: ~5 × 0.99 = ~5\n   - 2017: ~20 × 0.995 = ~20\n   - 2019: ~53 × 0.997 = ~53\n   - 2021: ~127 × 0.998 = ~127\n   - 2023: ~1,121 × 0.999 = ~1,120\n   - 2025: ~1,200 × 0.999 = ~1,199\n\n**Annotations:**\n\n- Label on classical line: \"~100x improvement per decade\"\n- Label on quantum line: \"~200x improvement per decade (qubit count), but quality improvement is marginal\"\n- Shaded region showing the gap between \"useful quantum operations\" and \"minimum needed for advantage\" (~$10^6$ logical operations)\n\n**Color coding:**\n\n- Green: Classical trajectory\n- Orange: Quantum trajectory\n- Red dashed line: Minimum threshold for commercially relevant quantum computation\n\n**Interactive features:**\n\n- Hover over data points to see: specific hardware, benchmark, source\n- Toggle between metrics: raw qubit count, error-corrected logical qubits, gate operations per second\n- Slider to extrapolate trajectories forward (2025-2040) with confidence intervals\n\n**Implementation:** Chart.js with dual logarithmic axes. Background: aliceblue. Responsive to window resize."
+}

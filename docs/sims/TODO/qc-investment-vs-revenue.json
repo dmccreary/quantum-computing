@@ -1,0 +1,14 @@
+{
+  "sim_id": "qc-investment-vs-revenue",
+  "diagram_name": "Quantum Computing Investment vs. Revenue",
+  "chapter_number": 3,
+  "chapter_title": "A History of Quantum Computing Promises",
+  "chapter_dir": "03-history-of-quantum-computing",
+  "library": "Chart.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare, Contrast",
+  "learning_objective": "Students will be able to compare the cumulative investment in quantum computing against cumulative commercial revenue, and explain the significance of the widening gap.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** qc-investment-vs-revenue<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare, Contrast\n\n**Learning Objective:** Students will be able to compare the cumulative investment in quantum computing against cumulative commercial revenue, and explain the significance of the widening gap.\n\n**Instructional Rationale:** A dual-series chart with cumulative investment and cumulative revenue on the same axes makes the gap viscerally obvious. The logarithmic scale is necessary to show both quantities, but a toggle to linear scale lets students see the gap in absolute terms — where revenue is invisible next to investment.\n\n**Chart type:** Area chart with two series\n\n**X-axis:** Year (2000 to 2025)\n\n**Y-axis:** Cumulative dollars (USD), toggle between logarithmic and linear scale\n\n**Data series:**\n\n1. Cumulative Global Investment (blue area):\n   - 2000: ~$500M\n   - 2005: ~$2B\n   - 2010: ~$5B\n   - 2015: ~$12B\n   - 2018: ~$25B\n   - 2020: ~$40B\n   - 2022: ~$70B\n   - 2025: ~$110B\n\n2. Cumulative Commercial Revenue from QC Products (orange line, near zero):\n   - 2000-2015: ~$0\n   - 2016: ~$5M (first cloud access fees)\n   - 2018: ~$20M\n   - 2020: ~$50M\n   - 2022: ~$120M\n   - 2025: ~$250M (mostly government contracts and research partnerships, not commercial advantage)\n\n**Annotations:**\n\n- Shaded gap between the two series labeled \"The $100B+ Gap\"\n- Note on revenue line: \"Revenue is primarily government grants and research contracts, not commercial QC advantage\"\n- Markers on investment line for major funding surges: post-Sycamore (2020), SPAC era (2021-2022)\n\n**Color coding:**\n\n- Blue gradient: Investment (darker = faster growth)\n- Orange thin line: Revenue\n- Red annotation text for the gap\n\n**Interactive features:**\n\n- Hover over data points to see: breakdown by source (government, corporate R&D, VC, public markets)\n- Toggle between logarithmic and linear y-axis scale\n- Toggle: \"Show comparison\" — overlay the investment-to-revenue trajectory of successful technologies (transistors, lasers, GPS) to show what a healthy investment curve looks like\n\n**Implementation:** Chart.js with toggleable axis scale. Background: aliceblue. Responsive to window resize."
+}

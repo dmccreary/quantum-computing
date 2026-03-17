@@ -1,0 +1,14 @@
+{
+  "sim_id": "hype-reinforcement-loop",
+  "diagram_name": "Hype Reinforcement Loop",
+  "chapter_number": 13,
+  "chapter_title": "Systems Thinking and Causal Loop Diagrams",
+  "chapter_dir": "13-systems-thinking-causal-loops",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: graph-model\n**sim-id:** hype-reinforcement-loop<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\nBloom Taxonomy: Analyze (L4)\nBloom Verb: examine, distinguish\nLearning Objective: Students will examine the causal structure of the hype reinforcement loop and distinguish same-direction influences that create self-amplifying investment cycles.\n\nInstructional Rationale: An interactive network diagram is appropriate because the Analyze objective requires students to trace causal connections and identify loop structure. Static text cannot convey the circular, self-reinforcing nature of the system.\n\nNode types:\n1. System Variables (rounded rectangles, indigo background #3F51B5, white text):\n   - \"Government & Corporate Funding\"\n   - \"Publications & Press Releases\"\n   - \"Media Coverage\"\n   - \"Public Excitement\"\n   - \"Political Pressure\"\n\nLayout: Circular arrangement (clockwise) to emphasize the loop structure\n\nEdge types:\n- Directed arrows (orange #FF7043, width 3) connecting each variable to the next in sequence\n- Each arrow labeled with \"+\" to indicate same-direction polarity\n- Final arrow from \"Political Pressure\" back to \"Government & Corporate Funding\" closes the loop\n\nInteractive features:\n- Hover over any node: tooltip shows a 2-sentence explanation of that variable's role\n- Hover over any edge: tooltip explains the causal mechanism\n- Click any node: highlight that node and all connected edges in bright orange\n- Center label: \"R\" (Reinforcing) in large text with subtitle \"Hype Reinforcement Loop\"\n\nColor scheme: Indigo nodes (#3F51B5), orange arrows (#FF7043), white canvas background\nCanvas: Responsive width, 500px height\n\nAdditional visual elements:\n- A circular arrow icon in the center indicating the reinforcing nature\n- Small \"R\" badge at center of loop\n- Animation: subtle pulsing of arrows in clockwise sequence (1-second interval) to visually convey the cycle direction\n\nImplementation: vis-network with circular layout, custom tooltips, edge labels"
+}

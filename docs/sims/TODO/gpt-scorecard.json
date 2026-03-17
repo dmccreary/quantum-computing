@@ -1,0 +1,14 @@
+{
+  "sim_id": "gpt-scorecard",
+  "diagram_name": "GPT Qualification Scorecard",
+  "chapter_number": 7,
+  "chapter_title": "What Is a General Purpose Technology?",
+  "chapter_dir": "07-general-purpose-technology",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess, Compare",
+  "learning_objective": "Students will be able to assess multiple technologies against the three GPT criteria and compare their qualification profiles, understanding why some technologies are truly transformative while others are not.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: infographic\n**sim-id:** gpt-scorecard<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Assess, Compare\n\n**Learning Objective:** Students will be able to assess multiple technologies against the three GPT criteria and compare their qualification profiles, understanding why some technologies are truly transformative while others are not.\n\n**Instructional Rationale:** An interactive scorecard enables students to evaluate each technology against standardized criteria, building the analytical habit of systematic assessment rather than impressionistic judgment. The side-by-side comparison makes the contrast between genuine GPTs and quantum computing visually stark.\n\n**Canvas layout:**\n\n- Full width: A matrix with technologies as rows and GPT criteria as columns\n\n**Visual elements:**\n\n- A grid/matrix with 7 rows (Steam Engine, Electricity, Transistor, Internet, AI/ML, Quantum Computing, [blank for student entry]) and 3 columns (Broadly Applicable, Improves Over Time, Enables New Innovations)\n- Each cell contains a score (0-10) represented as a filled bar\n- Color coding: Green (8-10), Yellow (4-7), Red (0-3)\n- Row totals on the right side\n- A \"GPT Threshold\" line at a combined score of 24/30 (approximate)\n\n**Data:**\n\n| Technology | Broadly Applicable | Improves Over Time | Enables Innovations | Total |\n|-----------|-------------------|-------------------|--------------------:|------:|\n| Steam Engine | 9 | 8 | 10 | 27 |\n| Electricity | 10 | 9 | 10 | 29 |\n| Transistor | 10 | 10 | 10 | 30 |\n| Internet | 10 | 9 | 10 | 29 |\n| AI/ML | 9 | 9 | 8 | 26 |\n| Quantum Computing | 2 | 3 | 1 | 6 |\n\n**Interactive features:**\n\n- Hover over any cell to see: detailed justification for the score, specific examples, and counterarguments considered\n- Click on the blank row to open an input mode where students can evaluate a technology of their choice\n- Toggle: \"Show comparison overlay\" — overlays the QC row on each historical GPT row to visualize the gap\n- Toggle: \"Show evidence\" — expands each cell to show bullet-point evidence for the score\n\n**Implementation:** p5.js. Background: aliceblue. Responsive to window resize."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "error-rate-gap",
+  "diagram_name": "Error Rate Gap Visualization",
+  "chapter_number": 5,
+  "chapter_title": "The Physics Barriers and Hardware Platforms",
+  "chapter_dir": "05-physics-barriers-and-hardware",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain, Compare",
+  "learning_objective": "Students will be able to explain the magnitude of the error rate gap between classical and quantum computing operations and why this gap makes uncorrected quantum computation useless for large-scale problems.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: microsim\n**sim-id:** error-rate-gap<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Explain, Compare\n\n**Learning Objective:** Students will be able to explain the magnitude of the error rate gap between classical and quantum computing operations and why this gap makes uncorrected quantum computation useless for large-scale problems.\n\n**Instructional Rationale:** A step-through visualization with concrete worked examples is appropriate because the Understand/explain objective requires students to see real numbers at each stage of the calculation. Abstract statements about \"fifteen orders of magnitude\" become concrete when students trace a specific computation and see the error accumulation.\n\n**Data Visibility Requirements:**\n\n- Stage 1: Show a target computation: \"Factor RSA-2048 using Shor's algorithm\"\n- Stage 2: Show required gate operations: ~$10^{10}$\n- Stage 3: Show classical error rate ($10^{-18}$) → expected classical errors: ~$10^{-8}$ (essentially zero)\n- Stage 4: Show quantum error rate ($10^{-3}$) → expected quantum errors: ~$10^{7}$ (ten million)\n- Stage 5: Show what the output looks like with ten million errors (random noise)\n- Stage 6: Show the error rate needed for raw (uncorrected) computation: ~$10^{-12}$ — and the gap from current $10^{-3}$\n\n**Canvas layout:**\n\n- Main area (70%): Visual comparison showing two parallel computation pipelines (classical and quantum)\n- Side panel (30%): Controls and numerical displays\n\n**Interactive controls:**\n\n- Button: \"Next Stage\" / \"Previous Stage\" — step through the calculation\n- Slider: Quantum error rate ($10^{-1}$ to $10^{-6}$, logarithmic) — explore what happens at different error rates\n- Display: Expected errors, signal-to-noise ratio, output quality\n- Button: \"Reset\"\n\n**Behavior:**\n\n- At each stage, the numerical values update and the visual representation shows the accumulation of errors\n- The classical pipeline remains clean and green throughout\n- The quantum pipeline progressively fills with red \"error\" markers\n- Adjusting the error rate slider shows that even $10^{-5}$ still produces 100,000 errors for this computation\n\n**Implementation:** p5.js. Background: aliceblue. Responsive to window resize."
+}

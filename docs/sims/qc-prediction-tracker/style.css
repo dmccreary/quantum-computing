@@ -1,0 +1,242 @@
+body {
+    background: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 5px 0 10px 0;
+    font-size: 1.3rem;
+    color: #3F51B5;
+}
+
+/* Filter buttons container */
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.filter-btn {
+    padding: 5px 12px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    background: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    transform: scale(1.05);
+}
+
+.filter-btn.active {
+    color: white;
+}
+
+.filter-btn[data-filter="all"] {
+    border-color: #3F51B5;
+    color: #3F51B5;
+}
+.filter-btn[data-filter="all"].active {
+    background: #3F51B5;
+    border-color: #3F51B5;
+    color: white;
+}
+
+.filter-btn[data-filter="failed"] {
+    border-color: #D32F2F;
+    color: #D32F2F;
+}
+.filter-btn[data-filter="failed"].active {
+    background: #D32F2F;
+    border-color: #D32F2F;
+    color: white;
+}
+
+.filter-btn[data-filter="disputed"] {
+    border-color: #F57C00;
+    color: #F57C00;
+}
+.filter-btn[data-filter="disputed"].active {
+    background: #F57C00;
+    border-color: #F57C00;
+    color: white;
+}
+
+.filter-btn[data-filter="delayed"] {
+    border-color: #FBC02D;
+    color: #9E8600;
+}
+.filter-btn[data-filter="delayed"].active {
+    background: #FBC02D;
+    border-color: #FBC02D;
+    color: #333;
+}
+
+.filter-btn[data-filter="pending"] {
+    border-color: #9E9E9E;
+    color: #616161;
+}
+.filter-btn[data-filter="pending"].active {
+    background: #9E9E9E;
+    border-color: #9E9E9E;
+    color: white;
+}
+
+/* Source filter buttons */
+.filter-btn[data-source="Academia"] {
+    border-color: #7B1FA2;
+    color: #7B1FA2;
+}
+.filter-btn[data-source="Academia"].active {
+    background: #7B1FA2;
+    border-color: #7B1FA2;
+    color: white;
+}
+
+.filter-btn[data-source="Company"] {
+    border-color: #1565C0;
+    color: #1565C0;
+}
+.filter-btn[data-source="Company"].active {
+    background: #1565C0;
+    border-color: #1565C0;
+    color: white;
+}
+
+.filter-btn[data-source="Consulting"] {
+    border-color: #2E7D32;
+    color: #2E7D32;
+}
+.filter-btn[data-source="Consulting"].active {
+    background: #2E7D32;
+    border-color: #2E7D32;
+    color: white;
+}
+
+/* Timeline container */
+#timeline {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+/* Event details panel */
+#event-details {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px 16px;
+    min-height: 60px;
+    transition: all 0.3s ease;
+}
+
+#event-details.empty {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+}
+
+#event-details h3 {
+    margin: 0 0 6px 0;
+    font-size: 1rem;
+}
+
+#event-details .detail-label {
+    font-weight: 600;
+    color: #555;
+    display: inline;
+}
+
+#event-details .detail-row {
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+#event-details .category-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 6px;
+}
+
+.category-failed { background: #D32F2F; }
+.category-disputed { background: #F57C00; }
+.category-delayed { background: #FBC02D; color: #333 !important; }
+.category-pending { background: #9E9E9E; }
+
+/* vis-timeline overrides */
+.vis-item {
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.vis-item.failed {
+    background-color: #FFCDD2;
+    border-color: #D32F2F;
+    color: #B71C1C;
+}
+
+.vis-item.disputed {
+    background-color: #FFE0B2;
+    border-color: #F57C00;
+    color: #E65100;
+}
+
+.vis-item.delayed {
+    background-color: #FFF9C4;
+    border-color: #FBC02D;
+    color: #9E8600;
+}
+
+.vis-item.pending {
+    background-color: #E0E0E0;
+    border-color: #9E9E9E;
+    color: #424242;
+}
+
+.vis-item.vis-selected {
+    box-shadow: 0 0 0 2px #3F51B5;
+}
+
+/* Legend */
+.legend {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 8px;
+    font-size: 0.75rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+
+.legend-dot.failed { background: #D32F2F; }
+.legend-dot.disputed { background: #F57C00; }
+.legend-dot.delayed { background: #FBC02D; }
+.legend-dot.pending { background: #9E9E9E; }

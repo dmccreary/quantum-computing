@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "content": "Feynman proposes quantum simulation",
+    "start": "1981-05-01",
+    "category": "theory",
+    "description": "Richard Feynman delivers his famous lecture 'Simulating Physics with Computers' at MIT, arguing that classical computers cannot efficiently simulate quantum systems and proposing quantum computers as a solution.",
+    "claimed": "Nature isn't classical, and if you want to make a simulation of nature, you'd better make it quantum mechanical.",
+    "outcome": "Launched the theoretical field of quantum computing. 44 years later, practical quantum simulation of useful systems remains elusive.",
+    "prediction": "No specific timeline prediction — Feynman posed it as a research direction."
+  },
+  {
+    "id": 2,
+    "content": "Deutsch: universal quantum computer",
+    "start": "1985-01-01",
+    "category": "theory",
+    "description": "David Deutsch publishes a paper describing the universal quantum Turing machine, establishing the theoretical foundation that quantum computers could be universal computing devices.",
+    "claimed": "A quantum computer could simulate any physical system, providing computational advantages over classical machines.",
+    "outcome": "Provided the theoretical framework, but building such a machine proved far harder than imagined.",
+    "prediction": "No timeline given — purely theoretical contribution."
+  },
+  {
+    "id": 3,
+    "content": "Shor's factoring algorithm",
+    "start": "1994-01-01",
+    "category": "theory",
+    "description": "Peter Shor publishes an algorithm that could factor large integers in polynomial time on a quantum computer, threatening RSA encryption.",
+    "claimed": "Quantum computers could break most public-key cryptography, creating urgency for quantum computing development.",
+    "outcome": "31 years later, the largest number factored by a quantum computer using Shor's algorithm is still trivially small. RSA remains unbroken.",
+    "prediction": "Generated widespread belief that code-breaking quantum computers were 10-15 years away."
+  },
+  {
+    "id": 4,
+    "content": "First quantum error correction codes",
+    "start": "1995-06-01",
+    "category": "theory",
+    "description": "Shor and Steane independently develop the first quantum error correction codes, showing that in principle quantum information can be protected from decoherence.",
+    "claimed": "Error correction makes fault-tolerant quantum computing theoretically possible.",
+    "outcome": "The overhead required — thousands of physical qubits per logical qubit — remains a fundamental economic barrier.",
+    "prediction": "Created optimism that the decoherence problem was 'solved in principle.'"
+  },
+  {
+    "id": 5,
+    "content": "Grover's search algorithm",
+    "start": "1996-01-01",
+    "category": "theory",
+    "description": "Lov Grover publishes an algorithm providing a quadratic speedup for unstructured search problems on a quantum computer.",
+    "claimed": "Quantum computers could search unsorted databases quadratically faster than classical computers.",
+    "outcome": "A quadratic speedup is modest compared to the massive overhead of error correction. Classical algorithms and hardware improvements have largely negated the advantage.",
+    "prediction": "Reinforced belief in near-term quantum utility."
+  },
+  {
+    "id": 6,
+    "content": "First 2-qubit NMR demonstrations",
+    "start": "1998-01-01",
+    "category": "hardware",
+    "description": "Multiple labs demonstrate 2-qubit quantum computations using nuclear magnetic resonance (NMR) techniques.",
+    "claimed": "First working quantum computers — proof that quantum computation is physically realizable.",
+    "outcome": "NMR quantum computing turned out to be a dead end that could not scale beyond ~7 qubits. The approach was later questioned as not even being truly quantum.",
+    "prediction": "Generated predictions of rapid scaling to useful systems within a decade."
+  },
+  {
+    "id": 7,
+    "content": "D-Wave Systems founded",
+    "start": "2000-01-01",
+    "category": "industry",
+    "description": "D-Wave Systems is founded in Vancouver, Canada, with the goal of building commercial quantum computers using quantum annealing.",
+    "claimed": "Would build and sell commercial quantum computers.",
+    "outcome": "Became the most controversial company in quantum computing. Their machines' 'quantumness' and advantage over classical computing remained disputed for years.",
+    "prediction": "Promised commercial quantum computing within years."
+  },
+  {
+    "id": 8,
+    "content": "Shor's algorithm factors 15",
+    "start": "2001-12-01",
+    "category": "hardware",
+    "description": "IBM and Stanford researchers use a 7-qubit NMR quantum computer to factor the number 15 into 3 × 5 using Shor's algorithm.",
+    "claimed": "First experimental demonstration of Shor's algorithm — proof that quantum factoring works.",
+    "outcome": "24 years later, quantum computers still cannot factor numbers large enough to threaten any real cryptographic system. The largest Shor's factoring remains trivially small.",
+    "prediction": "Led to predictions that RSA would be broken within 15-20 years."
+  },
+  {
+    "id": 9,
+    "content": "D-Wave announces 'quantum computer'",
+    "start": "2007-02-01",
+    "category": "industry",
+    "description": "D-Wave announces its first commercial quantum computer, the Orion, claiming a 16-qubit quantum annealing processor.",
+    "claimed": "World's first commercial quantum computer, able to solve optimization problems.",
+    "outcome": "Widely criticized by academics. Independent testing showed no quantum speedup over classical computers for practical problems.",
+    "prediction": "D-Wave predicted rapid scaling and commercial quantum advantage within years."
+  },
+  {
+    "id": 10,
+    "content": "D-Wave One sold to Lockheed Martin",
+    "start": "2011-05-01",
+    "category": "industry",
+    "description": "Lockheed Martin purchases a D-Wave One system with 128 qubits for approximately $10 million.",
+    "claimed": "First commercial sale of a quantum computer — quantum computing is now a market reality.",
+    "outcome": "Lockheed Martin never demonstrated any practical quantum advantage from the purchase. The system was essentially a research curiosity.",
+    "prediction": "Industry predicted commercial quantum applications within 3-5 years."
+  },
+  {
+    "id": 11,
+    "content": "Preskill coins 'NISQ'",
+    "start": "2012-01-01",
+    "category": "theory",
+    "description": "John Preskill coins the term 'Noisy Intermediate-Scale Quantum' (NISQ) to describe the current era of quantum devices with 50-few hundred qubits and significant noise.",
+    "claimed": "NISQ devices might find useful applications even without full error correction.",
+    "outcome": "The NISQ era has produced no commercially useful quantum computations. The term inadvertently became a way to lower expectations while maintaining funding.",
+    "prediction": "NISQ utility was predicted to emerge within 5-10 years."
+  },
+  {
+    "id": 12,
+    "content": "Google/NASA purchase D-Wave Two",
+    "start": "2013-05-01",
+    "category": "industry",
+    "description": "Google and NASA jointly purchase a D-Wave Two system with 512 qubits for the Quantum Artificial Intelligence Lab.",
+    "claimed": "Would explore quantum approaches to machine learning and optimization at scale.",
+    "outcome": "Google later pivoted to building its own gate-based quantum computers. No practical quantum AI applications resulted from the D-Wave purchase.",
+    "prediction": "Quantum machine learning breakthroughs predicted within 5 years."
+  },
+  {
+    "id": 13,
+    "content": "IBM Quantum Experience launched",
+    "start": "2016-05-04",
+    "category": "industry",
+    "description": "IBM puts a 5-qubit quantum processor on the cloud, allowing public access to a real quantum computer for the first time.",
+    "claimed": "Democratizing quantum computing — anyone can now run quantum algorithms on real hardware.",
+    "outcome": "Generated enormous hype and media coverage. Educational value was real, but no commercially useful computations have resulted from cloud quantum access.",
+    "prediction": "IBM predicted quantum advantage for practical problems within 5 years."
+  },
+  {
+    "id": 14,
+    "content": "Google claims quantum supremacy",
+    "start": "2019-10-23",
+    "category": "milestone",
+    "description": "Google announces that its 53-qubit Sycamore processor performed a specific random circuit sampling task in 200 seconds that would take a classical supercomputer 10,000 years.",
+    "claimed": "Quantum supremacy achieved — a quantum computer has done something no classical computer can do in reasonable time.",
+    "outcome": "IBM immediately disputed the claim, showing classical simulation could be done in 2.5 days. The task had no practical application. Chinese researchers later simulated it classically even faster.",
+    "prediction": "Google predicted practical quantum applications within a decade."
+  },
+  {
+    "id": 15,
+    "content": "China's Jiuzhang photonic QC",
+    "start": "2020-12-03",
+    "category": "milestone",
+    "description": "Chinese researchers announce Jiuzhang, a photonic quantum computer claiming quantum supremacy for Gaussian boson sampling.",
+    "claimed": "Second demonstration of quantum supremacy, using a fundamentally different hardware approach.",
+    "outcome": "Like Google's result, the task solved had no known practical application. Classical algorithms for the same task continued to improve.",
+    "prediction": "Reinforced claims that quantum computing was accelerating toward utility."
+  },
+  {
+    "id": 16,
+    "content": "IBM 127-qubit Eagle",
+    "start": "2021-11-15",
+    "category": "hardware",
+    "description": "IBM unveils its 127-qubit Eagle processor, the first quantum processor to break the 100-qubit barrier.",
+    "claimed": "Major milestone toward practical quantum computing — scaling is accelerating.",
+    "outcome": "More qubits did not translate to more useful computation. Error rates meant the effective computational power remained severely limited.",
+    "prediction": "IBM's roadmap predicted 100,000+ qubit systems by 2033."
+  },
+  {
+    "id": 17,
+    "content": "IBM 433-qubit Osprey",
+    "start": "2022-11-09",
+    "category": "hardware",
+    "description": "IBM unveils its 433-qubit Osprey processor, more than tripling the qubit count of Eagle.",
+    "claimed": "Rapid scaling continues — on track for IBM's aggressive quantum roadmap.",
+    "outcome": "Qubit count increased but error rates remained too high for useful fault-tolerant computation. No practical advantage demonstrated.",
+    "prediction": "IBM continued to predict quantum advantage for specific applications by 2025."
+  },
+  {
+    "id": 18,
+    "content": "IBM 1,121-qubit Condor",
+    "start": "2023-12-04",
+    "category": "hardware",
+    "description": "IBM unveils Condor, the first quantum processor exceeding 1,000 qubits. However, IBM simultaneously pivots strategy toward fewer, better qubits with its Heron processor.",
+    "claimed": "Largest quantum processor ever built — but IBM acknowledges that raw qubit count is not the right metric.",
+    "outcome": "The pivot away from qubit-count scaling tacitly admitted that more noisy qubits do not equal more useful computation. A significant concession.",
+    "prediction": "IBM revised its roadmap, pushing back several milestones."
+  },
+  {
+    "id": 19,
+    "content": "Microsoft: topological qubit claim",
+    "start": "2024-02-01",
+    "category": "hardware",
+    "description": "Microsoft announces progress toward topological qubits, claiming demonstrations of the underlying physics after years of setbacks including a retracted Nature paper.",
+    "claimed": "Topological qubits could solve the error correction problem by being inherently protected from noise.",
+    "outcome": "Independent verification remains limited. Microsoft's topological approach has been 'just around the corner' for over a decade.",
+    "prediction": "Microsoft predicted a topological quantum computer within the decade."
+  },
+  {
+    "id": 20,
+    "content": "Still no commercial quantum advantage",
+    "start": "2025-01-01",
+    "category": "milestone",
+    "description": "As of 2025, after 44 years of research and over $40 billion in investment, no quantum computer has demonstrated a commercially useful advantage over classical computers for any real-world problem.",
+    "claimed": "Various companies continue to predict quantum advantage is 3-5 years away.",
+    "outcome": "The pattern of perpetually receding timelines continues. Classical computing continues to advance, raising the bar for quantum advantage.",
+    "prediction": "Current predictions: useful quantum computing by 2028-2030. The same prediction made in 2015, 2018, and 2021."
+  }
+]

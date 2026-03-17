@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Research\nFunding",
+      "title": "Government grants, corporate R&D budgets, and venture capital flowing into quantum computing research programs.",
+      "category": "resource",
+      "x": -200,
+      "y": -200
+    },
+    {
+      "id": 2,
+      "label": "Published\nResults",
+      "title": "Peer-reviewed papers, preprints, and technical reports claiming progress toward quantum advantage or error correction milestones.",
+      "category": "output",
+      "x": 200,
+      "y": -200
+    },
+    {
+      "id": 3,
+      "label": "Media\nCoverage",
+      "title": "Journalists amplify quantum announcements, often without technical scrutiny, framing incremental progress as imminent breakthroughs.",
+      "category": "amplifier",
+      "x": 300,
+      "y": 0
+    },
+    {
+      "id": 4,
+      "label": "Public\nExpectations",
+      "title": "Widespread belief that quantum computers will soon revolutionize cryptography, drug discovery, and optimization — often far exceeding what the physics supports.",
+      "category": "social",
+      "x": 200,
+      "y": 200
+    },
+    {
+      "id": 5,
+      "label": "Political\nPressure",
+      "title": "Elected officials and policymakers push for quantum funding to avoid perceived technology gaps with rival nations.",
+      "category": "social",
+      "x": -200,
+      "y": 200
+    },
+    {
+      "id": 6,
+      "label": "Industry\nInvestment",
+      "title": "Private-sector capital from tech giants and startups, driven by FOMO and media narratives rather than demonstrated commercial viability.",
+      "category": "resource",
+      "x": -300,
+      "y": 0
+    },
+    {
+      "id": 7,
+      "label": "Actual\nProgress",
+      "title": "Real advances in qubit coherence, gate fidelity, and error rates — typically incremental and far short of what commercial applications require.",
+      "category": "output",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 8,
+      "label": "Hype\nGap",
+      "title": "The growing divergence between public expectations of quantum computing and what has actually been demonstrated. This gap represents systemic risk.",
+      "category": "risk",
+      "x": 0,
+      "y": 130
+    }
+  ],
+  "edges": [
+    {
+      "id": "r1-1",
+      "from": 1,
+      "to": 2,
+      "label": "+",
+      "title": "Enables: Research funding produces published results, regardless of whether they represent genuine breakthroughs.",
+      "loop": "reinforcing",
+      "loopId": "R1",
+      "mechanism": "enables"
+    },
+    {
+      "id": "r1-2",
+      "from": 2,
+      "to": 3,
+      "label": "+",
+      "title": "Generates: Published results become raw material for media stories, often stripped of caveats and limitations.",
+      "loop": "reinforcing",
+      "loopId": "R1",
+      "mechanism": "generates"
+    },
+    {
+      "id": "r1-3",
+      "from": 3,
+      "to": 4,
+      "label": "+",
+      "title": "Inflates: Uncritical media coverage raises public expectations far beyond what the actual results warrant.",
+      "loop": "reinforcing",
+      "loopId": "R1",
+      "mechanism": "inflates"
+    },
+    {
+      "id": "r1-4",
+      "from": 4,
+      "to": 5,
+      "label": "+",
+      "title": "Drives: High public expectations create political pressure on officials to increase quantum funding.",
+      "loop": "reinforcing",
+      "loopId": "R1",
+      "mechanism": "drives"
+    },
+    {
+      "id": "r1-5",
+      "from": 5,
+      "to": 1,
+      "label": "+",
+      "title": "Increases: Political pressure translates directly into larger research budgets and grant programs.",
+      "loop": "reinforcing",
+      "loopId": "R1",
+      "mechanism": "increases"
+    },
+    {
+      "id": "r2-1",
+      "from": 6,
+      "to": 7,
+      "label": "+",
+      "title": "Funds: Industry investment provides resources for hardware development and experimental progress.",
+      "loop": "reinforcing",
+      "loopId": "R2",
+      "mechanism": "funds"
+    },
+    {
+      "id": "r2-2",
+      "from": 7,
+      "to": 2,
+      "label": "+",
+      "title": "Produces: Actual progress generates publishable results, though often overstated in significance.",
+      "loop": "reinforcing",
+      "loopId": "R2",
+      "mechanism": "produces"
+    },
+    {
+      "id": "r2-3",
+      "from": 3,
+      "to": 6,
+      "label": "+",
+      "title": "Attracts: Positive media coverage draws industry investment through FOMO and competitive pressure.",
+      "loop": "reinforcing",
+      "loopId": "R2",
+      "mechanism": "attracts"
+    },
+    {
+      "id": "b1-1",
+      "from": 7,
+      "to": 8,
+      "label": "-",
+      "title": "Reveals: Actual progress exposes how far reality lags behind expectations, widening the hype gap from the reality side.",
+      "loop": "balancing",
+      "loopId": "B1",
+      "mechanism": "reveals"
+    },
+    {
+      "id": "b1-2",
+      "from": 4,
+      "to": 8,
+      "label": "+",
+      "title": "Widens: Rising public expectations push the hype gap wider from the expectations side.",
+      "loop": "balancing",
+      "loopId": "B1",
+      "mechanism": "widens"
+    },
+    {
+      "id": "b1-3",
+      "from": 8,
+      "to": 6,
+      "label": "-",
+      "title": "Dampens: As the hype gap becomes undeniable, savvy investors pull back, reducing industry investment.",
+      "loop": "balancing",
+      "loopId": "B1",
+      "mechanism": "dampens"
+    }
+  ],
+  "categories": {
+    "resource": {
+      "color": "#388E3C",
+      "label": "Resource"
+    },
+    "output": {
+      "color": "#1565C0",
+      "label": "Output"
+    },
+    "amplifier": {
+      "color": "#FF7043",
+      "label": "Amplifier"
+    },
+    "social": {
+      "color": "#7B1FA2",
+      "label": "Social"
+    },
+    "risk": {
+      "color": "#E53935",
+      "label": "Risk"
+    }
+  },
+  "loops": {
+    "R1": {
+      "label": "R1: Hype Cycle",
+      "type": "reinforcing",
+      "description": "The public hype reinforcing loop: Funding produces results, media amplifies them, public expectations rise, political pressure increases, and more funding flows in.",
+      "nodeIds": [1, 2, 3, 4, 5],
+      "edgeIds": ["r1-1", "r1-2", "r1-3", "r1-4", "r1-5"]
+    },
+    "R2": {
+      "label": "R2: Investment Cycle",
+      "type": "reinforcing",
+      "description": "The industry investment reinforcing loop: Investment funds progress, progress produces results, media covers results, coverage attracts more investment.",
+      "nodeIds": [6, 7, 2, 3],
+      "edgeIds": ["r2-1", "r2-2", "r1-2", "r2-3"]
+    },
+    "B1": {
+      "label": "B1: Reality Check",
+      "type": "balancing",
+      "description": "The balancing loop: Actual progress reveals the gap between expectations and reality, which should dampen investment — but the reinforcing loops often overpower it.",
+      "nodeIds": [7, 8, 6, 4],
+      "edgeIds": ["b1-1", "b1-2", "b1-3"]
+    }
+  }
+}

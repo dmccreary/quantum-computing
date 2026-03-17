@@ -1,0 +1,14 @@
+{
+  "sim_id": "advantage-gap",
+  "diagram_name": "The Advantage Gap",
+  "chapter_number": 2,
+  "chapter_title": "Quantum Algorithms and Their Real-World Limits",
+  "chapter_dir": "02-quantum-algorithms-and-limits",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess, Compare",
+  "learning_objective": "Students will be able to assess the gap between quantum and classical performance across multiple application domains, and explain why no domain has yet demonstrated quantum advantage.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: infographic\n**sim-id:** advantage-gap<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Assess, Compare\n\n**Learning Objective:** Students will be able to assess the gap between quantum and classical performance across multiple application domains, and explain why no domain has yet demonstrated quantum advantage.\n\n**Instructional Rationale:** An interactive comparison infographic is appropriate because the Evaluate/assess objective requires students to weigh evidence across multiple domains simultaneously. Hover-based detail disclosure lets students drill into specific claims without overwhelming them with all the data at once.\n\n**Canvas layout:**\n\n- Full width: A horizontal bar chart showing application domains on the y-axis\n\n**Visual elements:**\n\n- For each domain (Cryptanalysis, Chemistry, Optimization, Machine Learning, Search):\n  - A paired horizontal bar showing \"Classical best performance\" (green) and \"Quantum best performance\" (orange)\n  - A gap indicator showing the distance between them\n  - A label indicating whether quantum or classical leads\n- A vertical reference line labeled \"Commercially Useful Threshold\"\n- Color-coded status indicators: Red = quantum far behind, Yellow = competitive, Green = quantum leads (none expected to be green)\n\n**Data for each domain:**\n\n- Cryptanalysis: Largest classical factoring (hundreds of digits) vs. quantum (21)\n- Chemistry: Classical simulation capacity (dozens of electrons) vs. quantum (a few electrons)\n- Optimization: Classical solver quality (near-optimal for thousands of variables) vs. quantum (tens of variables)\n- Machine Learning: Classical accuracy on benchmark datasets vs. quantum (no improvement shown)\n- Search: Classical indexed search (billions of records in milliseconds) vs. quantum Grover's (not demonstrated at useful scale)\n\n**Interactive features:**\n\n- Hover over each domain bar to see: specific benchmarks, source papers, dates of comparison\n- Toggle: \"Show trend over time\" — animates bars to show whether the gap is closing or widening (answer: it is not clearly closing in any domain)\n\n**Implementation:** p5.js. Background: aliceblue. Responsive to window resize."
+}

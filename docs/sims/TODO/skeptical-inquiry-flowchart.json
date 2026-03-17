@@ -1,0 +1,14 @@
+{
+  "sim_id": "skeptical-inquiry-flowchart",
+  "diagram_name": "Skeptical Inquiry Method Flowchart",
+  "chapter_number": 17,
+  "chapter_title": "Critical Thinking and Practical Application",
+  "chapter_dir": "17-critical-thinking-application",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: workflow\n**sim-id:** skeptical-inquiry-flowchart<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nBloom Taxonomy: Apply (L3)\nBloom Verb: execute, implement, apply\nLearning Objective: Students will apply the ten-step skeptical inquiry method by walking through an interactive flowchart that guides them through each analytical step with prompts, examples, and decision points.\n\nInstructional Rationale: An interactive flowchart is appropriate for the Apply objective because students must practice executing the method step by step, making decisions at each stage. A static diagram would be Remember-level; interactivity forces application.\n\nCanvas layout:\n- Main area (75% width): Vertical flowchart with 10 numbered step boxes\n- Side panel (25% width): Context panel showing the current step's details, examples, and guidance\n\nFlowchart elements:\n- 10 process boxes (rounded rectangles), vertically connected by arrows\n- Each box contains: step number, step name, and a one-line description\n- Color coding:\n  - Steps 1-3 (Claim analysis): Indigo #3F51B5\n  - Steps 4-6 (Evidence assessment): Orange #FF7043\n  - Steps 7-8 (Bias/system check): Purple #7B1FA2\n  - Steps 9-10 (Synthesis): Green #388E3C\n\nInteractive features:\n- Click any step box: side panel updates with:\n  - Detailed instructions for that step\n  - Example applied to quantum computing\n  - Example applied to a second technology (fusion or AGI)\n  - Key questions to ask at this step\n  - Common mistakes at this step\n- \"Walk Through\" button: auto-advances through steps with 5-second pause on each, highlighting the active step\n- \"Apply to Custom Claim\" mode: user enters a technology claim in a text input; the side panel adapts prompts to reference the custom claim\n- Progress indicator at bottom: shows which steps have been visited\n\nDecision diamond after Step 3:\n- If Hype Detection score ≥ 10: arrow to \"HIGH RISK\" callout box (red), then continues to Step 4\n- If Hype Detection score 4-9: arrow to \"MODERATE RISK\" callout (yellow), then continues to Step 4\n- If Hype Detection score 0-3: arrow to \"LOW RISK\" callout (green), then continues to Step 4\n\nFinal output (after Step 10):\n- Summary box: \"Assessment: [High/Moderate/Low] confidence in claim viability\"\n- \"Recommended allocation: [percentage range] of portfolio\"\n\nBackground: aliceblue\nCanvas: Responsive width, 550px height\n\nImplementation: p5.js with clickable boxes, side panel rendering, auto-advance timer"
+}

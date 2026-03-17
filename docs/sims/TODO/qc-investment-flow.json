@@ -1,0 +1,14 @@
+{
+  "sim_id": "qc-investment-flow",
+  "diagram_name": "Quantum Computing Investment Flow",
+  "chapter_number": 8,
+  "chapter_title": "Investment Risk Analysis",
+  "chapter_dir": "08-investment-risk-analysis",
+  "library": "Plotly",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyze the flow of capital through the quantum computing ecosystem, identifying where money enters, where it goes, and what (if any) revenue it produces (Bloom's Level 4: Analyze — examine, deconstruct, distinguish).",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** qc-investment-flow<br/>\n**Library:** Plotly<br/>\n**Status:** Specified\n\n**Learning Objective:** Analyze the flow of capital through the quantum computing ecosystem, identifying where money enters, where it goes, and what (if any) revenue it produces (Bloom's Level 4: Analyze — examine, deconstruct, distinguish).\n\n**Instructional Rationale:** A Sankey diagram is appropriate because it enables learners to trace capital flows visually and see proportions at each stage. The width of each flow encodes magnitude, making it immediately apparent that the \"revenue\" output is vanishingly thin compared to the \"investment\" inputs.\n\n**Chart Type:** Sankey diagram (flow diagram with proportional widths)\n\n**Data Flows:**\nLeft (Sources):\n- Government grants: $40B (blue)\n- Corporate R&D: $30B (indigo)\n- Venture capital: $15B (green)\n- SPAC/public market: $10B (orange)\n- Other: $10B (gray)\n\nMiddle (Destinations):\n- Hardware research: $45B\n- Algorithm research: $15B\n- Software/tools: $10B\n- Cloud infrastructure: $10B\n- Operations/overhead: $15B\n- Salaries and talent: $10B\n\nRight (Outputs):\n- Scientific papers: (qualitative indicator)\n- Patents: (qualitative indicator)\n- Revenue: $0.05B (barely visible line)\n\n**Interactive Features:**\n- Hover over flows to see exact dollar amounts\n- Click a node to highlight all connected flows\n- Toggle between \"All time\" and \"Last 5 years\" views\n\n**Visual Style:**\n- Flow widths proportional to dollar amounts\n- Color coding by source type\n- Revenue output deliberately thin to emphasize the gap\n- Background: aliceblue\n\n**Responsive Design:** Chart resizes with window width; maintains proportions.\n\nImplementation: Plotly.js Sankey trace"
+}

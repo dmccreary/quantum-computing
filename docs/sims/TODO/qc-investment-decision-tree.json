@@ -1,0 +1,14 @@
+{
+  "sim_id": "qc-investment-decision-tree",
+  "diagram_name": "Investment Decision Tree",
+  "chapter_number": 9,
+  "chapter_title": "Company Case Studies and Exit Analysis",
+  "chapter_dir": "09-company-case-studies",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Apply a structured decision framework to evaluate whether to continue, reduce, or exit a quantum computing investment based on observable signals (Bloom's Level 3: Apply — use, execute, demonstrate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: workflow\n**sim-id:** qc-investment-decision-tree<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning Objective:** Apply a structured decision framework to evaluate whether to continue, reduce, or exit a quantum computing investment based on observable signals (Bloom's Level 3: Apply — use, execute, demonstrate).\n\n**Instructional Rationale:** A decision tree with interactive path selection is appropriate because the Apply/use objective requires learners to follow a structured process with real-world inputs. The interactive format forces active engagement rather than passive reading.\n\n**Canvas Layout:**\n- Full-width decision tree with diamond decision nodes and rectangular outcome nodes\n- Left-to-right flow with branching paths\n- Color-coded outcomes: green (hold), yellow (reduce), red (exit)\n\n**Decision Nodes (diamonds):**\n1. \"Is revenue growing >20% YoY?\" → Yes/No\n2. (If No) \"Has any customer deployed for commercial advantage?\" → Yes/No\n3. (If No) \"Is cash runway > 24 months?\" → Yes/No\n4. (If No) \"Can the company raise at flat or up-round valuation?\" → Yes/No\n5. (If Yes from node 1) \"Is there demonstrated quantum advantage?\" → Yes/No\n6. (If No from node 5) \"Are key technical milestones on track?\" → Yes/No\n\n**Outcome Nodes (rectangles):**\n- Green: \"Hold — monitor quarterly\" (reached only through Yes on nodes 1, 5)\n- Yellow: \"Reduce position — seek partial exit\" (reached through mixed signals)\n- Red: \"Exit — redeploy capital\" (reached through No on nodes 2, 3, or 4)\n- Red: \"Exit immediately — distress risk\" (No on both nodes 3 and 4)\n\n**Interactive Features:**\n- Click a decision node to select Yes/No path\n- Selected path highlights in bold; other paths fade\n- Reaching an outcome node displays a 2-3 sentence explanation\n- \"Reset\" button clears all selections\n- Hover over any node to see the rationale for that question\n\n**Visual Style:**\n- Decision diamonds in indigo\n- Hold outcomes in green\n- Reduce outcomes in orange\n- Exit outcomes in red\n- Clean connecting lines with arrow heads\n- Background: aliceblue\n\n**Responsive Design:** Tree scales with window width; on narrow screens, switches to vertical flow.\n\nImplementation: p5.js with click detection on node shapes"
+}

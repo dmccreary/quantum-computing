@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technology Success Pattern Analysis: Where Does Quantum Computing Fall?">
+    <meta name="application-name" content="success-failure-patterns">
+    <title>Technology Success Pattern Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Technology Success Pattern Analysis:<br>Where Does Quantum Computing Fall?</h2>
+        <div class="controls">
+            <button class="toggle-btn active" id="btn-success" data-index="0">Successful Technologies (Avg)</button>
+            <button class="toggle-btn active" id="btn-failed" data-index="1">Failed Technologies (Avg)</button>
+            <button class="toggle-btn active" id="btn-qc" data-index="2">Quantum Computing</button>
+            <button class="toggle-btn gap-btn" id="btn-gap">Show Gap Analysis</button>
+        </div>
+        <div class="chart-wrapper">
+            <canvas id="patternChart"></canvas>
+        </div>
+    </div>
+    <script src="success-failure-patterns.js"></script>
+</body>
+</html>

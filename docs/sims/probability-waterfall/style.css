@@ -1,0 +1,47 @@
+body {
+    background: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 5px 0 8px;
+    color: #3F51B5;
+    font-size: 1.3rem;
+}
+
+#controls {
+    margin-bottom: 10px;
+}
+
+#controls label {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+#controls select {
+    padding: 4px 8px;
+    font-size: 0.95rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+canvas {
+    width: 100% !important;
+    max-height: 380px;
+}
+
+#final-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #C62828;
+    margin-top: 6px;
+}

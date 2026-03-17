@@ -1,0 +1,14 @@
+{
+  "sim_id": "success-failure-patterns",
+  "diagram_name": "Success vs. Failure Pattern Comparison",
+  "chapter_number": 15,
+  "chapter_title": "Historical Parallels and Lessons",
+  "chapter_dir": "15-historical-parallels",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: chart\n**sim-id:** success-failure-patterns<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nBloom Taxonomy: Analyze (L4)\nBloom Verb: compare, contrast, distinguish\nLearning Objective: Students will compare the structural profiles of successful and failed technologies across the six criteria, contrast them with quantum computing's profile, and distinguish which reference class quantum computing most closely matches.\n\nInstructional Rationale: A grouped bar chart enables the Analyze objective by placing the six criteria side by side for three groups (success average, failure average, quantum computing), making structural pattern matching visual and immediate.\n\nChart type: Grouped horizontal bar chart\n\nY-axis: Six criteria (categorical):\n1. \"Early Practical Demonstration\"\n2. \"Continuous Improvement Pathway\"\n3. \"Intermediate Commercial Products\"\n4. \"Scalable Manufacturing\"\n5. \"Clear Customer Demand\"\n6. \"Favorable Scaling Physics\"\n\nX-axis: Score (0-10)\n\nData series:\n1. \"Successful Technologies (Average)\" — green bars #388E3C\n   Scores: [8.2, 8.8, 7.8, 8.6, 8.4, 8.6]\n\n2. \"Failed Technologies (Average)\" — red bars #E53935\n   Scores: [3.7, 1.0, 0.7, 0.3, 6.7, 0.3]\n\n3. \"Quantum Computing\" — orange bars #FF7043\n   Scores: [4, 1, 0, 0, 3, 0]\n\nInteractive features:\n- Hover over any bar: tooltip showing technology name, criterion, score, and brief explanation\n- Click on criterion label: expand to show individual technology scores for that criterion\n- Toggle buttons: show/hide each data series independently\n- \"Show Gap Analysis\" button: overlays arrows showing the gap between QC and success average\n\nTitle: \"Technology Success Pattern Analysis: Where Does Quantum Computing Fall?\"\nLegend: Positioned at top\nCanvas: Responsive width, 500px height\nBackground: aliceblue\n\nImplementation: Chart.js horizontal bar chart with grouped datasets, custom click handlers"
+}

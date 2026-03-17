@@ -1,0 +1,14 @@
+{
+  "sim_id": "complexity-landscape",
+  "diagram_name": "Computational Complexity Landscape",
+  "chapter_number": 2,
+  "chapter_title": "Quantum Algorithms and Their Real-World Limits",
+  "chapter_dir": "02-quantum-algorithms-and-limits",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain, Classify",
+  "learning_objective": "Students will be able to explain the relationship between major computational complexity classes and classify specific problems by their complexity class, understanding where quantum speedups are theoretically possible.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-17",
+  "specification": "Type: infographic\n**sim-id:** complexity-landscape<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Explain, Classify\n\n**Learning Objective:** Students will be able to explain the relationship between major computational complexity classes and classify specific problems by their complexity class, understanding where quantum speedups are theoretically possible.\n\n**Instructional Rationale:** A nested set diagram (Euler diagram) with hover-based examples is appropriate because the Understand/classify objective requires students to see the containment relationships between complexity classes. Interactive hover reveals examples without cluttering the visual layout.\n\n**Canvas layout:**\n\n- Full width: Nested ellipses representing complexity classes\n\n**Visual elements:**\n\n- Innermost ellipse: P (polynomial time) — green\n- Next ellipse: BQP (quantum polynomial time) — blue, partially overlapping with NP\n- Next ellipse: NP (nondeterministic polynomial time) — orange\n- Outermost ellipse: PSPACE — gray\n- \"Quantum Advantage Zone\" highlighted as the region inside BQP but outside P — bright blue stripe\n- Problem examples placed in their appropriate regions as labeled dots\n\n**Problem examples:**\n\n- Inside P: Sorting, shortest path, linear programming\n- Inside BQP (outside P): Integer factoring, discrete logarithm, quantum simulation\n- Inside NP (outside BQP): Traveling salesman, SAT, graph coloring\n- Inside PSPACE (outside NP): Quantified Boolean formulas, games (chess, Go with generalized boards)\n\n**Interactive features:**\n\n- Hover over any problem dot to see: problem name, best known classical algorithm, best known quantum algorithm, speedup (if any)\n- Hover over complexity class labels to see: definition, examples, relationship to other classes\n- Toggle: \"Show where commercial problems live\" — highlights that most commercial computing tasks are in P\n\n**Implementation:** p5.js. Background: aliceblue. Responsive to window resize."
+}

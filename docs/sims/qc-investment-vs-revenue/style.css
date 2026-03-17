@@ -1,0 +1,42 @@
+body {
+    background: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+}
+
+.container h2 {
+    margin: 5px 0 10px 0;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.chart-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100% !important;
+    max-width: 880px;
+}
+
+.roi-text {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.roi-text strong {
+    color: #c62828;
+}

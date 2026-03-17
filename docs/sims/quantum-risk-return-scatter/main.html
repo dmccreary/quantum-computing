@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="quantum-risk-return-scatter">
+    <title>Risk vs. Return: Where QC Investment Falls</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Risk-Adjusted Returns: Quantum Technologies vs. Classical Alternatives</h1>
+        <div class="controls">
+            <button id="toggle-frontier">Hide Efficient Frontier</button>
+        </div>
+        <div class="chart-wrapper">
+            <canvas id="riskReturnChart"></canvas>
+        </div>
+        <div id="detail-panel">
+            <button class="close-btn" onclick="closeDetail()">&times;</button>
+            <h3 id="detail-title"></h3>
+            <div id="detail-body"></div>
+        </div>
+    </div>
+    <script src="quantum-risk-return-scatter.js"></script>
+</body>
+</html>
