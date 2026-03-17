@@ -115,4 +115,5 @@ extra:
   textbook_version: "1.0"
   analytics:
     provider: google
+    # G-M786HVKV6R
     property: G-M786HVKV6R
