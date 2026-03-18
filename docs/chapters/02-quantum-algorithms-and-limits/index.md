@@ -50,7 +50,7 @@ After completing this chapter, you will be able to:
 - **Describe** Grover's algorithm and explain why its quadratic speedup, while real, is far less dramatic than often portrayed
 - **Define** quantum supremacy and quantum advantage as distinct concepts with different evidentiary standards
 - **Identify** the characteristics that make a benchmark "contrived" versus commercially relevant
-- **Assess** why no real-world quantum advantage has been demonstrated as of 2025
+- **Assess** why no real-world quantum advantage has been demonstrated as of 2026
 - **Analyze** the narrow set of problems where quantum algorithms provide any speedup at all
 - **Evaluate** evidence that classical computing improvements continue to close the gap with quantum performance claims
 
@@ -114,7 +114,7 @@ Shor's algorithm is mathematically elegant and provably correct. The problem is 
 - A total of approximately **20 million physical qubits** operating simultaneously with error rates below $10^{-4}$
 - Gate operations running for **hours to days** without the system losing coherence
 
-As of 2025, the state of the art is approximately 1,000 noisy physical qubits with error rates around $10^{-3}$. Even by the most optimistic projections, the hardware required for Shor's algorithm on RSA-2048 is decades away — if it is achievable at all.
+As of 2026, the state of the art is approximately 1,000 noisy physical qubits with error rates around $10^{-3}$. Even by the most optimistic projections, the hardware required for Shor's algorithm on RSA-2048 is decades away — if it is achievable at all.
 
 #### Diagram: Shor's Algorithm Resource Requirements
 
@@ -252,6 +252,8 @@ The pattern is important: Google's supremacy claim was based on comparing quantu
 
 <iframe src="../../sims/supremacy-gap-timeline/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
+[View the Shrinking Supremacy Gap Timeline for the Circuit Sampling MicroSim Fullscreen](../../sims/supremacy-gap-timeline/main.html)
+
 <details markdown="1">
 <summary>Shrinking Supremacy Gap Timeline</summary>
 Type: chart
@@ -323,7 +325,7 @@ A genuine demonstration of quantum advantage must satisfy three criteria:
 | Classical baseline | Best known at time of publication | Best known, continuously updated |
 | Overhead included | Usually not | Must include all costs |
 | Commercial value | None required | Required |
-| Status as of 2025 | Claimed (disputed) | **Not demonstrated** |
+| Status as of 2026 | Claimed (disputed) | **Not demonstrated** |
 
 !!! mascot-thinking "Key Insight"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Fermi is thinking">
@@ -359,6 +361,8 @@ Google's 2019 supremacy experiment asked the Sycamore processor to sample from t
 This task is computationally hard for classical computers because simulating a random quantum circuit requires tracking $2^n$ probability amplitudes. But the output — a set of random-looking bitstrings — has no known application. No industry, no science, no engineering discipline needs samples from random quantum circuits.
 
 The benchmark was chosen precisely *because* it is hard to simulate classically, not because the answer is useful. This is the defining characteristic of a contrived benchmark.
+
+[Read the Details of the Random Circuit Sampling MicroSim Chart with References](../../sims/supremacy-gap-timeline)
 
 !!! example "A Simple Analogy"
     Imagine someone builds an expensive machine that can generate truly random
@@ -698,7 +702,7 @@ This chapter examined the quantum algorithms that form the theoretical basis for
 
 3. **Quantum supremacy** is a proof-of-concept milestone demonstrating quantum computation on a contrived problem. It does not imply commercial usefulness, and even claimed supremacy demonstrations have been challenged or matched by improved classical algorithms.
 
-4. **Quantum advantage** — solving a commercially relevant problem faster or cheaper than classical methods — has never been demonstrated on any real-world problem as of 2025, despite decades of research and over $100 billion in investment.
+4. **Quantum advantage** — solving a commercially relevant problem faster or cheaper than classical methods — has never been demonstrated on any real-world problem as of 2026, despite decades of research and over $100 billion in investment.
 
 5. **Contrived benchmarks** are specifically designed to favor quantum computers and have no practical applications. Nearly all reported "quantum speedups" use them.
 

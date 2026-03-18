@@ -6,8 +6,6 @@
 let containerWidth;
 let canvasWidth;
 let drawHeight = 500;
-let controlHeight = 50;
-let canvasHeight;
 let margin = 25;
 let sliderLeftMargin = 160;
 let defaultTextSize = 16;
@@ -17,11 +15,11 @@ let classes = [];
 let problems = [];
 let hoveredClass = -1;
 let hoveredProblem = -1;
+let hoveredZone = false;
 
 function updateCanvasSize() {
     containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
-    canvasHeight = drawHeight + controlHeight;
 }
 
 function defineRegions() {
@@ -36,8 +34,8 @@ function defineRegions() {
             cy: cy,
             rx: 340 * scale,
             ry: 210 * scale,
-            fillColor: [200, 200, 210, 40],
-            strokeColor: [120, 120, 140],
+            fillColor: [160, 80, 210, 40],
+            strokeColor: [140, 60, 190],
             labelOffsetX: 0,
             labelOffsetY: -185 * scale,
             description: "PSPACE: Problems solvable with polynomial memory.",
@@ -53,7 +51,7 @@ function defineRegions() {
             fillColor: [255, 183, 77, 45],
             strokeColor: [230, 130, 0],
             labelOffsetX: 130 * scale,
-            labelOffsetY: -120 * scale,
+            labelOffsetY: -80 * scale,
             description: "NP: Solutions verifiable in polynomial time.",
             detail: "Contains P. Includes problems where finding a solution is hard",
             detail2: "but checking one is easy. No known quantum speedup for NP-complete."
@@ -67,21 +65,21 @@ function defineRegions() {
             fillColor: [100, 149, 237, 45],
             strokeColor: [50, 100, 200],
             labelOffsetX: -120 * scale,
-            labelOffsetY: -110 * scale,
-            description: "BQP: Solvable by a quantum computer in polynomial time.",
+            labelOffsetY: -85 * scale,
+            description: "BQP (Bounded-error Quantum Polynomial time): Solvable by a quantum computer in polynomial time.",
             detail: "Contains P. Believed to extend beyond P (factoring, discrete log)",
             detail2: "but NOT believed to contain NP-complete problems."
         },
         {
             name: "P",
-            cx: cx - 20 * scale,
+            cx: cx + 5 * scale,
             cy: cy + 20 * scale,
             rx: 110 * scale,
             ry: 90 * scale,
             fillColor: [76, 175, 80, 55],
             strokeColor: [46, 125, 50],
             labelOffsetX: 0,
-            labelOffsetY: 0,
+            labelOffsetY: -50 * scale,
             description: "P: Solvable in polynomial time by a classical computer.",
             detail: "Most commercially relevant problems live here.",
             detail2: "Classical computers already excel at these problems."
@@ -107,15 +105,17 @@ function defineRegions() {
             x: pCx - 40 * scale,
             y: pCy - 30 * scale,
             classRegion: "P",
+            dotColor: [46, 125, 50],
             classical: "O(n log n) — Merge sort, Timsort",
             quantum: "No significant quantum speedup",
             speedup: "None — classical is already optimal"
         },
         {
             name: "Shortest Path",
-            x: pCx + 30 * scale,
-            y: pCy - 15 * scale,
+            x: pCx + 50 * scale,
+            y: pCy - 5 * scale,
             classRegion: "P",
+            dotColor: [46, 125, 50],
             classical: "O(V + E) — Dijkstra's algorithm",
             quantum: "No practical quantum speedup",
             speedup: "None — classical algorithms are efficient"
@@ -125,6 +125,7 @@ function defineRegions() {
             x: pCx - 10 * scale,
             y: pCy + 40 * scale,
             classRegion: "P",
+            dotColor: [46, 125, 50],
             classical: "Polynomial — Interior point methods",
             quantum: "Potential quadratic speedup (unproven at scale)",
             speedup: "Marginal at best — classical solvers are fast"
@@ -134,25 +135,28 @@ function defineRegions() {
             name: "Integer\nFactoring",
             x: bqpCx - 80 * scale,
             y: bqpCy - 30 * scale,
-            classRegion: "BQP \\ P",
+            classRegion: "In BQP but not P",
+            dotColor: [50, 100, 200],
             classical: "Sub-exponential — General number field sieve",
             quantum: "Polynomial — Shor's algorithm",
             speedup: "Exponential (theoretical); largest quantum factored: 21"
         },
         {
             name: "Discrete\nLogarithm",
-            x: bqpCx - 100 * scale,
+            x: bqpCx - 80 * scale,
             y: bqpCy + 50 * scale,
-            classRegion: "BQP \\ P",
+            classRegion: "In BQP but not P",
+            dotColor: [50, 100, 200],
             classical: "Sub-exponential — Index calculus",
             quantum: "Polynomial — Shor's algorithm",
             speedup: "Exponential (theoretical); not demonstrated at useful scale"
         },
         {
             name: "Quantum\nSimulation",
-            x: bqpCx - 55 * scale,
+            x: bqpCx - 35 * scale,
             y: bqpCy + 85 * scale,
-            classRegion: "BQP \\ P",
+            classRegion: "In BQP but not P",
+            dotColor: [50, 100, 200],
             classical: "Exponential scaling for large systems",
             quantum: "Polynomial — natural fit for quantum hardware",
             speedup: "Potentially exponential; limited to small molecules so far"
@@ -163,6 +167,7 @@ function defineRegions() {
             x: npCx + 120 * scale,
             y: npCy - 20 * scale,
             classRegion: "NP-complete",
+            dotColor: [230, 130, 0],
             classical: "Exponential — Branch and bound, heuristics",
             quantum: "Grover gives quadratic speedup only",
             speedup: "Quadratic at best — not enough to matter at scale"
@@ -172,6 +177,7 @@ function defineRegions() {
             x: npCx + 100 * scale,
             y: npCy + 50 * scale,
             classRegion: "NP-complete",
+            dotColor: [230, 130, 0],
             classical: "Exponential — DPLL, CDCL solvers",
             quantum: "Quadratic speedup via Grover's algorithm",
             speedup: "Quadratic — insufficient for exponential-sized problems"
@@ -179,8 +185,9 @@ function defineRegions() {
         {
             name: "Graph\nColoring",
             x: npCx + 140 * scale,
-            y: npCy + 100 * scale,
+            y: npCy + 50 * scale,
             classRegion: "NP-complete",
+            dotColor: [230, 130, 0],
             classical: "Exponential — Backtracking algorithms",
             quantum: "No known efficient quantum algorithm",
             speedup: "None demonstrated"
@@ -188,9 +195,11 @@ function defineRegions() {
         // Inside PSPACE but outside NP
         {
             name: "QBF",
+            fullName: "Quantified Boolean Formula (QBF)",
             x: pspaceCx + 280 * scale,
             y: pspaceCy - 100 * scale,
             classRegion: "PSPACE",
+            dotColor: [140, 60, 190],
             classical: "PSPACE-complete — Exponential time",
             quantum: "No known quantum speedup",
             speedup: "None — beyond both NP and BQP"
@@ -200,6 +209,7 @@ function defineRegions() {
             x: pspaceCx - 280 * scale,
             y: pspaceCy - 80 * scale,
             classRegion: "PSPACE",
+            dotColor: [140, 60, 190],
             classical: "PSPACE-hard (on generalized boards)",
             quantum: "No known quantum speedup",
             speedup: "None — inherently requires exponential resources"
@@ -209,7 +219,7 @@ function defineRegions() {
 
 function setup() {
     updateCanvasSize();
-    let canvas = createCanvas(canvasWidth, canvasHeight);
+    let canvas = createCanvas(canvasWidth, drawHeight);
     canvas.parent(document.querySelector('main'));
     defineRegions();
     noLoop();
@@ -223,11 +233,6 @@ function draw() {
     strokeWeight(1);
     rect(0, 0, canvasWidth, drawHeight);
 
-    // Control region background
-    fill('white');
-    noStroke();
-    rect(0, drawHeight, canvasWidth, controlHeight);
-
     // Title
     fill('#333');
     noStroke();
@@ -236,9 +241,24 @@ function draw() {
     textStyle(BOLD);
     text("Computational Complexity Landscape", canvasWidth / 2, 8);
 
+    // Subtitle / instructions
+    fill('#888');
+    noStroke();
+    textSize(11);
+    textAlign(CENTER, TOP);
+    textStyle(ITALIC);
+    text("Hover over complexity classes (colored ellipses) and quantum computing problems (circular dots) to see details", canvasWidth / 2, 30);
+
+    // Precompute Quantum Advantage Zone label position
+    let scale = min(canvasWidth / 750, 1.0);
+    let bqp = classes[2];
+    let advX = bqp.cx - 60 * scale;
+    let advY = bqp.cy - 80 * scale;
+
     // Detect hovers
     hoveredClass = -1;
     hoveredProblem = -1;
+    hoveredZone = false;
 
     // Check problem hover first (smaller targets, higher priority)
     for (let i = 0; i < problems.length; i++) {
@@ -250,8 +270,13 @@ function draw() {
         }
     }
 
-    // Check class hover if no problem is hovered
-    if (hoveredProblem < 0) {
+    // Check Quantum Advantage Zone label hover
+    if (hoveredProblem < 0 && abs(mouseX - advX) < 35 && abs(mouseY - (advY + 12)) < 24) {
+        hoveredZone = true;
+    }
+
+    // Check class hover if no problem or zone is hovered
+    if (hoveredProblem < 0 && !hoveredZone) {
         // Check in reverse order (smallest class = highest priority)
         for (let i = classes.length - 1; i >= 0; i--) {
             let c = classes[i];
@@ -284,11 +309,7 @@ function draw() {
     }
 
     // Draw Quantum Advantage Zone label
-    let scale = min(canvasWidth / 750, 1.0);
-    let bqp = classes[2];
-    let advX = bqp.cx - 90 * scale;
-    let advY = bqp.cy - 70 * scale;
-    fill(50, 100, 200, 180);
+    fill(hoveredZone ? color(50, 100, 200) : color(50, 100, 200, 180));
     noStroke();
     textSize(10);
     textStyle(ITALIC);
@@ -303,20 +324,21 @@ function draw() {
         let isHovered = (hoveredProblem === i);
 
         // Dot
+        let dc = p.dotColor;
         if (isHovered) {
-            fill('#3F51B5');
-            stroke('#1A237E');
+            fill(dc[0], dc[1], dc[2]);
+            stroke(dc[0] * 0.6, dc[1] * 0.6, dc[2] * 0.6);
             strokeWeight(2);
             ellipse(p.x, p.y, 16, 16);
         } else {
-            fill('#555');
-            stroke('#333');
+            fill(dc[0], dc[1], dc[2], 200);
+            stroke(dc[0] * 0.6, dc[1] * 0.6, dc[2] * 0.6);
             strokeWeight(1);
             ellipse(p.x, p.y, 10, 10);
         }
 
         // Problem label
-        fill(isHovered ? '#1A237E' : '#333');
+        fill(dc[0] * 0.8, dc[1] * 0.8, dc[2] * 0.8);
         noStroke();
         textSize(isHovered ? 12 : 10);
         textStyle(isHovered ? BOLD : NORMAL);
@@ -328,7 +350,7 @@ function draw() {
     if (hoveredProblem >= 0) {
         let p = problems[hoveredProblem];
         drawTooltip([
-            p.name.replace('\n', ' ') + "  (" + p.classRegion + ")",
+            (p.fullName || p.name.replace('\n', ' ')) + "  (" + p.classRegion + ")",
             "Classical: " + p.classical,
             "Quantum: " + p.quantum,
             "Speedup: " + p.speedup
@@ -345,17 +367,20 @@ function draw() {
         ]);
     }
 
-    // Footer instruction in control region
-    fill('#888');
-    noStroke();
-    textSize(12);
-    textAlign(CENTER, CENTER);
-    textStyle(ITALIC);
-    text("Hover over complexity classes or problem dots to see details", canvasWidth / 2, drawHeight + controlHeight / 2);
+    // Tooltip for Quantum Advantage Zone
+    if (hoveredZone) {
+        drawTooltip([
+            "Quantum Advantage Zone (BQP but not P)",
+            "Problems where quantum computers outperform all known classical algorithms.",
+            "Quantum runs in polynomial time; best classical algorithms are sub-exponential.",
+            "Key examples: integer factoring and discrete logarithm (Shor's algorithm)."
+        ]);
+    }
+
 }
 
 function drawTooltip(lines) {
-    let tooltipW = min(500, canvasWidth - 40);
+    let tooltipW = min(575, canvasWidth - 40);
     let lineH = 17;
     let tooltipH = lines.length * lineH + 16;
     let tooltipX = canvasWidth / 2 - tooltipW / 2;
@@ -390,6 +415,6 @@ function mouseMoved() {
 function windowResized() {
     updateCanvasSize();
     defineRegions();
-    resizeCanvas(canvasWidth, canvasHeight);
+    resizeCanvas(canvasWidth, drawHeight);
     redraw();
 }

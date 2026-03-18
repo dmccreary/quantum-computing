@@ -8,12 +8,41 @@ body {
 .chart-container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 16px;
+    padding: 16px 16px 0 16px;
     position: relative;
     width: 95%;
+    height: calc(100vh - 80px);
 }
 
 canvas {
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
+}
+
+.controls {
+    max-width: 900px;
+    margin: 8px auto 0 auto;
+    width: 95%;
+    background: white;
+    border-radius: 6px;
+    padding: 10px 16px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.controls input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
 }

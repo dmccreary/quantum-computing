@@ -81,7 +81,7 @@ const chart = new Chart(ctx, {
     },
     options: {
         responsive: true,
-        maintainAspectRatio: true,
+        maintainAspectRatio: false,
         interaction: {
             mode: 'nearest',
             intersect: true
@@ -149,12 +149,7 @@ const chart = new Chart(ctx, {
                 bodySpacing: 4
             },
             legend: {
-                position: 'bottom',
-                labels: {
-                    usePointStyle: true,
-                    padding: 16,
-                    font: { size: 12 }
-                }
+                display: false
             },
             annotation: {
                 annotations: {
@@ -180,12 +175,11 @@ const chart = new Chart(ctx, {
                         type: 'label',
                         xValue: 2023,
                         yValue: 15,
-                        content: ['15 seconds', '(GPU cluster, 2023)'],
+                        content: ['15 seconds (GPU cluster, 2023)'],
                         font: { size: 11, weight: 'bold' },
                         color: '#4CAF50',
-                        position: 'start',
-                        xAdjust: -80,
-                        yAdjust: 20
+                        xAdjust: -105,
+                        yAdjust: -0
                     },
                     crossoverNote: {
                         type: 'label',
@@ -285,4 +279,14 @@ const chart = new Chart(ctx, {
             }
         }
     }
+});
+
+document.getElementById('toggleClassical').addEventListener('change', function() {
+    chart.data.datasets[0].hidden = !this.checked;
+    chart.update();
+});
+
+document.getElementById('toggleQuantum').addEventListener('change', function() {
+    chart.data.datasets[1].hidden = !this.checked;
+    chart.update();
 });
