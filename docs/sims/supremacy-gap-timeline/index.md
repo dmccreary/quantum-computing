@@ -14,7 +14,7 @@ classical algorithm researchers systematically closed that gap.
 
 <iframe src="./main.html" height="500" width="100%" scrolling="no"></iframe>
 
-*[View Supremacy Gap Timeline MicroSim Fullscreen](./main.html)*
+[View Supremacy Gap Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over each data point to see the source paper, hardware used, and
 the specific algorithmic improvement that reduced the estimated classical

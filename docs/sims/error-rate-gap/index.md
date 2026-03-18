@@ -20,7 +20,8 @@ rates that classical silicon achieves routinely (10^-15 to 10^-18).
 
 <iframe src="./main.html" height="532" width="100%" scrolling="no"></iframe>
 
-*[View Error Rate Gap MicroSim Fullscreen](./main.html)*
+[View Error Rate Gap MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Edit using the p5.js editor](https://editor.p5js.org/dmccreary/sketches/oWOc78f45)
 
 Use the improvement rate slider to explore how quickly the gap might close
 under different assumptions about annual progress. Even at optimistic

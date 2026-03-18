@@ -8,7 +8,7 @@ og:image: /sims/qc-history-timeline/qc-history-timeline.png
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View QC History Timeline MicroSim Fullscreen](./main.html)*
+[View QC History Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 This interactive timeline spans the full history of quantum computing from
 Feynman's 1981 proposal to the present day. Events are color-coded by

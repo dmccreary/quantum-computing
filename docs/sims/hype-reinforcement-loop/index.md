@@ -16,6 +16,6 @@ A **balancing loop** (labeled B) counteracts the reinforcing loop. Bold claims e
 
 <iframe src="./main.html" height="600" width="100%" scrolling="no"></iframe>
 
-*[View Hype Reinforcement Loop MicroSim Fullscreen](./main.html)*
+[View Hype Reinforcement Loop MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click on any node to highlight the loop it belongs to and see a description of its role in the right panel. Orange arrows with "+" labels indicate reinforcing (same-direction) influences. Gray arrows with "-" labels indicate balancing (opposing) influences. The subtle pulse animation on the reinforcing loop arrows shows the clockwise direction of the cycle. Click empty space to reset the view.

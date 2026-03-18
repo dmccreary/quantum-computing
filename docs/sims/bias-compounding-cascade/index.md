@@ -23,7 +23,7 @@ distortion.
 
 <iframe src="./main.html" height="582" width="100%" scrolling="no"></iframe>
 
-*[View Bias Compounding Cascade MicroSim Fullscreen](./main.html)*
+[View Bias Compounding Cascade MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Press the Start button to watch biases accumulate one at a time. Use
 the Initial Hype Level slider to explore how a higher or lower starting

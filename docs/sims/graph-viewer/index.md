@@ -6,6 +6,10 @@ og:image: /sims/graph-viewer/graph-viewer.png
 ---
 # Learning Graph Viewer
 
+[Open Learning Graph Viewer Fullscreen](./main.html){ .md-button .md-button--primary }
+
+<iframe src="./main.html" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+
 This interactive viewer allows you to explore the learning graph for the course.
 
 ## Features
@@ -36,6 +40,4 @@ This interactive viewer allows you to explore the learning graph for the course.
 
 ## Launch the Viewer
 
-[Open Learning Graph Viewer](./main.html){ .md-button .md-button--primary }
 
-<iframe src="./main.html" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>

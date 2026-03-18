@@ -19,7 +19,7 @@ the efficient frontier.
 
 <iframe src="./main.html" height="500" width="100%" scrolling="no"></iframe>
 
-*[View Risk-Return Scatter Plot MicroSim Fullscreen](./main.html)*
+[View Risk-Return Scatter Plot MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any bubble to see detailed metrics including probability of
 success, expected value, and total investment. Click a bubble to expand

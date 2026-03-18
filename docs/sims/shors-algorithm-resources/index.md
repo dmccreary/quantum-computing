@@ -21,7 +21,7 @@ immediately visible.
 
 <iframe src="./main.html" height="532" width="100%" scrolling="no"></iframe>
 
-*[View Shor's Algorithm Resource Requirements MicroSim Fullscreen](./main.html)*
+[View Shor's Algorithm Resource Requirements MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the slider to explore different RSA key sizes from 16 bits up to 4,096 bits.
 Notice how the physical qubit requirement grows linearly with key size but

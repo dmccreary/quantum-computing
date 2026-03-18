@@ -15,7 +15,7 @@ investor pitches, and technology forecasts.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Bias Detection Checklist MicroSim Fullscreen](./main.html)*
+[View Bias Detection Checklist MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click each statement to indicate whether the red flag is present (or
 the protective factor is absent) in the claim you are evaluating.

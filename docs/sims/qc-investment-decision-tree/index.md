@@ -21,7 +21,7 @@ or Exit immediately (red).
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View QC Investment Decision Tree MicroSim Fullscreen](./main.html)*
+[View QC Investment Decision Tree MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Work through the tree by clicking decision nodes and selecting Yes or No.
 Notice how quickly most realistic scenarios lead to "Reduce" or "Exit"

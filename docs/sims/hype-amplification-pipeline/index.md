@@ -21,7 +21,7 @@ about a "$65B market opportunity."
 
 <iframe src="./main.html" height="532" width="100%" scrolling="no"></iframe>
 
-*[View The Hype Amplification Pipeline MicroSim Fullscreen](./main.html)*
+[View The Hype Amplification Pipeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the "Initial Claim Accuracy" slider to explore how starting with
 a weaker or stronger original claim affects the final accuracy at the

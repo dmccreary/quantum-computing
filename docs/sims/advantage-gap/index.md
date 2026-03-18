@@ -21,7 +21,9 @@ while quantum computing falls far short.
 
 <iframe src="./main.html" height="570" width="100%" scrolling="no"></iframe>
 
-*[View The Advantage Gap MicroSim Fullscreen](./main.html)*
+[View The Advantage Gap MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+
+[Edit using the p5.js editor](https://editor.p5js.org/dmccreary/sketches/l1GhTVdEN)
 
 Hover over any domain row to see specific benchmarks, including the largest
 problems solved by classical and quantum approaches and the scale of the

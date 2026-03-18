@@ -21,7 +21,7 @@ relative to the full landscape of computational problems.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View Complexity Landscape MicroSim Fullscreen](./main.html)*
+[View Complexity Landscape MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any complexity class region or problem dot to see definitions,
 example algorithms, and the relationship between classical and quantum

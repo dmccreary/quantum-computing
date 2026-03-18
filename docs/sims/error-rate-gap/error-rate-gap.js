@@ -43,7 +43,7 @@ function setup() {
 
     // Create improvement rate slider
     improvementSlider = createSlider(1, 20, 5, 1);
-    improvementSlider.parent('main');
+    improvementSlider.parent(document.querySelector('main'));
     improvementSlider.position(sliderLeftMargin, drawHeight + 30);
     improvementSlider.size(canvasWidth - sliderLeftMargin - margin * 2);
     improvementSlider.input(function() { redraw(); });

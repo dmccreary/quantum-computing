@@ -22,7 +22,7 @@ being targeted.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Leverage Point Explorer MicroSim Fullscreen](./main.html)*
+[View Leverage Point Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click any leverage point to expand its description and see how it
 applies to the quantum computing investment system. Notice the color

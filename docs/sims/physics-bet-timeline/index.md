@@ -17,7 +17,7 @@ Click any event to see its full description. Drag to pan and scroll to zoom.
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View Physics Bet Timeline MicroSim Fullscreen](./main.html)*
+[View Physics Bet Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 The timeline makes a striking pattern visible at a glance: technical
 milestones (blue) proceed incrementally, while optimistic predictions

@@ -14,7 +14,7 @@ apparent — a gap spanning roughly 10 to 14 orders of magnitude.
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View Error Rate Comparison MicroSim Fullscreen](./main.html)*
+[View Error Rate Comparison MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 ## How to Use This Chart
 

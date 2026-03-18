@@ -20,7 +20,7 @@ to marginally positive.
 
 <iframe src="./main.html" height="582" width="100%" scrolling="no"></iframe>
 
-*[View QC Investment Expected Value Calculator MicroSim Fullscreen](./main.html)*
+[View QC Investment Expected Value Calculator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the sliders to adjust each parameter and observe how the expected
 value changes in real time. The breakeven line shows the minimum

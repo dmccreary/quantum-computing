@@ -22,7 +22,7 @@ and face career penalties for speaking out.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View Incentive Asymmetry Map MicroSim Fullscreen](./main.html)*
+[View Incentive Asymmetry Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any row to see detailed explanations of why each stakeholder
 group is incentivized toward hype or honesty. Notice that startups and

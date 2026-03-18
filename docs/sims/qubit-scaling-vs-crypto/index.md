@@ -14,7 +14,7 @@ post-quantum migration is complete.
 
 <iframe src="./main.html" height="500" width="100%" scrolling="no"></iframe>
 
-*[View Qubit Scaling vs. Cryptographic Requirements MicroSim Fullscreen](./main.html)*
+[View Qubit Scaling vs. Cryptographic Requirements MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 The **horizontal dashed lines** mark the estimated physical qubit counts
 needed to run Shor's algorithm against RSA-2048 and ECC-256 at various

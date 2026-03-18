@@ -14,6 +14,6 @@ Individual cognitive biases rarely operate in isolation. In the quantum computin
 
 <iframe src="./main.html" height="600" width="100%" scrolling="no"></iframe>
 
-*[View Cognitive Bias Network MicroSim Fullscreen](./main.html)*
+[View Cognitive Bias Network MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click on any bias node to highlight its direct connections and see a QC-specific example in the right panel. Edge labels appear on hover, describing the reinforcement mechanism between connected biases. The four color categories group biases by type: perception (blue), social (green), cognitive (orange), and economic (red).

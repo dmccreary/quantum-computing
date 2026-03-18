@@ -22,7 +22,7 @@ to the classical alternative.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View TCO Comparison Dashboard MicroSim Fullscreen](./main.html)*
+[View TCO Comparison Dashboard MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any bar segment to see the exact cost for that category. Notice
 that even under the most favorable assumptions, the quantum computer's

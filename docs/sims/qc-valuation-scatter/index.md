@@ -14,7 +14,7 @@ extreme speculation premium placed on QC companies immediately visible.
 
 <iframe src="./main.html" height="500" width="100%" scrolling="no"></iframe>
 
-*[View QC Valuation Scatter MicroSim Fullscreen](./main.html)*
+[View QC Valuation Scatter MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any data point to see the company name, revenue, valuation,
 and enterprise-value-to-revenue multiple. Red diamond markers represent

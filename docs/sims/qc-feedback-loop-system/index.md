@@ -22,6 +22,6 @@ The system contains two reinforcing loops that amplify hype and investment:
 
 <iframe src="./main.html" height="600" width="100%" scrolling="no"></iframe>
 
-*[View Complete QC Feedback Loop System MicroSim Fullscreen](./main.html)*
+[View Complete QC Feedback Loop System MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the loop buttons in the legend to highlight each feedback loop individually. Click any node to see which loops it participates in and read a description of its role. Orange solid arrows with "+" labels indicate reinforcing (same-direction) influences. Blue dashed arrows with "-" labels indicate balancing (opposing) influences. The subtle pulse animation on the R1 loop shows the clockwise direction of the hype cycle. Click empty space to reset the view.

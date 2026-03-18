@@ -22,7 +22,7 @@ environment.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View TRL Assessment Tool MicroSim Fullscreen](./main.html)*
+[View TRL Assessment Tool MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click on any TRL level to see detailed criteria and evidence for
 quantum computing's status at that level. The thermometer visualization

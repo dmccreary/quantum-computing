@@ -16,7 +16,7 @@ quantum computing claims.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Rhetorical Patterns MicroSim Fullscreen](./main.html)*
+[View Rhetorical Patterns MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click any card to expand the full analysis, which includes an
 explanation of why the pattern is fallacious and a concrete

@@ -16,7 +16,7 @@ corresponding improvement in practical computational capability.
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View Improvement Trajectories MicroSim Fullscreen](./main.html)*
+[View Improvement Trajectories MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 ## How to Use This Chart
 

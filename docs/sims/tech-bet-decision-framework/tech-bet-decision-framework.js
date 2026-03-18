@@ -80,7 +80,7 @@ function setup() {
     // Create control buttons
     let btnY = drawHeight + 15;
     let btnStyle = function(btn) {
-        btn.parent('main');
+        btn.parent(document.querySelector('main'));
         btn.style('font-size', '13px');
         btn.style('cursor', 'pointer');
         btn.style('border', '1px solid #999');

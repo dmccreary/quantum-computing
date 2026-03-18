@@ -14,7 +14,7 @@ quantum computing.
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View Platform Comparison Radar MicroSim Fullscreen](./main.html)*
+[View Platform Comparison Radar MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the toggle buttons to show or hide individual platforms.
 Hover over any data point to see its score and the gap to the

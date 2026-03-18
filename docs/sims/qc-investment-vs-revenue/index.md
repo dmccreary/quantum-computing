@@ -13,7 +13,7 @@ making the massive disparity between the two immediately apparent.
 
 <iframe src="./main.html" height="500" width="100%" scrolling="no"></iframe>
 
-*[View QC Investment vs. Revenue MicroSim Fullscreen](./main.html)*
+[View QC Investment vs. Revenue MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 The chart uses dual Y-axes so that both investment and revenue are
 visible at appropriate scales. Hover over any year to see exact

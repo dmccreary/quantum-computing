@@ -48,12 +48,12 @@ function setup() {
 
     // Problem Size slider (1=small, 2=medium, 3=large)
     problemSizeSlider = createSlider(1, 3, 2, 1);
-    problemSizeSlider.parent('main');
+    problemSizeSlider.parent(document.querySelector('main'));
     problemSizeSlider.style('width', '140px');
 
     // Time Horizon slider (1-10 years, default 5)
     timeHorizonSlider = createSlider(1, 10, 5, 1);
-    timeHorizonSlider.parent('main');
+    timeHorizonSlider.parent(document.querySelector('main'));
     timeHorizonSlider.style('width', '140px');
 }
 

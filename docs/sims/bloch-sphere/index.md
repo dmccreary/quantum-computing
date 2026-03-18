@@ -16,7 +16,7 @@ superpositions with different relative phases.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View Bloch Sphere MicroSim Fullscreen](./main.html)*
+[View Bloch Sphere MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the theta slider to control the polar angle (how far the state
 vector tilts from $|0\rangle$ toward $|1\rangle$) and the phi slider to

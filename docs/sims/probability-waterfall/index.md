@@ -21,7 +21,7 @@ extremely low in every case.
 
 <iframe src="./main.html" height="500" width="100%" scrolling="no"></iframe>
 
-*[View Probability Waterfall MicroSim Fullscreen](./main.html)*
+[View Probability Waterfall MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 The logarithmic y-axis makes it possible to see the later bars, which would
 be invisible on a linear scale. The dashed annotation lines mark the

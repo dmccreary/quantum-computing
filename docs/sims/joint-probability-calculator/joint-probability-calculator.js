@@ -45,7 +45,7 @@ function setup() {
         let s = createSlider(1, 100, breakthroughs[i].defaultProb, 1);
         s.position(sliderLeftMargin, sy);
         s.size(sliderWidth);
-        s.parent('main');
+        s.parent(document.querySelector('main'));
         s.input(redraw);
         sliders.push(s);
     }

@@ -14,7 +14,7 @@ The quantum computing hype ecosystem is not driven by any single actor. Instead,
 
 <iframe src="./main.html" height="600" width="100%" scrolling="no"></iframe>
 
-*[View Hype Ecosystem MicroSim Fullscreen](./main.html)*
+[View Hype Ecosystem MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click on any actor node to highlight its direct connections and see its role in the right panel. Edge colors and styles distinguish three flow types: solid orange for **hype** (optimistic claims), dashed green for **money** (funding flows), and dotted blue for **credibility** (validation and endorsement). Edge labels appear on hover, describing the specific mechanism of each connection. Click empty space to reset the view.
 

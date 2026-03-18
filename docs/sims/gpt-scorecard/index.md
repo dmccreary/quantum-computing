@@ -16,7 +16,7 @@ literature, comparing it side-by-side with established GPTs.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View GPT Qualification Scorecard MicroSim Fullscreen](./main.html)*
+[View GPT Qualification Scorecard MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 The scorecard uses a color-coded matrix (green for strong, yellow for moderate,
 red for weak) and an overlaid radar chart so you can compare the "shape" of each

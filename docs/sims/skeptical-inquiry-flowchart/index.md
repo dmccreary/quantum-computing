@@ -21,7 +21,7 @@ to cautious monitoring.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Skeptical Inquiry Flowchart MicroSim Fullscreen](./main.html)*
+[View Skeptical Inquiry Flowchart MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click on the highlighted question diamond to answer. Clicking the left
 side or below center answers "Yes" and advances to the next question.

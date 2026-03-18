@@ -37,7 +37,7 @@ function setup() {
     canvas.parent(document.querySelector('main'));
 
     resetButton = createButton('Reset');
-    resetButton.parent('main');
+    resetButton.parent(document.querySelector('main'));
     resetButton.position(canvasWidth / 2 - 40, drawHeight + 10);
     resetButton.size(80, 30);
     resetButton.style('font-size', '14px');

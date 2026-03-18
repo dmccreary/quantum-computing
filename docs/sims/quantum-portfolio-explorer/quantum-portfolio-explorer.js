@@ -46,7 +46,7 @@ function setup() {
 
     for (let i = 0; i < categories.length; i++) {
         let s = createSlider(0, 100, categories[i].defaultPct, 1);
-        s.parent('main');
+        s.parent(document.querySelector('main'));
         s.position(sliderLeftMargin, sliderY + i * sliderSpacing);
         s.size(sliderWidth);
         s.input(() => handleSliderChange(i));
@@ -60,19 +60,19 @@ function setup() {
     let btnStartX = sliderLeftMargin;
 
     resetRationalBtn = createButton('Reset to Rational');
-    resetRationalBtn.parent('main');
+    resetRationalBtn.parent(document.querySelector('main'));
     resetRationalBtn.position(btnStartX, btnY);
     resetRationalBtn.size(btnWidth, 26);
     resetRationalBtn.mousePressed(() => applyPreset(categories.map(c => c.defaultPct)));
 
     setMarketBtn = createButton('Set to Current Market');
-    setMarketBtn.parent('main');
+    setMarketBtn.parent(document.querySelector('main'));
     setMarketBtn.position(btnStartX + btnWidth + btnGap, btnY);
     setMarketBtn.size(btnWidth + 20, 26);
     setMarketBtn.mousePressed(() => applyPreset(marketAlloc));
 
     randomizeBtn = createButton('Randomize');
-    randomizeBtn.parent('main');
+    randomizeBtn.parent(document.querySelector('main'));
     randomizeBtn.position(btnStartX + (btnWidth + btnGap) * 2 + 20, btnY);
     randomizeBtn.size(100, 26);
     randomizeBtn.mousePressed(applyRandom);

@@ -116,7 +116,7 @@ function setup() {
     canvas.parent(document.querySelector('main'));
 
     resetButton = createButton('Collapse All');
-    resetButton.parent('main');
+    resetButton.parent(document.querySelector('main'));
     resetButton.position(canvasWidth / 2 - 50, drawHeight + 10);
     resetButton.size(100, 30);
     resetButton.style('font-size', '14px');

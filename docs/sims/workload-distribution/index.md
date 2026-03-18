@@ -10,7 +10,7 @@ og:image: /sims/workload-distribution/workload-distribution.png
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View Workload Distribution MicroSim Fullscreen](./main.html)*
+[View Workload Distribution MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 This interactive chart shows how global computational workloads are distributed
 across major categories and highlights the tiny fraction that quantum computing

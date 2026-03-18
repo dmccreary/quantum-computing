@@ -18,6 +18,6 @@ This interactive visualization shows the ten breakthroughs required before quant
 
 <iframe src="./main.html" height="600" width="100%" scrolling="no"></iframe>
 
-*[View Breakthrough Dependencies Map MicroSim Fullscreen](./main.html)*
+[View Breakthrough Dependencies Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Notice that even in the optimistic 2035 scenario, no single breakthrough reaches 100%, and the commercial viability node remains blocked. This illustrates why partial progress across multiple fronts does not translate to partial commercial value -- the system exhibits an all-or-nothing dependency structure.

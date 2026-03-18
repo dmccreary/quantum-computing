@@ -22,7 +22,7 @@ time horizon keep appearing.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View Prediction Pattern MicroSim Fullscreen](./main.html)*
+[View Prediction Pattern MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any arrow to see who made the prediction, what was claimed,
 and whether it has been falsified. The pattern box in the upper right

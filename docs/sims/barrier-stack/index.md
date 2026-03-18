@@ -25,7 +25,7 @@ hard it is to overcome based on current evidence.
 
 <iframe src="./main.html" height="620" width="100%" scrolling="no"></iframe>
 
-*[View The Barrier Stack MicroSim Fullscreen](./main.html)*
+[View The Barrier Stack MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 [Edit on p5.js](https://editor.p5js.org/dmccreary/sketches/pxYrv40wq)
 

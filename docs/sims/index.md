@@ -125,7 +125,7 @@ biases, and critical thinking frameworks hands-on. No installation required.
 
 -   **[Learning Graph Viewer](./graph-viewer/index.md)**
 
-    ![Learning Graph Viewer](./graph-viewer/graph-viewer.png)
+    ![Learning Graph Viewer](./graph-viewer/graph-viewer.jpg)
 
     This interactive viewer allows you to explore the learning graph for the course.
 

@@ -22,7 +22,7 @@ a well-documented template.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View Hype Parallels MicroSim Fullscreen](./main.html)*
+[View Hype Parallels MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click on any technology row to expand it and see detailed red flags, the
 specific claims made, and how the outcome compares to the original promise.

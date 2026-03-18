@@ -20,7 +20,7 @@ The pattern matches historical technology failures, not successes.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View Technology Success Indicator Analysis MicroSim Fullscreen](./main.html)*
+[View Technology Success Indicator Analysis MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click any cell in the matrix to see a detailed explanation of why that
 technology receives its rating for that particular indicator. Pay

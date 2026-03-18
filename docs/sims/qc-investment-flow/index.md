@@ -19,7 +19,7 @@ $50 million, or about 0.05% of total investment.
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View QC Investment Flow MicroSim Fullscreen](./main.html)*
+[View QC Investment Flow MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any flow to see the estimated dollar amount. The width of each
 band is proportional to the money flowing through it, making the

@@ -19,7 +19,7 @@ in the panel below.
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View QC Prediction Tracker MicroSim Fullscreen](./main.html)*
+[View QC Prediction Tracker MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 The timeline makes a striking pattern visible: nearly every prediction
 with a deadline that has already passed was either wrong or disputed.

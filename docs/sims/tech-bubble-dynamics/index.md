@@ -14,6 +14,6 @@ Technology bubbles are not random events. They follow predictable patterns drive
 
 <iframe src="./main.html" height="600" width="100%" scrolling="no"></iframe>
 
-*[View Technology Bubble Dynamics MicroSim Fullscreen](./main.html)*
+[View Technology Bubble Dynamics MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click any node to highlight its direct causal connections and see a quantum-computing-specific example in the right panel. Hover over edges to reveal the causal mechanism labels. Use the filter buttons at the bottom to isolate reinforcing loops (which accelerate the bubble) or balancing loops (which eventually correct it). The six node colors represent different categories: triggers (blue), amplifiers (orange), financial dynamics (green), resource effects (purple), risk factors (red), and outcomes (gray).

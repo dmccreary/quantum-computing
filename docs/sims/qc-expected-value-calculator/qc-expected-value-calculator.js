@@ -40,25 +40,25 @@ function setup() {
 
     // P(success): 0-100%, default 5%
     probSlider = createSlider(0, 100, 5, 1);
-    probSlider.parent('main');
+    probSlider.parent(document.querySelector('main'));
     probSlider.position(sliderLeftMargin, sliderY);
     probSlider.size(sliderWidth);
 
     // Potential Payoff: $0-$100B, default $10B
     payoffSlider = createSlider(0, 100, 10, 1);
-    payoffSlider.parent('main');
+    payoffSlider.parent(document.querySelector('main'));
     payoffSlider.position(sliderLeftMargin, sliderY + sliderSpacing);
     payoffSlider.size(sliderWidth);
 
     // Investment Cost: $0-$50B, default $5B
     costSlider = createSlider(0, 50, 5, 1);
-    costSlider.parent('main');
+    costSlider.parent(document.querySelector('main'));
     costSlider.position(sliderLeftMargin, sliderY + sliderSpacing * 2);
     costSlider.size(sliderWidth);
 
     // Time Horizon: 1-30 years, default 15
     horizonSlider = createSlider(1, 30, 15, 1);
-    horizonSlider.parent('main');
+    horizonSlider.parent(document.querySelector('main'));
     horizonSlider.position(sliderLeftMargin, sliderY + sliderSpacing * 3);
     horizonSlider.size(sliderWidth);
 
@@ -69,25 +69,25 @@ function setup() {
     let btnStartX = sliderLeftMargin;
 
     presetOptimistic = createButton('Optimistic VC');
-    presetOptimistic.parent('main');
+    presetOptimistic.parent(document.querySelector('main'));
     presetOptimistic.position(btnStartX, btnY);
     presetOptimistic.size(btnWidth, 24);
     presetOptimistic.mousePressed(() => { probSlider.value(25); payoffSlider.value(50); costSlider.value(10); horizonSlider.value(10); });
 
     presetModerate = createButton('Moderate Analyst');
-    presetModerate.parent('main');
+    presetModerate.parent(document.querySelector('main'));
     presetModerate.position(btnStartX + btnWidth + btnGap, btnY);
     presetModerate.size(btnWidth, 24);
     presetModerate.mousePressed(() => { probSlider.value(5); payoffSlider.value(10); costSlider.value(5); horizonSlider.value(15); });
 
     presetSkeptical = createButton('Skeptical Physicist');
-    presetSkeptical.parent('main');
+    presetSkeptical.parent(document.querySelector('main'));
     presetSkeptical.position(btnStartX + (btnWidth + btnGap) * 2, btnY);
     presetSkeptical.size(btnWidth, 24);
     presetSkeptical.mousePressed(() => { probSlider.value(1); payoffSlider.value(5); costSlider.value(8); horizonSlider.value(25); });
 
     resetBtn = createButton('Reset');
-    resetBtn.parent('main');
+    resetBtn.parent(document.querySelector('main'));
     resetBtn.position(btnStartX + (btnWidth + btnGap) * 3, btnY);
     resetBtn.size(80, 24);
     resetBtn.mousePressed(() => { probSlider.value(5); payoffSlider.value(10); costSlider.value(5); horizonSlider.value(15); });

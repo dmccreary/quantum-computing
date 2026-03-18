@@ -22,7 +22,7 @@ individual estimates combine.
 
 <iframe src="./main.html" height="632" width="100%" scrolling="no"></iframe>
 
-*[View Joint Probability Calculator MicroSim Fullscreen](./main.html)*
+[View Joint Probability Calculator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Adjust each slider to set your estimate for the probability of that
 breakthrough succeeding. Watch the funnel visualization narrow as each

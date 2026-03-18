@@ -22,7 +22,7 @@ decades-long timelines before practical realization.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View QC Application Landscape MicroSim Fullscreen](./main.html)*
+[View QC Application Landscape MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Hover over any bubble to see the key quantum algorithm, estimated qubit
 requirements, current experimental status, and the classical alternative

@@ -8,7 +8,7 @@ og:image: /sims/success-failure-patterns/success-failure-patterns.png
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
 
-*[View Success vs. Failure Patterns MicroSim Fullscreen](./main.html)*
+[View Success vs. Failure Patterns MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 This grouped horizontal bar chart compares quantum computing against
 the average profiles of historically successful and failed technology

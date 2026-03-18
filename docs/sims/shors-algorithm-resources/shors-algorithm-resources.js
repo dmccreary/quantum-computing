@@ -31,7 +31,7 @@ function setup() {
 
     // RSA key size slider: 16 to 4096, default 2048, step 16
     keySizeSlider = createSlider(16, 4096, 2048, 16);
-    keySizeSlider.parent('main');
+    keySizeSlider.parent(document.querySelector('main'));
     keySizeSlider.position(sliderLeftMargin, drawHeight + 30);
     keySizeSlider.size(canvasWidth - sliderLeftMargin - margin * 2 - 80);
     keySizeSlider.input(function() { redraw(); });

@@ -22,7 +22,7 @@ differences play out across hundreds of portfolio outcomes.
 
 <iframe src="./main.html" height="552" width="100%" scrolling="no"></iframe>
 
-*[View VC Portfolio Simulator MicroSim Fullscreen](./main.html)*
+[View VC Portfolio Simulator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Adjust the number of investments, the capital per company, and the
 probability that any single QC company succeeds, then click

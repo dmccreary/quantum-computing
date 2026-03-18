@@ -20,7 +20,7 @@ verdict ranging from "Ethically Concerning" to "Exemplary."
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Ethical Decision Framework MicroSim Fullscreen](./main.html)*
+[View Ethical Decision Framework MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the sliders to rate a specific quantum computing claim across all
 four dimensions. Notice how the color-coded bars shift from red through

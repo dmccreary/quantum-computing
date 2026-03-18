@@ -16,7 +16,7 @@ out of 30 with a color-coded verdict.
 
 <iframe src="./main.html" height="582" width="100%" scrolling="no"></iframe>
 
-*[View Technology Bet Decision Framework MicroSim Fullscreen](./main.html)*
+[View Technology Bet Decision Framework MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click the score buttons (1-5) next to each criterion to rate the
 technology you are evaluating. The total score and verdict update

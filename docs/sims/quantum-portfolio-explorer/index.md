@@ -21,7 +21,7 @@ skeptical, evidence-based perspective of this course.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Quantum Portfolio Explorer MicroSim Fullscreen](./main.html)*
+[View Quantum Portfolio Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Use the five sliders to allocate percentages across categories. The sliders
 are constrained to sum to 100% -- when you move one slider, the others adjust

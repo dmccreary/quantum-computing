@@ -14,7 +14,7 @@ a common red flag that appears in overhyped technology claims.
 
 <iframe src="./main.html" height="602" width="100%" scrolling="no"></iframe>
 
-*[View Hype Detection Checklist MicroSim Fullscreen](./main.html)*
+[View Hype Detection Checklist MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
 Click each red flag that applies to the announcement or claim you are
 evaluating. The Hype Score gauge on the right updates to show the
