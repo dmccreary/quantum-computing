@@ -2256,12 +2256,12 @@ in the rest of the course. But does the math check out? Let's find out!</p>
 </tr>
 </tbody>
 </table>
-<p>Classical computers are astonishingly powerful. Modern GPUs perform over <span class="arithmatex">\(10^{14}\)</span> floating-point operations per second. For most computational tasks — web serving, database queries, machine learning, scientific simulation — classical hardware is not merely adequate but is improving rapidly through advances in chip architecture, parallelism, and specialized accelerators (GPUs, TPUs, FPGAs).</p>
-<p>The limitations of classical computing emerge for a specific, narrow class of problems where the number of possibilities grows exponentially with the input size. Consider factoring a large integer into its prime components. For a number with <span class="arithmatex">\(n\)</span> digits, the best known classical algorithm (the general number field sieve) runs in sub-exponential but super-polynomial time:</p>
+<p>Classical computers are astonishingly powerful. They use several types of specialized processors: the <strong>CPU</strong> (Central Processing Unit) is the general-purpose brain of any computer, executing instructions one or a few at a time. The <strong>GPU</strong> (Graphics Processing Unit) was originally designed to render video game graphics but turns out to excel at massively parallel computation — running thousands of simple calculations simultaneously. Modern GPUs perform over <span class="arithmatex">\(10^{14}\)</span> floating-point operations per second. For most computational tasks — web serving, database queries, machine learning, scientific simulation — classical hardware is not merely adequate but is improving rapidly through advances in chip architecture, parallelism, and specialized accelerators: GPUs; <strong>TPUs</strong> (Tensor Processing Units, chips Google designed specifically for machine learning); and <strong>FPGAs</strong> (Field-Programmable Gate Arrays, chips whose internal circuits can be reconfigured in software for specific workloads).</p>
+<p>The limitations of classical computing emerge for a specific, narrow class of problems where the number of possibilities grows exponentially with the input size. Consider factoring a large integer into its prime components. For a number with <span class="arithmatex">\(n\)</span> digits, the best known classical algorithm (the <strong>general number field sieve</strong> — a sophisticated mathematical technique for finding prime factors) runs in sub-exponential but super-polynomial time:</p>
 <div class="arithmatex">\[
 L_n = e^{O(n^{1/3} (\ln n)^{2/3})}
 \]</div>
-<p>For a 2048-bit RSA key, this means classical factoring is computationally infeasible with current hardware. Quantum computing proponents argue that this specific type of problem — where the solution space grows exponentially but has exploitable mathematical structure — is where quantum computers could provide an advantage.</p>
+<p>For a 2048-bit <strong>RSA</strong> key (RSA is the most widely used public-key encryption system, protecting internet banking, email, and web traffic — it works by multiplying two enormous prime numbers together, which is easy to do but extremely hard to reverse), this means classical factoring is computationally infeasible with current hardware. Quantum computing proponents argue that this specific type of problem — where the solution space grows exponentially but has exploitable mathematical structure — is where quantum computers could provide an advantage.</p>
 <div class="admonition mascot-thinking">
 <p class="admonition-title">Key Insight</p>
 <p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Fermi is thinking">
@@ -2272,7 +2272,7 @@ not on any general inadequacy of classical machines.</p>
 </div>
 <hr />
 <h2 id="what-is-a-qubit">What Is a Qubit?</h2>
-<p>A <strong>qubit</strong> (quantum bit) is the fundamental unit of quantum information. Unlike a classical bit, which is definitively 0 or 1, a qubit can exist in a <strong>superposition</strong> of both states simultaneously. Mathematically, the state of a qubit is described as a vector in a two-dimensional complex Hilbert space:</p>
+<p>A <strong>qubit</strong> (quantum bit) is the fundamental unit of quantum information. Unlike a classical bit, which is definitively 0 or 1, a qubit can exist in a <strong>superposition</strong> of both states simultaneously. Mathematically, the state of a qubit is described as a vector in a two-dimensional complex <strong>Hilbert space</strong> (a mathematical framework for describing quantum states; "complex" here means the numbers involved have both a real and an imaginary part, carrying phase information that enables interference):</p>
 <div class="arithmatex">\[
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 \]</div>
@@ -2293,7 +2293,7 @@ not on any general inadequacy of classical machines.</p>
 <tbody>
 <tr>
 <td>Superconducting</td>
-<td>Josephson junction circuit</td>
+<td>Josephson junction circuit (a quantum electronic switch made from two superconductors separated by a thin insulating barrier)</td>
 <td>~15 millikelvin</td>
 <td>~10-100 ns</td>
 <td>~<span class="arithmatex">\(10^{-3}\)</span></td>
@@ -2410,7 +2410,7 @@ right answer more probable. Most problems have no known quantum algorithm that a
 |\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
 \]</div>
 <p>In this state, neither qubit has a definite individual state. However, if you measure the first qubit and obtain <span class="arithmatex">\(|0\rangle\)</span>, the second qubit is instantaneously determined to be <span class="arithmatex">\(|0\rangle\)</span> as well — regardless of the distance between them. Similarly, measuring <span class="arithmatex">\(|1\rangle\)</span> on the first guarantees <span class="arithmatex">\(|1\rangle\)</span> on the second.</p>
-<p>This correlation is stronger than any classical correlation can be, a fact formalized by <strong>Bell's theorem</strong> (1964) and confirmed experimentally in numerous tests. However, entanglement does not transmit information faster than light — you cannot choose which outcome to get, so you cannot use it to send a signal. The correlations are only apparent when the measurement results from both qubits are compared.</p>
+<p>This correlation is stronger than any classical correlation can be, a fact formalized by <strong>Bell's theorem</strong> (1964) — a mathematical proof by physicist John Bell showing that the correlations in quantum systems are fundamentally different from any correlation that could arise from pre-existing hidden information, and confirmed experimentally in numerous tests. However, entanglement does not transmit information faster than light — you cannot choose which outcome to get, so you cannot use it to send a signal. The correlations are only apparent when the measurement results from both qubits are compared.</p>
 <h3 id="why-entanglement-matters-for-computing">Why Entanglement Matters for Computing</h3>
 <p>Entanglement is essential for quantum computing because it allows quantum algorithms to create correlations between qubits that would be impossible classically. In algorithms like Shor's factoring algorithm or quantum error correction codes, entanglement is the mechanism that distributes information across multiple qubits in ways that enable interference patterns over the full <span class="arithmatex">\(2^n\)</span>-dimensional state space.</p>
 <p>Without entanglement, a quantum computer would be equivalent to <span class="arithmatex">\(n\)</span> independent probabilistic classical bits — offering no speedup over classical computation.</p>
@@ -2500,9 +2500,9 @@ P \subseteq BQP \subseteq PSPACE
 \]</div>
 <p>This tells us:</p>
 <ul>
-<li>Everything a classical computer can solve efficiently (P), a quantum computer can also solve efficiently.</li>
+<li>Everything a classical computer can solve efficiently (<strong>P</strong> — the class of problems where computation time grows as a manageable polynomial function of the input size, rather than exploding exponentially), a quantum computer can also solve efficiently.</li>
 <li>Quantum computers are believed to be more powerful than classical computers for some problems, but this has not been proven.</li>
-<li>Quantum computers cannot solve problems outside PSPACE — they are not magic.</li>
+<li>Quantum computers cannot solve problems outside <strong>PSPACE</strong> (the class of problems solvable using a feasible amount of computer memory, which is a broader class than polynomial-time problems) — they are not magic.</li>
 </ul>
 <div class="admonition info">
 <p class="admonition-title">What Does 'Exponential Speedup' Actually Mean?</p>
@@ -2538,7 +2538,7 @@ that haven't been discovered yet.</p>
 <td>1996</td>
 </tr>
 <tr>
-<td>HHL algorithm</td>
+<td>HHL algorithm (Harrow, Hassidim, Lloyd)</td>
 <td>Linear systems of equations</td>
 <td>Exponential (with caveats)</td>
 <td>2009</td>
@@ -2569,7 +2569,7 @@ no. The list of problems with proven quantum advantage is remarkably short.</p>
 <h2 id="what-quantum-computers-could-supposedly-do">What Quantum Computers Could Supposedly Do</h2>
 <p>Proponents of quantum computing typically cite these application areas where quantum computers might eventually provide an advantage:</p>
 <h3 id="1-cryptography-breaking-rsa-and-ecc">1. Cryptography (Breaking RSA and ECC)</h3>
-<p>Shor's algorithm can factor large integers and compute discrete logarithms in polynomial time, which would break RSA and elliptic curve cryptography. This is the most mathematically rigorous quantum speedup claim. However, actually running Shor's algorithm on a cryptographically relevant key size (RSA-2048) would require an estimated <strong>20 million physical qubits</strong> with current error rates — roughly 10,000 times more qubits than exist on the largest quantum processors today.</p>
+<p>Shor's algorithm can factor large integers and compute discrete logarithms in polynomial time, which would break RSA and <strong>ECC</strong> (Elliptic Curve Cryptography — a more modern encryption system also widely used in web browsers, smartphones, and financial systems, which relies on the mathematical difficulty of a different problem than RSA but is equally vulnerable to Shor's algorithm). This is the most mathematically rigorous quantum speedup claim. However, actually running Shor's algorithm on a cryptographically relevant key size (RSA-2048) would require an estimated <strong>20 million physical qubits</strong> with current error rates — roughly 10,000 times more qubits than exist on the largest quantum processors today.</p>
 <h3 id="2-quantum-chemistry-and-materials-science">2. Quantum Chemistry and Materials Science</h3>
 <p>Simulating quantum mechanical systems (molecules, materials) on a classical computer requires resources that grow exponentially with the number of electrons. A quantum computer could, in principle, simulate these systems natively. Potential applications include drug discovery, catalyst design, and materials engineering.</p>
 <h3 id="3-optimization">3. Optimization</h3>
@@ -2623,11 +2623,11 @@ no. The list of problems with proven quantum advantage is remarkably short.</p>
 <h3 id="1-most-computational-tasks">1. Most Computational Tasks</h3>
 <p>Quantum computers provide no advantage for the vast majority of everyday computing: web serving, word processing, video rendering, database management, operating system execution. These tasks are inherently sequential or have efficient classical algorithms. A quantum computer running a web server would be slower, more expensive, and far less reliable than a commodity classical server.</p>
 <h3 id="2-np-complete-problems-probably">2. NP-Complete Problems (Probably)</h3>
-<p>Despite popular misconceptions, quantum computers are <strong>not</strong> believed to solve NP-complete problems efficiently. The complexity class BQP is thought to be strictly contained within NP:</p>
+<p>Despite popular misconceptions, quantum computers are <strong>not</strong> believed to solve <strong>NP-complete</strong> problems efficiently. NP-complete problems are a class of computational challenges — such as finding the shortest route visiting hundreds of cities — where checking a proposed solution is easy, but finding the best solution requires exploring an astronomically large number of possibilities with no known shortcut. The complexity class BQP is thought to be strictly contained within NP:</p>
 <div class="arithmatex">\[
 P \subseteq BQP \subseteq NP \subseteq PSPACE
 \]</div>
-<p>This means that problems like the traveling salesman problem, satisfiability (SAT), and graph coloring are almost certainly not solvable in polynomial time by quantum computers. Grover's algorithm provides only a quadratic speedup for brute-force search — turning <span class="arithmatex">\(O(2^n)\)</span> into <span class="arithmatex">\(O(2^{n/2})\)</span> — which is significant but not the exponential advantage often claimed in the press.</p>
+<p>This means that problems like the traveling salesman problem, <strong>satisfiability</strong> (SAT — the problem of determining whether a set of logical conditions can all be satisfied simultaneously, a fundamental benchmark for computational hardness), and graph coloring are almost certainly not solvable in polynomial time by quantum computers. Grover's algorithm provides only a quadratic speedup for brute-force search — turning <span class="arithmatex">\(O(2^n)\)</span> into <span class="arithmatex">\(O(2^{n/2})\)</span> — which is significant but not the exponential advantage often claimed in the press.</p>
 <h3 id="3-problems-without-mathematical-structure">3. Problems Without Mathematical Structure</h3>
 <p>Quantum speedups require problems with exploitable mathematical structure — periodicity (for Shor's), symmetry, or algebraic properties that quantum interference can leverage. Arbitrary computational tasks without such structure receive no quantum benefit.</p>
 <h3 id="4-tasks-requiring-massive-io">4. Tasks Requiring Massive I/O</h3>
