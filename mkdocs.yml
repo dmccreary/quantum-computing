@@ -136,11 +136,24 @@ nav:
 
   - Stories:
     - List of Stories: stories/index.md
-    - The Lecture That Started Everything: stories/fynman-lecture/index.md
-    - Story 2 - The QC Investment Bubble: stories/story-2-qc-investment-bubble.md
-    - Story 3 - The QC Breakthrough That Wasn't: stories/story-3-qc-breakthrough-that-wasnt.md
-    - Story 4 - The QC Skeptic's Dilemma: stories/story-4-qc-skeptics-dilemma.md
-    - Story 5 - The QC Ethics Controversy: stories/story-5-qc-ethics-controversy.md
+    - The Lecture That Started Everything: stories/feynman-lecture/index.md
+    - The Five-Year Forecast: stories/five-year-forecast/index.md
+    - The Benchmark Slide: stories/benchmark-slide/index.md
+    - The Sunk Cost Superconductor: stories/sunk-cost-superconductor/index.md
+    - The Journalist's Deadline: stories/journalists-deadline/index.md
+    - The Professor's Popular Book: stories/professors-popular-book/index.md
+    - The Investor Who Couldn't Say No: stories/investor-fomo/index.md
+    - The Halo Effect in the Lab: stories/halo-effect-lab/index.md
+    - The Quantum Winter Is Coming: stories/quantum-winter/index.md
+    - The Quantum-Inspired Rebrand: stories/quantum-inspired-rebrand/index.md
+    - The Grad Student's Question: stories/grad-students-question/index.md
+    - The Best Wrong Turn: stories/best-wrong-turn/index.md
+    - The Decoherence Clock: stories/decoherence-clock/index.md
+    - The CISO Who Spent the Budget Early: stories/ciso-budget/index.md
+    - The Career Incentive Loop: stories/career-incentive-loop/index.md
+    - We've Seen This Movie Before: stories/seen-this-movie/index.md
+    - The Road Not Funded: stories/road-not-funded/index.md
+    - The Quantum Speedup That Wasn't: stories/quantum-speedup-wasnt/index.md
 
   - Appendices:
     - List of Appendices: appendices/index.md
