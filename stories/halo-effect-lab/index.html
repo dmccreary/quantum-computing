@@ -1,0 +1,1269 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/stories/halo-effect-lab/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>The Halo Effect in the Lab - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="The Halo Effect in the Lab - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/halo-effect-lab/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/stories/halo-effect-lab/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="The Halo Effect in the Lab - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/halo-effect-lab/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-halo-effect-in-the-lab" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Halo Effect in the Lab
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../prompts/index.md" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-the-nobel-prize" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: The Nobel Prize
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-the-ceos-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: The CEO's Approach
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-ribbon-cutting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: Ribbon Cutting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-first-technical-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: First Technical Meeting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-the-silence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: The Silence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-late-night-simulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: Late Night Simulations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-the-deleted-memo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: The Deleted Memo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-dead-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: Dead End
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-dr-chen-finds-the-deleted-memo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: Dr. Chen Finds the Deleted Memo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-the-confrontation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: The Confrontation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-i-didnt-think-it-was-my-place" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: "I Didn't Think It Was My Place"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-the-new-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: The New Rule
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-13-the-postdoc-at-the-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 13: The Postdoc at the Board
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/stories/halo-effect-lab/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-halo-effect-in-the-lab">The Halo Effect in the Lab</h1>
+<h2 id="panel-1-the-nobel-prize">Panel 1: The Nobel Prize</h2>
+<p><img alt="" src="./panel-01.png" /></p>
+<details><summary>Dr. Chen receiving her Nobel Prize on stage</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Dr. Chen — an East Asian woman in her 60s, elegant, silver-streaked hair, precise posture, Nobel medal now around her neck — on a formal stage, just having received the prize. The audience is standing. The moment is one of genuine triumph — the culmination of a career. Her expression carries the complex pride of someone who has worked a very long time for something real. The stage is formal, gold and deep-red, Swedish ceremony aesthetics. Color palette: the formal warmth of a prize ceremony, deep reds and golds, the warm light of public recognition.
+</details>
+
+<p>Dr. Chen stands on the Nobel stage in Stockholm and feels the weight of the medal settle against her chest. The audience is on its feet. The prize recognizes forty years of condensed matter physics — topological insulators, a field she helped build from the foundation. She gives her lecture with the precise posture she has held her entire career. She is sixty-three and at the peak of what her field considers possible. That night, over dinner, a technology company CEO slides a folder across the table.</p>
+<h2 id="panel-2-the-ceos-approach">Panel 2: The CEO's Approach</h2>
+<p><img alt="" src="./panel-02.png" /></p>
+<details><summary>The company CEO approaches Dr. Chen backstage with a folder</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the Nobel ceremony backstage — a green room or corridor with catering tables and other laureates. A polished tech CEO — a man in his 50s, expensive suit, the ease of someone who moves comfortably in high-status rooms — is approaching Dr. Chen with a company folder in his hand. His smile is genuine and ambitious. Dr. Chen receives him with the precise courtesy of someone who has earned the right to be selective. The Nobel medal is still visible at her collar. Color palette: the backstage gold-grey of a formal event corridor, the two figures in a negotiation they haven't begun yet.
+</details>
+
+<p>The CEO is charming and specific. The folder contains a proposal for a new institute attached to his company — quantum computing, topological qubits, her name on the door. Her Nobel work on topological matter, he explains, is foundational to their approach. She reads the proposal in the car on the way back to the hotel. The flattery is well-designed. It also happens to be technically plausible. She calls her husband. She accepts in the morning.</p>
+<h2 id="panel-3-ribbon-cutting">Panel 3: Ribbon Cutting</h2>
+<p><img alt="" src="./panel-03.png" /></p>
+<details><summary>Institute ribbon cutting — cameras, smiling faces, Dr. Chen at center</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the ribbon cutting ceremony for the new quantum institute — a modern building entrance, a red ribbon, Dr. Chen holding ceremonial scissors. The CEO is beside her, other executives and press around them. Cameras from several angles. Everyone is smiling. The building behind them is glass and steel, the lettering of the institute's name visible above. Dr. Chen's expression shows genuine pride and forward momentum — this is a beginning. Color palette: the bright outdoor light of a public ceremony, the clean lines of a new building, institutional optimism in every element.
+</details>
+
+<p>The institute building is glass and light and opens on a Tuesday in October. Twenty cameras record Dr. Chen cutting the ribbon. The press release leads with her Nobel. Her team of eighteen researchers will be among the best-funded quantum scientists in the world. The CEO says "transformational" in his remarks and means it. Dr. Chen says "rigorous" in hers and means that. The day is full of good intentions.</p>
+<h2 id="panel-4-first-technical-meeting">Panel 4: First Technical Meeting</h2>
+<p><img alt="" src="./panel-04.png" /></p>
+<details><summary>Dr. Chen proposes an approach; researchers exchange glances</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the institute's first technical meeting — a conference room, whiteboard, the team gathered. Dr. Chen stands at the whiteboard, marker in hand, proposing a technical approach that draws on her condensed matter background. Her posture and precision signal this is the beginning of her approach to the problem. Among the eight or ten researchers visible, two are exchanging the briefest glance — not hostile, not conspiratorial, just a quick look between colleagues who have a reaction they are not voicing. Color palette: the clean light of a new meeting room, the whiteboard bright, the subtle dynamics of power in a technical discussion.
+</details>
+
+<p>In the first technical meeting, Dr. Chen proposes an approach to topological qubit stabilization that draws directly from her Nobel work. It is intellectually elegant — the kind of idea that comes from a mind that sees connections others miss. Around the table, three postdocs and two senior researchers have immediate technical thoughts. They write them in their notebooks. They do not raise their hands.</p>
+<h2 id="panel-5-the-silence">Panel 5: The Silence</h2>
+<p><img alt="" src="./panel-05.png" /></p>
+<details><summary>Junior researchers exchange glances but say nothing</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a meeting room moment — Dr. Chen is writing on the whiteboard with her back to the room. Two junior researchers in the foreground are exchanging a look: not skeptical or contemptuous, but the look of two people who have a shared thought and a shared sense that this is not the moment to voice it. Their notebooks are open. Their pens are hovering. The Nobel medal is not present here but its authority is. Color palette: the institutional meeting room light, the slight psychological weight of a room editing itself.
+</details>
+
+<p>Dr. Chen writes an equation on the board and steps back to look at it. Behind her, the team looks at the equation and then at each other. Dr. Alinta Watson, a postdoc from MIT, has three specific questions about scalability. She writes them in her notebook in small, neat writing. She underlines the third one. She will re-read this notebook entry six months later and feel, not exactly regret, but something in that neighborhood.</p>
+<h2 id="panel-6-late-night-simulations">Panel 6: Late Night Simulations</h2>
+<p><img alt="" src="./panel-06.png" /></p>
+<details><summary>A postdoc runs simulations alone — the approach won't scale</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Alinta Watson — a postdoc, early 30s, curly hair, safety glasses pushed up on forehead — alone in a dark institute office late at night, running simulations on a computer. The screen shows scaling graphs that go in the wrong direction. Her expression is focused and troubled. Empty coffee cups around her. This is the private moment of someone finding something important that they don't yet know what to do with. Color palette: the blue-white of a monitor in a dark office, the late-night palette of solitary discovery.
+</details>
+
+<p>Dr. Watson runs the simulations on a Thursday night when the institute is empty. She is not trying to prove Dr. Chen wrong — she is trying to understand the approach well enough to implement it. The scaling graphs emerge from the simulation and go in the wrong direction. She reruns them with different parameters. The curves are consistent. The approach, as specified, does not scale to the problem sizes that would make it useful. She saves the results in a folder. She does not send them to anyone.</p>
+<h2 id="panel-7-the-deleted-memo">Panel 7: The Deleted Memo</h2>
+<p><img alt="" src="./panel-07.png" /></p>
+<details><summary>The postdoc drafts a memo, then selects all and deletes it</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Watson at her desk, a document on her screen — a draft memo. The memo is addressed to Dr. Chen and presents the simulation results with careful, respectful framing. Watson's hand is on the keyboard. The cursor is over the text. In the next moment — shown in the same panel through the slightest compositional shift — the document is empty. She has selected all and deleted it. Her expression in the moment before deletion is the complex calculation of someone weighing professional risk against intellectual honesty. Color palette: the office screen light, the moment before a decision made from fear rather than reason.
+</details>
+
+<p>She writes the memo on a Sunday. It is careful and respectful — she frames the simulation results as questions, not conclusions, inviting Dr. Chen's interpretation. She reads it back twice. Then she thinks about the Nobel prize and the fact that she is in her second year of a three-year postdoc. She selects all. She deletes it. She tells herself she might be wrong about the scaling. She might be. She is not.</p>
+<h2 id="panel-8-dead-end">Panel 8: Dead End</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>A year passes — whiteboards covered in failed attempts</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the institute research space a year later — the whiteboards that were clean in Panel 4 now covered in dense, accumulated work. Cross-outs. Revision arrows. Diagrams that have been erased and redrawn. Team members at different stations look tired in the productive way that eventually becomes just tired. Dr. Chen studies one whiteboard section, expression focused. The room has the atmosphere of effort sustained past where it should have been redirected. Color palette: the muted tone of accumulated work without resolution, the whiteboards as a visual record of a year of not finding what was needed.
+</details>
+
+<p>A year passes. The approach evolves — Dr. Chen's team is brilliant and they push it as far as it will go. They publish two papers that advance the understanding of topological qubit decoherence. But the core scaling problem, which Dr. Watson's simulation found in month three, is still there, in various modified forms. The whiteboards are a record of a year of very good scientists working very hard in the wrong direction.</p>
+<h2 id="panel-9-dr-chen-finds-the-deleted-memo">Panel 9: Dr. Chen Finds the Deleted Memo</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>Dr. Chen finds Watson's deleted memo in a shared drive backup</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Chen at her desk, reading something on her screen — she has found a recovered file in a shared drive backup, and it is the memo Dr. Watson deleted a year ago. Dr. Chen's expression as she reads is complex: the initial surprise of finding it, then the careful absorption of its contents, then something that might be self-recognition. She is a precise person and she is reading something precise. Color palette: the afternoon office light, Dr. Chen in a private moment of discovering something about what she created.
+</details>
+
+<p>In a routine data backup migration, a recovered draft appears in the shared drive's version history. Dr. Chen almost ignores it — old drafts are common. She clicks on it. It is addressed to her. It is dated fourteen months ago. It is from Dr. Watson and it contains, in polite, careful language, exactly the scaling analysis that has occupied the team's failed year. Dr. Chen reads it three times. The memo is correct.</p>
+<h2 id="panel-10-the-confrontation">Panel 10: The Confrontation</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Dr. Chen and Watson face to face — "Why didn't you send this?"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Chen and Dr. Watson standing facing each other in a small meeting room or office doorway — not confrontational in an aggressive way but in the direct way of two people having a necessary conversation. Dr. Chen is holding a printout of the memo. Her expression is not angry; it is the precise look of someone who wants to understand something. Dr. Watson's expression shows a mix of exposure and relief. Both women are dignified. The conversation is difficult and important. Color palette: the direct light of a real conversation, both women clearly visible, no shadow obscuring either face.
+</details>
+
+<p>"Why didn't you send this?" Dr. Chen's voice is controlled and direct. Dr. Watson considers saying she wasn't confident enough, or that the analysis might have been wrong. She says the truth instead: "I didn't think it was my place." The silence that follows lasts about four seconds. In those four seconds, Dr. Chen understands something about the structure she has been the center of for fourteen months. Her face changes. Not dramatically — precisely.</p>
+<h2 id="panel-11-i-didnt-think-it-was-my-place">Panel 11: "I Didn't Think It Was My Place"</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>Long silence — both of them understanding something</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the two women in a moment after Watson's answer — both faces visible, both carrying the same dawning understanding from different directions. Dr. Chen's expression is that of a woman of great intelligence recognizing a structural failure she was at the center of. Watson's expression is the held breath of someone who said the true thing and is waiting for the consequence. The moment has the quality of two people arriving at the same understanding simultaneously but from opposite doors. Color palette: the still, clear light of a moment of mutual recognition.
+</details>
+
+<p>"I didn't think it was my place." Dr. Chen hears this sentence and what she hears is: you created a structure in which a correct analysis sat in a deleted file for fourteen months because the person who found it was afraid of your Nobel prize. She did not intend this. She created it anyway. She is precise enough to see the difference between intention and effect, and honest enough not to reach for the first one as an excuse.</p>
+<h2 id="panel-12-the-new-rule">Panel 12: The New Rule</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>Dr. Chen calls a full team meeting: "I need you to challenge me"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the institute conference room with the full team gathered — eighteen people, looking uncertain about what this meeting is. Dr. Chen stands at the front, not at the whiteboard but just standing, addressing them directly. Her posture is open, not performative. She is saying something that costs her something. The team faces vary from surprise to relief to cautious attentiveness. Color palette: the full team meeting light, Dr. Chen in the foreground without the whiteboard between her and the room.
+</details>
+
+<p>Dr. Chen calls the full team meeting for Monday morning. She stands at the front without a whiteboard, without slides. She says: "I have found a memo from fourteen months ago that should have reached me. It contained correct analysis. It didn't reach me because of the structure I created. From now on, I need you to challenge me. Not politely — accurately. A Nobel prize is not a methodology, and I need you to understand that I know that." The room is very quiet. Dr. Watson is in the third row.</p>
+<h2 id="panel-13-the-postdoc-at-the-board">Panel 13: The Postdoc at the Board</h2>
+<p><img alt="" src="./panel-13.png" /></p>
+<details><summary>Watson presenting a critique — Dr. Chen in the front row taking notes</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a team seminar — Dr. Watson at the whiteboard presenting her scaling analysis, this time to the full group. She is presenting with the confidence of someone who has been explicitly invited to challenge. In the front row, Dr. Chen is seated, notebook open, pen moving — she is taking notes on her postdoc's critique of her own approach. Her expression is visibly engaged and pleased. The rest of the team watches this dynamic with relief and attention. Color palette: the bright seminar room light, Dr. Watson in the active role, Dr. Chen in the learning role — a visual reversal that feels right.
+</details>
+
+<p>The following Tuesday, Dr. Watson presents her scaling analysis to the full team. She is at the whiteboard. Dr. Chen is in the front row, notebook open. When Watson reaches the key finding — the scaling failure — Dr. Chen writes it down. She asks two questions: good ones, the kind that go further rather than the kind that defend. Dr. Watson answers them. The team watches the most senior person in the room learning from the most junior one, and the dynamic shifts permanently.</p>
+<hr />
+<p><strong>Epilogue:</strong> <em>The halo effect doesn't just flatter the person at the center — it isolates them. Dr. Chen's Nobel was real. Her expertise in this new domain was incomplete. The tragedy is that nobody around her let her find out until a year had passed. Genius in one domain does not transfer automatically, and the people who most need to hear that are the ones least likely to be told.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1253 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/stories/sunk-cost-superconductor/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>The Sunk Cost Superconductor - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="The Sunk Cost Superconductor - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/sunk-cost-superconductor/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/stories/sunk-cost-superconductor/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="The Sunk Cost Superconductor - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/sunk-cost-superconductor/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-sunk-cost-superconductor" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Sunk Cost Superconductor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../prompts/index.md" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-day-one-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: Day One (2019)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-first-milestone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: First Milestone
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-the-flat-error-rate-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: The Flat Error Rate Graph
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-board-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: Board Meeting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-doubling-down" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: Doubling Down
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-the-competitor-pivots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: The Competitor Pivots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-dismissal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: Dismissal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-empty-desks-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: Empty Desks (2023)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-the-hard-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: The Hard Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-reading-the-dismissed-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: Reading the Dismissed Paper
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-the-dark-office" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: The Dark Office
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-year-one-at-the-new-company" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: Year One at the New Company
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/stories/sunk-cost-superconductor/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-sunk-cost-superconductor">The Sunk Cost Superconductor</h1>
+<h2 id="panel-1-day-one-2019">Panel 1: Day One (2019)</h2>
+<p><img alt="" src="./panel-01.png" /></p>
+<details><summary>Marcus and his team on day one of the project</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Marcus — a Black man, mid-40s, close-cropped hair, collared shirt and slacks — standing at a whiteboard in a large university lab, surrounded by a team of twelve researchers. His eyes are bright with excitement, his posture open and energetic. The whiteboard behind him shows a new project roadmap. The team members are a diverse group of postdocs and grad students, all leaning forward with fresh enthusiasm. The lab equipment is visible behind them, the kind of controlled chaos of a well-funded new initiative. Color palette: warm amber morning light, the green-and-blue of a new beginning, twelve people full of possibility.
+</details>
+
+<p>It is January 2019, and Marcus has twelve people, a new grant, and a whiteboard full of reasons this approach will work. He has been thinking about this architecture for two years. The room is full of the particular energy of a project that has not yet failed at anything — engineers and postdocs who chose this lab, this problem, this team. Marcus looks at the whiteboard and feels certain. He will remember this feeling later.</p>
+<h2 id="panel-2-first-milestone">Panel 2: First Milestone</h2>
+<p><img alt="" src="./panel-02.png" /></p>
+<details><summary>The team celebrating five working qubits</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus and several team members in a lab, celebrating. Someone has produced a bottle of champagne. People are laughing, some raising paper cups. The lab has its first successful result visible on a monitor behind the group — a clean readout showing five qubits operating. Marcus's expression is genuine delight. The celebration is warm and collegial. Color palette: warm festive light, the glow of successful lab equipment, the joy of earned achievement.
+</details>
+
+<p>Five qubits, working, coherent, measured. The error rates are high but that is expected at this stage — the architecture is proven in principle. Marcus orders pizza and someone produces a bottle of champagne and the lab fills with the sound of twenty people who have made something real. He takes a photo of the readout and sends it to the program manager. That night he writes in his project notebook: "First light."</p>
+<h2 id="panel-3-the-flat-error-rate-graph">Panel 3: The Flat Error Rate Graph</h2>
+<p><img alt="" src="./panel-03.png" /></p>
+<details><summary>Marcus studying a flat error rate graph on a monitor</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus — Black man, mid-40s, close-cropped hair, collared shirt — standing in front of a large monitor, studying a graph. The graph shows an error rate over time that is essentially flat — no improvement over 18 months despite visible effort. His expression has the tired eyes mentioned in his character description, studying something that should be moving and isn't. The lab behind him is still active but quieter than Panel 1. Color palette: the blue-grey of a monitor in a dim lab, Marcus's face showing the first signs of a man absorbing unwanted information.
+</details>
+
+<p>Eighteen months in, the error rate graph has the shape of a flat line. Not a plateau at a good value — a plateau at a bad one. Marcus has looked at this graph every morning for four months. He has tried six different approaches to the shielding. He has swapped out fabrication vendors. He has hired a new postdoc with a specific expertise. The line remains flat. The line is telling him something that he is not yet ready to hear.</p>
+<h2 id="panel-4-board-meeting">Panel 4: Board Meeting</h2>
+<p><img alt="" src="./panel-04.png" /></p>
+<details><summary>Marcus at the board meeting: "We've invested too much to stop"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a formal board or steering committee meeting — Marcus stands at the head of a conference table presenting to six or seven seated figures: program managers, department heads, funders. His slides are visible on a screen behind him. The faces around the table show various expressions of concern. Someone at the table is speaking — the quote about investment and commitment is being said by a heavyset man in a suit, not Marcus, while Marcus listens with a carefully neutral expression. The room is institutional, formal. Color palette: the cool fluorescent light of a conference room, the slight tension of a meeting where the real conversation is slightly different from the official one.
+</details>
+
+<p>The steering committee meeting is in a glass-walled conference room with bad coffee. Around the table, a program officer from the funding agency says the words that will become the project's unofficial motto: "We've invested too much to stop now." Marcus is presenting the flat error rate graph. The program officer is looking past it. Marcus writes down "invested too much to stop" in his notebook that night, not as a concern — as a justification. It is both things at once.</p>
+<h2 id="panel-5-doubling-down">Panel 5: Doubling Down</h2>
+<p><img alt="" src="./panel-05.png" /></p>
+<details><summary>Marcus restructuring the team and writing a new plan alone at night</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus — Black man, mid-40s, tired eyes — alone very late at night in his office, a desk covered in org charts and project plans. He is writing a new plan — a restructuring of the team, a doubling down on the primary approach. His posture is determined but slightly hunched. On his desk: coffee, the flat error rate printout, a calendar showing late 2020. Through his window: an empty nighttime campus. This is the moment of recommitment, but the lighting makes it feel more like a man trying to convince himself. Color palette: amber desk lamp against dark office, the late-night palette of solitary decision-making.
+</details>
+
+<p>Marcus restructures the team. He moves two researchers off secondary experiments to focus everything on the core approach. He writes a new 24-month plan — tighter, more focused, concentrating resources where they have the best chance. He works on the plan alone until 2 a.m. and when he finishes it he reads it back and it is a good plan. He believes it. He needs to believe it, which is not the same thing, but tonight those feel identical.</p>
+<h2 id="panel-6-the-competitor-pivots">Panel 6: The Competitor Pivots</h2>
+<p><img alt="" src="./panel-06.png" /></p>
+<details><summary>Marcus reading about a competitor's architectural pivot</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus at his desk in the morning, reading something on his laptop — a news article or preprint about a competing research group that has publicly announced it is abandoning its current architecture and pivoting to a completely different approach. His expression is a complex mix: initial surprise, then something that might be dismissal or might be recognition he doesn't want to have. The laptop screen is visible at an angle. The article headline implies a significant change of direction. Color palette: morning lab light, slightly cooler than the warm amber of earlier panels, Marcus in a moment of receiving unwanted information.
+</details>
+
+<p>The Zurich group publishes a preprint announcing they are abandoning their trapped-ion approach and pivoting to photonic qubits. Marcus reads it over his morning coffee. It is a significant announcement — a respected group publicly admitting their architecture has limits. He reads the reasoning. It is careful and honest. He bookmarks the preprint, does not forward it to his team, and opens his email instead.</p>
+<h2 id="panel-7-dismissal">Panel 7: Dismissal</h2>
+<p><img alt="" src="./panel-07.png" /></p>
+<details><summary>Marcus dismisses the competitor's pivot; his team looks uncertain</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus standing at the front of a lab meeting, addressing his team. He is gesturing dismissively — the body language of someone minimizing a threat. Behind him on a screen is the Zurich preprint. Around the table, his team members exchange glances: a slight skeptical look between two postdocs, a junior researcher who stopped writing notes and is watching Marcus's face instead. The gap between Marcus's confident dismissal and his team's uncertain response is the visual story of the panel. Color palette: lab meeting light, the slight chill of a room where consensus is not quite achieved.
+</details>
+
+<p>"They're starting over," Marcus tells his team at the weekly meeting. "We have a three-year head start. You don't abandon a mature program to chase a different architecture every time someone publishes a preprint." He clicks past the slide. Two postdocs exchange a look. One of them — a young woman named Dr. Osei — writes nothing for the rest of the meeting and stares at the table. She has her own opinion about the Zurich preprint. She will keep it to herself for another six months.</p>
+<h2 id="panel-8-empty-desks-2023">Panel 8: Empty Desks (2023)</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>2023 — half the team gone, empty desks, flat error rates</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the same lab from Panel 1, but now diminished. Several desks are empty — chairs pushed in, equipment unplugged, the spaces left by people who have moved on. Marcus stands in the middle of the lab, looking at the error rate graph on the wall — still flat. His posture is the posture of a man who has been carrying something heavy for a long time. The remaining team members work quietly at their stations. The room has the atmosphere of something winding down. Color palette: cooler, more muted than the opening panels — the same physical space drained of its early warmth.
+</details>
+
+<p>It is late 2023. Five of Marcus's original twelve team members have left — quietly, professionally, for positions elsewhere. Three postdocs whose contracts ended were not renewed when he restructured the budget. Dr. Osei took a position at the Zurich group, which has not mentioned this to Marcus but he knows. The remaining team is still working. The error rate graph on the wall is still flat. It has been flat for three years.</p>
+<h2 id="panel-9-the-hard-question">Panel 9: The Hard Question</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>A new engineer asks the question nobody would ask</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a lab meeting — Marcus at the head of the table, the remaining team around him. A new engineer — young, mixed-race woman, direct eyes, clearly new to this group — is speaking. Her expression is genuinely curious, not confrontational. The room around her has gone very still. The other team members are watching Marcus, not the new engineer. Marcus's face shows the particular expression of someone who has been asked something they needed to be asked and did not want. Color palette: the slightly tense stillness of a room hearing its own unspoken truth spoken aloud.
+</details>
+
+<p>The new engineer joined three months ago. She has not absorbed the emotional history of the project. She raises her hand at the monthly review and asks: "What would it take to admit this approach won't work? What would that evidence look like?" The room goes so quiet that the ventilation system is suddenly audible. The other team members look at the table, or the wall, or their laptops. Marcus looks at the new engineer for a long moment. The question hangs in the air with no parachute.</p>
+<h2 id="panel-10-reading-the-dismissed-paper">Panel 10: Reading the Dismissed Paper</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Marcus alone, very late, finally reading the competitor's paper</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus alone very late at night in his empty office, reading on his laptop — the Zurich preprint he bookmarked eighteen months ago, never fully read. His expression is not dramatic — it is the quiet look of a man reading something carefully, without defenses up, for the first time. The office is dark beyond the laptop glow. His collared shirt is rumpled. His eyes — described as tired — carry the specific weight of this moment. Color palette: the blue-white of a laptop screen in a dark room, the late-night palette of finally looking at something you've been avoiding.
+</details>
+
+<p>Marcus reads the Zurich preprint. All of it, this time — not the abstract, not the conclusion, but the methods section, the error analysis, the technical argument for why they changed direction. He reads it slowly, the way you read something when you've stopped protecting yourself from it. He closes the laptop at 1 a.m. and sits in the dark for a while. The new engineer's question from two weeks ago is still there. It has always been there, asked or not.</p>
+<h2 id="panel-11-the-dark-office">Panel 11: The Dark Office</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>Marcus sitting in the dark — the graph that hasn't moved</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus sitting in his dark office — laptop closed, just sitting. Through his window, the campus is dark. On the wall, the printout of the flat error rate graph is just barely visible in the ambient light. His posture is not collapsed — it is the careful stillness of someone thinking clearly, perhaps for the first time in a long time. This is not despair. It is recognition. Color palette: very dark, the ambient blue of an empty nighttime campus, a single figure sitting with a truth.
+</details>
+
+<p>He sits in the dark. He is not despairing — he is thinking. There is a difference, and he knows the difference. The graph on the wall has not moved in three years. He put six different explanations on that graph over three years and each explanation was reasonable and none of them moved the line. The new engineer's question is: what would it look like if this approach won't work? He looks at the graph in the dark. He thinks he can answer that question now.</p>
+<h2 id="panel-12-year-one-at-the-new-company">Panel 12: Year One at the New Company</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>Marcus at a new company, whiteboard with exit criteria</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus — Black man, mid-40s, close-cropped hair, collared shirt, but now with a different energy — standing at a whiteboard in a new lab space (smaller, earlier stage, different feel from the old lab). On the whiteboard in clear letters is written something like "Exit criterion for this approach: [specific measurable threshold]." He is addressing a small new team — four or five people. His posture is more open than in the later panels of the old lab, and his eyes, while still carrying their history, look forward. Color palette: fresh morning light in a new space, the clean whiteboard, a beginning.
+</details>
+
+<p>Marcus has a new company and a new lab and a team of five, and on his first full day he writes on the whiteboard before he does anything else: "What's our exit criterion for this approach?" He writes the specific threshold — the error rate they must achieve by a specific date, and the architectural change they will make if they don't. He takes a photo of the whiteboard. This time, he sends it to the whole team. He tells them what it cost him to learn to ask that question first.</p>
+<hr />
+<p><strong>Epilogue:</strong> <em>Marcus is not a cautionary tale about stubbornness. He is a portrait of how sunk cost operates — not as a logical choice but as an emotional gravity that bends every new piece of evidence toward the conclusion you need. The money already spent feels like a vote. It isn't. The universe doesn't grade on effort.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,3 +1,9 @@
+function toSuperscript(n) {
+    const sup = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴',
+                  '5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','-':'⁻' };
+    return String(n).split('').map(function(c) { return sup[c] || c; }).join('');
+}
+
 // Data for classical and quantum error rates
 const categories = [
     "Classical CPU (bit flip)",
@@ -78,7 +84,7 @@ const chart = new Chart(ctx, {
                     callback: function(value) {
                         const log = Math.log10(value);
                         if (Number.isInteger(log)) {
-                            return "10^" + log;
+                            return '10' + toSuperscript(log);
                         }
                         return null;
                     },
@@ -105,7 +111,7 @@ const chart = new Chart(ctx, {
                         const idx = context.dataIndex;
                         const exp = Math.round(Math.log10(errorRates[idx]));
                         return [
-                            "Error rate: 10^" + exp,
+                            "Error rate: 10" + toSuperscript(exp),
                             "Source: " + sources[idx]
                         ];
                     }

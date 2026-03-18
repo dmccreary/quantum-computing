@@ -1,0 +1,1285 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/stories/quantum-speedup-wasnt/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>The Quantum Speedup That Wasn't - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="The Quantum Speedup That Wasn't - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/quantum-speedup-wasnt/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/stories/quantum-speedup-wasnt/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="The Quantum Speedup That Wasn't - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/quantum-speedup-wasnt/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-quantum-speedup-that-wasnt" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Quantum Speedup That Wasn't
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../prompts/index.md" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-professor-darius-finishing-a-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: Professor Darius Finishing a Paper
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-the-university-press-office" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: The University Press Office
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-the-press-release-headline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: The Press Release Headline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-maya-reads-the-press-release" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: Maya Reads the Press Release
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-mayas-article-60000-shares" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: Maya's Article — 60,000 Shares
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-the-classical-algorithms-researcher-at-breakfast" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: The Classical Algorithms Researcher at Breakfast
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-footnote-7-close-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: Footnote 7 Close-Up
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-six-months-of-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: Six Months of Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-the-classical-paper-publishes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: The Classical Paper Publishes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-darius-reads-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: Darius Reads It
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-the-correction-that-nobody-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: The Correction That Nobody Reads
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-900-readers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: 900 Readers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-13-the-conference-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 13: The Conference Panel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-14-the-notebook-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 14: The Notebook Rule
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/stories/quantum-speedup-wasnt/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-quantum-speedup-that-wasnt">The Quantum Speedup That Wasn't</h1>
+<h2 id="panel-1-professor-darius-finishing-a-paper">Panel 1: Professor Darius Finishing a Paper</h2>
+<p><img alt="" src="./panel-01.png" /></p>
+<details><summary>Professor Darius finishing a careful, well-cited paper at his desk</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Professor Darius — an Iranian-American man in his 50s, tweed jacket, precise and careful speaker even in his body language — at his faculty desk finishing a paper. The desk has the controlled order of a careful researcher: papers in labeled stacks, a cup of pens, the manuscript near completion. His expression is the satisfied precision of someone who has been rigorous and knows it. Evening light through the window. Color palette: the warm evening desk lamp light, the quiet satisfaction of a completed careful work.
+</details>
+
+<p>Professor Darius finishes the paper on a Thursday evening and sends it to his co-authors with a note: "Please check footnote 7 in particular — I want to make sure we've been appropriately careful about the classical comparison." He has been working on this algorithm for three years. The result is real: for a specific class of graph problems, the quantum algorithm demonstrates a measurable speedup over the best classical method he is aware of. Footnote 7 says exactly that — "over the best-known algorithm."</p>
+<h2 id="panel-2-the-university-press-office">Panel 2: The University Press Office</h2>
+<p><img alt="" src="./panel-02.png" /></p>
+<details><summary>Press office asks to put out a release — Darius asks them to be careful with framing</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Darius in a meeting or call with the university press office — a communications professional, enthusiastic and competent. She is proposing a press release. Darius is engaged but making a specific request — he is trying to explain something nuanced. His expression is the careful look of a precise person asking for care from someone operating in a different medium. Color palette: the office meeting light, the slight friction of two professionals with different goals.
+</details>
+
+<p>The press office contacts him a week after the paper is accepted. "This is a big result — can we put out a release?" The communications director is competent and genuinely excited about the science. Darius says yes and adds: "Please be careful how you frame the speedup. It's over the best-known classical algorithm — that's specific and important. A better classical algorithm could reduce or eliminate the gap. Can we put that in the release?" She says absolutely. She writes a first draft.</p>
+<h2 id="panel-3-the-press-release-headline">Panel 3: The Press Release Headline</h2>
+<p><img alt="" src="./panel-03.png" /></p>
+<details><summary>Darius reads the press release headline — winces slightly; lets it go</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Darius reading the draft press release on his laptop. His expression shows the specific wince of a precise person seeing precision sacrificed for impact — a slight tightening around the eyes. The headline on screen implies "exponential quantum speedup demonstrated" without the "best-known" qualifier. Below the headline, the body text has some of the nuance he requested, but the headline is the headline. He is about to decide something. Color palette: the laptop screen light, the slight tightening of a precise man seeing imprecision.
+</details>
+
+<p>The headline in the first draft reads: "Exponential Quantum Speedup Demonstrated for Graph Problem Class." Darius reads it. The word "exponential" is technically justifiable for the specific comparison being made. The "best-known" qualifier from footnote 7 is in the third paragraph. He thinks about the back-and-forth it would take to change the headline. He thinks about the fact that the press office needs something shareable. He thinks about his department chair's interest in high-impact press coverage. He lets it go.</p>
+<h2 id="panel-4-maya-reads-the-press-release">Panel 4: Maya Reads the Press Release</h2>
+<p><img alt="" src="./panel-04.png" /></p>
+<details><summary>Maya reads the press release and the abstract — uses the press release</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Maya — a mixed-race woman, early 30s, science and technology journalist, always typing notes on her phone — at her desk with two documents open: the press release and the abstract. She reads the abstract, starts to get into the density, then returns to the press release. The press release is clearer. Her expression shows the professional judgment of a journalist prioritizing the accessible document. Color palette: the journalist's desk light, the two documents competing for her attention and one winning.
+</details>
+
+<p>Maya covers science and technology for a national publication. She receives the press release and opens the abstract in a separate tab. The abstract uses "best-known classical algorithm" twice and references a footnote. The press release says "exponential quantum speedup." She calls the press office for a quote. The press office confirms the exponential speedup. She uses the press release's framing. The abstract is dense. The press release is clear. This is the professional journalist's calculus.</p>
+<h2 id="panel-5-mayas-article-60000-shares">Panel 5: Maya's Article — 60,000 Shares</h2>
+<p><img alt="" src="./panel-05.png" /></p>
+<details><summary>Maya's article: "Quantum Algorithm Leaves Classical Computers in the Dust" — 60,000 shares</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the published article on a screen — a large headline about quantum leaving classical computing behind. Below it, a share count climbing. Maya's phone is visible, showing notifications. The article is spreading. Professor Darius is shown in a small inset or background — he has seen the article. His expression is not triumphant; it is the mild discomfort of a precise person watching an imprecise version of his work travel. Color palette: the digital glow of viral spread, the warm ambivalence of unexpected scale.
+</details>
+
+<p>The article publishes on a Wednesday morning. "Quantum Algorithm Leaves Classical Computers in the Dust." Sixty thousand shares by Friday. The university president's office emails Darius's department chair. A technology podcast invites Darius to explain the result. Three quantum computing companies tweet the article. The "best-known classical algorithm" qualifier in footnote 7 is read by approximately 400 people — those who download the paper itself and read to the footnotes.</p>
+<h2 id="panel-6-the-classical-algorithms-researcher-at-breakfast">Panel 6: The Classical Algorithms Researcher at Breakfast</h2>
+<p><img alt="" src="./panel-06.png" /></p>
+<details><summary>Classical algorithms researcher reads the article — pulls up the paper, finds footnote 7</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a researcher — a woman in her 40s, theoretical CS, reading the article on her phone over breakfast. Her expression shifts as she reads: initial scrolling, then a sharpening of attention, then the specific look of someone who has noticed something. She puts down her coffee and opens her laptop. She has the paper up within minutes. Color palette: the warm breakfast morning light, the shift from casual reading to focused investigation.
+</details>
+
+<p>Dr. Lindqvist is a classical algorithms researcher at ETH Zurich. She reads the article over breakfast and something about the problem class catches her attention — it's in her area of expertise, and she knows the best-known algorithm for it. She opens her laptop and finds the paper. She reads the abstract, the main result, and then footnote 7. She reads footnote 7 twice. Then she opens her email and writes three words to her graduate students: "New project. Come discuss."</p>
+<h2 id="panel-7-footnote-7-close-up">Panel 7: Footnote 7 Close-Up</h2>
+<p><img alt="" src="./panel-07.png" /></p>
+<details><summary>Footnote 7 close-up: "The classical lower bound assumes the best-known algorithm"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a close-up of the paper — specifically a footnote at the bottom of a page. The text of the footnote is large enough to read, containing the key qualification: that the classical lower bound assumes the best-known algorithm and that improved classical methods may reduce or eliminate the gap. The footnote is circled in pen. Dr. Lindqvist's hand is holding the paper. Color palette: the warm close focus of printed academic paper, the circled text as the visual anchor.
+</details>
+
+<p>Footnote 7: "The classical lower bound in Theorem 3 assumes the best-known algorithm for this problem class as of submission (see reference 14). Improved classical algorithms may reduce or eliminate this advantage. The speedup claim should be understood relative to existing methods, not as an inherent property of the problem structure." Dr. Lindqvist reads it and understands exactly what it is: an honest caveat that nobody is reading, attached to a headline that sixty thousand people have shared.</p>
+<h2 id="panel-8-six-months-of-work">Panel 8: Six Months of Work</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>Six months — grad students at a whiteboard; classical response paper taking shape</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Lindqvist's group over six months: her and two grad students, a whiteboard that accumulates work, late nights, the iterative structure of algorithm research. The work is clearly going well — the whiteboard shows a developing approach, not failed attempts. The team looks engaged and productive. Color palette: the lab working light across time, the steady accumulation of a response taking shape.
+</details>
+
+<p>It takes six months. Dr. Lindqvist and her two students build a new randomized classical algorithm for the problem class, drawing on a technique from a 2021 combinatorial optimization paper that Darius's group had not incorporated. The new algorithm is not a refutation of Darius's work — it is progress in classical algorithms, which is the correct scientific response to a quantum speedup claim. When they have a clean result, she writes to Darius directly before submitting.</p>
+<h2 id="panel-9-the-classical-paper-publishes">Panel 9: The Classical Paper Publishes</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>Classical paper: "Matching Quantum Performance on [Problem Class]"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the classical algorithms paper on a screen — the title visible, indicating it matches or approaches the quantum performance. The paper is in a well-regarded venue. Darius is shown reading it — not at a board meeting or a press conference, but alone at his desk, reading carefully. Color palette: the desk reading light, the focused quality of a scientist engaging with work that directly addresses his own.
+</details>
+
+<p>The paper publishes in the same journal as Darius's original. Title: "A Randomized Classical Algorithm Matching Quantum Performance on Sparse Graph Optimization." The speedup from footnote 7 is reduced from exponential to at most polynomial, and under the new algorithm, the polynomial is small. The result is not a correction of Darius's paper — Darius's paper was accurate about what it said it was accurate about. The field has advanced. That is what is supposed to happen.</p>
+<h2 id="panel-10-darius-reads-it">Panel 10: Darius Reads It</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Darius reads the classical response — "This is good work. This is how science is supposed to work."</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Darius alone at his desk, reading the classical paper. His expression is the specific look of a scientist reading work that revises the implication of his own: he is genuinely engaged, not defensive. When he finishes, he says something out loud to himself. His expression in this moment is the professional respect of someone who takes the work seriously. Color palette: the office reading light, Darius's expression the visual center.
+</details>
+
+<p>Darius reads Dr. Lindqvist's paper in one sitting on a Saturday morning. When he finishes, he says out loud, to his empty study: "This is good work. This is how science is supposed to work." He means it completely. The new algorithm advances the field — it identifies a structural property of the problem class that wasn't visible in his framing. He sends Lindqvist a congratulatory email. He tells her footnote 7 was exactly the right thing to include. She thanks him and says she wouldn't have started the project without it.</p>
+<h2 id="panel-11-the-correction-that-nobody-reads">Panel 11: The Correction That Nobody Reads</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>Maya asked to write the correction — original had 60,000; both know the follow-up number</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Maya and her editor — she has been asked to write a follow-up piece on the classical response. The editor asks about the original's reach. Maya's expression shows the particular weariness of a journalist who knows what the follow-up readership will be before they file it. Her editor's expression shows the same knowledge. Both of them know the correction is the right thing to do and both of them know the mathematics of corrections. Color palette: the editorial environment, the slightly muted quality of the conversation about a necessary but limited-reach story.
+</details>
+
+<p>Maya's editor asks her to write the follow-up: "Quantum Speedup Narrowed by New Classical Algorithm." She asks how many people read the original. The editor says sixty thousand. They look at each other. Maya says: "The follow-up will get eight hundred if we're lucky." The editor nods. "Write it anyway," he says. She does. It is accurate and well-written. The original article remains the second search result for the quantum algorithm in question, with the original headline intact.</p>
+<h2 id="panel-12-900-readers">Panel 12: 900 Readers</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>Correction runs — 900 readers; original article first in search results</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a screen with two search results: the original article at the top with its dramatic headline and large share count, the correction article below with a modest reader count. The asymmetry is the visual fact. Maya looks at this screen. Her expression is the resigned professionalism of someone who has done what she could. Color palette: the screen light, the two results as the story.
+</details>
+
+<p>The correction runs. Nine hundred readers. The original article has been cited in four press releases by quantum computing companies, referenced in two Congressional statements about quantum investment, and is still the first result when you search the algorithm's name plus "speedup." The accurate sentence — "speedup over best-known classical algorithm" — lives in the correction, in footnote 7, and in the original paper's abstract, where it is read by the people who read abstracts.</p>
+<h2 id="panel-13-the-conference-panel">Panel 13: The Conference Panel</h2>
+<p><img alt="" src="./panel-13.png" /></p>
+<details><summary>Maya and Darius on a panel — "What should I have said differently?" "Speedup over best known classical."</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a panel discussion — Maya and Professor Darius seated beside each other on a stage at a science communication conference. Darius is asking Maya the question about what he should have said differently. Maya is writing it in her notebook in real time. The audience watches. The exchange has the quality of two people having a genuine exchange about a specific lesson. Color palette: the conference panel light, the focused quality of two people figuring something out in public.
+</details>
+
+<p>The science communication conference puts them on a panel together a year later. Darius says: "I've thought about what I should have asked the press office to say differently. What would have changed the coverage?" Maya is writing before he finishes the question. "Four words," she says. "Speedup over best known classical." She holds up her notebook where she's written it. "Those four words change everything. They tell the reader this might not survive a better algorithm. They set the right expectation. They make the correction a non-story instead of a contradiction." Darius nods slowly. "I thought they were in the footnote," he says. "They were," she says. "That's the problem."</p>
+<h2 id="panel-14-the-notebook-rule">Panel 14: The Notebook Rule</h2>
+<p><img alt="" src="./panel-14.png" /></p>
+<details><summary>Maya's notebook — the four words circled; a new rule for every quantum claim she'll cover</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Maya's journalist's notebook — open to a page she has clearly visited more than once. In large, circled writing: "speedup over best known classical algorithm." Below the circled phrase, a personal rule written in smaller handwriting — something about checking this qualifier on every quantum claim she covers. The notebook has the look of something used heavily. Color palette: the warm notebook light, the circled phrase as an anchor, the rule that follows it.
+</details>
+
+<p>Maya writes the four words in her notebook and circles them. Below the circle, she writes a personal rule: "For every quantum speedup claim, identify: speedup over what classical method, published when, by whom, and has anyone looked for a better classical method since?" She will apply this rule to the next thirty quantum speedup claims she covers. Several of them will survive it. Several will not. All of them will be better described for it.</p>
+<hr />
+<p><strong>Epilogue:</strong> <em>Professor Darius's paper was correct. The press release was defensible. The article was misleading. The correction was accurate and unread. Science's self-correction mechanism worked exactly as designed — and the public conversation was shaped almost entirely by the headline that appeared on day one. The four words "best known classical algorithm" carry more epistemic weight than any graph in the paper. They almost never make it into the headline.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

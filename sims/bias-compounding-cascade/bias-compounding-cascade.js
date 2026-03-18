@@ -26,34 +26,43 @@ let biases = [
     {
         name: "Anchoring Bias",
         description: "Initial hype claim\nsets the anchor",
+        definition: "Over-reliance on the first piece of information encountered. The initial hype claim becomes a fixed reference point that inflates all subsequent estimates, even when later evidence should revise it downward.",
         multiplier: 1.3,
         icon: "\u2693" // anchor
     },
     {
         name: "Authority Bias",
         description: "Endorsed by\nprestigious experts",
+        definition: "Tendency to over-weight the opinions of authority figures. Prestigious endorsements amplify belief independently of whether the underlying evidence actually supports the claim.",
         multiplier: 1.5,
         icon: "\uD83C\uDF93" // graduation cap
     },
     {
         name: "Bandwagon Effect",
         description: "Everyone is\ninvesting now",
+        definition: "Adopting beliefs because many others already hold them. Widespread investment activity is mistaken for validation of the underlying thesis, creating self-reinforcing momentum.",
         multiplier: 1.4,
         icon: "\uD83D\uDCC8" // chart
     },
     {
         name: "Confirmation Bias",
         description: "Selective evidence\nfiltering",
+        definition: "Seeking and interpreting information in ways that confirm existing beliefs. Evidence against viability is discounted or ignored while any supporting signal is amplified.",
         multiplier: 1.4,
         icon: "\uD83D\uDD0D" // magnifying glass
     },
     {
         name: "Sunk Cost Fallacy",
         description: "We can't\nstop now",
+        definition: "Continuing an investment because of resources already committed rather than future prospects. 'We've spent too much to stop now' is not a physics or economics argument.",
         multiplier: 1.6,
         icon: "\uD83D\uDCB0" // money bag
     }
 ];
+
+// Hover state
+let hoveredBiasIndex = -1;
+let boxRects = []; // [{x, y, w, h, index}] populated each draw frame
 
 function updateCanvasSize() {
     containerWidth = document.querySelector('main').offsetWidth;
@@ -131,10 +140,25 @@ function getStageColor(ratio) {
     }
 }
 
+function mouseMoved() {
+    let prevHovered = hoveredBiasIndex;
+    hoveredBiasIndex = -1;
+    for (let r of boxRects) {
+        if (mouseX >= r.x && mouseX <= r.x + r.w &&
+            mouseY >= r.y && mouseY <= r.y + r.h) {
+            hoveredBiasIndex = r.index;
+            break;
+        }
+    }
+    if (hoveredBiasIndex !== prevHovered) redraw();
+}
+
 function draw() {
     let currentTime = millis();
     let dt = (currentTime - lastFrameTime) / 1000;
     lastFrameTime = currentTime;
+
+    boxRects = []; // reset hit areas each frame
 
     // Update animation
     if (isRunning && animationStage < biases.length) {
@@ -189,12 +213,13 @@ function draw() {
     let boxAreaBottom = drawHeight - 70;
     let maxBoxHeight = boxAreaBottom - boxAreaTop;
 
-    // Calculate max compounded value for scaling
-    let maxValue = getCompoundedValue(numStages, 150); // max possible
+    // Scale so the fully-compounded value at the current slider position
+    // fills maxBoxHeight — this keeps proportions correct at any slider value
+    let maxValue = getCompoundedValue(numStages, basePercent);
     let heightScale = maxBoxHeight / maxValue;
 
-    // Minimum box height for readability
-    let minBoxHeight = 80;
+    // Small minimum so tiny boxes are still visible but don't distort proportions
+    let minBoxHeight = 15;
 
     // How many stages to show
     let visibleStages = animationStage;
@@ -205,23 +230,27 @@ function draw() {
     let initX = startX;
     let initY = boxAreaBottom - initHeight;
 
+    // Highlight initial box on hover
+    if (hoveredBiasIndex === 5) {
+        stroke(30, 30, 180);
+        strokeWeight(3);
+    } else {
+        stroke('#1565C0');
+        strokeWeight(2);
+    }
     fill('#90CAF9');
-    stroke('#1565C0');
-    strokeWeight(2);
     rect(initX, initY, boxWidth, initHeight, 4);
+    boxRects.push({ x: initX, y: initY, w: boxWidth, h: initHeight, index: 5 });
 
-    // Initial value text
+    // Initial value text — compact to fit small box
     noStroke();
     fill('#1565C0');
-    textSize(11);
-    textAlign(CENTER, TOP);
+    textAlign(CENTER, CENTER);
+    textSize(9);
     textStyle(BOLD);
-    text("Initial Hype", initX + boxWidth / 2, initY + 8);
-    textStyle(NORMAL);
-    text("Level", initX + boxWidth / 2, initY + 22);
-    textSize(18);
-    textStyle(BOLD);
-    text(basePercent + "%", initX + boxWidth / 2, initY + 42);
+    text("Initial Hype Level", initX + boxWidth / 2, initY + initHeight * 0.28);
+    textSize(16);
+    text(basePercent + "%", initX + boxWidth / 2, initY + initHeight * 0.68);
 
     // Draw bias stages
     let prevValue = basePercent;
@@ -249,10 +278,11 @@ function draw() {
             currentValue = getCompoundedValue(i, basePercent); // same as previous
             let placeholderHeight = minBoxHeight;
             let placeholderY = boxAreaBottom - placeholderHeight;
-            fill(220);
-            stroke(190);
-            strokeWeight(1);
+            fill(hoveredBiasIndex === i ? 200 : 220);
+            stroke(hoveredBiasIndex === i ? color(30, 30, 180) : color(190));
+            strokeWeight(hoveredBiasIndex === i ? 2 : 1);
             rect(stageX, placeholderY, boxWidth, placeholderHeight, 4);
+            boxRects.push({ x: stageX, y: placeholderY, w: boxWidth, h: placeholderHeight, index: i });
 
             noStroke();
             fill(170);
@@ -302,11 +332,20 @@ function draw() {
         push();
         let sc = color(stageColor);
         let fillR = red(sc), fillG = green(sc), fillB = blue(sc);
+        // Highlight on hover
+        if (hoveredBiasIndex === i) {
+            stroke(30, 30, 180, stageAlpha);
+            strokeWeight(3);
+        } else {
+            stroke(red(color('#333')), green(color('#333')), blue(color('#333')), stageAlpha);
+            strokeWeight(2);
+        }
         fill(fillR, fillG, fillB, stageAlpha);
-        stroke(red(color('#333')), green(color('#333')), blue(color('#333')), stageAlpha);
-        strokeWeight(2);
         rect(stageX, stageY, boxWidth, stageHeight, 4);
         pop();
+
+        // Record hit area for hover detection
+        boxRects.push({ x: stageX, y: stageY, w: boxWidth, h: stageHeight, index: i });
 
         // Stage text
         noStroke();
@@ -427,11 +466,10 @@ function draw() {
     text("Initial Hype Level:", 10, drawHeight + 24);
 
     // Slider value display
-    textAlign(LEFT, CENTER);
+    textAlign(RIGHT, CENTER);
     fill('#3F51B5');
     textStyle(BOLD);
-    let sliderValX = sliderLeftMargin + hypeSlider.size().width + 8;
-    text(basePercent + "%", sliderValX, drawHeight + 24);
+    text(basePercent + "%", sliderLeftMargin - 5, drawHeight + 24);
 
     // Footer instructions
     fill('#888');
@@ -440,9 +478,73 @@ function draw() {
     textStyle(ITALIC);
     text("Press Start to animate the cascade. Adjust the slider to change the initial hype level.", canvasWidth / 2, drawHeight + 58);
 
-    if (!isRunning && animationStage >= biases.length) {
-        // All stages shown, no need to keep looping
-        // but we still want to respond to slider changes
+    // Draw hover tooltip
+    const initTooltip = {
+        icon: "\uD83D\uDCA1",
+        name: "Initial Hype Level",
+        definition: "The starting belief intensity before any cognitive biases amplify it. Set by the slider below. Even a modest initial claim — when run through a cascade of compounding biases — can grow into an extreme and distorted belief."
+    };
+    let tooltipData = hoveredBiasIndex === 5 ? initTooltip
+                    : (hoveredBiasIndex >= 0 && hoveredBiasIndex < biases.length) ? biases[hoveredBiasIndex]
+                    : null;
+    if (tooltipData !== null) {
+        let b = tooltipData;
+        let ttW = 230;
+        let ttPad = 10;
+        let ttLineH = 15;
+        // Measure approximate text height: title line + ~3 wrapped definition lines, +20%
+        let ttH = (ttPad * 2 + 18 + 4 + ttLineH * 4) * 1.3;
+        // Clamp so tooltip never exceeds the draw area
+        ttH = min(ttH, drawHeight - 8);
+
+        // Position tooltip near mouse, clamped inside canvas
+        let ttX = mouseX + 14;
+        let ttY = mouseY - ttH / 2;
+        if (ttX + ttW > canvasWidth - 4) ttX = mouseX - ttW - 14;
+        if (ttY < 4) ttY = 4;
+        if (ttY + ttH > drawHeight - 4) ttY = drawHeight - ttH - 4;
+
+        // Shadow
+        push();
+        noStroke();
+        fill(0, 0, 0, 40);
+        rect(ttX + 3, ttY + 3, ttW, ttH, 6);
+        pop();
+
+        // Box
+        push();
+        fill(255, 255, 240);
+        stroke('#3F51B5');
+        strokeWeight(1.5);
+        rect(ttX, ttY, ttW, ttH, 6);
+        pop();
+
+        // Bias name header
+        push();
+        noStroke();
+        fill('#3F51B5');
+        textSize(12);
+        textStyle(BOLD);
+        textAlign(LEFT, TOP);
+        text(b.icon + "  " + b.name, ttX + ttPad, ttY + ttPad);
+        pop();
+
+        // Divider
+        push();
+        stroke('#3F51B5');
+        strokeWeight(0.5);
+        line(ttX + ttPad, ttY + ttPad + 20, ttX + ttW - ttPad, ttY + ttPad + 20);
+        pop();
+
+        // Definition text (p5 word-wrap via bounded text box)
+        push();
+        noStroke();
+        fill('#333');
+        textSize(11);
+        textStyle(NORMAL);
+        textAlign(LEFT, TOP);
+        text(b.definition, ttX + ttPad, ttY + ttPad + 26, ttW - ttPad * 2, ttH - ttPad * 2 - 26);
+        pop();
     }
 }
 

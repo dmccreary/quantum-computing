@@ -9,7 +9,7 @@ let drawHeight = 450;
 let controlHeight = 80;
 let canvasHeight;
 let margin = 25;
-let sliderLeftMargin = 200;
+let sliderLeftMargin = 190;
 let defaultTextSize = 16;
 
 // Slider
@@ -32,7 +32,8 @@ function setup() {
     // RSA key size slider: 16 to 4096, default 2048, step 16
     keySizeSlider = createSlider(16, 4096, 2048, 16);
     keySizeSlider.parent(document.querySelector('main'));
-    keySizeSlider.position(sliderLeftMargin, drawHeight + 30);
+    // 
+    keySizeSlider.position(sliderLeftMargin, drawHeight + 10);
     keySizeSlider.size(canvasWidth - sliderLeftMargin - margin * 2 - 80);
     keySizeSlider.input(function() { redraw(); });
 
@@ -113,7 +114,7 @@ function draw() {
     // Layout: left side = bar chart, right side = stats panel
     let chartLeft = margin + 10;
     let chartRight = canvasWidth * 0.55;
-    let statsLeft = canvasWidth * 0.58;
+    let statsLeft = canvasWidth * 0.7;
     let statsRight = canvasWidth - margin;
 
     // --- Bar chart: Current vs Required ---
@@ -238,15 +239,15 @@ function draw() {
     fill(255, 255, 255, 220);
     stroke('#D32F2F');
     strokeWeight(1.5);
-    let gapBoxW = chartRight - barAreaLeft - 10;
-    rect(barAreaLeft + 5, gapBoxY, gapBoxW, 28, 4);
+    let gapBoxW = chartRight - barAreaLeft - 60;
+    rect(barAreaLeft - 5, gapBoxY, gapBoxW, 28, 4);
 
     noStroke();
     fill('#D32F2F');
     textSize(12);
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
-    text(gapText, barAreaLeft + 5 + gapBoxW / 2, gapBoxY + 14);
+    text(gapText, barAreaLeft - 5 + gapBoxW / 2, gapBoxY + 14);
 
     // --- Stats panel on the right ---
     let panelX = statsLeft;
@@ -328,20 +329,13 @@ function draw() {
     text(histText4, panelX + 5, histY + 68);
 
     // --- Control region labels ---
+    // Slider label and value
     fill('#333');
     noStroke();
-    textSize(13);
-    textAlign(LEFT, CENTER);
-    textStyle(NORMAL);
-    text("RSA Key Size (bits):", 10, drawHeight + 42);
-
-    // Slider value display
-    fill('#3F51B5');
     textSize(14);
     textAlign(LEFT, CENTER);
-    textStyle(BOLD);
-    let sliderRight = sliderLeftMargin + keySizeSlider.width + 15;
-    text(keySize + " bits", sliderRight, drawHeight + 42);
+    textStyle(NORMAL);
+    text("RSA Key Size (bits): " + keySize, 10, drawHeight + 20);
 
     // Slider min/max labels
     fill('#888');

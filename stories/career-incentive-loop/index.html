@@ -1,0 +1,1269 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/stories/career-incentive-loop/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>The Career Incentive Loop - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="The Career Incentive Loop - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/career-incentive-loop/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/stories/career-incentive-loop/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="The Career Incentive Loop - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/career-incentive-loop/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-career-incentive-loop" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Career Incentive Loop
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../prompts/index.md" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-five-people-waking-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: Five People Waking Up
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-sams-funding-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: Sam's Funding Comparison
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-professor-huangs-grant-proposal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: Professor Huang's Grant Proposal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-brendans-portfolio-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: Brendan's Portfolio Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-kezias-pitch-lesson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: Kezia's Pitch Lesson
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-director-okonkwos-budget-defense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: Director Okonkwo's Budget Defense
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-five-decisions-same-afternoon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: Five Decisions — Same Afternoon
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-three-years-later-the-loop-tightens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: Three Years Later — The Loop Tightens
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-the-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: The Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-the-workshop-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: The Workshop Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-youd-need-all-five-to-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: "You'd Need All Five to Change"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-five-years-later-small-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: Five Years Later — Small Changes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-13-the-weakened-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 13: The Weakened Loop
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/stories/career-incentive-loop/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-career-incentive-loop">The Career Incentive Loop</h1>
+<h2 id="panel-1-five-people-waking-up">Panel 1: Five People Waking Up</h2>
+<p><img alt="" src="./panel-01.png" /></p>
+<details><summary>Split panel — five people waking on the same morning</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show five small scenes in a split-panel composition — the same morning, five different rooms. Sam: a young androgynous grad student, overwhelmed, surrounded by papers in a small apartment. Prof. Huang: a Chinese-American man in his 50s, tweedy, at a home desk already. Brendan: an Irish-American VC in his 40s, expensive casual, checking his phone in a modern apartment. Kezia: a Black British journalist in her 30s, always typing, at a kitchen table with her laptop open. Director Okonkwo: a Nigerian-American woman in her 50s, government formal even at home, reviewing documents. Color palette: five different morning light palettes — warm amber, cool blue-white, the full range of five different lives beginning the same day.
+</details>
+
+<p>Five people wake up on the same Tuesday in October. Sam is in a studio apartment near campus, three half-finished thesis proposals pinned to the wall. Professor Huang is at his home desk at 6 a.m., reading grant review scores. Brendan is in his San Francisco apartment, already scrolling through portfolio updates. Kezia is at her kitchen table in London, laptop open before her coffee is ready. Director Okonkwo is at a government office before her team arrives, reviewing budget documents. None of them know the others. All of them will make the same kind of decision today.</p>
+<h2 id="panel-2-sams-funding-comparison">Panel 2: Sam's Funding Comparison</h2>
+<p><img alt="" src="./panel-02.png" /></p>
+<details><summary>Sam comparing funding available for quantum vs classical thesis topics</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sam — young, androgynous, overwhelmed — at a university computer terminal, looking at a funding database or fellowship listing. Two options are visible on screen: a quantum computing track with multiple fellowships and stipend amounts, and a classical optimization track with fewer and smaller ones. Sam is comparing them with the clear-eyed calculation of someone making a practical decision. Color palette: the department computer lab light, Sam in pragmatic-student mode.
+</details>
+
+<p>Sam has been admitted to two thesis tracks: quantum computing error correction, and classical optimization for logistics. Both are mathematically interesting. The funding available for quantum is approximately three times larger. Three fellowships, two industry partnerships, a department recruitment goal. Sam pivots to quantum. It is, under any reasonable analysis of the incentive structure, the rational choice.</p>
+<h2 id="panel-3-professor-huangs-grant-proposal">Panel 3: Professor Huang's Grant Proposal</h2>
+<p><img alt="" src="./panel-03.png" /></p>
+<details><summary>Prof. Huang adding "quantum" angles to work that doesn't need them</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Huang — a Chinese-American man in his 50s, tweedy jacket, wire-rimmed glasses — at his desk writing a grant proposal. He is in the act of adding a paragraph to a document that is, fundamentally, about classical network theory. The paragraph he's adding connects the work to quantum networking — the connection is there, but it's a stretch and he knows it. His expression shows the slight discomfort of a practical man doing a practical thing. A program officer's email is visible on another screen, the one that mentioned quantum scoring. Color palette: the home-office morning light, the slight moral weight of a practical compromise.
+</details>
+
+<p>Professor Huang's research is in distributed network protocols — genuinely important, clearly fundable in any reasonable world. A program officer mentioned over lunch that proposals with quantum relevance were scoring double in the current review cycle. Huang's research has a peripheral connection to quantum networking. He writes a section establishing the connection. It takes three hours. It is not dishonest. It is not the reason the work matters. His proposal score, in the next review cycle, will be twelve points higher.</p>
+<h2 id="panel-4-brendans-portfolio-question">Panel 4: Brendan's Portfolio Question</h2>
+<p><img alt="" src="./panel-04.png" /></p>
+<details><summary>Brendan reviewing his portfolio — LP asks "Why no quantum exposure?"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Brendan — an Irish-American VC in his 40s, expensive casual clothes — at his office desk, on a call or in a meeting. An LP (limited partner) is asking the question about quantum exposure. Brendan's expression shows the calculation happening in real time: the LP's concern is not technically well-grounded, but the LP's concern is the LP's concern. He is making a decision about how to respond to incentive pressure. Color palette: the sleek VC office light, the professional calculation of someone managing multiple relationships.
+</details>
+
+<p>At the quarterly LP review, a pension fund representative asks: "I notice you have no quantum computing exposure. Our peer funds have 4-6% allocation to quantum. Can you explain your positioning?" Brendan's actual view is that most quantum startups are too early for his fund's stage and return requirements. His actual view does not help him retain this LP. He schedules three meetings with quantum startups the following week.</p>
+<h2 id="panel-5-kezias-pitch-lesson">Panel 5: Kezia's Pitch Lesson</h2>
+<p><img alt="" src="./panel-05.png" /></p>
+<details><summary>Kezia pitching — classical piece rejected; quantum piece ran front page</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Kezia — a Black British journalist in her 30s, always typing — pitching to her editor in a video call or in person. On one side, the editor's reaction to a classical computing pitch (slight disinterest). On the other side, the editor's reaction when Kezia proposes a quantum angle (immediate engagement). Kezia reads the room. She is learning something about her editor that will change what she pitches going forward. Color palette: the editorial environment — busy, deadline-adjacent, the editor's expressions telling the story.
+</details>
+
+<p>The piece on classical algorithm improvements went through three rounds of edits and ran on page 8. The piece on a quantum computing startup ran front page and generated forty thousand shares. Kezia pitches quantum this week. Next week. The week after. She is a journalist whose work must be published to matter, and she has received a clear signal about what her editor considers publishable. She follows the signal. This is how she keeps her job.</p>
+<h2 id="panel-6-director-okonkwos-budget-defense">Panel 6: Director Okonkwo's Budget Defense</h2>
+<p><img alt="" src="./panel-06.png" /></p>
+<details><summary>Director Okonkwo defending budget — China's quantum investment on the slide</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Director Okonkwo — a Nigerian-American woman in her 50s, government formal, precise and authoritative — presenting to a Congressional committee or budget oversight body. Behind her on a slide: a comparison of U.S. and Chinese quantum computing investment. The geopolitical framing is doing the work in the room. Director Okonkwo is doing her job correctly — recommending funding for a national priority based on competitive analysis. Color palette: the formal government hearing light, the authority of the official presenting the case.
+</details>
+
+<p>Director Okonkwo's program supports AI and quantum computing research across three agencies. Her annual budget defense requires justifying increases. The slide showing China's quantum investment is the most effective slide in the deck. Not because it settles the technical questions, but because it reframes the question from "is this effective?" to "can we afford not to?" She recommended increased funding because that is her honest assessment of the competitive situation. The assessment is based on public information. The public information is not peer-reviewed research.</p>
+<h2 id="panel-7-five-decisions-same-afternoon">Panel 7: Five Decisions — Same Afternoon</h2>
+<p><img alt="" src="./panel-07.png" /></p>
+<details><summary>All five make their decisions on the same afternoon — a quiet montage</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the five characters in a montage of decisive moments happening simultaneously across different time zones and rooms: Sam hitting "submit" on a quantum thesis application. Huang emailing his revised proposal. Brendan scheduling the startup meeting from his phone. Kezia filing her quantum pitch to her editor. Okonkwo signing the budget recommendation document. Each moment is small and ordinary and rational. Color palette: five simultaneous moments — the afternoon light of five different worlds.
+</details>
+
+<p>At 3 p.m. Eastern, 8 p.m. London, 12 p.m. Pacific: Sam submits the quantum track application. Professor Huang emails the revised proposal. Brendan's assistant sends meeting requests to three quantum startups. Kezia files the quantum pitch. Director Okonkwo signs the budget recommendation. Five decisions, made for five different reasons, all following the same arrow. No coordination. No conspiracy. Just five rational people responding to five sets of incentives that all point the same direction.</p>
+<h2 id="panel-8-three-years-later-the-loop-tightens">Panel 8: Three Years Later — The Loop Tightens</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>Three years later — everyone's outcomes positive; the loop tightens</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a collage of outcomes three years later: Sam in a funded lab. Professor Huang giving a funded research talk. Brendan presenting portfolio results to smiling LPs. Kezia's byline on a front-page piece. Director Okonkwo at a program ribbon cutting. Each person's decision paid off for them individually. The system that produced these outcomes is visible in the connections between them. Color palette: the warm tones of individual success, slightly cooler when seen as a system.
+</details>
+
+<p>Three years later: Sam is funded. Professor Huang received the grant. Brendan has a quantum position in his portfolio — one has done well, two are struggling, but he has the exposure his LP wanted. Kezia won a technology journalism award. Director Okonkwo's program was renewed. Each person's rational decision produced a personally rational outcome. The aggregate of five rational decisions produced something that nobody designed and nobody chose — a closed loop of investment, study, coverage, and funding that is increasingly self-sustaining.</p>
+<h2 id="panel-9-the-diagram">Panel 9: The Diagram</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>A researcher from outside draws the Career Incentive Loop diagram</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a researcher — a woman in her 40s, academic casual, outside the five main roles — at a whiteboard drawing the diagram. Five nodes in a circle: grad student, professor, VC, journalist, program officer. Five arrows connecting them in a loop. Each arrow is labeled. She is studying what she's drawn. Her expression is the particular focus of someone who has just made a structure visible. Color palette: the whiteboard light, the diagram in clean visual logic.
+</details>
+
+<p>Dr. Farida Osei studies the sociology of scientific investment. She has been mapping the quantum computing ecosystem for four years. On a whiteboard in her university office, she draws the diagram: five nodes, five arrows, a closed loop. Each arrow represents an incentive flow — funding pressure, publication incentive, investor pressure, editorial preference, competitive geopolitics. She steps back and looks at it. There is no entry point for doubt. The loop has no node that profits from skepticism.</p>
+<h2 id="panel-10-the-workshop-question">Panel 10: The Workshop Question</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Dr. Osei shows the diagram at a workshop — "How do you break it?"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Osei presenting her diagram at a small academic workshop — maybe fifteen people, mixed group of economists, science policy researchers, and a few physicists. She has the diagram on a slide behind her. The room is quiet. Someone asks the question. Osei's expression is the honest uncertainty of someone who has a diagnosis but not a cure. Color palette: the workshop room light, the diagram as the focal visual anchor.
+</details>
+
+<p>At the Science Policy Workshop in Brussels, Dr. Osei presents the diagram. She calls it the Career Incentive Loop. The room — mostly science policy researchers and economists — is quiet in the way rooms are quiet when they recognize something they've seen before in a new form. Someone from the back asks: "How do you break it?" Dr. Osei says: "The diagram suggests you'd need changes at multiple nodes simultaneously, or one node to have a very bad outcome publicly." Neither happens easily.</p>
+<h2 id="panel-11-youd-need-all-five-to-change">Panel 11: "You'd Need All Five to Change"</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>She points to the diagram — all five must change at once, or one has a public bad day</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Osei at the whiteboard, pointing to specific nodes in the diagram. The room listens. Her answer is analytically clear and not comforting — the structural change required is significant. The faces in the room show the particular look of people who understand a difficult truth. Color palette: the workshop light, the diagram on the board, the room in thoughtful attention.
+</details>
+
+<p>"If you change the grant incentives for grad students, that affects Sam but not the editorial incentives Kezia responds to," Dr. Osei explains. "If you change publication incentives for professors, that doesn't directly change Brendan's LP pressure. The loop is robust because each node is reinforced by the others. You need changes at multiple nodes, or you need a high-profile failure that resets the signal across all five simultaneously." Someone says: "Like an AI winter but for quantum?" She nods. "Something like that."</p>
+<h2 id="panel-12-five-years-later-small-changes">Panel 12: Five Years Later — Small Changes</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>Five years later — same five people; small changes in each</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the five characters five years after Panel 1 — each in their current life, each with a small but meaningful change from where they were. Sam at a quantum sensing job, genuinely satisfied. Professor Huang with a second grant for work that is more honestly framed. Brendan at his desk after writing down a quantum position — his notebook shows the loss. Kezia with her name on a corrective piece that she clearly worked hard on. Director Okonkwo at a meeting revising success metrics. Five quiet changes. Color palette: the five different settings, each slightly different in character from their earlier scenes — the colors of experience.
+</details>
+
+<p>Five years later. Sam went into quantum sensing after the quantum computing job market proved difficult — the skills transferred, the pay is better. Professor Huang received a second grant; this time he submitted the same work with fewer quantum angles, more honest framing. The score was lower; the work is better. Brendan wrote down the quantum position that didn't perform, but two of the three companies pivoted to classical applications of their technology and are doing well. Kezia spent four months writing a corrective long-form piece on quantum hype — it won a different kind of award. Director Okonkwo is quietly revising the program success metrics to include honest baseline comparisons.</p>
+<h2 id="panel-13-the-weakened-loop">Panel 13: The Weakened Loop</h2>
+<p><img alt="" src="./panel-13.png" /></p>
+<details><summary>The diagram on a whiteboard — now with small arrows showing where each person changed</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Osei's original diagram, now on a whiteboard at a later workshop, updated with five small additional annotations — one at each node, showing where each person's small change applies friction to the loop. The main loop is still there, still mostly intact. The five small arrows of change are visible but not dominant. The diagram is honest: the loop exists and is slightly weaker. Color palette: the whiteboard light, the original loop in dark ink, the five small changes in a different color.
+</details>
+
+<p>Dr. Osei updates the diagram. Five small arrows, one at each node: a slight reduction in the incentive that was previously unidirectional. The loop is still there. It is slightly weaker. She presents the updated diagram at the following year's workshop. The room is larger this time — twenty-five people instead of fifteen. Someone asks: "Is this enough?" She says: "No. But it's what happened. And what happened matters."</p>
+<hr />
+<p><strong>Epilogue:</strong> <em>No villain. No fraud. Five people making individually rational decisions inside a system that rewards optimism and penalizes doubt. The most persistent problems in science are not caused by bad actors — they are caused by good actors optimizing for the wrong metrics. You cannot fix this problem by finding someone to blame. You fix it by redesigning the incentives.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

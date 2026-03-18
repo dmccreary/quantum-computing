@@ -25,7 +25,7 @@ let resetBtn;
 
 // Orbit rotation state
 let rotX = -0.4;
-let rotY = 0.3;
+let rotY = 4.10; // 235° in radians
 let dragging = false;
 let lastMouseX, lastMouseY;
 
@@ -99,7 +99,7 @@ function positionControls() {
     thetaSlider.position(sliderLeftMargin, controlY);
     phiSlider.position(sliderLeftMargin, controlY + 32);
 
-    let btnX = sliderLeftMargin + 200 + 200;
+    let btnX = sliderLeftMargin + 200 + 150;
     measureBtn.position(btnX, controlY + 5);
     resetBtn.position(btnX + 80, controlY + 5);
 }
@@ -203,6 +203,12 @@ function draw() {
     textStyle(BOLD);
     text("Qubit State on the Bloch Sphere", 0, -hh + 8);
 
+    // Subtitle instruction
+    textSize(12);
+    textStyle(ITALIC);
+    fill(100);
+    text("Drag the mouse over the diagram to rotate the view", 0, -hh + 30);
+
     // Slider labels
     textSize(13);
     textStyle(NORMAL);
@@ -211,9 +217,10 @@ function draw() {
     let controlY = -hh + drawHeight;
     text('\u03B8 (theta) = ' + nf(theta, 1, 2), -hw + sliderLeftMargin - 8, controlY + 18);
     text('\u03C6 (phi) = ' + nf(phi, 1, 2), -hw + sliderLeftMargin - 8, controlY + 50);
+    text('view rotation = ' + nf(degrees(rotY) % 360, 1, 1) + '\u00B0', -hw + sliderLeftMargin - 8, controlY + 82);
 
     // State info panel on the right side
-    let infoX = hw - 260;
+    let infoX = hw - 320;
     let infoY = controlY + 8;
     textSize(13);
     textAlign(LEFT, TOP);
@@ -225,19 +232,19 @@ function draw() {
     let prob0 = cosHalf * cosHalf;
     let prob1 = sinHalf * sinHalf;
 
-    text('P(|0\u27E9) = ' + nf(prob0, 1, 4), infoX, infoY);
-    text('P(|1\u27E9) = ' + nf(prob1, 1, 4), infoX, infoY + 18);
+    text('P(|0>) = ' + nf(prob0, 1, 4), infoX, infoY);
+    text('P(|1>) = ' + nf(prob1, 1, 4), infoX, infoY + 18);
 
     // Measurement results
     if (measureCount0 + measureCount1 > 0) {
         let total = measureCount0 + measureCount1;
         textSize(12);
         fill(80);
-        text('Measurements: |0\u27E9=' + measureCount0 + '  |1\u27E9=' + measureCount1 + '  (n=' + total + ')', infoX, infoY + 42);
+        text('Measurements: |0>=' + measureCount0 + '  |1>=' + measureCount1 + '  (n=' + total + ')', infoX, infoY + 42);
         if (measured && measureAnimProgress >= 1) {
             fill(measuredState === 0 ? '#3F51B5' : '#FF7043');
             textStyle(BOLD);
-            text('Result: |' + measuredState + '\u27E9', infoX, infoY + 60);
+            text('Result: |' + measuredState + '>', infoX, infoY + 60);
         }
     }
 
@@ -250,7 +257,7 @@ function draw() {
     let alphaStr = nf(cosHalf, 1, 3);
     let betaStr = nf(sinHalf, 1, 3);
     let phiStr = nf(displayPhi, 1, 2);
-    text('|\u03C8\u27E9 = ' + alphaStr + '|0\u27E9 + e^(i' + phiStr + ')' + betaStr + '|1\u27E9', 0, eqY);
+    text('|\u03C8> = ' + alphaStr + '|0> + e^(i' + phiStr + ')' + betaStr + '|1>', 0, eqY);
 
     pop();
 
@@ -265,7 +272,7 @@ function draw() {
 
     // Grid lines (latitude)
     stroke(210);
-    strokeWeight(0.5);
+    strokeWeight(1.5);
     noFill();
     for (let lat = -60; lat <= 60; lat += 30) {
         let r = sphereRadius * cos(radians(lat));
@@ -286,14 +293,14 @@ function draw() {
 
     // Equator (thicker)
     stroke(180);
-    strokeWeight(1);
+    strokeWeight(2);
     drawCircleXZ(sphereRadius, 60);
 
     // Prime meridian
     drawCircleXY(sphereRadius, 60);
 
     // Axes
-    strokeWeight(1.5);
+    strokeWeight(2.5);
     // Z axis (vertical: |0> to |1>)
     stroke(100);
     line(0, -sphereRadius - 20, 0, 0, sphereRadius + 20, 0);
@@ -314,14 +321,14 @@ function draw() {
     push();
     translate(0, -sphereRadius - 30, 0);
     applyBillboard();
-    text('|0\u27E9', 0, 0);
+    text('|0>', 0, 0);
     pop();
 
     // |1> at bottom
     push();
     translate(0, sphereRadius + 30, 0);
     applyBillboard();
-    text('|1\u27E9', 0, 0);
+    text('|1>', 0, 0);
     pop();
 
     // |+> on positive X
@@ -329,7 +336,7 @@ function draw() {
     translate(sphereRadius + 25, 0, 0);
     applyBillboard();
     textSize(13);
-    text('|+\u27E9', 0, 0);
+    text('|+>', 0, 0);
     pop();
 
     // |-> on negative X
@@ -337,7 +344,7 @@ function draw() {
     translate(-sphereRadius - 25, 0, 0);
     applyBillboard();
     textSize(13);
-    text('|-\u27E9', 0, 0);
+    text('|->', 0, 0);
     pop();
 
     // |+i> on positive Z
@@ -345,7 +352,7 @@ function draw() {
     translate(0, 0, sphereRadius + 25);
     applyBillboard();
     textSize(13);
-    text('|+i\u27E9', 0, 0);
+    text('|+i>', 0, 0);
     pop();
 
     // |-i> on negative Z
@@ -353,7 +360,7 @@ function draw() {
     translate(0, 0, -sphereRadius - 25);
     applyBillboard();
     textSize(13);
-    text('|-i\u27E9', 0, 0);
+    text('|-i>', 0, 0);
     pop();
 
     // State vector arrow

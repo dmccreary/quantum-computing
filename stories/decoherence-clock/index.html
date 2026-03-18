@@ -1,0 +1,1285 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/stories/decoherence-clock/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>The Decoherence Clock - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="The Decoherence Clock - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/decoherence-clock/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/stories/decoherence-clock/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="The Decoherence Clock - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/decoherence-clock/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-decoherence-clock" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Decoherence Clock
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../prompts/index.md" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-first-celebration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: First Celebration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-grant-proposal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: Grant Proposal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-the-lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: The Lab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-year-2-new-shielding-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: Year 2 — New Shielding Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-the-new-error-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: The New Error Mode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-staring-at-the-total-error-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: Staring at the Total Error Rate
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-the-conference-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: The Conference Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-the-whiteboard-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: The Whiteboard Calculation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-the-review-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: The Review Paper
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-the-reviewer-comment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: The Reviewer Comment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-softened-paper-honest-drawer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: Softened Paper, Honest Drawer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-the-younger-colleagues-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: The Younger Colleague's Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-13-i-used-to-be-certain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 13: "I Used to Be Certain"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-14-the-lab-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 14: The Lab Notebook
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/stories/decoherence-clock/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-decoherence-clock">The Decoherence Clock</h1>
+<h2 id="panel-1-first-celebration">Panel 1: First Celebration</h2>
+<p><img alt="" src="./panel-01.png" /></p>
+<details><summary>Dr. Yuki as postdoc, celebrating coherence going from 50 to 100 microseconds</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Dr. Yuki — a Japanese woman, late 30s (younger here, so late 20s), cleanroom-ready at all times, hair tied back, surrounded by cryogenic equipment — as a postdoc in a quantum lab, celebrating a result with two colleagues. Paper cups with what might be cheap champagne. A monitor in the background shows a measurement result — a coherence time number that represents a doubling. The celebration is genuine, small-scale, real. Color palette: the lab lighting with the warm flush of a real achievement, the blue-white of equipment alongside the warmth of the people.
+</details>
+
+<p>Dr. Yuki is twenty-nine and has been a postdoc for eight months when the coherence time on their qubit design doubles from 50 to 100 microseconds. Her advisor produces cheap champagne from a mini-fridge behind his desk, which is how she knows this is significant. 100 microseconds is real — it's publishable, it's a step toward the millisecond range that fault-tolerant computation requires. She writes the result in her notebook. She puts a small star next to it.</p>
+<h2 id="panel-2-grant-proposal">Panel 2: Grant Proposal</h2>
+<p><img alt="" src="./panel-02.png" /></p>
+<details><summary>Dr. Yuki's grant proposal: "Projected coherence in 5 years: 10ms"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Yuki at a desk, writing or reviewing a grant proposal document. The proposal is visible — technical, dense, with projected milestone numbers. Her expression is the earnest forward focus of a researcher building an argument for her future. The numbers she writes are projections, not certainties, but in the proposal they look like certainties — that is what grant proposals require. Color palette: the desk light of careful academic writing, Yuki in professional focus.
+</details>
+
+<p>The independent grant proposal requires milestones. Yuki writes: "Year 1: 500 microseconds. Year 3: 1 millisecond (required threshold for fault tolerance). Year 5: 10 milliseconds." These numbers are extrapolations from the improvement curves in the published literature — if the trend continues, this is the trajectory. The grant reviewers want to see a path. She draws the path. She believes in the path. The path assumes the trend continues. All paths assume this.</p>
+<h2 id="panel-3-the-lab">Panel 3: The Lab</h2>
+<p><img alt="" src="./panel-03.png" /></p>
+<details><summary>The beautiful alien hardware — dilution refrigerator, cables, 15 millikelvin</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's new lab — her own lab now — with a dilution refrigerator as the visual centerpiece. The fridge hangs from the ceiling, a forest of coaxial cables running up and down its length. The equipment has the beautiful alien quality of something designed for extreme conditions — clean, precise, strange. Yuki stands beside it in cleanroom gear, adjusting something. The temperature readout somewhere in the scene suggests near absolute zero. Color palette: the cool blue-silver of cryogenic equipment, the cleanroom white of the surrounding space, the science-fiction quality of extreme physics made real.
+</details>
+
+<p>Her lab, when she gets it, is organized around the dilution refrigerator — a meter-tall cylinder of stainless steel and copper that cools the quantum chip at its center to fifteen millikelvin. Colder than empty space. The cables running in and out of it are organized with the care that the technology requires: any vibration, any stray electromagnetic signal can destroy the quantum states she is trying to preserve. She tends this machine the way some people tend a living thing. It responds with results.</p>
+<h2 id="panel-4-year-2-new-shielding-works">Panel 4: Year 2 — New Shielding Works</h2>
+<p><img alt="" src="./panel-04.png" /></p>
+<details><summary>New shielding reaches 500 microseconds — press release drafted</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki at a monitor showing the coherence measurement — 500 microseconds, a clear record. She is drafting or reviewing a university press release at a desk nearby. Her expression is genuine satisfaction. On her desk, the grant proposal milestone chart is visible — Year 1 target: 500 microseconds — she has hit it. Color palette: the lab success light, the warmth of a milestone achieved.
+</details>
+
+<p>Year 2: the new electromagnetic shielding configuration reaches 500 microseconds. It is a university press release — "Record Coherence Time Achieved" — and three quantum computing publications write it up. The grant milestone is met ahead of schedule. Yuki allows herself the satisfaction of a person who is, by the evidence, on the right trajectory. She begins designing the next shielding iteration. She is planning the path to 1 millisecond.</p>
+<h2 id="panel-5-the-new-error-mode">Panel 5: The New Error Mode</h2>
+<p><img alt="" src="./panel-05.png" /></p>
+<details><summary>New shielding changes EM environment — a different error mode appears</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki at her monitor, studying a new measurement — a different error signature from the one she was controlling. The screen shows a graph with a new feature: a bump, or an asymmetry, that wasn't there before. Her expression is puzzled concentration — she is looking at something unexpected. The lab around her is running normally. Color palette: the lab working light, Yuki's focus sharpening around a problem that wasn't in the plan.
+</details>
+
+<p>The improved shielding changes the electromagnetic environment in ways she didn't fully model. Three weeks after the 500-microsecond result, a different error mode appears in the spectroscopy: a frequency-specific decoherence source that the old shielding was, apparently, accidentally suppressing through a different mechanism. Yuki maps it, traces it, identifies its source. Fixing it will require a change to the shielding that will reduce the coherence time she just measured. The problem has moved, not shrunk.</p>
+<h2 id="panel-6-staring-at-the-total-error-rate">Panel 6: Staring at the Total Error Rate</h2>
+<p><img alt="" src="./panel-06.png" /></p>
+<details><summary>Late at night — total error rate unchanged despite "records"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki at her station very late at night, a graph on her monitor. The graph plots the total error rate over two years of her lab's existence. The line shows individual components improving (one goes down, then another) but the total error rate — the actual figure of merit — is essentially flat. Her expression is the particular focus of a scientist who is seeing something true and difficult. Color palette: the late-night monitor glow, the flat line as the visual story.
+</details>
+
+<p>She makes a graph she has never shown anyone: total error rate over time, not broken down by component but as a single number. The line is flat. Every time she improves one source of error, another source emerges. The coherence time is 500 microseconds — a "record." The gate fidelity has improved. The two-qubit error rate has slightly worsened. The net total has not moved in eighteen months. She stares at this graph late at night, alone. It is saying something that the individual progress plots do not say.</p>
+<h2 id="panel-7-the-conference-question">Panel 7: The Conference Question</h2>
+<p><img alt="" src="./panel-07.png" /></p>
+<details><summary>Another lab announces 1.2ms coherence — Yuki raises hand: "What's gate fidelity?"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a conference presentation — an excited presenter at the front announcing a 1.2 millisecond coherence time result. The audience is enthusiastic. Yuki, in the audience, has her hand raised — she is asking the follow-up question. Her expression is not competitive or dismissive; it is the specific curiosity of a person who knows what question exposes whether a record is meaningful. Color palette: the conference room light, Yuki's raised hand the visual focal point.
+</details>
+
+<p>At the Quantum Hardware Conference, a group from Stockholm announces 1.2 millisecond coherence — and the room erupts. Yuki raises her hand before the applause finishes. "What's the two-qubit gate fidelity?" she asks. The presenter pauses. The gate fidelity is 99.1%, down from 99.6% in their previous system. The coherence time improved; the operation fidelity decreased. The audience processes this slowly. Yuki writes it in her notebook next to the coherence number.</p>
+<h2 id="panel-8-the-whiteboard-calculation">Panel 8: The Whiteboard Calculation</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>Yuki's whiteboard: coherence × fidelity × qubit count = unchanged product</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's office whiteboard with a calculation she has written — a product of three factors: coherence time, gate fidelity, qubit count. The numbers from the last three years of the field are filled in. The product — which represents usable computation capacity — shows a nearly flat trend despite individual metric improvements. Yuki stands back from the board, looking at it. The calculation is clear and uncomfortable. Color palette: the office whiteboard light, the clean logic of a calculation that doesn't lie.
+</details>
+
+<p>Her whiteboard shows three years of the field's published results: coherence time, gate fidelity, effective qubit count. Each metric individually shows improvement. The product of the three — the figure that actually measures whether useful quantum computation is approaching — has been essentially flat across the field for three years. Records are being broken. The thing the records are supposed to indicate isn't improving. She photographs the whiteboard. She writes "Are We Making Progress?" at the top of a new document.</p>
+<h2 id="panel-9-the-review-paper">Panel 9: The Review Paper</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>Yuki writes "Are We Making Progress?" — careful, genuinely uncertain</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki writing at her desk — the review paper taking shape on her laptop. Her expression is the careful deliberateness of someone writing something honest that will be read by people with strong interests in the answer. The whiteboard calculation is visible through her office window, on the wall. She is writing slowly, choosing words. Color palette: the office writing light, the slight weight of someone composing something genuinely uncertain.
+</details>
+
+<p>The paper takes four months to write. She analyzes the composite progress metric across eleven hardware groups over six years. The conclusion is careful: individual metrics are improving; the combination required for useful quantum computation has not improved at a rate consistent with the projected timelines. She does not say "quantum computing is impossible." She says the data does not yet support the projected timelines, and asks what that means for the field. She sends it to five colleagues for pre-submission review. Three of them are uncomfortable with it.</p>
+<h2 id="panel-10-the-reviewer-comment">Panel 10: The Reviewer Comment</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Reviewer: "Too negative — you're not accounting for future techniques"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki reading reviewer comments on her laptop. One reviewer comment is particularly long — she is rereading a specific paragraph. The comment is clearly of the "too pessimistic" variety. Her expression as she reads is the careful look of someone deciding how to respond to an argument that is not entirely wrong and is also not entirely right. Color palette: the screen light, Yuki's expression showing the particular difficulty of this kind of reviewer pushback.
+</details>
+
+<p>Reviewer 2 writes: "The analysis is technically correct but the framing is inappropriately negative. The author is not accounting for disruptive techniques that have not yet been discovered. Past experience in quantum physics includes multiple discontinuous jumps. This paper would discourage investment in an important field based on extrapolation of current trends." Yuki reads this twice. The reviewer is not wrong that discontinuous improvements are possible. She is not wrong that the current trends don't show one. These are both true.</p>
+<h2 id="panel-11-softened-paper-honest-drawer">Panel 11: Softened Paper, Honest Drawer</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>The paper publishes softened — the honest version lives in her desk drawer</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's desk — on the surface, the published version of the paper (visible as a journal PDF). In the drawer, partially open, the original draft with its more direct conclusions. Yuki sits at the desk, the drawer slightly open beside her. Her expression carries the quiet dissatisfaction of someone who told a partial truth and knows it. Color palette: the desk light, the visual contrast between the published document and the drawer-document.
+</details>
+
+<p>The published paper is softened in the second half. The conclusion now reads: "These findings suggest opportunities for accelerated progress through novel approaches not captured in current trend analysis." She added this sentence because Reviewer 2 had a point, and because she wanted the paper published, and because she is not certain enough to stake her reputation on the pessimistic interpretation. The honest version — the version without the softening — is in a folder on her desk. She keeps it.</p>
+<h2 id="panel-12-the-younger-colleagues-question">Panel 12: The Younger Colleague's Question</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>Younger colleague: "Do you actually think we'll get there?" — long pause</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki and a younger researcher — a postdoc in her lab, a man in his late 20s — in a quiet moment in the lab. He has asked the question. Yuki's response is the specific quality of a long pause — she is not composing a comforting answer; she is sitting with the real one. The cryogenic equipment is visible around them. The pause has weight. Color palette: the quiet lab light of a moment after the official work has stopped, two people in an honest conversation.
+</details>
+
+<p>Her postdoc asks after a late-night equipment session. He is twenty-eight and has just read the published paper. "Do you actually think we'll get there?" he asks. "Fault tolerance at scale." Yuki is quiet for a moment. It is a real pause — not a rhetorical one, not a moment of composing reassurance. She is thinking about what she actually believes, and what the whiteboard calculation says, and what the desk drawer version of the paper says. The lab hums around them.</p>
+<h2 id="panel-13-i-used-to-be-certain">Panel 13: "I Used to Be Certain"</h2>
+<p><img alt="" src="./panel-13.png" /></p>
+<details><summary>Yuki: "I think we might. But I used to be certain. Now I just think we might."</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki and her postdoc in the lab — she is giving her answer. Her expression carries the particular quality of earned uncertainty: not despair, not false hope, just the calibrated honesty of someone who has looked at the data for six years. Her postdoc receives this answer with the thoughtful look of someone who understands that the honest answer is harder than either yes or no. Color palette: the late-night lab light, the human warmth of two researchers talking about what they actually know.
+</details>
+
+<p>"I think we might," she says. "But I used to be certain. I came into this field certain we'd get there in twenty years, and now I've been in it for six years and I think we might. That's what the data supports — we might." Her postdoc is quiet. She continues: "The honest version of that is more useful than the certain version, even if it's less comfortable. The work is still worth doing because we might, and because the things we learn are valuable regardless." He nods. She can't tell if he's reassured. Neither can she.</p>
+<h2 id="panel-14-the-lab-notebook">Panel 14: The Lab Notebook</h2>
+<p><img alt="" src="./panel-14.png" /></p>
+<details><summary>Six years of coherence measurements — real progress, not enough, both true</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's lab notebook — six years of coherence time measurements in a handwritten log. Each entry is dated, the numbers showing the arc: 100 microseconds, 250, 500, 680, 720, 500 (the setback after the shielding change), 800, 850. Real progress, clearly visible. The last entry is notably below 1 millisecond. Below the notebook, out of frame, is the fault-tolerance threshold — still not reached after six years. The notebook is the whole story in one object. Yuki's hand rests on it. Color palette: the warm amber of aged notebook pages, the numbers telling a story of real work and real distance remaining.
+</details>
+
+<p>She opens the lab notebook to the coherence time log — six years, every measurement, every setup change, every setback and improvement. The arc is real progress: from 100 microseconds at the beginning to 850 today, with detours. She is closer to 1 millisecond than she was. She is not there. The grant proposal from Year 1 projected 10 milliseconds by now. Both things are true. She closes the notebook and goes back to work.</p>
+<hr />
+<p><strong>Epilogue:</strong> <em>Dr. Yuki's career is not a failure — it is a life in science lived honestly. She made real progress, published real results, and eventually asked the real question: is this a problem that yields to effort, or one that doesn't? Not every scientific question has an answer that engineering can reach. Sitting with that uncertainty, without abandoning the work, is the most difficult part of the job.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

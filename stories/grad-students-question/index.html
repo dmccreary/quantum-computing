@@ -1,0 +1,1269 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/quantum-computing/stories/grad-students-question/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>The Grad Student's Question - Quantum Computing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-M786HVKV6R"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-M786HVKV6R",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-M786HVKV6R",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="The Grad Student's Question - Quantum Computing" >
+      
+        <meta  property="og:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/grad-students-question/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/quantum-computing/stories/grad-students-question/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="The Grad Student's Question - Quantum Computing" >
+      
+        <meta  name="twitter:description"  content="Quantum Computing: A skeptic's guide to why quantum computing may never be economically viable. An interactive intelligent textbook examining the physics barriers, economic realities, and cognitive biases behind quantum computing investment." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/quantum-computing/assets/images/social/stories/grad-students-question/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-grad-students-question" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Quantum Computing" class="md-header__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantum Computing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Grad Student's Question
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quantum Computing" class="md-nav__button md-logo" aria-label="Quantum Computing" data-md-component="logo">
+      
+  <img src="../../img/fermi-192.png" alt="logo">
+
+    </a>
+    Quantum Computing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/quantum-computing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../prompts/index.md" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sample Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-first-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: First Day
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-reading-the-landmark-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: Reading the Landmark Paper
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-the-quiet-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: The Quiet Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-that-paper-is-why-we-have-funding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: "That Paper Is Why We Have Funding"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-going-back-to-assigned-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: Going Back to Assigned Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-starting-the-replication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: Starting the Replication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-two-months-of-careful-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: Two Months of Careful Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-the-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: The Results
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-showing-the-advisor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: Showing the Advisor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-ive-checked-six-times" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: "I've Checked Six Times"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-submission-fierce-reviewer-pushback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: Submission — Fierce Reviewer Pushback
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-publication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: Publication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-13-teaching-new-grad-students" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 13: Teaching New Grad Students
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/quantum-computing/edit/master/docs/stories/grad-students-question/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-grad-students-question">The Grad Student's Question</h1>
+<h2 id="panel-1-first-day">Panel 1: First Day</h2>
+<p><img alt="" src="./panel-01.png" /></p>
+<details><summary>Tomás arrives at the lab — excited, photos of famous alumni on the wall</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Tomás — a Latino man, late 20s, grad student dishevelment: flannel shirt, backpack, perpetually caffeinated expression — arriving at a university quantum computing lab for the first day. He is looking around with genuine excitement. On the wall behind him, framed photos of the lab's famous alumni — researchers who went on to prominent positions. The lab equipment is visible and impressive. Tomás is lit by the bright enthusiasm of a beginning. Color palette: warm first-day morning light, the energy of new arrival, the lab as a place of aspiration.
+</details>
+
+<p>Tomás arrives at the lab on a Monday in September with a backpack, a thermos of coffee that is already his second of the morning, and the particular excitement of someone who has worked for four years to get to this specific room. The framed photos on the wall near the door show former lab members who are now at national labs and tech companies. He reads each name. He wants to be on that wall. He puts his backpack down and starts reading the foundational paper.</p>
+<h2 id="panel-2-reading-the-landmark-paper">Panel 2: Reading the Landmark Paper</h2>
+<p><img alt="" src="./panel-02.png" /></p>
+<details><summary>Tomás reading the landmark paper — pen slowing, frowning</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás at a desk — the landmark paper in front of him, covered in his fresh annotations. His pen is in hand but has stopped moving. He is frowning — not frustrated, but with the particular focus of someone who has noticed something. He's re-reading a section of the paper, finger tracking the lines. The lab is active around him — other researchers at their stations. Color palette: the focused lab workday light, Tomás in the foreground with the paper, his sudden stillness contrasting with the activity around him.
+</details>
+
+<p>The landmark paper is one he knows — everyone knows it. It established the benchmark result that every project in this lab builds on. He reads it front to back, making notes. His pen slows in section four, where the noise model is specified. He re-reads the assumptions. He reads them again. Something is not adding up. He writes a question mark in the margin, very small, and keeps reading. The question mark stays in his head.</p>
+<h2 id="panel-3-the-quiet-question">Panel 3: The Quiet Question</h2>
+<p><img alt="" src="./panel-03.png" /></p>
+<details><summary>Tomás asks a labmate quietly: "Did anyone check the noise model?"</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás leaning toward a labmate — a more senior grad student, 30s, professional, busy at her station. Tomás is asking his question quietly, the paper in his hand. Her reaction upon hearing the question is a very specific stillness — she has heard him, processed the implication, and gone very still. Not angry — just very still. The lab around them continues. Color palette: the ordinary lab light, the sudden stillness of the labmate as the visual signal.
+</details>
+
+<p>A week in, Tomás slides over to the desk of Elena, a third-year student who was in the lab when the landmark result was generated. He keeps his voice low. "Did anyone verify the noise model in section four? The assumptions seem like they'd be hard to satisfy at the scale they're claiming." Elena's hands stop over her keyboard. She does not turn to look at him for a moment. Then she does. Her expression is the expression of someone deciding how to answer a question that has more than one answer.</p>
+<h2 id="panel-4-that-paper-is-why-we-have-funding">Panel 4: "That Paper Is Why We Have Funding"</h2>
+<p><img alt="" src="./panel-04.png" /></p>
+<details><summary>Labmate: "That paper is why we all have funding." Tomás closes his notebook.</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the conversation between Tomás and Elena — she is speaking quietly to him, her expression not unkind but very clear. Her meaning is fully visible in her face. Tomás receives this information and closes his notebook — not dramatically, just the movement of someone filing something away. His expression shows the first layer of the choice he is about to not make for several weeks. Color palette: the lab light, slightly cooler in this moment, the quiet weight of institutional reality landing on a new arrival.
+</details>
+
+<p>"That paper is why we all have funding," Elena says. Her voice is not hostile. It is the tone of someone giving a newcomer important information about the terrain. "The PI wrote the grant around it. The department's quantum program budget references it. Three of the people at this lab have their careers on it right now." She turns back to her keyboard. Tomás closes his notebook. He understands the information. He stores it. He does not agree with what it implies.</p>
+<h2 id="panel-5-going-back-to-assigned-work">Panel 5: Going Back to Assigned Work</h2>
+<p><img alt="" src="./panel-05.png" /></p>
+<details><summary>Tomás goes back to assigned work — the question won't leave him</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás at his lab station in the weeks that follow — working, caffeinated, doing his assigned project. But the paper from Panel 2 is visible on his desk, off to the side, not filed away. His work is on the screen in front of him but periodically his eyes drift to the paper. The question is present in the composition even when Tomás is looking away from it. Weeks-worth of coffee cups suggest time passing. Color palette: the routine lab light of weeks passing, the paper on the desk a visual persistence.
+</details>
+
+<p>He throws himself into the assigned work — a characterization experiment for the lab's main project. He is good at it. He makes progress. His advisor compliments his methodology. At night he reads papers in the field and the question about section four sits in the background like a frequency his ears won't stop noticing. He turns the assigned work up louder. The frequency doesn't go away.</p>
+<h2 id="panel-6-starting-the-replication">Panel 6: Starting the Replication</h2>
+<p><img alt="" src="./panel-06.png" /></p>
+<details><summary>Late at night — Tomás alone in the lab, starting the replication</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás alone in the lab very late at night — the lab is dark except for his station. He has the landmark paper open beside his laptop. He is setting up a replication analysis, beginning with the noise model in section four. His expression is the look of someone who has made a private decision. He is not certain. He is not brave in a heroic sense. He is just doing the thing. Color palette: the dark lab, the small warm pool of his station light, the late-night palette of solitary work beginning.
+</details>
+
+<p>On a Thursday night in November, after everyone else has left, Tomás opens the landmark paper to section four and starts building the replication from scratch. He is not trying to disprove anything. He is trying to understand the noise model well enough to satisfy himself. If the model is right, the replication will show that and he'll file the question and move on. He has told himself this. He starts building the simulation. He sets a deadline of two months.</p>
+<h2 id="panel-7-two-months-of-careful-work">Panel 7: Two Months of Careful Work</h2>
+<p><img alt="" src="./panel-07.png" /></p>
+<details><summary>Spreadsheets, error bars, checking everything twice</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a montage composition — Tomás across multiple nights and weekends, the same station, the work accumulating: spreadsheets printed and annotated, error bar calculations on paper, a physical notebook filling with methodology notes. The flannel shirt and thermos are constants. The detail work is visible — this is painstaking, careful, methodical science. The lab light doesn't change between visits. He is always alone. Color palette: the consistent late-night blue-white of solitary work over time, the accumulation of effort visible in the surrounding papers.
+</details>
+
+<p>It takes eight weeks. He runs the noise model at five different parameter regimes. He calculates the error bounds three separate ways. He asks a statistics postdoc in a different department, anonymously, about a methodological question, without explaining the context. He double-checks the statistics postdoc's answer against two textbooks. He is slow, careful, and thorough in the way you are when the result will matter and you don't want to be wrong about something this consequential.</p>
+<h2 id="panel-8-the-results">Panel 8: The Results</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>Results: they don't match — the effect shrinks to noise</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás looking at his final results — a comparison graph or table on his screen showing the original paper's key result alongside his replication. The claimed effect is present in the original; in his analysis, under the corrected noise model, it shrinks to within the noise floor. His expression is the careful neutral of someone looking at a result that is clearly what it is. He is not victorious. He is not frightened — not yet. He is looking at something true. Color palette: the screen light on his face, the graph that tells the story in two columns.
+</details>
+
+<p>The result is clear: under the corrected noise model, the effect reported in the landmark paper — the core result the lab's current work is built on — reduces to within the noise floor. The signal is not there. Tomás checks the code twice more. He reruns it. He changes one parameter that might conceivably be interpreted differently and checks whether the effect returns. It doesn't. He sits looking at his screen. He has been dreading this result and now it is here and it is what it is.</p>
+<h2 id="panel-9-showing-the-advisor">Panel 9: Showing the Advisor</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>Tomás shows his advisor — long silence in the office</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás sitting across from his advisor — a professor in his 50s, distinguished but not arrogant — in a faculty office. Tomás has placed a printed summary of the replication on the desk between them. The advisor is reading it. The silence in the room is visible in both their postures. The advisor has not yet responded. The result is on the desk. Color palette: the faculty office light — warmer than the lab, books and papers around them — the particular quality of a silence before something important is said.
+</details>
+
+<p>Professor Hartley reads the twelve-page summary Tomás prepared without looking up. He reads it slowly. Tomás watches the clock on the wall and the color of the light through the window change slightly. When Hartley finishes, he sets the papers down and looks at the middle distance for a moment. Then he looks at Tomás. "You could be wrong," he says. His voice is not unkind. "I know," Tomás says. "I've checked six times. Here's the methodology."</p>
+<h2 id="panel-10-ive-checked-six-times">Panel 10: "I've Checked Six Times"</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Tomás lays out the methodology — the advisor is convinced</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás and his advisor at the faculty desk — Tomás has his methodology materials out, walking through the analysis step by step. His posture is confident but not confrontational — he has done the work and it speaks for itself. The advisor is following carefully, now engaged as a scientist evaluating evidence rather than an institution defending its stake. The expression on the advisor's face shifts from skepticism toward the particular respect that one scientist gives another when the work is correct. Color palette: the office in the late afternoon, the slight warming of a professional relationship navigating something difficult.
+</details>
+
+<p>Tomás walks through every step. The noise model assumptions from section four. The parameter regimes. The statistical test choices. The sensitivity analysis. The result under every reasonable interpretation of the disputed assumptions. Professor Hartley is a good scientist. By the end of the walkthrough, he is not arguing with the analysis. He is asking the same questions Tomás asked himself during the eight weeks. The answers are the same. The result holds.</p>
+<h2 id="panel-11-submission-fierce-reviewer-pushback">Panel 11: Submission — Fierce Reviewer Pushback</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>Replication note submitted — reviewer comments are fierce; Tomás reads with jaw tight</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás at his station reading reviewer comments on his submitted replication note. The printed comments are long and aggressive in tone — dense text visible, the kind of reviewer response that reads as a challenge to the audacity of the submission rather than the science. Tomás reads it with his jaw slightly set, a young man absorbing institutional resistance. His advisor is on the phone in the background. Color palette: the lab light, slightly cooler, Tomás in the foreground with the physicality of a difficult document in his hands.
+</details>
+
+<p>The reviewer comments come back six weeks after submission. Two of the three reviewers reject the note, one describing the analysis as "premature" and another suggesting the authors "lack the context to evaluate a result of this complexity." The third asks clarifying questions. None of the three engage with the specific methodological critique. Tomás reads the comments twice, jaw tight, and writes his response over a weekend. His response is specific, patient, and thorough. He does not concede the points he does not concede.</p>
+<h2 id="panel-12-publication">Panel 12: Publication</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>It publishes — the original authors respond professionally; citations update quietly</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás getting the acceptance notification on his laptop — a quiet moment of publication. In the background, a separate visual thread suggests the broader response: the original paper's authors (not shown as antagonists) issuing a professional response; citations to the landmark paper beginning to include caveats in other researchers' subsequent papers. The field is adjusting. Tomás's expression is not triumphant — it is the quiet look of something done correctly. Color palette: the ordinary lab light of a result achieved, without fanfare.
+</details>
+
+<p>The replication note publishes after a third round of revision. The original authors issue a professional response that acknowledges the noise model concern and offers an alternative interpretation. The community begins incorporating the caveat in subsequent work. The landmark paper is not retracted — its broader contributions remain valid. But the specific claim in section four is now cited with a qualification note that links to Tomás's paper. The adjustment is quiet and slow and real.</p>
+<h2 id="panel-13-teaching-new-grad-students">Panel 13: Teaching New Grad Students</h2>
+<p><img alt="" src="./panel-13.png" /></p>
+<details><summary>Tomás teaching a seminar — "The hardest question to ask..."</summary>
+Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Tomás — a few years older, a little more settled but still in flannel, still caffeinated — teaching a seminar to a new cohort of graduate students. He is at the front of a small room, a slide visible behind him with text about critical reading. The students are attentive. His expression is the honest authority of someone who has earned what he's teaching. Color palette: the seminar room light, the same warm quality as a good teaching moment.
+</details>
+
+<p>Two years later, Tomás teaches a methods seminar to the new cohort. He covers noise models, statistical power, and the limits of what a measurement can tell you. On the last slide, he writes one sentence: "The hardest question to ask is the one that challenges work everyone wants to be true." He does not tell the story of the replication in the seminar — it would take too long and shift the focus in the wrong direction. He tells it afterward, over coffee, to the one student who asks the right follow-up question.</p>
+<hr />
+<p><strong>Epilogue:</strong> <em>Tomás almost didn't run the replication. The decision to stay quiet would have been completely rational — he was new, untenured, dependent on a lab whose reputation rested on the paper he was questioning. His courage wasn't dramatic. It was two months alone in a lab, checking arithmetic, choosing not to close the notebook.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
