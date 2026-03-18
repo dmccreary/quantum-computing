@@ -31,7 +31,7 @@ let classicalBottom = -18;
 let currentYear = 2026;
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -39,11 +39,11 @@ function updateCanvasSize() {
 function setup() {
     updateCanvasSize();
     let canvas = createCanvas(canvasWidth, canvasHeight);
-    canvas.parent('main');
+    canvas.parent(document.querySelector('main'));
 
     // Create improvement rate slider
     improvementSlider = createSlider(1, 20, 5, 1);
-    improvementSlider.parent('main');
+    improvementSlider.parent(document.querySelector('main'));
     improvementSlider.position(sliderLeftMargin, drawHeight + 30);
     improvementSlider.size(canvasWidth - sliderLeftMargin - margin * 2);
     improvementSlider.input(function() { redraw(); });

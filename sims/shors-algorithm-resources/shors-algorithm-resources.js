@@ -19,7 +19,7 @@ let keySizeSlider;
 let currentBestQubits = 1000;
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -27,11 +27,11 @@ function updateCanvasSize() {
 function setup() {
     updateCanvasSize();
     let canvas = createCanvas(canvasWidth, canvasHeight);
-    canvas.parent('main');
+    canvas.parent(document.querySelector('main'));
 
     // RSA key size slider: 16 to 4096, default 2048, step 16
     keySizeSlider = createSlider(16, 4096, 2048, 16);
-    keySizeSlider.parent('main');
+    keySizeSlider.parent(document.querySelector('main'));
     keySizeSlider.position(sliderLeftMargin, drawHeight + 30);
     keySizeSlider.size(canvasWidth - sliderLeftMargin - margin * 2 - 80);
     keySizeSlider.input(function() { redraw(); });

@@ -51,7 +51,7 @@ let dimensions = [
 ];
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -122,14 +122,14 @@ function positionControls() {
     for (let i = 0; i < dimensions.length; i++) {
         dimensions[i].slider.style('width', sliderWidth + 'px');
         dimensions[i].slider.position(
-            select('main').elt.offsetLeft + sliderX,
-            select('main').elt.offsetTop + startY + i * rowHeight + 42
+            document.querySelector('main').offsetLeft + sliderX,
+            document.querySelector('main').offsetTop + startY + i * rowHeight + 42
         );
     }
 
     resetButton.position(
-        select('main').elt.offsetLeft + canvasWidth / 2 - 30,
-        select('main').elt.offsetTop + drawHeight + 12
+        document.querySelector('main').offsetLeft + canvasWidth / 2 - 30,
+        document.querySelector('main').offsetTop + drawHeight + 12
     );
 }
 

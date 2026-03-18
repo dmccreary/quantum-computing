@@ -85,7 +85,7 @@ let hoveredCell = { row: -1, col: -1 };
 let buttonRects = [];
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }

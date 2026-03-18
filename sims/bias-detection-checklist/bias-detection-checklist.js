@@ -26,7 +26,7 @@ let checkItems = [
 let resetButton;
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -34,10 +34,10 @@ function updateCanvasSize() {
 function setup() {
     updateCanvasSize();
     let canvas = createCanvas(canvasWidth, canvasHeight);
-    canvas.parent('main');
+    canvas.parent(document.querySelector('main'));
 
     resetButton = createButton('Reset');
-    resetButton.parent('main');
+    resetButton.parent(document.querySelector('main'));
     resetButton.position(canvasWidth / 2 - 40, drawHeight + 10);
     resetButton.size(80, 30);
     resetButton.style('font-size', '14px');

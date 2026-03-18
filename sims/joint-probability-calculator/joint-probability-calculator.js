@@ -27,7 +27,7 @@ let sliderLabels = [];
 let barColors = ['#C62828', '#E65100', '#F9A825', '#2E7D32', '#1565C0'];
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -35,7 +35,7 @@ function updateCanvasSize() {
 function setup() {
     updateCanvasSize();
     let canvas = createCanvas(canvasWidth, canvasHeight);
-    canvas.parent('main');
+    canvas.parent(document.querySelector('main'));
     textFont('Arial');
 
     // Create sliders
@@ -45,7 +45,7 @@ function setup() {
         let s = createSlider(1, 100, breakthroughs[i].defaultProb, 1);
         s.position(sliderLeftMargin, sy);
         s.size(sliderWidth);
-        s.parent('main');
+        s.parent(document.querySelector('main'));
         s.input(redraw);
         sliders.push(s);
     }

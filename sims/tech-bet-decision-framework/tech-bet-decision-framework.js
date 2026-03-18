@@ -67,7 +67,7 @@ let presets = {
 let resetBtn, transistorBtn, qcBtn;
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -75,12 +75,12 @@ function updateCanvasSize() {
 function setup() {
     updateCanvasSize();
     let canvas = createCanvas(canvasWidth, canvasHeight);
-    canvas.parent('main');
+    canvas.parent(document.querySelector('main'));
 
     // Create control buttons
     let btnY = drawHeight + 15;
     let btnStyle = function(btn) {
-        btn.parent('main');
+        btn.parent(document.querySelector('main'));
         btn.style('font-size', '13px');
         btn.style('cursor', 'pointer');
         btn.style('border', '1px solid #999');
