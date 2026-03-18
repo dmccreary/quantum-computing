@@ -40,7 +40,7 @@ let measureAnimProgress = -1; // -1 means no animation
 let sphereRadius = 140;
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }

@@ -27,6 +27,8 @@ hard it is to overcome based on current evidence.
 
 *[View The Barrier Stack MicroSim Fullscreen](./main.html)*
 
+[Edit on p5.js](https://editor.p5js.org/dmccreary/sketches/pxYrv40wq)
+
 Hover over any barrier layer to see its current state of the art, what
 improvement is needed, and the estimated timeline for progress. Click a
 barrier to highlight the dependency chain — every barrier above depends

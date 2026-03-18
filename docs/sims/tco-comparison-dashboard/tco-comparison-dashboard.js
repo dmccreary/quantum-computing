@@ -35,7 +35,7 @@ const indigoColors = ['#1A237E', '#283593', '#3F51B5', '#5C6BC0', '#7986CB', '#9
 const orangeColors = ['#BF360C', '#E65100', '#FF7043', '#FF8A65'];
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
@@ -43,7 +43,7 @@ function updateCanvasSize() {
 function setup() {
     updateCanvasSize();
     let canvas = createCanvas(canvasWidth, canvasHeight);
-    canvas.parent('main');
+    canvas.parent(document.querySelector('main'));
     textFont('Arial');
 
     // Problem Size slider (1=small, 2=medium, 3=large)

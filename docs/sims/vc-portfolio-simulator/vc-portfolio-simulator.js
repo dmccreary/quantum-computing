@@ -35,7 +35,7 @@ let classicalSuccessProb = 0.20; // 20% success rate
 let classicalSuccessMultiple = 10; // 10x return on success
 
 function updateCanvasSize() {
-    containerWidth = select('main').width;
+    containerWidth = document.querySelector('main').offsetWidth;
     canvasWidth = containerWidth;
     canvasHeight = drawHeight + controlHeight;
 }
