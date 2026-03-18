@@ -134,6 +134,14 @@ nav:
     - Vulnerability Window: sims/vulnerability-window/index.md
     - Workload Distribution: sims/workload-distribution/index.md
 
+  - Stories:
+    - List of Stories: stories/index.md
+    - The Lecture That Started Everything: stories/fynman-lecture/index.md
+    - Story 2 - The QC Investment Bubble: stories/story-2-qc-investment-bubble.md
+    - Story 3 - The QC Breakthrough That Wasn't: stories/story-3-qc-breakthrough-that-wasnt.md
+    - Story 4 - The QC Skeptic's Dilemma: stories/story-4-qc-skeptics-dilemma.md
+    - Story 5 - The QC Ethics Controversy: stories/story-5-qc-ethics-controversy.md
+
   - Appendices:
     - List of Appendices: appendices/index.md
     - Appendix A - Claims: appendices/claims.md

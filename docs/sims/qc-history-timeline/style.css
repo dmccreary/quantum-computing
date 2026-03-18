@@ -179,21 +179,39 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 8px 12px;
-    font-size: 0.85rem;
+    font-size: 0.72rem;
     line-height: 1.4;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     color: #333;
+}
+
+.vis-tooltip div {
+    max-width: 300px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 /* vis-timeline overrides for cleaner look */
 .vis-item .vis-item-content {
     font-size: 0.8rem;
     font-weight: 600;
-    padding: 3px 6px;
-    white-space: nowrap;
+    padding: 4px 8px;
+    white-space: nowrap !important;
+    min-width: fit-content !important;
+}
+
+.vis-item.vis-range {
+    min-width: fit-content !important;
+}
+
+.vis-item.vis-box {
+    min-width: fit-content !important;
 }
 
 .vis-item.vis-selected {
-    outline: 2px solid #3F51B5;
+    outline: 4px solid #3F51B5;
     outline-offset: 1px;
+    color: black !important;
+    border-width: 4px;
 }

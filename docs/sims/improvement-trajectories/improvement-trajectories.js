@@ -43,6 +43,20 @@
         { x: 2025, y: 1e6 }
     ];
 
+    // --- Helpers ---
+
+    function toSuperscript(n) {
+        const sup = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴',
+                      '5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','-':'⁻' };
+        return String(n).split('').map(function(c) { return sup[c] || c; }).join('');
+    }
+
+    function fmtPow10(value) {
+        const log = Math.log10(value);
+        if (Number.isInteger(log)) return '10' + toSuperscript(log);
+        return '';
+    }
+
     // --- Chart config ---
 
     const ctx = document.getElementById('trajectoryChart').getContext('2d');
@@ -166,11 +180,7 @@
                     },
                     ticks: {
                         color: '#4CAF50',
-                        callback: function (value) {
-                            const log = Math.log10(value);
-                            if (Number.isInteger(log)) return '10^' + log;
-                            return '';
-                        }
+                        callback: function (value) { return fmtPow10(value); }
                     },
                     grid: { color: 'rgba(76, 175, 80, 0.08)' }
                 },
@@ -187,11 +197,7 @@
                     },
                     ticks: {
                         color: '#FF7043',
-                        callback: function (value) {
-                            const log = Math.log10(value);
-                            if (Number.isInteger(log)) return '10^' + log;
-                            return '';
-                        }
+                        callback: function (value) { return fmtPow10(value); }
                     },
                     grid: { drawOnChartArea: false }
                 }

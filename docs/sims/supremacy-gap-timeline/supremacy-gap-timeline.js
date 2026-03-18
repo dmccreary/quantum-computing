@@ -1,3 +1,9 @@
+function toSuperscript(n) {
+    const sup = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴',
+                  '5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','-':'⁻' };
+    return String(n).split('').map(function(c) { return sup[c] || c; }).join('');
+}
+
 const ctx = document.getElementById('supremacyChart').getContext('2d');
 
 // Data points: classical computation time estimates over time
@@ -266,7 +272,7 @@ const chart = new Chart(ctx, {
                             if (value === 1e7) return '~4 months';
                             if (value === 1e9) return '~32 years';
                             if (value === 1e11) return '~3,200 years';
-                            return '10^' + log + 's';
+                            return '10' + toSuperscript(log) + 's';
                         }
                         return '';
                     },

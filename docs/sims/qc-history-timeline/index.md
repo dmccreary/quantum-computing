@@ -6,7 +6,8 @@ og:image: /sims/qc-history-timeline/qc-history-timeline.png
 ---
 # Quantum Computing History Timeline
 
-<iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>
+<!-- Note the infobox need more height -->
+<iframe src="./main.html" height="700" width="100%" scrolling="no"></iframe>
 
 [View QC History Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 

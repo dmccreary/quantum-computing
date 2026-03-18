@@ -14,6 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('timeline.json')
         .then(response => response.json())
         .then(data => {
+            // Keep "Still no commercial quantum advantage" pinned to today's date.
+            const today = new Date();
+            const todayStr = today.getFullYear() + '-' +
+                String(today.getMonth() + 1).padStart(2, '0') + '-' +
+                String(today.getDate()).padStart(2, '0');
+            const noAdvantage = data.find(e => e.content === 'Still no commercial quantum advantage');
+            if (noAdvantage) noAdvantage.start = todayStr;
+
             rawData = data;
             initTimeline(data);
             initFilters();
@@ -64,6 +72,29 @@ function initTimeline(data) {
             hideDetails();
         }
     });
+
+    // Intercept wheel events before vis-timeline sees them (capture phase).
+    // Vertical scroll: let the page scroll normally, don't zoom/pan the timeline.
+    // Horizontal scroll: pan the timeline proportionally.
+    container.addEventListener('wheel', function(e) {
+        const isHorizontal = Math.abs(e.deltaX) > Math.abs(e.deltaY);
+        if (!isHorizontal) {
+            // Block vis-timeline from consuming vertical scroll.
+            e.stopImmediatePropagation();
+            // Do NOT preventDefault — the page should scroll as usual.
+        } else {
+            // Pan timeline horizontally.
+            e.preventDefault();
+            const win = timeline.getWindow();
+            const interval = win.end - win.start;
+            const shift = (e.deltaX / container.clientWidth) * interval;
+            timeline.setWindow(
+                new Date(win.start.valueOf() + shift),
+                new Date(win.end.valueOf() + shift),
+                { animation: false }
+            );
+        }
+    }, true); // capture phase so this runs before vis-timeline's listener
 }
 
 function buildTooltip(event) {

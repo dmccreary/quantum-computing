@@ -192,7 +192,9 @@ The reality was more nuanced. Google's own researchers subsequently published re
 
 #### Diagram: Quantum Computing History Timeline
 
-<iframe src="../../sims/qc-history-timeline/main.html" width="100%" height="600px" scrolling="no"></iframe>
+<iframe src="../../sims/qc-history-timeline/main.html" width="100%" height="700" scrolling="no"></iframe>
+
+[Quantum Computing History Timeline Fullscreen (recommended)](../../sims/qc-history-timeline/main.html)
 
 <details markdown="1">
 <summary>Quantum Computing History Timeline</summary>

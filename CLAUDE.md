@@ -341,6 +341,26 @@ Rules for iframe embeds in chapters:
 - Add a `[View {NAME} MicroSim Fullscreen](...)` link immediately after the iframe
 - Write 2-4 sentences of prose around the iframe — do not just drop the iframe with no context
 
+### Superscript Exponents in MicroSims
+
+**Always use Unicode superscript characters for exponents — never the `^` caret.**
+The author strongly prefers the professional typographic appearance of `10⁹` over `10^9`.
+
+Include this helper function at the top of any MicroSim JS file that displays powers of 10:
+
+```javascript
+function toSuperscript(n) {
+    const sup = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴',
+                  '5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','-':'⁻' };
+    return String(n).split('').map(function(c) { return sup[c] || c; }).join('');
+}
+```
+
+Use it in axis tick callbacks and tooltip labels:
+- Axis ticks: `return '10' + toSuperscript(log);`
+- With units: `return '10' + toSuperscript(log) + 's';`
+- In tooltip strings: `'Error rate: 10' + toSuperscript(exp)`
+
 ### Updating the Site Navigation Menu
 
 When finished creating a new MicroSim, add the new sim to `mkdocs.yml` nav under the MicroSims section.
