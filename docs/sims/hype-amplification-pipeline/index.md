@@ -1,3 +1,9 @@
+---
+title: The Hype Amplification Pipeline
+description: This MicroSim visualizes how a careful, qualified scientific claim gets progressively distorted as it passes through successive stages of communication — from peer-reviewed paper to university press
+image: /sims/hype-amplification-pipeline/hype-amplification-pipeline.png
+og:image: /sims/hype-amplification-pipeline/hype-amplification-pipeline.png
+---
 # The Hype Amplification Pipeline
 
 This MicroSim visualizes how a careful, qualified scientific claim

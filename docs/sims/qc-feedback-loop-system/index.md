@@ -1,3 +1,9 @@
+---
+title: Complete QC Feedback Loop System
+description: This interactive causal loop diagram maps the complete system of reinforcing and balancing feedback loops that drive quantum computing investment. Understanding these loops is essential for analyzing
+image: /sims/qc-feedback-loop-system/qc-feedback-loop-system.png
+og:image: /sims/qc-feedback-loop-system/qc-feedback-loop-system.png
+---
 # Complete QC Feedback Loop System
 
 This interactive causal loop diagram maps the complete system of reinforcing and balancing feedback loops that drive quantum computing investment. Understanding these loops is essential for analyzing why the quantum computing hype cycle persists despite limited commercial progress.

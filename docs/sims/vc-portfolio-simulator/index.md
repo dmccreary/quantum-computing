@@ -1,3 +1,9 @@
+---
+title: VC Portfolio Simulator: QC vs. Classical
+description: This MicroSim runs 1,000 Monte Carlo trials to compare the expected returns of a venture capital portfolio invested in quantum computing startups versus classical technology startups. Each trial
+image: /sims/vc-portfolio-simulator/vc-portfolio-simulator.png
+og:image: /sims/vc-portfolio-simulator/vc-portfolio-simulator.png
+---
 # VC Portfolio Simulator: QC vs. Classical
 
 This MicroSim runs 1,000 Monte Carlo trials to compare the expected

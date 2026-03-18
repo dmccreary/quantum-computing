@@ -1,3 +1,9 @@
+---
+title: Leverage Point Explorer
+description: This MicroSim visualizes Donella Meadows' 12 leverage points for intervening in a system, applied to the quantum computing hype cycle. Leverage points are ranked from weakest (bottom) to strongest
+image: /sims/leverage-point-explorer/leverage-point-explorer.png
+og:image: /sims/leverage-point-explorer/leverage-point-explorer.png
+---
 # Leverage Point Explorer
 
 This MicroSim visualizes Donella Meadows' 12 leverage points for

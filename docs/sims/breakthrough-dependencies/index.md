@@ -1,3 +1,9 @@
+---
+title: Breakthrough Dependencies Map
+description: This interactive visualization shows the ten breakthroughs required before quantum computing can become commercially viable. Each node represents a breakthrough area, with sliders to adjust estimated
+image: /sims/breakthrough-dependencies/breakthrough-dependencies.png
+og:image: /sims/breakthrough-dependencies/breakthrough-dependencies.png
+---
 # Breakthrough Dependencies Map
 
 This interactive visualization shows the ten breakthroughs required before quantum computing can become commercially viable. Each node represents a breakthrough area, with sliders to adjust estimated progress. The key insight: **all ten breakthroughs must reach 100% before any commercial value emerges**. Partial progress, no matter how impressive, yields zero commercial return.

@@ -1,3 +1,9 @@
+---
+title: Risk-Return Scatter Plot
+description: This interactive scatter plot compares quantum and classical technology investments on two dimensions: investment risk (standard deviation of returns) and expected return. Bubble size reflects the
+image: /sims/quantum-risk-return-scatter/quantum-risk-return-scatter.png
+og:image: /sims/quantum-risk-return-scatter/quantum-risk-return-scatter.png
+---
 # Risk-Return Scatter Plot
 
 This interactive scatter plot compares quantum and classical technology

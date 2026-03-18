@@ -1,3 +1,9 @@
+---
+title: Technology Bet Decision Framework
+description: This MicroSim provides a structured scoring matrix for evaluating whether an emerging technology is a sound investment bet. Six criteria drawn from the analytical tools covered throughout the course
+image: /sims/tech-bet-decision-framework/tech-bet-decision-framework.png
+og:image: /sims/tech-bet-decision-framework/tech-bet-decision-framework.png
+---
 # Technology Bet Decision Framework
 
 This MicroSim provides a structured scoring matrix for evaluating

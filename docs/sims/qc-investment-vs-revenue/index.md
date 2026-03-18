@@ -1,3 +1,9 @@
+---
+title: QC Investment vs. Revenue
+description: This MicroSim visualizes the growing gap between quantum computing investment and commercial revenue from 2015 to 2025. The orange bars show annual investment while the green line tracks annual
+image: /sims/qc-investment-vs-revenue/qc-investment-vs-revenue.png
+og:image: /sims/qc-investment-vs-revenue/qc-investment-vs-revenue.png
+---
 # QC Investment vs. Revenue
 
 This MicroSim visualizes the growing gap between quantum computing

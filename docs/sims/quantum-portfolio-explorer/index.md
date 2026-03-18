@@ -1,3 +1,9 @@
+---
+title: Quantum Portfolio Explorer
+description: This MicroSim lets you design your own quantum technology investment portfolio by allocating a hypothetical $100M across five technology categories. As you adjust the sliders, the expected return,
+image: /sims/quantum-portfolio-explorer/quantum-portfolio-explorer.png
+og:image: /sims/quantum-portfolio-explorer/quantum-portfolio-explorer.png
+---
 # Quantum Portfolio Explorer
 
 This MicroSim lets you design your own quantum technology investment portfolio

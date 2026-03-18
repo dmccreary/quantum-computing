@@ -1,3 +1,9 @@
+---
+title: Shor's Algorithm: Resource Requirements
+description: This MicroSim visualizes the staggering hardware resources required to run Shor's algorithm for breaking RSA encryption at various key sizes. By adjusting the RSA key size slider, you can see how the
+image: /sims/shors-algorithm-resources/shors-algorithm-resources.png
+og:image: /sims/shors-algorithm-resources/shors-algorithm-resources.png
+---
 # Shor's Algorithm: Resource Requirements
 
 This MicroSim visualizes the staggering hardware resources required to run

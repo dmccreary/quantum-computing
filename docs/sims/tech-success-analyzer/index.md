@@ -1,3 +1,9 @@
+---
+title: Technology Success Indicator Analysis
+description: This MicroSim presents a comparison matrix evaluating five technologies against six structural indicators of commercial success. The Transistor, Internet, GPS, and Solar Panels all show strong green
+image: /sims/tech-success-analyzer/tech-success-analyzer.png
+og:image: /sims/tech-success-analyzer/tech-success-analyzer.png
+---
 # Technology Success Indicator Analysis
 
 This MicroSim presents a comparison matrix evaluating five technologies

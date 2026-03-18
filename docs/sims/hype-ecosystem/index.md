@@ -1,3 +1,9 @@
+---
+title: The Hype Ecosystem
+description: This interactive network graph maps the self-reinforcing ecosystem that sustains quantum computing hype. Each node represents an actor -- researchers, media, investors, consultants, government
+image: /sims/hype-ecosystem/hype-ecosystem.png
+og:image: /sims/hype-ecosystem/hype-ecosystem.png
+---
 # The Hype Ecosystem
 
 This interactive network graph maps the self-reinforcing ecosystem that sustains quantum computing hype. Each node represents an actor -- researchers, media, investors, consultants, government agencies -- and directed edges show how hype, money, and credibility flow between them.

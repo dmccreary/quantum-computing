@@ -1,3 +1,9 @@
+---
+title: The Advantage Gap
+description: This MicroSim presents a horizontal bar chart comparing classical and quantum computing performance across five key application domains: Cryptanalysis, Chemistry, Optimization, Machine Learning, and
+image: /sims/advantage-gap/advantage-gap.png
+og:image: /sims/advantage-gap/advantage-gap.png
+---
 # The Advantage Gap
 
 This MicroSim presents a horizontal bar chart comparing classical and quantum

@@ -1,3 +1,9 @@
+---
+title: QC Company Valuations vs. Revenue
+description: This scatter chart plots quantum computing company valuations against their annual revenues on logarithmic axes, alongside reference companies from technology history. Diagonal shaded bands show
+image: /sims/qc-valuation-scatter/qc-valuation-scatter.png
+og:image: /sims/qc-valuation-scatter/qc-valuation-scatter.png
+---
 # QC Company Valuations vs. Revenue
 
 This scatter chart plots quantum computing company valuations against

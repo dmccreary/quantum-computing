@@ -1,3 +1,9 @@
+---
+title: Joint Probability Calculator
+description: This MicroSim demonstrates how the joint probability of multiple independent breakthroughs compounds multiplicatively. Even when each individual breakthrough seems plausible (10-30% likely), the
+image: /sims/joint-probability-calculator/joint-probability-calculator.png
+og:image: /sims/joint-probability-calculator/joint-probability-calculator.png
+---
 # Joint Probability Calculator
 
 This MicroSim demonstrates how the joint probability of multiple

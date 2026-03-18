@@ -1,3 +1,9 @@
+---
+title: Qubit State on the Bloch Sphere
+description: The Bloch sphere is a geometric representation of the state of a single qubit. Every point on the surface of the unit sphere corresponds to a pure qubit state. The north pole represents , the south
+image: /sims/bloch-sphere/bloch-sphere.png
+og:image: /sims/bloch-sphere/bloch-sphere.png
+---
 # Qubit State on the Bloch Sphere
 
 The Bloch sphere is a geometric representation of the state of a single

@@ -1,3 +1,9 @@
+---
+title: Probability Waterfall
+description: This MicroSim uses a waterfall-style bar chart to show how joint probability collapses when multiple independent breakthroughs are each required for quantum computing to become economically viable.
+image: /sims/probability-waterfall/probability-waterfall.png
+og:image: /sims/probability-waterfall/probability-waterfall.png
+---
 # Probability Waterfall
 
 This MicroSim uses a waterfall-style bar chart to show how joint probability

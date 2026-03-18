@@ -1,3 +1,9 @@
+---
+title: The Shrinking 'Supremacy' Gap
+description: In October 2019, Google announced that its 53-qubit Sycamore processor had achieved "quantum supremacy" by completing a random circuit sampling task in 200 seconds that would allegedly take the
+image: /sims/supremacy-gap-timeline/supremacy-gap-timeline.png
+og:image: /sims/supremacy-gap-timeline/supremacy-gap-timeline.png
+---
 # The Shrinking 'Supremacy' Gap
 
 In October 2019, Google announced that its 53-qubit Sycamore processor

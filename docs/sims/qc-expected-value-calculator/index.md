@@ -1,3 +1,9 @@
+---
+title: QC Investment Expected Value Calculator
+description: This MicroSim lets you explore the expected value framework applied to quantum computing investments. By adjusting the probability of success, potential payoff, investment cost, and time horizon, you
+image: /sims/qc-expected-value-calculator/qc-expected-value-calculator.png
+og:image: /sims/qc-expected-value-calculator/qc-expected-value-calculator.png
+---
 # QC Investment Expected Value Calculator
 
 This MicroSim lets you explore the expected value framework applied to

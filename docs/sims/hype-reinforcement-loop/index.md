@@ -1,3 +1,9 @@
+---
+title: Hype Reinforcement Loop
+description: This interactive causal loop diagram illustrates how quantum computing hype sustains itself through a self-reinforcing cycle. Each node represents a system variable, and directed edges show how one
+image: /sims/hype-reinforcement-loop/hype-reinforcement-loop.png
+og:image: /sims/hype-reinforcement-loop/hype-reinforcement-loop.png
+---
 # Hype Reinforcement Loop
 
 This interactive causal loop diagram illustrates how quantum computing hype sustains itself through a self-reinforcing cycle. Each node represents a system variable, and directed edges show how one variable amplifies the next, creating a feedback loop that can operate independently of actual technical progress.

@@ -1,3 +1,9 @@
+---
+title: Bias Detection Checklist
+description: This MicroSim provides an interactive checklist for evaluating quantum computing claims against common cognitive biases. Each item targets a specific bias pattern that frequently appears in press
+image: /sims/bias-detection-checklist/bias-detection-checklist.png
+og:image: /sims/bias-detection-checklist/bias-detection-checklist.png
+---
 # Bias Detection Checklist
 
 This MicroSim provides an interactive checklist for evaluating quantum

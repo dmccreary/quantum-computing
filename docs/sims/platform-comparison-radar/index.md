@@ -1,3 +1,9 @@
+---
+title: Hardware Platform Radar Chart
+description: This radar chart compares five major quantum computing hardware platforms across eight performance dimensions, each scored on a 0-10 scale (10 = best). A dashed gray "Required for Advantage"
+image: /sims/platform-comparison-radar/platform-comparison-radar.png
+og:image: /sims/platform-comparison-radar/platform-comparison-radar.png
+---
 # Hardware Platform Radar Chart
 
 This radar chart compares five major quantum computing hardware platforms

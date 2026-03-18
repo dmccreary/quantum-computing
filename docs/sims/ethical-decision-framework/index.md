@@ -1,3 +1,9 @@
+---
+title: Ethical Decision Framework
+description: This MicroSim provides an interactive tool for evaluating the ethical quality of quantum computing investment claims. It applies four key ethical dimensions — Truthfulness, Transparency,
+image: /sims/ethical-decision-framework/ethical-decision-framework.png
+og:image: /sims/ethical-decision-framework/ethical-decision-framework.png
+---
 # Ethical Decision Framework
 
 This MicroSim provides an interactive tool for evaluating the ethical

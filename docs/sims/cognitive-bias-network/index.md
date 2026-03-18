@@ -1,3 +1,9 @@
+---
+title: Cognitive Bias Network
+description: This interactive network graph shows how cognitive biases reinforce each other in quantum computing investment decisions. Each node represents a distinct cognitive bias, and directed edges show how
+image: /sims/cognitive-bias-network/cognitive-bias-network.png
+og:image: /sims/cognitive-bias-network/cognitive-bias-network.png
+---
 # Cognitive Bias Network
 
 This interactive network graph shows how cognitive biases reinforce each other in quantum computing investment decisions. Each node represents a distinct cognitive bias, and directed edges show how one bias feeds into or amplifies another, creating self-reinforcing cycles that make it difficult for investors to evaluate QC objectively.

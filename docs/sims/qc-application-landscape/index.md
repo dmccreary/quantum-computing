@@ -1,3 +1,9 @@
+---
+title: QC Application Landscape
+description: This MicroSim presents a 2D bubble chart mapping proposed quantum computing applications by their likelihood of achieving genuine quantum advantage (x-axis) against their estimated market size
+image: /sims/qc-application-landscape/qc-application-landscape.png
+og:image: /sims/qc-application-landscape/qc-application-landscape.png
+---
 # QC Application Landscape
 
 This MicroSim presents a 2D bubble chart mapping proposed quantum computing

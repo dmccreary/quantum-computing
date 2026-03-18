@@ -1,3 +1,9 @@
+---
+title: The Perpetual "5-10 Years Away" Pattern
+description: This MicroSim visualizes one of the most telling patterns in quantum computing history: every five years or so, proponents predict that useful quantum computing is "just 5-10 years away." When the
+image: /sims/prediction-pattern/prediction-pattern.png
+og:image: /sims/prediction-pattern/prediction-pattern.png
+---
 # The Perpetual "5-10 Years Away" Pattern
 
 This MicroSim visualizes one of the most telling patterns in quantum

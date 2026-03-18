@@ -1,3 +1,9 @@
+---
+title: Physics Bet Timeline
+description: This interactive timeline tracks major quantum computing milestones alongside the bold predictions made by researchers, companies, and investors over three decades. Each prediction is matched against
+image: /sims/physics-bet-timeline/physics-bet-timeline.png
+og:image: /sims/physics-bet-timeline/physics-bet-timeline.png
+---
 # Physics Bet Timeline
 
 This interactive timeline tracks major quantum computing milestones alongside

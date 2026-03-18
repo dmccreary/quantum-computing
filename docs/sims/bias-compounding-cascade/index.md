@@ -1,3 +1,9 @@
+---
+title: Bias Compounding Cascade
+description: This MicroSim demonstrates how cognitive biases do not operate in isolation -- they compound. Each bias amplifies the distortion introduced by the previous one, creating a cascade effect that can
+image: /sims/bias-compounding-cascade/bias-compounding-cascade.png
+og:image: /sims/bias-compounding-cascade/bias-compounding-cascade.png
+---
 # Bias Compounding Cascade
 
 This MicroSim demonstrates how cognitive biases do not operate in

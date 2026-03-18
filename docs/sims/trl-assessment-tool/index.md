@@ -1,3 +1,9 @@
+---
+title: TRL Assessment Tool
+description: This MicroSim applies the Technology Readiness Level (TRL) framework to quantum computing, providing a visual assessment of where the technology stands on the standard 1-to-9 readiness scale used by
+image: /sims/trl-assessment-tool/trl-assessment-tool.png
+og:image: /sims/trl-assessment-tool/trl-assessment-tool.png
+---
 # TRL Assessment Tool
 
 This MicroSim applies the Technology Readiness Level (TRL) framework

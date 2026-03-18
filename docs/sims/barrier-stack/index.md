@@ -1,3 +1,9 @@
+---
+title: The Barrier Stack
+description: This MicroSim presents a stacked barrier visualization showing the key obstacles standing between today's quantum hardware and a commercially viable quantum computer. Barriers are stacked from bottom
+image: /sims/barrier-stack/barrier-stack.png
+og:image: /sims/barrier-stack/barrier-stack.png
+---
 # The Barrier Stack
 
 This MicroSim presents a stacked barrier visualization showing the key

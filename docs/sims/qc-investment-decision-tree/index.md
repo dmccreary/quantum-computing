@@ -1,3 +1,9 @@
+---
+title: QC Investment Decision Tree
+description: This MicroSim presents an interactive decision tree that walks investors through a structured framework for evaluating quantum computing investments. Starting from a root question about revenue
+image: /sims/qc-investment-decision-tree/qc-investment-decision-tree.png
+og:image: /sims/qc-investment-decision-tree/qc-investment-decision-tree.png
+---
 # QC Investment Decision Tree
 
 This MicroSim presents an interactive decision tree that walks investors

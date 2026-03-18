@@ -1,3 +1,9 @@
+---
+title: Qubit Scaling vs. Cryptographic Requirements
+description: This interactive chart shows the race between qubit scaling trajectories and the physical qubit counts required to break modern encryption standards. Use the sliders to explore how doubling time and
+image: /sims/qubit-scaling-vs-crypto/qubit-scaling-vs-crypto.png
+og:image: /sims/qubit-scaling-vs-crypto/qubit-scaling-vs-crypto.png
+---
 # Qubit Scaling vs. Cryptographic Requirements
 
 This interactive chart shows the race between qubit scaling trajectories

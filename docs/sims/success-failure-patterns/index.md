@@ -1,3 +1,9 @@
+---
+title: Success vs. Failure Patterns
+description: This grouped horizontal bar chart compares quantum computing against the average profiles of historically successful and failed technology predictions across six key criteria. Hover over any bar to
+image: /sims/success-failure-patterns/success-failure-patterns.png
+og:image: /sims/success-failure-patterns/success-failure-patterns.png
+---
 # Success vs. Failure Patterns
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>

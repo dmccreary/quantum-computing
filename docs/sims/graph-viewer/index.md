@@ -1,3 +1,9 @@
+---
+title: Learning Graph Viewer
+description: This interactive viewer allows you to explore the learning graph for the course.
+image: /sims/graph-viewer/graph-viewer.png
+og:image: /sims/graph-viewer/graph-viewer.png
+---
 # Learning Graph Viewer
 
 This interactive viewer allows you to explore the learning graph for the course.

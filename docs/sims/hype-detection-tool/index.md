@@ -1,3 +1,9 @@
+---
+title: Hype Detection Checklist
+description: This MicroSim provides an interactive checklist for detecting hype in quantum computing announcements and press releases. Each item represents a common red flag that appears in overhyped technology
+image: /sims/hype-detection-tool/hype-detection-tool.png
+og:image: /sims/hype-detection-tool/hype-detection-tool.png
+---
 # Hype Detection Checklist
 
 This MicroSim provides an interactive checklist for detecting hype in

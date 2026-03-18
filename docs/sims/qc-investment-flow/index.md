@@ -1,3 +1,9 @@
+---
+title: QC Investment Flow
+description: This Sankey diagram traces the flow of capital through the quantum computing ecosystem, from funding sources on the left, through research and operational categories in the middle, to measurable
+image: /sims/qc-investment-flow/qc-investment-flow.png
+og:image: /sims/qc-investment-flow/qc-investment-flow.png
+---
 # QC Investment Flow
 
 This Sankey diagram traces the flow of capital through the quantum computing

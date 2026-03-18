@@ -1,3 +1,9 @@
+---
+title: Prediction Track Record Timeline
+description: This interactive timeline tracks major quantum computing predictions alongside their actual outcomes. It reveals a systematic pattern of overoptimism that spans decades, sources, and claim types.
+image: /sims/qc-prediction-tracker/qc-prediction-tracker.png
+og:image: /sims/qc-prediction-tracker/qc-prediction-tracker.png
+---
 # Prediction Track Record Timeline
 
 This interactive timeline tracks major quantum computing predictions

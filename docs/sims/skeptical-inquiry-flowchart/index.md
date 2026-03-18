@@ -1,3 +1,9 @@
+---
+title: Skeptical Inquiry Flowchart
+description: This MicroSim presents an interactive decision flowchart for evaluating any quantum computing claim through a series of five critical questions. Each question acts as a filter, progressively testing
+image: /sims/skeptical-inquiry-flowchart/skeptical-inquiry-flowchart.png
+og:image: /sims/skeptical-inquiry-flowchart/skeptical-inquiry-flowchart.png
+---
 # Skeptical Inquiry Flowchart
 
 This MicroSim presents an interactive decision flowchart for evaluating

@@ -1,3 +1,9 @@
+---
+title: GPT Qualification Scorecard
+description: A General Purpose Technology (GPT) is a technology so broadly applicable and continuously improving that it reshapes entire economies. Historical examples include electricity, the transistor, and the
+image: /sims/gpt-scorecard/gpt-scorecard.png
+og:image: /sims/gpt-scorecard/gpt-scorecard.png
+---
 # GPT Qualification Scorecard
 
 A General Purpose Technology (GPT) is a technology so broadly applicable and

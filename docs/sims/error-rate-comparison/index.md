@@ -1,3 +1,9 @@
+---
+title: Classical vs. Quantum Error Rate Comparison
+description: This MicroSim uses a horizontal bar chart on a logarithmic scale to compare the error rates of classical computing components with current quantum computing hardware. The visualization makes the
+image: /sims/error-rate-comparison/error-rate-comparison.png
+og:image: /sims/error-rate-comparison/error-rate-comparison.png
+---
 # Classical vs. Quantum Error Rate Comparison
 
 This MicroSim uses a horizontal bar chart on a logarithmic scale to

@@ -1,3 +1,9 @@
+---
+title: Quantum Computing History Timeline
+description: This interactive timeline spans the full history of quantum computing from Feynman's 1981 proposal to the present day. Events are color-coded by category: theory (blue), hardware (green), industry
+image: /sims/qc-history-timeline/qc-history-timeline.png
+og:image: /sims/qc-history-timeline/qc-history-timeline.png
+---
 # Quantum Computing History Timeline
 
 <iframe src="./main.html" height="550" width="100%" scrolling="no"></iframe>

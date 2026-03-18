@@ -1,3 +1,9 @@
+---
+title: Hype Parallels
+description: This MicroSim presents a comparative infographic that places quantum computing's hype patterns alongside four historical technology episodes: Cold Fusion, the first AI Winter, the Dot-com Bubble, and
+image: /sims/hype-parallels/hype-parallels.png
+og:image: /sims/hype-parallels/hype-parallels.png
+---
 # Hype Parallels
 
 This MicroSim presents a comparative infographic that places quantum computing's

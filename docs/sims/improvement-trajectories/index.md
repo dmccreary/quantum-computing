@@ -1,3 +1,9 @@
+---
+title: Classical vs. Quantum Improvement Trajectories
+description: This MicroSim uses a dual-axis logarithmic line chart to compare the historical improvement rates of classical and quantum computing from 2015 to 2025. The visualization highlights a critical
+image: /sims/improvement-trajectories/improvement-trajectories.png
+og:image: /sims/improvement-trajectories/improvement-trajectories.png
+---
 # Classical vs. Quantum Improvement Trajectories
 
 This MicroSim uses a dual-axis logarithmic line chart to compare

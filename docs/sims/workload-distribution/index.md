@@ -1,3 +1,9 @@
+---
+title: Workload Distribution
+description: This interactive chart shows how global computational workloads are distributed across major categories and highlights the tiny fraction that quantum computing could potentially address. Use the
+image: /sims/workload-distribution/workload-distribution.png
+og:image: /sims/workload-distribution/workload-distribution.png
+---
 # Workload Distribution
 
 ## Global Compute Workload Distribution

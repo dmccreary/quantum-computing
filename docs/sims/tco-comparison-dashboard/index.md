@@ -1,3 +1,9 @@
+---
+title: TCO Comparison Dashboard
+description: This MicroSim presents a side-by-side comparison of the Total Cost of Ownership (TCO) for a classical high-performance computing cluster versus a quantum computer. Stacked bar charts break down costs
+image: /sims/tco-comparison-dashboard/tco-comparison-dashboard.png
+og:image: /sims/tco-comparison-dashboard/tco-comparison-dashboard.png
+---
 # TCO Comparison Dashboard
 
 This MicroSim presents a side-by-side comparison of the Total Cost of

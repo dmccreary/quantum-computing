@@ -1,3 +1,9 @@
+---
+title: Error Rate Gap: Quantum vs. Classical
+description: This MicroSim visualizes the enormous gap between current quantum computing error rates and the error rates achieved by classical hardware. A vertical logarithmic scale spanning twenty orders of
+image: /sims/error-rate-gap/error-rate-gap.png
+og:image: /sims/error-rate-gap/error-rate-gap.png
+---
 # Error Rate Gap: Quantum vs. Classical
 
 This MicroSim visualizes the enormous gap between current quantum computing

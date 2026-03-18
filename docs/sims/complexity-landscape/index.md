@@ -1,3 +1,9 @@
+---
+title: Computational Complexity Landscape
+description: This MicroSim presents an Euler diagram showing the containment and overlap relationships between major computational complexity classes: P, BQP, NP, and PSPACE. Specific problems are positioned
+image: /sims/complexity-landscape/complexity-landscape.png
+og:image: /sims/complexity-landscape/complexity-landscape.png
+---
 # Computational Complexity Landscape
 
 This MicroSim presents an Euler diagram showing the containment and

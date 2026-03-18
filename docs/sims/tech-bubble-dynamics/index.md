@@ -1,3 +1,9 @@
+---
+title: Technology Bubble Dynamics
+description: This interactive causal loop diagram models the feedback loops that drive technology bubble formation and collapse, with specific examples drawn from quantum computing investment. Each node
+image: /sims/tech-bubble-dynamics/tech-bubble-dynamics.png
+og:image: /sims/tech-bubble-dynamics/tech-bubble-dynamics.png
+---
 # Technology Bubble Dynamics
 
 This interactive causal loop diagram models the feedback loops that drive technology bubble formation and collapse, with specific examples drawn from quantum computing investment. Each node represents a key variable in the bubble dynamics system, and directed edges show causal relationships with polarity indicators showing whether one variable reinforces (+) or dampens (-) another.

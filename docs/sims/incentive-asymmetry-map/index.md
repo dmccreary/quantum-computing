@@ -1,3 +1,9 @@
+---
+title: Incentive Asymmetry Map
+description: This MicroSim visualizes the structural incentive imbalance in the quantum computing ecosystem. For each type of stakeholder, two bars extend from the center: a red bar pointing left shows the
+image: /sims/incentive-asymmetry-map/incentive-asymmetry-map.png
+og:image: /sims/incentive-asymmetry-map/incentive-asymmetry-map.png
+---
 # Incentive Asymmetry Map
 
 This MicroSim visualizes the structural incentive imbalance in the quantum

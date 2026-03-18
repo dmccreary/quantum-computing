@@ -1,3 +1,9 @@
+---
+title: Rhetorical Patterns in QC Advocacy
+description: This MicroSim is an interactive guide to eight rhetorical patterns commonly found in quantum computing marketing, press releases, and investor pitches. Each pattern is a recognized logical fallacy or
+image: /sims/rhetorical-patterns/rhetorical-patterns.png
+og:image: /sims/rhetorical-patterns/rhetorical-patterns.png
+---
 # Rhetorical Patterns in QC Advocacy
 
 This MicroSim is an interactive guide to eight rhetorical patterns
