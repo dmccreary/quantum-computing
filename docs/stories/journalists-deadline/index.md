@@ -1,10 +1,26 @@
 # The Journalist's Deadline
 
+A technology reporter must file a quantum computing story before she can verify the claims.
+
+![cover](./cover.png)
+<details>
+<summary>Cover Image </summary>
+Generate a wide-landscape graphic novel cover image with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone.
+
+  Not cartoonish. Think Saga or Maus rather than superhero comics.
+  Do not put any captions or text in the image EXCEPT the title at the top.
+
+  Place the title text at the top of the image: "The Journalist's Deadline"
+
+  Show Sasha — a white woman in her early 30s, journalist energy, laptop open — at her newsroom desk under bright overhead lights. On her screen, a half-written article. On the desk beside her: a glossy company press release, a single page of handwritten notes from one phone call, and a clock showing deadline proximity. Through the glass wall behind her, the newsroom hums. Her expression is the tension between journalistic instinct and deadline reality — she knows more verification would help and knows she does not have time. Color palette: the bright, slightly harsh light of a newsroom, the laptop glow, the press release's clean corporate color against her working notes.
+</details>
+
 ## Panel 1: The Assignment
 
 ![](./panel-01.png)
 
 <details><summary>Sasha's editor drops the press release on her desk</summary>
+Panel 1 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show a busy technology newsroom — open office, desks with monitors, a wall of screens. Sasha — a white woman, early 30s, short auburn hair, reporter's notebook in hand, quick observant eyes — sits at her desk as her editor, a harried-looking man in his 50s, drops a glossy press release on her desk from above. His posture says urgency. Sasha is looking up at him, expression alert, notebook already in hand. The newsroom hums around them. Color palette: the bright and slightly harsh light of a modern newsroom, the sense of deadline pressure in every element.
 </details>
 
@@ -15,6 +31,7 @@ Sasha's editor drops the press release on her desk the way editors drop things w
 ![](./panel-02.png)
 
 <details><summary>Slick company demo — Sasha taking notes</summary>
+Panel 2 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a polished corporate demonstration room — a tech startup aesthetic, good lighting, a large monitor showing impressive quantum visualization graphics. A confident CEO type stands at the front presenting to a small invited press group. Sasha — white woman, early 30s, short auburn hair — sits in the front row with her notebook open, nodding and writing notes. Her expression is attentive and professional. The presentation around her looks expensive and well-rehearsed. Color palette: the cool brand-blue of a polished tech presentation, Sasha in the warm foreground.
 </details>
 
@@ -25,6 +42,7 @@ The company demo is impeccably staged. A large screen shows abstract visualizati
 ![](./panel-03.png)
 
 <details><summary>Sasha at her desk, notes visible, drafting the story</summary>
+Panel 3 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha — white woman, early 30s, short auburn hair — at her newsroom desk, typing. Her reporter's notebook is open beside her keyboard. On the notebook, we can partially see her notes: phrases like "first ever" and "historic." Her expression is focused and professional — she is writing, not doubting. The monitor screen shows a draft headline forming. The newsroom around her is active with the low hum of a busy day. Color palette: the workday light of a functional newsroom, Sasha in her element as a competent professional doing her job.
 </details>
 
@@ -35,6 +53,7 @@ Back at her desk, Sasha types quickly. She has the story — the structure is cl
 ![](./panel-04.png)
 
 <details><summary>Sasha on the phone with one academic who says "sounds impressive"</summary>
+Panel 4 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha at her desk, phone to her ear, pen hovering over her notebook. Her expression is professional, slightly impatient — she is getting the quote she needs and moving on. On the other end (not shown), an academic is clearly saying something generally positive but hedged. We see Sasha's pen write something, see her nod, see her start to say "Great, thank you." The conversation is ending before it has fully begun. The newsroom clock is visible on the wall behind her. Color palette: the pressure-light of a deadline afternoon, Sasha in professional efficient mode.
 </details>
 
@@ -45,6 +64,7 @@ She calls a university professor who is tangentially familiar with the technolog
 ![](./panel-05.png)
 
 <details><summary>Sasha watching her headline publish on screen</summary>
+Panel 5 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha at her desk, monitor visible, the published article loading with a large dramatic headline visible on screen — something implying quantum has defeated classical computing. Her expression is the quiet satisfaction of filed work — she did her job, it's done. In the background, her editor is giving a thumbs up. The newsroom has the slightly lighter energy of a deadline that has been met. Color palette: the warm afternoon light of a job done, the bright digital glow of a published piece.
 </details>
 
@@ -55,6 +75,7 @@ The headline goes live at 4:47 p.m. and Sasha closes her laptop and takes her fi
 ![](./panel-06.png)
 
 <details><summary>Sasha's phone lighting up with shares and notifications</summary>
+Panel 6 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha in the evening — she might be on the subway or at home — her phone in her hand, screen lighting up with notification after notification. Social share counts, mentions, direct messages. Her expression shifts from satisfaction to slight unease as the numbers keep climbing. The glow of the phone in a darker environment makes the notifications look almost overwhelming. Color palette: the blue-white of a phone screen in an evening setting, the almost feverish light of viral traction.
 </details>
 
@@ -65,6 +86,7 @@ By nine o'clock that night, the story has been shared forty thousand times. Her 
 ![](./panel-07.png)
 
 <details><summary>Sasha reading the preprint on her phone — three researchers, a laptop</summary>
+Panel 7 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha the next morning, coffee in one hand, phone in the other, reading something. The phone screen shows an academic preprint — the kind with dense text and a sparse header. Her expression is shifting — she started reading casually and now something has pulled her attention fully in. The preprint describes a classical replication of the quantum result. The scene is quiet — a kitchen or coffee shop morning. Color palette: gentle morning light, the contrast between the ordinary setting and the significance of what she's reading on her phone.
 </details>
 
@@ -75,6 +97,7 @@ A preprint lands on arxiv twelve days later. Three university researchers — tw
 ![](./panel-08.png)
 
 <details><summary>Sasha reading the methodology section, color draining from her face</summary>
+Panel 8 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a close-up on Sasha — white woman, early 30s, short auburn hair — face partially lit by her phone screen. She has scrolled to the methodology section of the preprint. Her expression is the one where the implications are arriving faster than the defenses can organize. The coffee cup in her other hand has stopped halfway to her mouth. She is very still. Color palette: the phone's blue-white light on her face, the colors of the world slightly desaturated around her as the moment contracts to this one read.
 </details>
 
@@ -85,6 +108,7 @@ The methodology section of the preprint does not say the company lied. It says t
 ![](./panel-09.png)
 
 <details><summary>Correction published — 300 shares; original still trending</summary>
+Panel 9 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show two phone screens or browser windows side by side: on the left, the original article still showing a large share count (40,000+), on the right, the correction piece with a much smaller count (300). Sasha's face is reflected faintly in one screen, looking at the disparity. The visual makes the asymmetry concrete and undeniable. Color palette: the digital glow of screens, the cool contrast between two numbers that tell the whole story.
 </details>
 
@@ -95,6 +119,7 @@ The correction runs. Sasha writes it herself. It is accurate and fair and clearl
 ![](./panel-10.png)
 
 <details><summary>Sasha reading a reader's pointed email question</summary>
+Panel 10 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha at her desk, reading an email on her monitor. The email is from a reader — not mean, just direct. Its tone is the kind that gets to the point. Sasha's expression is not defensive. She is reading it carefully, with the look of someone who knows the question is fair. The newsroom around her is active. Her reporter's notebook sits closed on her desk. Color palette: the ordinary newsroom light, Sasha in a moment of private reckoning that looks, from outside, exactly like reading email.
 </details>
 
@@ -105,6 +130,7 @@ A reader emails: "Why didn't you ask a skeptic?" It is not a hostile email — i
 ![](./panel-11.png)
 
 <details><summary>Post-it note on Sasha's monitor: "Who benefits from this claim being true?"</summary>
+Panel 11 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha's monitor at her newsroom desk — a yellow Post-it note is stuck to the bottom edge of the screen. On it, in Sasha's handwriting, is a question about the source's incentives — why would someone want this claim to be true? Sasha is in the background, slightly out of focus, working at her desk, the Post-it visible as a permanent fixture now. Color palette: the warm yellow of a Post-it against the blue-white of the newsroom monitor, a small yellow anchor in the composition.
 </details>
 
@@ -115,6 +141,7 @@ She writes a question on a Post-it and sticks it to the bottom edge of her monit
 ![](./panel-12.png)
 
 <details><summary>Sasha at a conference, hand raised, asking the hard question</summary>
+Panel 12 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a technology or science conference — a panel discussion on a stage. Sasha — white woman, early 30s, short auburn hair, reporter's notebook in hand — is in the audience with her hand raised, asking a question. Her expression is direct, composed, and completely unafraid. The panelist on stage — a tech company executive — has an expression that suggests the question is not the comfortable one. Other audience members are turning to look at Sasha. She is the person in the room asking what nobody else asked. Color palette: the bright stage lighting from a conference, Sasha in the mid-ground of the audience — the one hand raised cutting a clear line through the scene.
 </details>
 

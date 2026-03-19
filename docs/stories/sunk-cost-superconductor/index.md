@@ -1,10 +1,26 @@
 # The Sunk Cost Superconductor
 
+A quantum hardware team keeps scaling a failing approach because the investment is too large to question.
+
+![cover](./cover.png)
+<details>
+<summary>Cover Image </summary>
+Generate a wide-landscape graphic novel cover image with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone.
+
+  Not cartoonish. Think Saga or Maus rather than superhero comics.
+  Do not put any captions or text in the image EXCEPT the title at the top.
+
+  Place the title text at the top of the image: "The Sunk Cost Superconductor"
+
+  Show Marcus — a white man in his 40s, exhausted competence, shirtsleeves rolled up — standing in his company's quantum hardware lab. The lab is expensive: racks of cryogenic equipment, cables, a dilution refrigerator. On a monitor in the foreground, a flat error rate graph — the curve that should be declining has plateaued for months. Behind Marcus, his team works on. A whiteboard shows the dollar figure of total investment to date. Marcus's expression is the face of someone who knows the physics and cannot say it out loud. Color palette: the cool blue-grey of the expensive hardware lab, the amber of the monitor showing the plateau curve, the investment figure on the whiteboard a quiet, damning white.
+</details>
+
 ## Panel 1: Day One (2019)
 
 ![](./panel-01.png)
 
 <details><summary>Marcus and his team on day one of the project</summary>
+Panel 1 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Marcus — a Black man, mid-40s, close-cropped hair, collared shirt and slacks — standing at a whiteboard in a large university lab, surrounded by a team of twelve researchers. His eyes are bright with excitement, his posture open and energetic. The whiteboard behind him shows a new project roadmap. The team members are a diverse group of postdocs and grad students, all leaning forward with fresh enthusiasm. The lab equipment is visible behind them, the kind of controlled chaos of a well-funded new initiative. Color palette: warm amber morning light, the green-and-blue of a new beginning, twelve people full of possibility.
 </details>
 
@@ -15,6 +31,7 @@ It is January 2019, and Marcus has twelve people, a new grant, and a whiteboard 
 ![](./panel-02.png)
 
 <details><summary>The team celebrating five working qubits</summary>
+Panel 2 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus and several team members in a lab, celebrating. Someone has produced a bottle of champagne. People are laughing, some raising paper cups. The lab has its first successful result visible on a monitor behind the group — a clean readout showing five qubits operating. Marcus's expression is genuine delight. The celebration is warm and collegial. Color palette: warm festive light, the glow of successful lab equipment, the joy of earned achievement.
 </details>
 
@@ -25,6 +42,7 @@ Five qubits, working, coherent, measured. The error rates are high but that is e
 ![](./panel-03.png)
 
 <details><summary>Marcus studying a flat error rate graph on a monitor</summary>
+Panel 3 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus — Black man, mid-40s, close-cropped hair, collared shirt — standing in front of a large monitor, studying a graph. The graph shows an error rate over time that is essentially flat — no improvement over 18 months despite visible effort. His expression has the tired eyes mentioned in his character description, studying something that should be moving and isn't. The lab behind him is still active but quieter than Panel 1. Color palette: the blue-grey of a monitor in a dim lab, Marcus's face showing the first signs of a man absorbing unwanted information.
 </details>
 
@@ -35,6 +53,7 @@ Eighteen months in, the error rate graph has the shape of a flat line. Not a pla
 ![](./panel-04.png)
 
 <details><summary>Marcus at the board meeting: "We've invested too much to stop"</summary>
+Panel 4 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a formal board or steering committee meeting — Marcus stands at the head of a conference table presenting to six or seven seated figures: program managers, department heads, funders. His slides are visible on a screen behind him. The faces around the table show various expressions of concern. Someone at the table is speaking — the quote about investment and commitment is being said by a heavyset man in a suit, not Marcus, while Marcus listens with a carefully neutral expression. The room is institutional, formal. Color palette: the cool fluorescent light of a conference room, the slight tension of a meeting where the real conversation is slightly different from the official one.
 </details>
 
@@ -45,6 +64,7 @@ The steering committee meeting is in a glass-walled conference room with bad cof
 ![](./panel-05.png)
 
 <details><summary>Marcus restructuring the team and writing a new plan alone at night</summary>
+Panel 5 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus — Black man, mid-40s, tired eyes — alone very late at night in his office, a desk covered in org charts and project plans. He is writing a new plan — a restructuring of the team, a doubling down on the primary approach. His posture is determined but slightly hunched. On his desk: coffee, the flat error rate printout, a calendar showing late 2020. Through his window: an empty nighttime campus. This is the moment of recommitment, but the lighting makes it feel more like a man trying to convince himself. Color palette: amber desk lamp against dark office, the late-night palette of solitary decision-making.
 </details>
 
@@ -55,6 +75,7 @@ Marcus restructures the team. He moves two researchers off secondary experiments
 ![](./panel-06.png)
 
 <details><summary>Marcus reading about a competitor's architectural pivot</summary>
+Panel 6 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus at his desk in the morning, reading something on his laptop — a news article or preprint about a competing research group that has publicly announced it is abandoning its current architecture and pivoting to a completely different approach. His expression is a complex mix: initial surprise, then something that might be dismissal or might be recognition he doesn't want to have. The laptop screen is visible at an angle. The article headline implies a significant change of direction. Color palette: morning lab light, slightly cooler than the warm amber of earlier panels, Marcus in a moment of receiving unwanted information.
 </details>
 
@@ -65,6 +86,7 @@ The Zurich group publishes a preprint announcing they are abandoning their trapp
 ![](./panel-07.png)
 
 <details><summary>Marcus dismisses the competitor's pivot; his team looks uncertain</summary>
+Panel 7 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus standing at the front of a lab meeting, addressing his team. He is gesturing dismissively — the body language of someone minimizing a threat. Behind him on a screen is the Zurich preprint. Around the table, his team members exchange glances: a slight skeptical look between two postdocs, a junior researcher who stopped writing notes and is watching Marcus's face instead. The gap between Marcus's confident dismissal and his team's uncertain response is the visual story of the panel. Color palette: lab meeting light, the slight chill of a room where consensus is not quite achieved.
 </details>
 
@@ -75,6 +97,7 @@ Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:
 ![](./panel-08.png)
 
 <details><summary>2023 — half the team gone, empty desks, flat error rates</summary>
+Panel 8 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the same lab from Panel 1, but now diminished. Several desks are empty — chairs pushed in, equipment unplugged, the spaces left by people who have moved on. Marcus stands in the middle of the lab, looking at the error rate graph on the wall — still flat. His posture is the posture of a man who has been carrying something heavy for a long time. The remaining team members work quietly at their stations. The room has the atmosphere of something winding down. Color palette: cooler, more muted than the opening panels — the same physical space drained of its early warmth.
 </details>
 
@@ -85,6 +108,7 @@ It is late 2023. Five of Marcus's original twelve team members have left — qui
 ![](./panel-09.png)
 
 <details><summary>A new engineer asks the question nobody would ask</summary>
+Panel 9 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a lab meeting — Marcus at the head of the table, the remaining team around him. A new engineer — young, mixed-race woman, direct eyes, clearly new to this group — is speaking. Her expression is genuinely curious, not confrontational. The room around her has gone very still. The other team members are watching Marcus, not the new engineer. Marcus's face shows the particular expression of someone who has been asked something they needed to be asked and did not want. Color palette: the slightly tense stillness of a room hearing its own unspoken truth spoken aloud.
 </details>
 
@@ -95,6 +119,7 @@ The new engineer joined three months ago. She has not absorbed the emotional his
 ![](./panel-10.png)
 
 <details><summary>Marcus alone, very late, finally reading the competitor's paper</summary>
+Panel 10 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus alone very late at night in his empty office, reading on his laptop — the Zurich preprint he bookmarked eighteen months ago, never fully read. His expression is not dramatic — it is the quiet look of a man reading something carefully, without defenses up, for the first time. The office is dark beyond the laptop glow. His collared shirt is rumpled. His eyes — described as tired — carry the specific weight of this moment. Color palette: the blue-white of a laptop screen in a dark room, the late-night palette of finally looking at something you've been avoiding.
 </details>
 
@@ -105,6 +130,7 @@ Marcus reads the Zurich preprint. All of it, this time — not the abstract, not
 ![](./panel-11.png)
 
 <details><summary>Marcus sitting in the dark — the graph that hasn't moved</summary>
+Panel 11 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus sitting in his dark office — laptop closed, just sitting. Through his window, the campus is dark. On the wall, the printout of the flat error rate graph is just barely visible in the ambient light. His posture is not collapsed — it is the careful stillness of someone thinking clearly, perhaps for the first time in a long time. This is not despair. It is recognition. Color palette: very dark, the ambient blue of an empty nighttime campus, a single figure sitting with a truth.
 </details>
 
@@ -115,6 +141,7 @@ He sits in the dark. He is not despairing — he is thinking. There is a differe
 ![](./panel-12.png)
 
 <details><summary>Marcus at a new company, whiteboard with exit criteria</summary>
+Panel 12 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Marcus — Black man, mid-40s, close-cropped hair, collared shirt, but now with a different energy — standing at a whiteboard in a new lab space (smaller, earlier stage, different feel from the old lab). On the whiteboard in clear letters is written something like "Exit criterion for this approach: [specific measurable threshold]." He is addressing a small new team — four or five people. His posture is more open than in the later panels of the old lab, and his eyes, while still carrying their history, look forward. Color palette: fresh morning light in a new space, the clean whiteboard, a beginning.
 </details>
 

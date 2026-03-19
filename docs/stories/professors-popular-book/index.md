@@ -1,10 +1,26 @@
 # The Professor's Popular Book
 
+A careful scientist translates his work for a general audience — and watches the translation drift.
+
+![cover](./cover.png)
+<details>
+<summary>Cover Image </summary>
+Generate a wide-landscape graphic novel cover image with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone.
+
+  Not cartoonish. Think Saga or Maus rather than superhero comics.
+  Do not put any captions or text in the image EXCEPT the title at the top.
+
+  Place the title text at the top of the image: "The Professor's Popular Book"
+
+  Show Professor Eli — a white man in his 50s, rumpled academic jacket, genuine enthusiasm — holding up a freshly published popular science book. Behind him, a split composition: on the left, his university office with careful papers and equations on a whiteboard; on the right, a morning TV studio set with bright lights and a camera pointed at him. The book cover, visible to the viewer, promises more certainty than the whiteboard equations behind him do. His expression is the genuine pride of a communicator who loved the work and the first awareness that the translation has changed something. Color palette: the warm academic office light on the left, the flat bright studio light on the right, Eli at the threshold between them.
+</details>
+
 ## Panel 1: Writing the Book
 
 ![](./panel-01.png)
 
 <details><summary>Professor Eli writing at his desk with genuine excitement</summary>
+Panel 1 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Professor Eli — a white man in his 60s, white beard, rumpled blazer — writing enthusiastically at a home desk surrounded by stacks of academic papers, open books, and printed articles. His expression is genuine intellectual excitement. Coffee cups at various stages of emptiness dot the desk. Pages of manuscript are stacked near him. A window shows a university campus at dusk. This is a man engaged in the real pleasure of making an argument. Color palette: warm amber evening desk light, the comfortable clutter of a scholar's working space.
 </details>
 
@@ -15,6 +31,7 @@ Professor Eli has been teaching quantum computing for twenty years and this is t
 ![](./panel-02.png)
 
 <details><summary>Publisher feedback requesting more concrete timelines</summary>
+Panel 2 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Eli — white man, 60s, white beard, rumpled blazer — sitting at his desk reading a letter from his publisher. The letter is on publisher's letterhead, visible at an angle. His expression is reading-focused but slightly uncertain — the publisher is asking for something that gives him pause. The desk has the manuscript draft visible. Color palette: the same warm desk light as the writing scene, but the letter introduces a slightly cooler note — the outside world's requirements entering the private writing space.
 </details>
 
@@ -25,6 +42,7 @@ The publisher's letter arrives three months into the revision. It is warm, enthu
 ![](./panel-03.png)
 
 <details><summary>Professor Eli holding the published book</summary>
+Panel 3 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Eli — white man, 60s, white beard, rumpled blazer — holding his newly published book, standing perhaps in his office or a bookstore. The book cover is visible and colorful — a popular science aesthetic, bold title suggesting quantum transformation, abstract design. His expression is genuine pride, the pleasure of a completed work. Behind him on a shelf, his academic publications look small and quiet by comparison. Color palette: the warm tones of a personal triumph moment, the book cover itself providing the most vivid color in the frame.
 </details>
 
@@ -35,6 +53,7 @@ The book arrives in a box and Eli holds the first copy for a long moment before 
 ![](./panel-04.png)
 
 <details><summary>Eli on a morning talk show under bright studio lights</summary>
+Panel 4 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a morning television studio — bright, slightly artificial daylight through studio windows, oversized armchairs, a coffee-table setup. Professor Eli — white man, 60s, white beard, his best blazer — sits across from a TV host. The host is leaning forward asking a question, visibly excited. Eli is about to answer, smiling but slightly uncertain about something. The studio makeup artist has smoothed his normal rumpled quality into something television-ready. The book is visible on the table between them. Color palette: the bright flat light of television, the slightly unreal quality of a studio morning, Eli slightly outside his natural element but managing well.
 </details>
 
@@ -45,6 +64,7 @@ The television host asks: "Professor, when will quantum change everything?" It i
 ![](./panel-05.png)
 
 <details><summary>A senator's aide on a plane, marking up the book</summary>
+Panel 5 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a government aide — a young woman in professional clothes — on an airplane, reading Eli's book. She has a yellow highlighter and is circling key phrases. Close enough to see what she's circling: "2030" appears in the highlighted text, and "inevitable." The plane window shows clouds outside. She looks efficient and purposeful — this reading is research, not leisure. A government briefing folder sits in the seat pocket in front of her. Color palette: the blue-grey of airplane travel, the yellow of highlighted text creating a warm focal point.
 </details>
 
@@ -55,6 +75,7 @@ A legislative aide to a senator on the Commerce and Technology Committee buys th
 ![](./panel-06.png)
 
 <details><summary>National quantum initiative launch — the book partly credited</summary>
+Panel 6 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a Washington DC press conference or government announcement — a podium, flags, officials in suits, a news headline visible or implied. The announcement is about a national quantum computing initiative. In the lower foreground, a stack of copies of Eli's book sits near a staffer's bag. In the background, Eli himself — white man, 60s, white beard, his best blazer — is visible among the invited guests, clearly proud and slightly overwhelmed. Color palette: the formal blue-red-white palette of official Washington, the sense of scale and consequence that comes from a government stage.
 </details>
 
@@ -65,6 +86,7 @@ The National Quantum Initiative Act passes with bipartisan support. One senator 
 ![](./panel-07.png)
 
 <details><summary>A journalist asking Eli about his predictions; he shifts in his chair</summary>
+Panel 7 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a magazine or podcast interview setting — Eli and a journalist face to face. Eli — white man, now five years older than in Panel 3, still white-bearded, still rumpled — is sitting slightly less comfortably than he would like, answering a question. The journalist has a copy of the book open to a specific page. Eli's expression is the controlled expression of a man adjusting his posture and his words at the same time. His publicist, visible in the background, has a watchful expression. Color palette: the warm neutral of an interview setting, slightly more tension in the color than the earlier comfortable scenes.
 </details>
 
@@ -75,6 +97,7 @@ In 2027, a journalist writes a "where are they now?" piece on the predictions in
 ![](./panel-08.png)
 
 <details><summary>Eli: "It's more complicated than I may have suggested"</summary>
+Panel 8 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Eli mid-sentence in the interview, one hand slightly raised in a gesture of qualification. His expression is that of a man being honest at some cost to his position. The journalist across from him is writing, not looking up. In the background, the publicist has a fixed neutral expression that costs effort. The open book between them is the visual anchor. Color palette: the interview setting, now with the slightly cooler light that follows a moment of admission.
 </details>
 
@@ -85,6 +108,7 @@ Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:
 ![](./panel-09.png)
 
 <details><summary>The aide, now a policy director, asking when they get results</summary>
+Panel 9 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a government meeting room — long table, bureaucratic setting, a budget review meeting. The aide from Panel 5 is now older, more senior — a policy director. She is sitting at the table, the program officers across from her. She is asking the question that the original policy was built to answer by now. Her expression is not hostile but it is not warm. The program officers across from her have the expressions of people who do not have the answer the policy was built around. Color palette: the cool formal light of a government meeting, the slight tension of accountability arriving.
 </details>
 
@@ -95,6 +119,7 @@ In a budget review meeting, the senator's aide — now a deputy policy director 
 ![](./panel-10.png)
 
 <details><summary>Eli reading a paper showing the timeline has slipped another decade</summary>
+Panel 10 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Eli — white man, now noticeably older, white beard somewhat longer — at his desk reading a new academic paper. The paper's conclusion is visible enough to suggest a major timeline revision. He is reading slowly. When he finishes, he turns it face-down on the desk. He doesn't throw it away or argue with it — he just places it face down, and stares at the desk for a moment. The late afternoon light through the window catches the side of his face. Color palette: late afternoon golden light, the quieter palette of a man facing something true and uncomfortable.
 </details>
 
@@ -105,6 +130,7 @@ The new review paper from the National Academies revises the fault-tolerant quan
 ![](./panel-11.png)
 
 <details><summary>Eli writing "What I Got Wrong, and Why" alone at his desk</summary>
+Panel 11 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Eli alone at his writing desk — older, late evening, the desk lamp the same warm amber as in Panel 1 but the scene quieter, slower. He is writing something new, by hand. His expression is the particular look of someone choosing honesty over comfort. The draft pages visible nearby have cross-outs and revisions — this is not coming easily but he is doing it. Color palette: the same warm amber desk lamp from Panel 1, creating a visual echo, but the surrounding darkness is deeper and the man is older.
 </details>
 
@@ -115,6 +141,7 @@ He writes the follow-up essay himself — not as an op-ed for maximum reach, but
 ![](./panel-12.png)
 
 <details><summary>The book's Amazon page with 3,847 reviews vs. the follow-up's near-empty webpage</summary>
+Panel 12 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show two screens side by side — on the left, a laptop showing a popular book's online sales page with a large review count, high ratings, and prominent placement. On the right, a screen showing the journal webpage for Eli's correction essay — smaller, plainer, a much smaller reader count visible. Eli sits between these two screens, looking at neither — looking at something off-frame, out the window, into the middle distance. His expression is the quiet look of a man who has done what he could and knows what it amounts to. Color palette: the warm and cool of two different digital worlds, Eli in the neutral middle.
 </details>
 

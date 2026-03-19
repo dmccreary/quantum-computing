@@ -41,6 +41,8 @@ These graphic novel stories follow researchers, founders, investors, journalists
 
 - **[The Halo Effect in the Lab](./halo-effect-lab/index.md)**
 
+    ![](./halo-effect-lab/cover.png)
+
     A Nobel Prize-winning physicist is recruited to a quantum computing company, and her presence transforms how the company is perceived — independent of what the science actually shows.
 
 - **[The Quantum Winter Is Coming](./quantum-winter/index.md)**

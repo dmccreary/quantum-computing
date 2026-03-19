@@ -1,10 +1,26 @@
 # The Career Incentive Loop
 
+Five people across academia, finance, and industry are all pulled toward quantum by the same structural forces.
+
+![cover](./cover.png)
+<details>
+<summary>Cover Image </summary>
+Generate a wide-landscape graphic novel cover image with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone.
+
+  Not cartoonish. Think Saga or Maus rather than superhero comics.
+  Do not put any captions or text in the image EXCEPT the title at the top.
+
+  Place the title text at the top of the image: "The Career Incentive Loop"
+
+  Show five figures arranged in a loose circle — a grad student with a textbook, a professor at a grant application, a venture capitalist with a portfolio, a startup founder with a pitch deck, a journalist with a headline draft — each leaning inward toward a glowing word at the center: QUANTUM. The glow of the word illuminates all their faces from below. None of them are villains; all of them look like intelligent people following reasonable incentives. The composition suggests a loop — motion around the center, not toward any exit. Color palette: the blue-white of the central glow on five very different faces, the surrounding space dark and institutional.
+</details>
+
 ## Panel 1: Five People Waking Up
 
 ![](./panel-01.png)
 
 <details><summary>Split panel — five people waking on the same morning</summary>
+Panel 1 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show five small scenes in a split-panel composition — the same morning, five different rooms. Sam: a young androgynous grad student, overwhelmed, surrounded by papers in a small apartment. Prof. Huang: a Chinese-American man in his 50s, tweedy, at a home desk already. Brendan: an Irish-American VC in his 40s, expensive casual, checking his phone in a modern apartment. Kezia: a Black British journalist in her 30s, always typing, at a kitchen table with her laptop open. Director Okonkwo: a Nigerian-American woman in her 50s, government formal even at home, reviewing documents. Color palette: five different morning light palettes — warm amber, cool blue-white, the full range of five different lives beginning the same day.
 </details>
 
@@ -15,6 +31,7 @@ Five people wake up on the same Tuesday in October. Sam is in a studio apartment
 ![](./panel-02.png)
 
 <details><summary>Sam comparing funding available for quantum vs classical thesis topics</summary>
+Panel 2 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sam — young, androgynous, overwhelmed — at a university computer terminal, looking at a funding database or fellowship listing. Two options are visible on screen: a quantum computing track with multiple fellowships and stipend amounts, and a classical optimization track with fewer and smaller ones. Sam is comparing them with the clear-eyed calculation of someone making a practical decision. Color palette: the department computer lab light, Sam in pragmatic-student mode.
 </details>
 
@@ -25,6 +42,7 @@ Sam has been admitted to two thesis tracks: quantum computing error correction, 
 ![](./panel-03.png)
 
 <details><summary>Prof. Huang adding "quantum" angles to work that doesn't need them</summary>
+Panel 3 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Professor Huang — a Chinese-American man in his 50s, tweedy jacket, wire-rimmed glasses — at his desk writing a grant proposal. He is in the act of adding a paragraph to a document that is, fundamentally, about classical network theory. The paragraph he's adding connects the work to quantum networking — the connection is there, but it's a stretch and he knows it. His expression shows the slight discomfort of a practical man doing a practical thing. A program officer's email is visible on another screen, the one that mentioned quantum scoring. Color palette: the home-office morning light, the slight moral weight of a practical compromise.
 </details>
 
@@ -35,6 +53,7 @@ Professor Huang's research is in distributed network protocols — genuinely imp
 ![](./panel-04.png)
 
 <details><summary>Brendan reviewing his portfolio — LP asks "Why no quantum exposure?"</summary>
+Panel 4 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Brendan — an Irish-American VC in his 40s, expensive casual clothes — at his office desk, on a call or in a meeting. An LP (limited partner) is asking the question about quantum exposure. Brendan's expression shows the calculation happening in real time: the LP's concern is not technically well-grounded, but the LP's concern is the LP's concern. He is making a decision about how to respond to incentive pressure. Color palette: the sleek VC office light, the professional calculation of someone managing multiple relationships.
 </details>
 
@@ -45,6 +64,7 @@ At the quarterly LP review, a pension fund representative asks: "I notice you ha
 ![](./panel-05.png)
 
 <details><summary>Kezia pitching — classical piece rejected; quantum piece ran front page</summary>
+Panel 5 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Kezia — a Black British journalist in her 30s, always typing — pitching to her editor in a video call or in person. On one side, the editor's reaction to a classical computing pitch (slight disinterest). On the other side, the editor's reaction when Kezia proposes a quantum angle (immediate engagement). Kezia reads the room. She is learning something about her editor that will change what she pitches going forward. Color palette: the editorial environment — busy, deadline-adjacent, the editor's expressions telling the story.
 </details>
 
@@ -55,6 +75,7 @@ The piece on classical algorithm improvements went through three rounds of edits
 ![](./panel-06.png)
 
 <details><summary>Director Okonkwo defending budget — China's quantum investment on the slide</summary>
+Panel 6 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Director Okonkwo — a Nigerian-American woman in her 50s, government formal, precise and authoritative — presenting to a Congressional committee or budget oversight body. Behind her on a slide: a comparison of U.S. and Chinese quantum computing investment. The geopolitical framing is doing the work in the room. Director Okonkwo is doing her job correctly — recommending funding for a national priority based on competitive analysis. Color palette: the formal government hearing light, the authority of the official presenting the case.
 </details>
 
@@ -65,6 +86,7 @@ Director Okonkwo's program supports AI and quantum computing research across thr
 ![](./panel-07.png)
 
 <details><summary>All five make their decisions on the same afternoon — a quiet montage</summary>
+Panel 7 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the five characters in a montage of decisive moments happening simultaneously across different time zones and rooms: Sam hitting "submit" on a quantum thesis application. Huang emailing his revised proposal. Brendan scheduling the startup meeting from his phone. Kezia filing her quantum pitch to her editor. Okonkwo signing the budget recommendation document. Each moment is small and ordinary and rational. Color palette: five simultaneous moments — the afternoon light of five different worlds.
 </details>
 
@@ -75,6 +97,7 @@ At 3 p.m. Eastern, 8 p.m. London, 12 p.m. Pacific: Sam submits the quantum track
 ![](./panel-08.png)
 
 <details><summary>Three years later — everyone's outcomes positive; the loop tightens</summary>
+Panel 8 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a collage of outcomes three years later: Sam in a funded lab. Professor Huang giving a funded research talk. Brendan presenting portfolio results to smiling LPs. Kezia's byline on a front-page piece. Director Okonkwo at a program ribbon cutting. Each person's decision paid off for them individually. The system that produced these outcomes is visible in the connections between them. Color palette: the warm tones of individual success, slightly cooler when seen as a system.
 </details>
 
@@ -85,6 +108,7 @@ Three years later: Sam is funded. Professor Huang received the grant. Brendan ha
 ![](./panel-09.png)
 
 <details><summary>A researcher from outside draws the Career Incentive Loop diagram</summary>
+Panel 9 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a researcher — a woman in her 40s, academic casual, outside the five main roles — at a whiteboard drawing the diagram. Five nodes in a circle: grad student, professor, VC, journalist, program officer. Five arrows connecting them in a loop. Each arrow is labeled. She is studying what she's drawn. Her expression is the particular focus of someone who has just made a structure visible. Color palette: the whiteboard light, the diagram in clean visual logic.
 </details>
 
@@ -95,6 +119,7 @@ Dr. Farida Osei studies the sociology of scientific investment. She has been map
 ![](./panel-10.png)
 
 <details><summary>Dr. Osei shows the diagram at a workshop — "How do you break it?"</summary>
+Panel 10 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Osei presenting her diagram at a small academic workshop — maybe fifteen people, mixed group of economists, science policy researchers, and a few physicists. She has the diagram on a slide behind her. The room is quiet. Someone asks the question. Osei's expression is the honest uncertainty of someone who has a diagnosis but not a cure. Color palette: the workshop room light, the diagram as the focal visual anchor.
 </details>
 
@@ -105,6 +130,7 @@ At the Science Policy Workshop in Brussels, Dr. Osei presents the diagram. She c
 ![](./panel-11.png)
 
 <details><summary>She points to the diagram — all five must change at once, or one has a public bad day</summary>
+Panel 11 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Osei at the whiteboard, pointing to specific nodes in the diagram. The room listens. Her answer is analytically clear and not comforting — the structural change required is significant. The faces in the room show the particular look of people who understand a difficult truth. Color palette: the workshop light, the diagram on the board, the room in thoughtful attention.
 </details>
 
@@ -115,6 +141,7 @@ Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:
 ![](./panel-12.png)
 
 <details><summary>Five years later — same five people; small changes in each</summary>
+Panel 12 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the five characters five years after Panel 1 — each in their current life, each with a small but meaningful change from where they were. Sam at a quantum sensing job, genuinely satisfied. Professor Huang with a second grant for work that is more honestly framed. Brendan at his desk after writing down a quantum position — his notebook shows the loss. Kezia with her name on a corrective piece that she clearly worked hard on. Director Okonkwo at a meeting revising success metrics. Five quiet changes. Color palette: the five different settings, each slightly different in character from their earlier scenes — the colors of experience.
 </details>
 
@@ -125,6 +152,7 @@ Five years later. Sam went into quantum sensing after the quantum computing job 
 ![](./panel-13.png)
 
 <details><summary>The diagram on a whiteboard — now with small arrows showing where each person changed</summary>
+Panel 13 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Osei's original diagram, now on a whiteboard at a later workshop, updated with five small additional annotations — one at each node, showing where each person's small change applies friction to the loop. The main loop is still there, still mostly intact. The five small arrows of change are visible but not dominant. The diagram is honest: the loop exists and is slightly weaker. Color palette: the whiteboard light, the original loop in dark ink, the five small changes in a different color.
 </details>
 

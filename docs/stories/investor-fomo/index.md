@@ -1,10 +1,26 @@
 # The Investor Who Couldn't Say No
 
+A seasoned venture capitalist's careful "pass" becomes impossible to hold as the hype mounts.
+
+![cover](./cover.png)
+<details>
+<summary>Cover Image </summary>
+Generate a wide-landscape graphic novel cover image with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone.
+
+  Not cartoonish. Think Saga or Maus rather than superhero comics.
+  Do not put any captions or text in the image EXCEPT the title at the top.
+
+  Place the title text at the top of the image: "The Investor Who Couldn't Say No"
+
+  Show Valentina — a Latina woman in her 40s, sharp professional dress, reading glasses — at her office desk surrounded by quantum computing pitch decks and news printouts. On her laptop screen: the headline "QuantumX raises $200M." In her hand: the original pitch deck with her handwritten "Pass" note on the cover. Her expression is the precise discomfort of someone whose careful decision is being tested by social and financial pressure. Through the window behind her, a city skyline; on her desk, a growing stack of press clippings. Color palette: the cool professional light of the office, the laptop screen glow on her face, the warm stack of pitch decks and clippings competing for her attention.
+</details>
+
 ## Panel 1: The Original Pass (2020)
 
 ![](./panel-01.png)
 
 <details><summary>Valentina reads the pitch deck and writes "Pass"</summary>
+Panel 1 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Valentina — a Latina woman, late 40s, sharp blazer, reading glasses pushed up on her head, commands every room she enters — at her desk in a sleek investment office, reading a startup pitch deck on her laptop. Her expression is professionally neutral, slightly skeptical — she is evaluating, not excited. She is writing a handwritten note on a legal pad beside the laptop. The office is sophisticated: floor-to-ceiling windows, minimal design, city view. Color palette: the crisp light of a high-end investment office, cool and professional, Valentina in focused evaluation mode.
 </details>
 
@@ -15,6 +31,7 @@ Valentina reads the QuantumX pitch deck on a Tuesday afternoon in March 2020 and
 ![](./panel-02.png)
 
 <details><summary>Valentina reads the "QuantumX raises $200M" headline over breakfast</summary>
+Panel 2 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Valentina — Latina woman, late 40s, sharp blazer now a morning robe or casual home wear — at a kitchen table in the morning, phone in hand, reading a news headline. The headline announces a major funding round by a quantum company. Her expression is the controlled look of a professional receiving information she knows is significant — not panicked, just noting it. Coffee on the table. Morning light through a window. Color palette: the warm neutral of a home morning, the phone screen introducing a slightly more urgent note.
 </details>
 
@@ -25,6 +42,7 @@ Six months later, over breakfast and a second coffee, the tech news feed on her 
 ![](./panel-03.png)
 
 <details><summary>A conference lobby — a colleague mentions QuantumX casually</summary>
+Panel 3 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the lobby of a technology investment conference — glass and steel, people in business-casual networking attire, name badges, the ambient sound of professional conversation implied by body language. Valentina is talking with a colleague, her expression politely engaged. The colleague is mentioning something — the QuantumX name might be suggested visually on a badge or in their body language pointing to something across the room. Valentina nods. She stores the mention. Color palette: the cool business-formal palette of a conference space, Valentina in her element but now carrying one more data point.
 </details>
 
@@ -35,6 +53,7 @@ At the conference that fall, a colleague mentions QuantumX during a five-minute 
 ![](./panel-04.png)
 
 <details><summary>Conference lunch — second mention; Valentina grows quiet</summary>
+Panel 4 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a conference lunch table — round table, six or seven investors, plates of hotel food, the social ease of professional peers. Someone across the table is mentioning QuantumX again — not to Valentina specifically but to the group. Valentina is in the midground, listening, and her expression is slightly different from Panel 3: something small has shifted. She is still composed, but she is no longer just noting — she is feeling something. Her reading glasses are pushed up in her characteristic gesture, but the gesture this time signals something other than confidence. Color palette: the warm lunch-table social light, a slightly tighter focus on Valentina's face.
 </details>
 
@@ -45,6 +64,7 @@ The second mention is at lunch, three tables of people at a round, and someone b
 ![](./panel-05.png)
 
 <details><summary>Cocktail hour — "Everyone's talking about it"; the room buzzes</summary>
+Panel 5 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a conference cocktail reception — evening light, drinks in hand, clusters of animated conversation. In the foreground, someone says something to Valentina that visually lands — the kind of statement that changes her evening. The room around her has a slightly elevated energy around the QuantumX topic. Multiple conversations seem to be about the same thing. Valentina stands with a glass she is no longer drinking from, the social environment registering as a signal her brain is treating as data. Color palette: the warm amber of evening cocktails, the slightly charged energy of social information spreading, Valentina beginning to look slightly isolated in her earlier certainty.
 </details>
 
@@ -55,6 +75,7 @@ At the cocktail reception, a third person — someone whose judgment she respect
 ![](./panel-06.png)
 
 <details><summary>Valentina pulls up the exact same pitch deck — same technology</summary>
+Panel 6 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Valentina in her hotel room that night — blazer still on, sitting on the bed with her laptop. The screen shows a pitch deck. On the desk beside her, we can see her legal pad from Panel 1 — the "Pass" note visible, same handwriting. She is looking at the laptop. The deck on screen is the same one she evaluated six months ago. Her expression is the look of a person watching themselves do something they know they are doing. Color palette: the hotel room night light, the blue-white of the laptop, the close physical juxtaposition of the old "Pass" note and the current open deck.
 </details>
 
@@ -65,6 +86,7 @@ In her hotel room at 10 p.m., Valentina opens her laptop and pulls up the Quantu
 ![](./panel-07.png)
 
 <details><summary>Valentina staring at her pass note and the deck side by side</summary>
+Panel 7 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a close, intimate composition: Valentina's face in the foreground, slightly lit by the laptop, her expression showing a kind of wary self-examination — she is watching herself from a slight distance and asking the question. Behind her on the bed: the legal pad with "Pass" visible, the open laptop with the deck. The hotel room is spare and quiet. This is a private moment of a person who knows what is happening to her and is doing it anyway. Color palette: the intimate night-blue of a hotel room, the small warm pool of laptop light, a figure thinking.
 </details>
 
@@ -75,6 +97,7 @@ She sits with the question for a long time. The technology hasn't improved. The 
 ![](./panel-08.png)
 
 <details><summary>Valentina calls her analyst — "Run the numbers again"</summary>
+Panel 8 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Valentina on her phone — she is in her hotel room, pacing slightly, phone to her ear. Her analyst is shown in a small counterpart scene — a young man at a desk, looking slightly surprised at the call. The visual tells us she is asking him to re-examine something and he is doing what she asks, even though something in both their expressions suggests they both know what the answer will be. Color palette: the hotel room night, the split of a phone call across distance, the slight tension of asking a question you already know the answer to.
 </details>
 
@@ -85,6 +108,7 @@ She calls her analyst at 10:45 p.m. "Run the QuantumX numbers again," she says. 
 ![](./panel-09.png)
 
 <details><summary>Analyst: "Nothing has changed technically" — Valentina: "Set up the meeting"</summary>
+Panel 9 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a morning call — Valentina now back in her office, the analyst across a table or on screen. He has his analysis in front of him, clearly showing the same conclusions as six months ago. His expression is careful: he is telling her something she doesn't want to hear, but he is telling her accurately. Valentina's expression is the look of a person whose decision has already moved past the analysis. She says the words. He is writing the meeting request. Color palette: the morning office light, crisp and professional, the kind of light that makes decisions feel more considered than they are.
 </details>
 
@@ -95,6 +119,7 @@ The morning analysis is thorough. Her analyst presents it carefully: comparable 
 ![](./panel-10.png)
 
 <details><summary>Funding wire sent — team celebrates; Valentina stares out the window</summary>
+Panel 10 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a split moment: in the foreground, the QuantumX team in their office, celebrating the new funding — people laughing, champagne maybe. In the background, or in a separate visual frame, Valentina stands at the window of her office alone, looking out. The celebrations and her private expression occupy the same panel but not the same emotional space. Her expression is the particular stillness of someone who knows what they just did. Color palette: the warm celebration colors of the startup office contrasted with the cooler, more isolated tone of Valentina at her window.
 </details>
 
@@ -105,6 +130,7 @@ The term sheet closes in six weeks. The QuantumX team celebrates in their open-p
 ![](./panel-11.png)
 
 <details><summary>Two years later — the startup pivots; write-down memo on Valentina's desk</summary>
+Panel 11 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Valentina at her desk, two years later — she looks as sharp as ever but the desk has a document on it that she is clearly looking at: a write-down memo, a portfolio update, the financial acknowledgment of what the company became (quantum-inspired classical software — a pivot away from the original promise). Her expression is not devastated — she has done this before. But it is the controlled expression of someone absorbing a predictable loss. Color palette: the professional afternoon light of an investment office, the document on the desk catching just enough light to be read as a loss.
 </details>
 
@@ -115,6 +141,7 @@ Two years later, the memo lands on her desk: QuantumX has pivoted to "quantum-in
 ![](./panel-12.png)
 
 <details><summary>Valentina at a whiteboard with her team: "What changed between the pass and the check?"</summary>
+Panel 12 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Valentina at a whiteboard with her investment team — four or five people seated around her in a small conference room. She is standing at the whiteboard, marker in hand. Her posture is open and direct — she is not hiding from what happened. The whiteboard question is visible as text she's written. The team watches her. Her expression is the unsentimental clarity of someone conducting a post-mortem on themselves. Color palette: the clean whiteboard light, Valentina in commanding form, the room attentive.
 </details>
 
@@ -125,6 +152,7 @@ She calls a team post-mortem three weeks after the write-down. She starts with t
 ![](./panel-13.png)
 
 <details><summary>On the whiteboard: "Social signal. Not evidence."</summary>
+Panel 13 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the whiteboard close-up — Valentina's handwriting in clear large letters: "Social signal. Not evidence." Below it, perhaps a diagram showing three mentions of a name in one day converting to a funding decision. Valentina stands beside the whiteboard, looking at what she wrote. The team is visible in the foreground. Her expression is the particular dignity of someone who has told the truth about themselves in front of witnesses. Color palette: the crisp white of the whiteboard text, Valentina beside it with the composed expression of honest self-accounting.
 </details>
 

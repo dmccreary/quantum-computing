@@ -31,6 +31,7 @@ Generate a wide-landscape graphic novel cover image with a width:height ratio of
 ![](./panel-01.png)
 
 <details><summary>Feynman at his desk the night before the lecture</summary>
+Panel 1 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Richard Feynman — depicted accurately: rumpled suit jacket slung over a chair, wild eyebrows, infectious energy even in solitude, bongo drum energy even when standing still — hunched over a cluttered Caltech office desk late at night, scribbling furiously on a paper napkin. The desk is covered in physics papers, coffee cups, and open textbooks. A single desk lamp throws warm amber light across his face. His expression is one of electric excitement, not preparation — this is a man chasing an idea, not writing slides. The room beyond is dark, a blackboard covered in half-erased equations visible in the background. Color palette: warm amber desk-light against cool institutional darkness.
 </details>
 
@@ -41,6 +42,7 @@ Richard Feynman is not preparing slides. He never prepares slides. He is in his 
 ![](./panel-02.png)
 
 <details><summary>A small MIT conference room before the talk</summary>
+Panel 2 of 13.
 Panel 2
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a modest MIT conference room in spring 1981 — folding metal chairs arranged in rough rows, about forty people settling in, an overhead projector at the front. The room has the institutional fluorescent quality of academic spaces from that era: acoustic tile ceiling, a narrow window showing spring trees outside, coats piled on chairs at the back. The atmosphere is collegial, unhurried, curious — not a stadium event. A few people are chatting in pairs. There are no camera crews, no banners. The scale is intimate. Color palette: cool institutional fluorescent light, warm spring green visible through the window.
 </details>
@@ -52,6 +54,7 @@ It is not a stadium. The First Conference on the Physics of Computation at MIT h
 ![](./panel-03.png)
 
 <details><summary>Feynman laughing with a grad student before the lecture</summary>
+Panel 3 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Richard Feynman — rumpled suit, wild eyebrows, infectious grin — standing near the front of the conference room, completely at ease, laughing with a young graduate student. Feynman's body language is open and delighted; the student is caught between starstruck and genuinely amused. Other conference attendees mill in the background. The moment feels warm, unguarded, improvisational — Feynman is not "on" yet, just genuinely enjoying conversation. Natural light and fluorescent light mix. Color palette: warm human tones against the neutral institutional setting.
 </details>
 
@@ -62,6 +65,7 @@ Before he walks to the front, Feynman spends ten minutes talking to a graduate s
 ![](./panel-04.png)
 
 <details><summary>Feynman begins speaking at the front of the room</summary>
+Panel 4 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Richard Feynman — rumpled suit, tie loosened, wild eyebrows animated — standing at the front of the conference room with a marker in hand, just beginning to speak. His posture is forward-leaning, immediately engaged, as if the thought he's about to say has been pressing to get out. The overhead projector is on but he's already moving toward the blackboard instead. The audience is alert, leaning in. The atmosphere shifts — something is beginning. Color palette: the slightly warmer tone as the talk begins, Feynman's animated face catching the light.
 </details>
 
@@ -72,6 +76,7 @@ He begins without preamble, without slides, without ceremony. "I want to talk ab
 ![](./panel-05.png)
 
 <details><summary>Feynman drawing a simulation grid on the board</summary>
+Panel 5 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Richard Feynman at the blackboard drawing a grid of dots — a crude representation of a classical simulation lattice. He's mid-gesture, one hand pointing at the grid, his body turned back toward the audience as he speaks. His expression is animated, almost exasperated — he's building to a punchline. The blackboard shows the grid and some rough notation suggesting exponential growth. The audience is visible in the foreground, some of them already working through the implication on notepads. Color palette: chalk white against black board, the room in warm attentive focus.
 </details>
 
@@ -82,6 +87,7 @@ He draws a grid on the blackboard — rows and columns of dots, the skeleton of 
 ![](./panel-06.png)
 
 <details><summary>Close-up on audience faces — confused, engaged</summary>
+Panel 6 of 13.
 Please generate the image for panel 6.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a close-up view of the audience in the conference room — a cross-section of faces, mostly academic physicists and computer scientists from 1981: older professors with wire-rimmed glasses, young grad students in flannel. The expressions range from confused to intensely focused to the particular look of someone mid-realization. One person's pen is hovering above a notepad, motionless — the hand forgot to write because the brain is working too hard. The lighting is slightly dramatic for a fluorescent room, as if the conversation itself is generating shadow. Color palette: mid-tones of attentive human faces, the quiet intensity of a room thinking hard.
 </details>
@@ -93,6 +99,7 @@ The audience faces are a study in real-time comprehension. Some have the pen-hov
 ![](./panel-07.png)
 
 <details><summary>Feynman delivers his famous line with a grin</summary>
+Panel 7 of 13.
 Please generate the image for panel 7.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Richard Feynman at the peak of his delivery — wild eyebrows raised, that famous infectious grin spreading across his face, both hands spread open as if presenting something obvious. This is the moment of the punchline. He looks delighted — genuinely delighted, as if the thought is funny and important at the same time. The audience visible in the lower frame has the look of people receiving a clarifying idea. The blackboard is covered in marks behind him. Color palette: warm illumination on Feynman's animated face, the room in rapt attention.
 </details>
@@ -104,6 +111,7 @@ Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:
 ![](./panel-08.png)
 
 <details><summary>Feynman sketches a rudimentary quantum circuit</summary>
+Panel 8 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Richard Feynman at the blackboard, drawing a rudimentary diagram — boxes connected by lines, something that suggests gates and wires in a circuit but rendered in his rough, fast hand. He's talking as he draws, mid-sentence, chalk moving quickly. The diagram is not precise — it doesn't need to be. It's the shape of an idea, not a blueprint. His expression is exploratory, not certain. He's working it out in real time. Color palette: chalk on blackboard, the visual contrast of a new idea being sketched into existence.
 </details>
 
@@ -115,6 +123,7 @@ He draws something on the board that is not yet a quantum circuit but is the anc
 ![](./panel-09a.png)
 
 <details><summary>A hand goes up — "But how would you control it?"</summary>
+Panel 9 of 13.
 Please generate an image for this panel.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show an audience member — a middle-aged physicist with thick-framed glasses — raising his hand to ask a question, while Feynman at the front turns toward him with full attentive curiosity. The questioner looks skeptical but genuinely engaged. Feynman's posture is open — not defensive, delighted by the challenge. Other audience members are watching this exchange. The moment has the quality of a debate between peers, not a lecture. Color palette: the room in attentive mid-tone, the two figures — questioner and speaker — in sharper focus.
 </details>
@@ -126,6 +135,7 @@ A hand goes up near the middle of the room. "But how would you control it? How w
 ![](./panel-10.png)
 
 <details><summary>A cluster around the blackboard after the lecture</summary>
+Panel 10 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show the scene immediately after the talk: a cluster of eight or ten people crowded around the blackboard, Feynman in the middle with his sleeves rolled up, deep in conversation with multiple people simultaneously. People are pointing at the diagram on the board, gesturing, talking over each other in the best way. The room has the electric quality of a genuine intellectual moment — ideas in the air, everyone aware that something was said that matters. Empty chairs pushed aside, coats forgotten. Color palette: warm animated scene, the blackboard and its marks the focal anchor.
 </details>
 
@@ -136,6 +146,7 @@ The talk ends and the cluster forms immediately — eight, ten people pressing t
 ![](./panel-11.png)
 
 <details><summary>A young researcher writes in her notebook after the talk</summary>
+Panel 11 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a young female researcher — early 30s, dark hair, wire-rimmed glasses — sitting slightly apart from the main crowd near a window, writing intensely in a small notebook. Her face is focused, slightly frowning in the way of serious thought. We can see the notebook page at an angle — she is writing something, a phrase, a question. Through the window behind her, the spring campus is visible. The scene is quiet against the noise of the cluster in the background. Color palette: the soft spring light through the window on her face, warm notebook tones.
 </details>
 
@@ -146,6 +157,7 @@ Near the window, a young researcher has separated herself from the cluster at th
 ![](./panel-12.png)
 
 <details><summary>Montage of labs, papers, and companies — all tracing back</summary>
+Panel 12 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a montage composition — a single wide panel that flows from left to right across time: at left, the 1981 blackboard diagram; then academic papers stacked, a 1990s-era university lab, a 2000s cleanroom with early quantum hardware, a 2010s company logo on glass doors, a 2020s news headline on a screen. The images flow together without hard borders, connected by a visual thread — perhaps the circuit diagram evolving and growing more complex. The color palette shifts from the warm amber of the 1981 office through the cool blue-white of modern cleanrooms. A sense of vast time and accumulated effort.
 </details>
 
@@ -156,6 +168,7 @@ Decades unspool. Papers accumulate. Labs are built in basements and then in dedi
 ![](./panel-13.png)
 
 <details><summary>A modern quantum lab with a quote on the wall</summary>
+Panel 13 of 13.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a modern quantum computing laboratory — dilution refrigerators hanging from the ceiling like alien chandeliers, cables in organized bundles, cleanroom suits on hooks near the door, blue-tinged equipment lighting reflecting on polished floors. Researchers in partial cleanroom gear work quietly at stations. On one wall, visible clearly, is a framed quote printed in large clean type. The lab is beautiful in a technical way — the beauty of extreme precision, extreme cold, extreme care. Color palette: cool blues and whites of cryogenic equipment, the clinical precision of a modern physics lab, one warm accent on the framed quote.
 </details>
 

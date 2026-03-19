@@ -1,10 +1,26 @@
 # The Decoherence Clock
 
+A physicist chases coherence time improvements whose curve flattens long before the goal.
+
+![cover](./cover.png)
+<details>
+<summary>Cover Image </summary>
+Generate a wide-landscape graphic novel cover image with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone.
+
+  Not cartoonish. Think Saga or Maus rather than superhero comics.
+  Do not put any captions or text in the image EXCEPT the title at the top.
+
+  Place the title text at the top of the image: "The Decoherence Clock"
+
+  Show Dr. Yuki — a Japanese-American woman in her 30s, safety glasses on her forehead, cryogenics lab coat — standing beside a towering dilution refrigerator in a cold blue laboratory. The refrigerator is a cylinder of concentric metal rings descending into extreme cold — alien and beautiful. On a monitor beside her, a graph shows a coherence curve that starts rising steeply and then levels off far below the target line. A clock on the lab wall shows the present; a dotted projection line on the graph shows where the plan assumed she'd be by now. The gap between projection and reality is the visual center of the piece. Color palette: the cool blue-silver of the refrigerator and lab, the amber of the monitor showing the diverging graph, Yuki's expression caught between scientific precision and concern.
+</details>
+
 ## Panel 1: First Celebration
 
 ![](./panel-01.png)
 
 <details><summary>Dr. Yuki as postdoc, celebrating coherence going from 50 to 100 microseconds</summary>
+Panel 1 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Think Saga or Maus rather than superhero comics. Do not put captions or text in the image. Show Dr. Yuki — a Japanese woman, late 30s (younger here, so late 20s), cleanroom-ready at all times, hair tied back, surrounded by cryogenic equipment — as a postdoc in a quantum lab, celebrating a result with two colleagues. Paper cups with what might be cheap champagne. A monitor in the background shows a measurement result — a coherence time number that represents a doubling. The celebration is genuine, small-scale, real. Color palette: the lab lighting with the warm flush of a real achievement, the blue-white of equipment alongside the warmth of the people.
 </details>
 
@@ -15,6 +31,7 @@ Dr. Yuki is twenty-nine and has been a postdoc for eight months when the coheren
 ![](./panel-02.png)
 
 <details><summary>Dr. Yuki's grant proposal: "Projected coherence in 5 years: 10ms"</summary>
+Panel 2 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Dr. Yuki at a desk, writing or reviewing a grant proposal document. The proposal is visible — technical, dense, with projected milestone numbers. Her expression is the earnest forward focus of a researcher building an argument for her future. The numbers she writes are projections, not certainties, but in the proposal they look like certainties — that is what grant proposals require. Color palette: the desk light of careful academic writing, Yuki in professional focus.
 </details>
 
@@ -25,6 +42,7 @@ The independent grant proposal requires milestones. Yuki writes: "Year 1: 500 mi
 ![](./panel-03.png)
 
 <details><summary>The beautiful alien hardware — dilution refrigerator, cables, 15 millikelvin</summary>
+Panel 3 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's new lab — her own lab now — with a dilution refrigerator as the visual centerpiece. The fridge hangs from the ceiling, a forest of coaxial cables running up and down its length. The equipment has the beautiful alien quality of something designed for extreme conditions — clean, precise, strange. Yuki stands beside it in cleanroom gear, adjusting something. The temperature readout somewhere in the scene suggests near absolute zero. Color palette: the cool blue-silver of cryogenic equipment, the cleanroom white of the surrounding space, the science-fiction quality of extreme physics made real.
 </details>
 
@@ -35,6 +53,7 @@ Her lab, when she gets it, is organized around the dilution refrigerator — a m
 ![](./panel-04.png)
 
 <details><summary>New shielding reaches 500 microseconds — press release drafted</summary>
+Panel 4 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki at a monitor showing the coherence measurement — 500 microseconds, a clear record. She is drafting or reviewing a university press release at a desk nearby. Her expression is genuine satisfaction. On her desk, the grant proposal milestone chart is visible — Year 1 target: 500 microseconds — she has hit it. Color palette: the lab success light, the warmth of a milestone achieved.
 </details>
 
@@ -45,6 +64,7 @@ Year 2: the new electromagnetic shielding configuration reaches 500 microseconds
 ![](./panel-05.png)
 
 <details><summary>New shielding changes EM environment — a different error mode appears</summary>
+Panel 5 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki at her monitor, studying a new measurement — a different error signature from the one she was controlling. The screen shows a graph with a new feature: a bump, or an asymmetry, that wasn't there before. Her expression is puzzled concentration — she is looking at something unexpected. The lab around her is running normally. Color palette: the lab working light, Yuki's focus sharpening around a problem that wasn't in the plan.
 </details>
 
@@ -55,6 +75,7 @@ The improved shielding changes the electromagnetic environment in ways she didn'
 ![](./panel-06.png)
 
 <details><summary>Late at night — total error rate unchanged despite "records"</summary>
+Panel 6 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki at her station very late at night, a graph on her monitor. The graph plots the total error rate over two years of her lab's existence. The line shows individual components improving (one goes down, then another) but the total error rate — the actual figure of merit — is essentially flat. Her expression is the particular focus of a scientist who is seeing something true and difficult. Color palette: the late-night monitor glow, the flat line as the visual story.
 </details>
 
@@ -65,6 +86,7 @@ She makes a graph she has never shown anyone: total error rate over time, not br
 ![](./panel-07.png)
 
 <details><summary>Another lab announces 1.2ms coherence — Yuki raises hand: "What's gate fidelity?"</summary>
+Panel 7 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a conference presentation — an excited presenter at the front announcing a 1.2 millisecond coherence time result. The audience is enthusiastic. Yuki, in the audience, has her hand raised — she is asking the follow-up question. Her expression is not competitive or dismissive; it is the specific curiosity of a person who knows what question exposes whether a record is meaningful. Color palette: the conference room light, Yuki's raised hand the visual focal point.
 </details>
 
@@ -75,6 +97,7 @@ At the Quantum Hardware Conference, a group from Stockholm announces 1.2 millise
 ![](./panel-08.png)
 
 <details><summary>Yuki's whiteboard: coherence × fidelity × qubit count = unchanged product</summary>
+Panel 8 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's office whiteboard with a calculation she has written — a product of three factors: coherence time, gate fidelity, qubit count. The numbers from the last three years of the field are filled in. The product — which represents usable computation capacity — shows a nearly flat trend despite individual metric improvements. Yuki stands back from the board, looking at it. The calculation is clear and uncomfortable. Color palette: the office whiteboard light, the clean logic of a calculation that doesn't lie.
 </details>
 
@@ -85,6 +108,7 @@ Her whiteboard shows three years of the field's published results: coherence tim
 ![](./panel-09.png)
 
 <details><summary>Yuki writes "Are We Making Progress?" — careful, genuinely uncertain</summary>
+Panel 9 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki writing at her desk — the review paper taking shape on her laptop. Her expression is the careful deliberateness of someone writing something honest that will be read by people with strong interests in the answer. The whiteboard calculation is visible through her office window, on the wall. She is writing slowly, choosing words. Color palette: the office writing light, the slight weight of someone composing something genuinely uncertain.
 </details>
 
@@ -95,6 +119,7 @@ The paper takes four months to write. She analyzes the composite progress metric
 ![](./panel-10.png)
 
 <details><summary>Reviewer: "Too negative — you're not accounting for future techniques"</summary>
+Panel 10 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki reading reviewer comments on her laptop. One reviewer comment is particularly long — she is rereading a specific paragraph. The comment is clearly of the "too pessimistic" variety. Her expression as she reads is the careful look of someone deciding how to respond to an argument that is not entirely wrong and is also not entirely right. Color palette: the screen light, Yuki's expression showing the particular difficulty of this kind of reviewer pushback.
 </details>
 
@@ -105,6 +130,7 @@ Reviewer 2 writes: "The analysis is technically correct but the framing is inapp
 ![](./panel-11.png)
 
 <details><summary>The paper publishes softened — the honest version lives in her desk drawer</summary>
+Panel 11 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's desk — on the surface, the published version of the paper (visible as a journal PDF). In the drawer, partially open, the original draft with its more direct conclusions. Yuki sits at the desk, the drawer slightly open beside her. Her expression carries the quiet dissatisfaction of someone who told a partial truth and knows it. Color palette: the desk light, the visual contrast between the published document and the drawer-document.
 </details>
 
@@ -115,6 +141,7 @@ The published paper is softened in the second half. The conclusion now reads: "T
 ![](./panel-12.png)
 
 <details><summary>Younger colleague: "Do you actually think we'll get there?" — long pause</summary>
+Panel 12 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki and a younger researcher — a postdoc in her lab, a man in his late 20s — in a quiet moment in the lab. He has asked the question. Yuki's response is the specific quality of a long pause — she is not composing a comforting answer; she is sitting with the real one. The cryogenic equipment is visible around them. The pause has weight. Color palette: the quiet lab light of a moment after the official work has stopped, two people in an honest conversation.
 </details>
 
@@ -125,6 +152,7 @@ Her postdoc asks after a late-night equipment session. He is twenty-eight and ha
 ![](./panel-13.png)
 
 <details><summary>Yuki: "I think we might. But I used to be certain. Now I just think we might."</summary>
+Panel 13 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki and her postdoc in the lab — she is giving her answer. Her expression carries the particular quality of earned uncertainty: not despair, not false hope, just the calibrated honesty of someone who has looked at the data for six years. Her postdoc receives this answer with the thoughtful look of someone who understands that the honest answer is harder than either yes or no. Color palette: the late-night lab light, the human warmth of two researchers talking about what they actually know.
 </details>
 
@@ -135,6 +163,7 @@ Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:
 ![](./panel-14.png)
 
 <details><summary>Six years of coherence measurements — real progress, not enough, both true</summary>
+Panel 14 of 14.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Yuki's lab notebook — six years of coherence time measurements in a handwritten log. Each entry is dated, the numbers showing the arc: 100 microseconds, 250, 500, 680, 720, 500 (the setback after the shielding change), 800, 850. Real progress, clearly visible. The last entry is notably below 1 millisecond. Below the notebook, out of frame, is the fault-tolerance threshold — still not reached after six years. The notebook is the whole story in one object. Yuki's hand rests on it. Color palette: the warm amber of aged notebook pages, the numbers telling a story of real work and real distance remaining.
 </details>
 
