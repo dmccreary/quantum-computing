@@ -172,6 +172,7 @@ nav:
   - Sample Prompts:
     - List of Prompts: prompts/index.md
     - Seed Prompt: prompts/01-seed-prompt.md
+    - Cover: prompts/05-cover.md
 
   - Glossary: glossary.md
   - FAQ: faq.md
