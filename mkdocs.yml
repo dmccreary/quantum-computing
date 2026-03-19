@@ -232,7 +232,10 @@ watch:
 copyright: Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
 
 extra:
+  # remove the "Made with MkDocs" in the footer
   generator: false
+
+  # Used by search engines to find the intelligent textbook type
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: "A Skeptic's Guide to Quantum Computing"
   textbook_version: "1.0"
