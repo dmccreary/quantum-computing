@@ -2,7 +2,9 @@
     "cSpell.words": [
         "Aaronson",
         "Acqui",
+        "Brownell",
         "Cirq",
+        "cleanroom",
         "CNOT",
         "Dephasing",
         "Dyakonov",
@@ -11,11 +13,13 @@
         "Hartmut",
         "Kalai",
         "Laughlin",
+        "millikelvin",
         "Neven",
         "NISQ",
         "Optum",
         "Overhype",
         "Preskill",
+        "Priya",
         "Qiskit",
         "Qubit",
         "qubits",
@@ -24,6 +28,7 @@
         "SPAC",
         "Theranos",
         "Toffoli",
-        "Transmon"
+        "Transmon",
+        "Yuki"
     ]
 }
