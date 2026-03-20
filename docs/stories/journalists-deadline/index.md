@@ -77,6 +77,7 @@ The headline goes live at 4:47 p.m. and Sasha closes her laptop and takes her fi
 <details><summary>Sasha's phone lighting up with shares and notifications</summary>
 Panel 6 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha in the evening — she might be on the subway or at home — her phone in her hand, screen lighting up with notification after notification. Social share counts, mentions, direct messages. Her expression shifts from satisfaction to slight unease as the numbers keep climbing. The glow of the phone in a darker environment makes the notifications look almost overwhelming. Color palette: the blue-white of a phone screen in an evening setting, the almost feverish light of viral traction.
+Generate the image now.
 </details>
 
 By nine o'clock that night, the story has been shared forty thousand times. Her editor texts: "Huge. Well done." Someone on the publication's social team texts: "Best performing piece this month." Her phone won't stop. Three other outlets have cited her story in their own coverage, amplifying the central claim. The forty thousand shares are shares of the headline, mostly. Most people share without reading to the sentence near the bottom.
@@ -88,6 +89,7 @@ By nine o'clock that night, the story has been shared forty thousand times. Her 
 <details><summary>Sasha reading the preprint on her phone — three researchers, a laptop</summary>
 Panel 7 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha the next morning, coffee in one hand, phone in the other, reading something. The phone screen shows an academic preprint — the kind with dense text and a sparse header. Her expression is shifting — she started reading casually and now something has pulled her attention fully in. The preprint describes a classical replication of the quantum result. The scene is quiet — a kitchen or coffee shop morning. Color palette: gentle morning light, the contrast between the ordinary setting and the significance of what she's reading on her phone.
+Generate the image now.
 </details>
 
 A preprint lands on arxiv twelve days later. Three university researchers — two grad students and a professor, using a laptop and a cluster of classical computing nodes — have replicated the key results of the demo in four seconds. The paper is clear, methodical, and polite. It doesn't accuse anyone of fraud. It simply shows the work. Sasha reads it on her phone over morning coffee and something cold settles in her stomach.
@@ -99,6 +101,7 @@ A preprint lands on arxiv twelve days later. Three university researchers — tw
 <details><summary>Sasha reading the methodology section, color draining from her face</summary>
 Panel 8 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a close-up on Sasha — white woman, early 30s, short auburn hair — face partially lit by her phone screen. She has scrolled to the methodology section of the preprint. Her expression is the one where the implications are arriving faster than the defenses can organize. The coffee cup in her other hand has stopped halfway to her mouth. She is very still. Color palette: the phone's blue-white light on her face, the colors of the world slightly desaturated around her as the moment contracts to this one read.
+Generate the image now.
 </details>
 
 The methodology section of the preprint does not say the company lied. It says the problem they chose was one that happens to be efficiently solvable by a classical algorithm published fourteen months ago — an algorithm Sasha had no way of knowing existed, but that any academic reviewer of the original claim should have checked. The company's result is technically accurate. The framing is what fell apart. The framing is what she wrote as her headline.
@@ -110,6 +113,7 @@ The methodology section of the preprint does not say the company lied. It says t
 <details><summary>Correction published — 300 shares; original still trending</summary>
 Panel 9 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show two phone screens or browser windows side by side: on the left, the original article still showing a large share count (40,000+), on the right, the correction piece with a much smaller count (300). Sasha's face is reflected faintly in one screen, looking at the disparity. The visual makes the asymmetry concrete and undeniable. Color palette: the digital glow of screens, the cool contrast between two numbers that tell the whole story.
+Generate the image now.
 </details>
 
 The correction runs. Sasha writes it herself. It is accurate and fair and clearly explains what the original piece got wrong and why. It receives three hundred shares. The original article remains the second result when you search the company's name. The company's communications team does not issue a retraction. Several newsletters still cite the original story without the correction. The forty thousand shares do not unshare.
@@ -121,6 +125,7 @@ The correction runs. Sasha writes it herself. It is accurate and fair and clearl
 <details><summary>Sasha reading a reader's pointed email question</summary>
 Panel 10 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha at her desk, reading an email on her monitor. The email is from a reader — not mean, just direct. Its tone is the kind that gets to the point. Sasha's expression is not defensive. She is reading it carefully, with the look of someone who knows the question is fair. The newsroom around her is active. Her reporter's notebook sits closed on her desk. Color palette: the ordinary newsroom light, Sasha in a moment of private reckoning that looks, from outside, exactly like reading email.
+Generate the image now.
 </details>
 
 A reader emails: "Why didn't you ask a skeptic?" It is not a hostile email — it is a direct question from someone who works in the field and read both the original piece and the correction. Sasha reads it twice. Then she looks at her original notes and tries to identify the moment when she should have picked up the phone and called someone who had a reason to doubt. The moment was there. It was right after she wrote "first ever" in her notebook.
@@ -132,6 +137,7 @@ A reader emails: "Why didn't you ask a skeptic?" It is not a hostile email — i
 <details><summary>Post-it note on Sasha's monitor: "Who benefits from this claim being true?"</summary>
 Panel 11 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show Sasha's monitor at her newsroom desk — a yellow Post-it note is stuck to the bottom edge of the screen. On it, in Sasha's handwriting, is a question about the source's incentives — why would someone want this claim to be true? Sasha is in the background, slightly out of focus, working at her desk, the Post-it visible as a permanent fixture now. Color palette: the warm yellow of a Post-it against the blue-white of the newsroom monitor, a small yellow anchor in the composition.
+Generate the image now.
 </details>
 
 She writes a question on a Post-it and sticks it to the bottom edge of her monitor. She leaves it there. It becomes the first thing she reads when she opens a new assignment. Some of her colleagues notice it and ask about it. She tells them the short version. A few of them make their own Post-its.
@@ -143,6 +149,7 @@ She writes a question on a Post-it and sticks it to the bottom edge of her monit
 <details><summary>Sasha at a conference, hand raised, asking the hard question</summary>
 Panel 12 of 12.
 Generate a wide-landscape graphic novel drawing with a width:height ratio of 16:9. Use rich colors in the style of a thoughtful, cinematic graphic novel — expressive character faces, dramatic lighting, environments that reflect emotional tone. Not cartoonish. Do not put captions or text in the image. Show a technology or science conference — a panel discussion on a stage. Sasha — white woman, early 30s, short auburn hair, reporter's notebook in hand — is in the audience with her hand raised, asking a question. Her expression is direct, composed, and completely unafraid. The panelist on stage — a tech company executive — has an expression that suggests the question is not the comfortable one. Other audience members are turning to look at Sasha. She is the person in the room asking what nobody else asked. Color palette: the bright stage lighting from a conference, Sasha in the mid-ground of the audience — the one hand raised cutting a clear line through the scene.
+Generate the image now.
 </details>
 
 At a quantum computing conference six months later, a CEO is presenting a new breakthrough. Sasha is in the third row. When the Q&A opens, she raises her hand first. The question she asks is specific, technical, and aimed at the classical baseline: what comparison was used, and against what algorithm, and who ran the comparison? The CEO's answer is less specific than her question. She writes it down exactly as he says it, including what he doesn't say. The story she files is different from the one she would have filed a year ago.
