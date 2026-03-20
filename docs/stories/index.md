@@ -17,6 +17,8 @@ These graphic novel stories follow researchers, founders, investors, journalists
 
 - **[The Five-Year Forecast](./five-year-forecast/index.md)**
 
+    ![](./five-year-forecast/cover.png){ width="350px"}
+
     A quantum computing founder presents a confident five-year roadmap at launch, then watches reality quietly diverge from the plan — and learns to plan with error bars instead of single points.
 
 - **[The Benchmark Slide](./benchmark-slide/index.md)**
@@ -63,9 +65,13 @@ These graphic novel stories follow researchers, founders, investors, journalists
 
 - **[The Decoherence Clock](./decoherence-clock/index.md)**
 
+    ![](./decoherence-clock/cover.png){ width="350px"}
+
     A postdoc doubles a qubit's coherence time from 50 to 100 microseconds and celebrates — until someone points out how far that number still is from what fault-tolerant computation requires.
 
 - **[The CISO Who Spent the Budget Early](./ciso-budget/index.md)**
+
+    ![](./ciso-budget/cover.png){ width="350px"}
 
     A bank's chief information security officer reads a headline about quantum threats to encryption and begins reallocating budget — years before the threat is real, and before her classical defenses are in order.
 
@@ -74,6 +80,8 @@ These graphic novel stories follow researchers, founders, investors, journalists
     Five people in different roles — researcher, journalist, investor, policymaker, and startup founder — each make decisions that individually make sense but collectively sustain a hype cycle nobody intended to create.
 
 - **[We've Seen This Movie Before](./seen-this-movie/index.md)**
+
+    ![](./seen-this-movie/cover.png){ width="350px"}
 
     A veteran technology conference attendee walks through a quantum computing expo and recognizes, pattern by pattern, the same arc of hype that played out in AI winters, cold fusion, and nanotechnology.
 
