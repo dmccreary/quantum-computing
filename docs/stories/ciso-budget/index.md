@@ -12,7 +12,7 @@ Generate a wide-landscape graphic novel cover image with a width:height ratio of
 
   Place the title text at the top of the image: "The CISO Who Spent the Budget Early"
 
-  Show Nadia — a Black woman in her 40s, sharp professional composure, reading glasses pushed up on her head — at a boardroom table, a newspaper folded open to a headline about quantum threats to encryption. Behind her, a floor-to-ceiling window shows a city skyline at dusk. On the table: budget binders, a laptop showing an infographic, a stack of vendor proposals. Her expression is the measured focus of someone about to make a very large decision. A small sticky note on the newspaper reads "5 years?" in her handwriting. Color palette: the cool blue of the dusk city behind her, the warm lamp light of the boardroom on the documents, Nadia's composure a still point at the center.
+  Show Nadia — a Middle Eastern woman, mid-40s, executive attire, always with a laptop open, sharp and methodical — at her desk in a financial institution's executive suite, reading a headline on her laptop. — at a boardroom table, a newspaper folded open to a headline about quantum threats to encryption. Behind her, a floor-to-ceiling window shows a city skyline at dusk. On the table: budget binders, a laptop showing an infographic, a stack of vendor proposals. Her expression is the measured focus of someone about to make a very large decision. A small sticky note on the newspaper reads "5 years?" in her handwriting. Color palette: the cool blue of the dusk city behind her, the warm lamp light of the boardroom on the documents, Nadia's composure a still point at the center.
 </details>
 
 ## Panel 1: The Headline
