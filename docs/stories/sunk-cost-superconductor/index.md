@@ -12,7 +12,7 @@ Generate a wide-landscape graphic novel cover image with a width:height ratio of
 
   Place the title text at the top of the image: "The Sunk Cost Superconductor"
 
-  Show Marcus — a white man in his 40s, exhausted competence, shirtsleeves rolled up — standing in his company's quantum hardware lab. The lab is expensive: racks of cryogenic equipment, cables, a dilution refrigerator. On a monitor in the foreground, a flat error rate graph — the curve that should be declining has plateaued for months. Behind Marcus, his team works on. A whiteboard shows the dollar figure of total investment to date. Marcus's expression is the face of someone who knows the physics and cannot say it out loud. Color palette: the cool blue-grey of the expensive hardware lab, the amber of the monitor showing the plateau curve, the investment figure on the whiteboard a quiet, damning white.
+  Show Marcus — Show Marcus — a Black man, mid-40s, close-cropped hair, collared shirt and slacks — standing in his company's quantum hardware lab. The lab is expensive: racks of cryogenic equipment, cables, a dilution refrigerator. On a monitor in the foreground, a flat error rate graph — the curve that should be declining has plateaued for months. Behind Marcus, his team works on. A whiteboard shows the dollar figure of total investment to date. Marcus's expression is the face of someone who knows the physics and cannot say it out loud. Color palette: the cool blue-grey of the expensive hardware lab, the amber of the monitor showing the plateau curve, the investment figure on the whiteboard a quiet, damning white.
 </details>
 
 ## Panel 1: Day One (2019)
