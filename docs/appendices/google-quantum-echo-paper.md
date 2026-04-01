@@ -1,8 +1,8 @@
 # Analysis: Google's Quantum Echoes Paper (2025)
 
-**Paper:** "Observation of Constructive Interference at the Edge of Quantum Ergodicity"
-**Authors:** Google Quantum AI
-**Journal:** *Nature*, 2025
+**Paper:** "Observation of Constructive Interference at the Edge of Quantum Ergodicity"<br/>
+**Authors:** Google Quantum AI<br/>
+**Journal:** *Nature*, 2025<br/>
 **DOI:** [10.1038/s41586-025-09526-6](https://www.nature.com/articles/s41586-025-09526-6)
 
 ---
