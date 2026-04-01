@@ -161,6 +161,7 @@ nav:
     - Appendix B - Breakthroughs Required: appendices/breakthroughs-required.md
     - Google Quantum Echoes Paper Analysis: appendices/google-quantum-echo-paper.md
     - Palmer's Rational Quantum Mechanics: appendices/palmer-limit.md
+    - "Dyakonov: Will We Ever Have a Quantum Computer?": appendices/dyakonov-book.md
   
   - Learning Graph:
     - Introduction: learning-graph/index.md
