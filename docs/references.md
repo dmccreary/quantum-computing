@@ -5,3 +5,4 @@
 - National Academies of Sciences (2019). *Quantum Computing: Progress and Prospects.* National Academies Press. (Especially Chapter 6: "Key Findings and Recommendations")
 - Aaronson, S. (2008). "The Limits of Quantum Computers." *Scientific American*, March 2008. (Nuanced view from a proponent)
 - Preskill, J. (2018). "Quantum Computing in the NISQ Era and Beyond." *Quantum*, 2, 79. (The originator of "NISQ" acknowledging limitations)
+- [Quantum computers could have a fundamental limit after all](https://phys.org/news/2026-03-quantum-fundamental-limit.html) by Sam Jarman, Phys.org, March 23, 2026
