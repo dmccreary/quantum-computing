@@ -15,3 +15,7 @@ A detailed review of Google Quantum AI's 2025 *Nature* paper on quantum echoes u
 ## [Palmer's Rational Quantum Mechanics](./palmer-limit.md)
 
 An analysis of Tim Palmer's 2026 *PNAS* paper proposing that quantum computers face a fundamental ceiling of 200–1,000 qubits due to the discretization of Hilbert space. If correct, Shor's algorithm can never break RSA encryption — not for engineering reasons, but because of physics. Rated 6/10 for an intellectually serious, falsifiable theory that remains speculative and unproven.
+
+## [Microsoft's Majorana 2 Claims: Nature Critique Analysis](./microsoft-rebuttal.md)
+
+A detailed review of Dr. Henry Legg's June 2026 *Nature* "Matters Arising" critique challenging Microsoft's topological qubit paper. Legg identifies basic Python coding errors, a flawed measurement protocol with arbitrary outcomes, and omitted data that resembles noise rather than the claimed Majorana state. This is the third serious public challenge to Microsoft Majorana research after retractions in 2018 and 2021. Rated 9/10 for a technically specific, verifiable critique — and a textbook case of institutional confirmation bias and sunk cost reasoning.
