@@ -200,6 +200,8 @@ This response is notable for what it does not address: the specific coding error
 measurement protocol problems, or the omitted data. Affirming confidence in the roadmap is not
 a rebuttal to a technical critique.
 
+
+[Reply to: On the robustness of topological gap detection via transport](https://www.nature.com/articles/s41586-026-10568-7) - Published in Nature on June 24th, 2026
 ---
 
 ## Summary

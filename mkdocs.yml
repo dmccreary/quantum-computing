@@ -155,6 +155,10 @@ nav:
     - The Road Not Funded: stories/road-not-funded/index.md
     - The Quantum Speedup That Wasn't: stories/quantum-speedup-wasnt/index.md
 
+  - Posters:
+    - List of Posters: posters/index.md
+    - Bias in High Stakes Science: posters/bias-in-high-stakes-science.md
+
   - Appendices:
     - List of Appendices: appendices/index.md
     - Appendix A - Claims: appendices/claims.md
