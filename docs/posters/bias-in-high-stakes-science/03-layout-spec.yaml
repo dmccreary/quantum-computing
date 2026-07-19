@@ -1,0 +1,195 @@
+slug: bias-in-high-stakes-science
+format: portrait
+dimensions: 2400x3200px
+color_palette:
+  background: "#0D1117"         # deep navy/charcoal
+  primary_accent: "#E8C547"     # warning amber
+  secondary_accent: "#4FC3F7"   # cool blue (science/data)
+  danger_accent: "#EF5350"      # red for strike markers
+  text_primary: "#F0F0F0"
+  text_secondary: "#A0AEC0"
+  section_bg: "#1A2332"         # slightly lighter panel
+
+zones:
+  - id: header
+    position: top, full-width
+    height: 12%
+    elements:
+      - type: title
+        text: "When Brilliant People Believe Wrong Things"
+        style: bold, 72px, primary_accent
+        source_id: non-factual (design element)
+      - type: subtitle
+        text: "Cognitive Bias in High-Stakes Science"
+        style: 44px, text_primary
+        source_id: non-factual (design element)
+      - type: tagline
+        text: "A case study from quantum computing research, 2018–2026"
+        style: 28px italic, text_secondary
+        source_id: microsoft_strike_count
+
+  - id: central_brain_illustration
+    position: upper-center
+    height: 18%
+    elements:
+      - type: illustration_direction
+        text: >
+          Split-brain silhouette (left = rational, right = emotionally-biased). Left side:
+          clean grid of data points, a balance scale. Right side: same data but
+          filtered through a distorting lens; mismatched pieces. Amber glow on the
+          right brain indicating heat/pressure. Do not include text in this zone.
+        source_id: non-factual (illustrative metaphor)
+      - type: caption
+        text: "The brain under competitive pressure processes the same evidence differently"
+        style: 24px italic, text_secondary, centered below illustration
+        source_id: non-factual (synthesis caption)
+
+  - id: bias_grid
+    position: middle
+    layout: 2x2 grid
+    height: 38%
+    cells:
+      - id: sunk_cost
+        position: top-left
+        icon: hourglass sinking into coins
+        header:
+          text: "THE SUNK COST TRAP"
+          style: bold, 32px, primary_accent
+        body:
+          - text: >
+              Once large investments are made, abandoning them feels like
+              accepting a loss — and losses feel ~2× more painful than
+              equivalent gains feel rewarding.
+            source_id: loss_aversion_ratio
+          - text: "(Kahneman & Tversky, Econometrica, 1979)"
+            style: 20px, text_secondary, italic
+        case_anchor:
+          text: "Case: ~16 yrs · est. $1B+ in topological qubits"
+          style: 22px, secondary_accent
+          source_id: sunk_cost_escalation
+        biology_note:
+          text: "Loss aversion is encoded in the amygdala — it fires harder for potential losses than equivalent gains"
+          style: 20px, text_secondary, italic
+
+      - id: confirmation_bias
+        position: top-right
+        icon: funnel/filter showing only matching items passing through
+        header:
+          text: "CONFIRMATION BIAS"
+          style: bold, 32px, primary_accent
+        body:
+          - text: >
+              "The seeking or interpreting of evidence in ways partial
+              to existing beliefs." Contradictory data is not suppressed
+              deliberately — it is simply perceived as noise.
+            source_id: confirmation_bias_definition
+          - text: "(Nickerson, Review of General Psychology, 1998)"
+            style: 20px, text_secondary, italic
+        case_anchor:
+          text: "Case: Favorable data presented; contradictory data omitted"
+          style: 22px, secondary_accent
+          source_id: confirmation_bias_definition
+        biology_note:
+          text: "The brain's pattern-matching systems prioritize confirming signals — a feature, not a bug, until the stakes are high"
+          style: 20px, text_secondary, italic
+
+      - id: motivated_reasoning
+        position: bottom-left
+        icon: trophy / competitor arrow warping a data graph
+        header:
+          text: "MOTIVATED REASONING"
+          style: bold, 32px, primary_accent
+        body:
+          - text: >
+              Competitive goals shape which results researchers pursue
+              and how they interpret ambiguous findings — while the
+              reasoner maintains an illusion of objectivity.
+            source_id: motivated_reasoning
+          - text: "(Kunda, Psychological Bulletin, 1990)"
+            style: 20px, text_secondary, italic
+        case_anchor:
+          text: "Case: IBM & Google advancing → intense pressure to show progress"
+          style: 22px, secondary_accent
+          source_id: motivated_reasoning
+        biology_note:
+          text: "Dopamine reward pathways reinforce finding what we expect to find — making motivated perception feel like honest discovery"
+          style: 20px, text_secondary, italic
+
+      - id: prestige_as_proof
+        position: bottom-right
+        icon: journal cover with star/badge, magnifying glass misreading it
+        header:
+          text: "PRESTIGE AS PROOF"
+          style: bold, 32px, primary_accent
+        body:
+          - text: >
+              Institutions use top-journal publication as a signal
+              that results are validated. But peer review is a filter,
+              not a guarantee — and >80% of published papers report
+              positive results.
+            source_id: publication_positive_rate
+          - text: "(Fanelli, PLOS ONE, 2010)"
+            style: 20px, text_secondary, italic
+        case_anchor:
+          text: "Case: Nature publication cited as proof; coding errors not caught"
+          style: 22px, secondary_accent
+          source_id: publication_positive_rate
+        biology_note:
+          text: "Authority signals bypass critical evaluation — a cognitive shortcut that works until the authority is wrong"
+          style: 20px, text_secondary, italic
+
+  - id: timeline
+    position: lower-middle
+    height: 14%
+    layout: horizontal timeline, 3 nodes
+    header:
+      text: "THREE STRIKES: THE MICROSOFT MAJORANA PATTERN"
+      style: bold, 30px, primary_accent, centered
+    nodes:
+      - year: "2018"
+        label: "RETRACTED"
+        detail: "Majorana signatures paper withdrawn from Nature"
+        color: danger_accent
+        source_id: microsoft_strike_count
+      - year: "2021"
+        label: "RETRACTED"
+        detail: "Quantized Majorana conductance paper retracted"
+        color: danger_accent
+        source_id: microsoft_strike_count
+      - year: "2026"
+        label: "CHALLENGED"
+        detail: "Legg Nature critique: coding errors, flawed protocol, omitted data"
+        color: primary_accent
+        source_id: microsoft_strike_count
+    connector: dashed amber line, left to right
+
+  - id: footer_lesson
+    position: bottom, full-width
+    height: 10%
+    background: primary_accent
+    elements:
+      - type: pull_quote
+        text: >
+          "Prestigious publication is a starting point for scientific evaluation —
+          not an endpoint. The same biases that shape individual decisions
+          operate at institutional scale."
+        style: bold, 28px, dark (#0D1117), centered
+        source_id: non-factual (synthesis)
+      - type: source_line
+        text: >
+          Sources: Kahneman & Tversky (1979) · Arkes & Blumer (1985) ·
+          Nickerson (1998) · Kunda (1990) · Fanelli (2010) ·
+          Legg, Nature (2026) DOI: 10.1038/s41586-026-10567-8
+        style: 18px, text_secondary
+
+  - id: course_credit
+    position: bottom-right corner
+    height: 3%
+    text: "A Skeptic's Guide to Quantum Computing · dmccreary.github.io/quantum-computing"
+    style: 16px, text_secondary
+
+non_factual_design_elements:
+  - brain illustration (metaphor only)
+  - section icons (sinking hourglass, funnel, trophy, journal badge)
+  - color coding and background
+  - connector lines and layout grid

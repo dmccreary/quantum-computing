@@ -23,9 +23,13 @@ These graphic novel stories follow researchers, founders, investors, journalists
 
 - **[The Benchmark Slide](./benchmark-slide/index.md)**
 
+    ![](./benchmark-slide/cover.png){ width="350px"}
+
     A researcher discovers an unexpected speedup result late at night, presents it at a conference, and sets off a chain of events that reveals how quickly preliminary data becomes "proof."
 
 - **[The Sunk Cost Superconductor](./sunk-cost-superconductor/index.md)**
+
+    ![](./sunk-cost-superconductor/cover.png){ width="350px"}
 
     A project leader builds an ambitious superconducting quantum program with a large team and confident timelines — and then must decide what to do when the physics refuses to cooperate.
 
