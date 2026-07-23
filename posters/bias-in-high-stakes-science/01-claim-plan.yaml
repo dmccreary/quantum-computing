@@ -1,0 +1,75 @@
+slug: bias-in-high-stakes-science
+title: "When Brilliant People Believe Wrong Things: Cognitive Bias in High-Stakes Science"
+audience: General public, technology investors, policymakers, upper-division undergraduates
+format: Portrait, 2400×3200px, print-ready 300dpi
+anchor_case: Microsoft Majorana 2 / Dr. Henry Legg Nature critique, June 2026
+tone: Analytical, accessible, non-accusatory — biases are human, not villainous
+
+claims:
+  - id: loss_aversion_ratio
+    subject: Loss aversion coefficient
+    metric_type: ratio
+    polarity: neutral (established science)
+    prominence: hero number
+    planned_value: "~2:1"
+    notes: >
+      Losses feel roughly twice as painful as equivalent gains.
+      Kahneman & Tversky 1979 Prospect Theory — the most cited Econometrica paper ever.
+
+  - id: sunk_cost_escalation
+    subject: Sunk cost / escalation of commitment
+    metric_type: qualitative + case stat
+    polarity: negative (irrational behavior)
+    prominence: supporting
+    planned_value: "16 years · est. $1B+"
+    notes: >
+      Arkes & Blumer (1985) established that prior investment irrationally increases
+      commitment to failing projects. Microsoft's Majorana bet is the case anchor.
+      The dollar figure is widely reported but not officially confirmed — use "est."
+
+  - id: confirmation_bias_definition
+    subject: Confirmation bias
+    metric_type: qualitative
+    polarity: neutral
+    prominence: section header
+    planned_value: qualitative only — no percentage
+    notes: >
+      Nickerson (1998) review: "seeking or interpreting evidence in ways partial to
+      existing beliefs." Well-established, qualitative — no reliable single percentage.
+
+  - id: publication_positive_rate
+    subject: Share of published science showing positive results
+    metric_type: percentage
+    polarity: negative (systemic bias)
+    prominence: supporting statistic
+    planned_value: ">80% after 1999"
+    notes: >
+      Fanelli (2010) PLOS ONE: proportion of papers reporting positive results
+      exceeded 80% after 1999, peaking at 88.6% in 2005. Psychology/psychiatry
+      highest at 91.5%.
+
+  - id: microsoft_strike_count
+    subject: Serious challenges to Microsoft Majorana papers in Nature
+    metric_type: count + timeline
+    polarity: negative
+    prominence: hero visual (timeline)
+    planned_value: "3 challenges in 8 years (2018 · 2021 · 2026)"
+    notes: >
+      2018 retraction, 2021 retraction, 2026 formal Nature Matters Arising critique.
+      All documented in press sources and Nature news. Use as timeline anchor.
+
+  - id: motivated_reasoning
+    subject: Motivated reasoning under competitive pressure
+    metric_type: qualitative
+    polarity: neutral
+    prominence: section
+    planned_value: qualitative only
+    notes: >
+      Kunda (1990) "The Case for Motivated Reasoning" Psychological Bulletin.
+      Competitive incentives shape which results are pursued and reported.
+      Use qualitatively — no single percentage applies to institutional behavior.
+
+symmetry_bias_flag: >
+  This infographic makes no "versus" comparison requiring balanced columns.
+  The Microsoft case is used only as a real-world anchor, not a scored comparison.
+  No fabricated mirror statistics are needed or permissible.
